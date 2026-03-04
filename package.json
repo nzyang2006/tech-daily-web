@@ -1,0 +1,21 @@
+{
+  "name": "tech-daily-web",
+  "version": "1.0.0",
+  "description": "AI 技术日报 - OpenClaw & Claude Code 技术干货自动搜集与发布",
+  "main": "scripts/fetch-content.js",
+  "scripts": {
+    "fetch": "node scripts/fetch-content.js",
+    "fetch:openclaw": "node scripts/fetch-content.js openclaw",
+    "fetch:claude-code": "node scripts/fetch-content.js claude-code",
+    "serve": "npx http-server src -p 8080"
+  },
+  "keywords": [
+    "openclaw",
+    "claude-code",
+    "ai",
+    "tech-blog",
+    "automation"
+  ],
+  "author": "",
+  "license": "MIT"
+}

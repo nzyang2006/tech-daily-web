@@ -1,0 +1,20 @@
+[
+  {
+    "id": "cc-001",
+    "title": "💻 Claude Code 这 6 个命令，让你编码效率翻 3 倍！",
+    "content": "Anthropic 官方出品的 CLI 编程神器！在终端里直接用自然语言写代码🤯\n\n**6 个必会命令：**\n\n1️⃣ **初始化项目**\n```bash\nclaude code\n```\n直接开启对话模式，理解整个代码库\n\n2️⃣ **解释复杂代码**\n```\n解释这个函数的逻辑\n```\n秒懂前人写的\"天书\"代码\n\n3️⃣ **自动修复 Bug**\n```\n修复这个报错\n```\n不用 StackOverflow 搜半天\n\n4️⃣ **生成单元测试**\n```\n为这个模块写测试\n```\n测试覆盖率轻松 100%\n\n5️⃣ **Git 操作自动化**\n```\n提交刚才的修改\n```\n自动写 commit message，规范又省时\n\n6️⃣ **代码重构**\n```\n优化这段代码的性能\n```\nAI 帮你写出更优雅的代码\n\n**核心优势：**\n✅ 理解整个代码库上下文\n✅ 支持多轮对话，持续迭代\n✅ 直接执行文件操作\n✅ 终端内完成，不用切换窗口\n\n**安装方式：**\n```bash\nnpm install -g @anthropic-ai/claude-code\n```",
+    "excerpt": "Anthropic 官方出品的 CLI 编程神器！在终端里直接用自然语言写代码",
+    "date": "2026-03-04T18:00:00+08:00",
+    "readTime": "2 分钟",
+    "tags": ["ClaudeCode", "AI 编程", "编程工具", "效率神器", "开发者"]
+  },
+  {
+    "id": "cc-002",
+    "title": "🚀 Claude Code 进阶：MCP 协议集成实战",
+    "content": "Claude Code 不仅能写代码，还能通过 MCP 协议连接外部服务！\n\n**什么是 MCP？**\nModel Context Protocol - 让 AI 安全访问外部数据的开放协议\n\n**官方集成：**\n\n1️⃣ **Google Drive**\n```bash\nnpx -y @modelcontextprotocol/server-gdrive\n```\n读取文档、创建文件、管理云端存储\n\n2️⃣ **Jira**\n```bash\nnpx -y @modelcontextprotocol/server-jira\n```\n自动创建 issue、更新状态、查询进度\n\n3️⃣ **Slack**\n```bash\nnpx -y @modelcontextprotocol/server-slack\n```\n发送消息、查询频道、管理通知\n\n**自定义 MCP Server：**\n```javascript\n// 创建自己的 MCP 服务\nimport { Server } from '@modelcontextprotocol/sdk';\n\nconst server = new Server({\n  name: 'my-custom-server',\n  version: '1.0.0'\n});\n\nserver.setRequestHandler('readResource', async (request) => {\n  // 处理资源读取请求\n});\n```\n\n**实战场景：**\n- 连接公司数据库，查询业务数据\n- 集成内部 API，自动化工作流\n- 连接本地文件，安全访问项目资源",
+    "excerpt": "Claude Code 通过 MCP 协议连接外部服务，解锁更多可能性",
+    "date": "2026-03-03T12:00:00+08:00",
+    "readTime": "3 分钟",
+    "tags": ["ClaudeCode", "MCP 协议", "集成", "自动化", "进阶教程"]
+  }
+]
