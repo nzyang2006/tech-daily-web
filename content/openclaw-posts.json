@@ -1,38 +1,169 @@
 [
   {
-    "id": "oc-003",
-    "title": "🦞 OpenClaw 2026 最新提效技巧：这 7 个功能让 AI 代理效率翻倍",
-    "content": "OpenClaw 作为自托管 AI 代理网关，2026 年更新了大量提效功能！\n\n**7 个核心提效技巧：**\n\n**1️⃣ 多通道网关统一管理**\n一个 Gateway 进程同时服务 WhatsApp、Telegram、Discord、iMessage\n不用分别为每个平台写对接代码\n配置示例：\n```json\n{\n  \"channels\": {\n    \"whatsapp\": { \"allowFrom\": [\"+15555550123\"] },\n    \"telegram\": { \"botToken\": \"YOUR_TOKEN\" },\n    \"discord\": { \"guildId\": \"YOUR_GUILD\" }\n  }\n}\n```\n\n**2️⃣ 多代理路由系统**\n按发送者、渠道、内容类型自动路由到不同 Agent\nVIP 客户走高级代理，普通咨询走标准代理\n技术支持问题自动转接代码专家 Agent\n\n**3️⃣ 技能系统 (Skills)**\n像装 APP 一样扩展功能\n官方市场：clawhub.com\n热门技能：天气查询、PDF 编辑、代码审查、社交媒体发布\n安装命令：`clawhub install skill-name`\n\n**4️⃣ 心跳任务 (Heartbeat)**\n定时检查邮箱、日历、通知\n批量处理周期性任务，减少 API 调用\n配置 HEARTBEAT.md 即可\n\n**5️⃣ 记忆系统 (Memory)**\n自动保存重要对话到 memory/YYYY-MM-DD.md\n长期记忆存储在 MEMORY.md\n跨会话连续性，AI 记得你说过的话\n\n**6️⃣ 子代理并行执行**\n使用 sessions_spawn 创建多个子代理\n批量处理任务：同时审查 10 个 PR\n每个子代理独立工作区，互不干扰\n\n**7️⃣ Web 控制台**\n浏览器 Dashboard 管理所有会话\n可视化配置、日志查看、节点管理\n本地访问：http://127.0.0.1:18789/\n\n**提效场景：**\n✅ 社交媒体自动运营（采集→写作→发布→监控）\n✅ 多平台客服聚合（一个 AI 回复所有渠道）\n✅ 定时任务自动化（日报、周报、数据汇总）\n✅ 代码审查流水线（PR 自动审查 + 建议）\n\n**快速开始：**\n```bash\nnpm install -g openclaw@latest\nopenclaw onboard --install-daemon\nopenclaw channels login\nopenclaw gateway --port 18789\n```\n\n**官方文档：** https://docs.openclaw.ai",
-    "excerpt": "OpenClaw 2026 年更新了大量提效功能！详解 7 个核心技巧让你的 AI 代理效率翻倍",
-    "date": "2026-03-05T12:00:00+08:00",
-    "readTime": "4 分钟",
-    "tags": ["OpenClaw", "AI 代理", "效率神器", "自动化", "多通道管理"]
-  },
-  {
     "id": "oc-004",
     "title": "🔧 OpenClaw 自动化实战：从 0 搭建社交媒体代运营系统",
     "content": "用 OpenClaw 搭建全自动社交媒体代运营系统，支持公众号/微博/知乎/小红书/抖音！\n\n**系统架构：**\n\n**采集层**\n- Tavily API 搜索热点\n- web_fetch 抓取竞品内容\n- 自动分类：P0 级热点（2 小时内响应）、P1 级（24 小时）\n\n**创作层**\n- 根据热点自动生成文案\n- 多平台格式适配（公众号长文、微博短文、小红书种草）\n- 配图建议或自动生成\n\n**发布层**\n- browser 工具自动化发布\n- 支持定时发布（午间 12:00、晚间 18:00 黄金时段）\n- 发布状态监控\n\n**互动层**\n- 自动回复评论和私信\n- 标记需要人工介入的情况\n- 数据汇总生成日报\n\n**配置文件示例 (HEARTBEAT.md)：**\n```markdown\n# 每日任务\n### 08:00 - 晨间扫描\n- 扫描 overnight AI 热点\n- 生成 AI 日报草稿\n- 检查各平台账号状态\n\n### 12:00 - 午间发布\n- 发布微博 (热点速报)\n- 发布抖音 (如有视频)\n\n### 18:00 - 黄金时段发布\n- 发布公众号/知乎/小红书\n- 监控发布状态\n\n### 22:00 - 日报生成\n- 汇总当日数据\n- 生成数据简报\n```\n\n**热点响应预案：**\n- P0 级：15 分钟评估 → 联系客户 → 1 小时出稿 → 发布监控\n- P1 级：纳入次日计划 → 正常流程发布\n\n**技术栈：**\n- OpenClaw Gateway（核心调度）\n- Tavily API（内容搜索）\n- browser 工具（自动化发布）\n- cron/heartbeat（定时任务）\n\n**效果：**\n一个人管理 5 个平台，每天节省 4-6 小时手动操作时间！",
     "excerpt": "用 OpenClaw 搭建全自动社交媒体代运营系统，一个人管理 5 个平台，每天节省 4-6 小时",
     "date": "2026-03-05T18:00:00+08:00",
     "readTime": "4 分钟",
-    "tags": ["OpenClaw", "社交媒体", "自动化", "代运营", "实战案例"]
+    "tags": [
+      "OpenClaw",
+      "社交媒体",
+      "自动化",
+      "代运营",
+      "实战案例"
+    ]
   },
   {
-    "id": "oc-001",
-    "title": "🦞 OpenClaw 这 5 个隐藏功能，90% 的人都不知道！",
-    "content": "挖到一个超厉害的 AI 代理框架——OpenClaw！用了 3 天，效率直接起飞🚀\n\n**5 个必知功能：**\n\n1️⃣ **定时任务自动化**\n不用自己盯着，设置好时间自动执行\n比如每天早上 8 点自动汇总昨日数据\n命令：`openclaw cron add`\n\n2️⃣ **支持 20+ 平台**\n微信/Telegram/Discord/飞书/Slack...\n一个框架全搞定，不用分别对接 API\n\n3️⃣ **技能系统像装 APP**\n需要啥功能直接安装\n天气查询、PDF 编辑、代码代理...\n官方市场：clawhub.com\n\n4️⃣ **本地优先，数据自己掌控**\n所有数据存在本地\n不用担心隐私泄露\n\n5️⃣ **Hook 自动化**\n事件触发式自动化\n比如收到消息自动回复、自动存档\n\n**使用场景：**\n✅ 社交媒体自动运营\n✅ 多平台消息聚合\n✅ 定时任务自动化\n✅ 个人 AI 助理定制",
-    "excerpt": "挖到一个超厉害的 AI 代理框架——OpenClaw！用了 3 天，效率直接起飞",
-    "date": "2026-03-04T12:00:00+08:00",
-    "readTime": "2 分钟",
-    "tags": ["OpenClaw", "AI 工具", "效率神器", "自动化", "技术干货"]
+    "id": "op-1772687281971-xywd",
+    "title": "🦞 OpenClaw: Discord",
+    "content": "OpenClaw 技术干货\n\n# Discord. # ​ Discord (Bot API). ## Channel troubleshooting. ## ​ Quick setup. Create a Discord application and bot. `openclaw config set channels.discord.token '\"YOUR_BOT_TOKEN\"' --json. openclaw config set channels.discord.enabled true --json. openclaw pairing approve discord <CODE>`. ## ​ Recommended: Set up a guild workspace. ## ​ Runtime model. `agent:<agentId>:discord:channel:<channelId>`. `channels.discord.dm.groupEnabled=false`. `agent:<agentId>:discord:slash:<userId>`. ## ​ Forum channels. `openclaw message send --channel discord --target channel:<forumId> \\. `openclaw message thread create --channel discord --target channel:<forumId> \\. ## ​ Interactive components. `channels.discord.accounts.default.allowFrom`. `channels.discord.accounts.default.allowFrom`. ## ​ Native commands and command auth. `channels.discord.dms[\"<user_id>\"].historyLimit`. `channels.discord.accounts.<accountId>.ackReaction`. | reactions, messages, threads, pins, polls, search, memberInfo, roleInfo, channelInfo, channels, voiceStatus, events, stickers, emojiUploads, stickerUploads, permissions | enabled |. ## ​ Components v2 UI. `channels.discord.ui.components.accentColor`. `channels.discord.accounts.<id>.ui.components.accentColor`. ## ​ Voice channels. `channels.discord.voice.enabled=false`. ## ​ Voice messages. `message(action=\"send\", channel=\"discord\", target=\"channel:123\", path=\"/path/to/audio.mp3\", asVoice=true)`. ## ​ Troubleshooting. `channels.discord.accounts.<accountId>.eventQueue.listenerTimeout`. `channels.discord.dm.enabled=false`. `channels.discord.voice.daveEncryption=true`. `channels.discord.voice.decryptionFailureTolerance=24`. `discord voice: DAVE decrypt failures detected`. `discord voice: repeated decrypt failures; attempting rejoin`. ## ​ Configuration reference pointers. ## ​ Safety and operations. ## ​ Related.",
+    "excerpt": "# Discord. # ​ Discord (Bot API). ## Channel troubleshooting. ## ​ Quick setup. Create a Discord application and bot. `openclaw config set channels.di...",
+    "date": "2026-03-05T05:08:01.971Z",
+    "readTime": "7分钟",
+    "tags": [
+      "OpenClaw",
+      "AI 工具",
+      "自动化",
+      "技术干货",
+      "AI 代理",
+      "API"
+    ],
+    "source": "https://docs.openclaw.ai/channels/discord"
   },
   {
-    "id": "oc-002",
-    "title": "🔧 OpenClaw 高级玩法：多代理协作系统详解",
-    "content": "OpenClaw 不仅能单兵作战，还能组建 AI 特工队！\n\n**多代理协作架构：**\n\n1️⃣ **独立 Agent 配置**\n每个代理有独立的 system prompt 和工具集\n可以分工：一个负责搜索，一个负责写作，一个负责审核\n\n2️⃣ **Bindings 路由规则**\n按渠道分流：Telegram 消息走客服代理，GitHub 问题走开发代理\n按用户分流：VIP 用户走高级代理，普通用户走标准代理\n\n3️⃣ **子代理并行执行**\n使用 `sessions_spawn` 创建子代理\n批量处理任务：同时审查 10 个 PR\ngit worktree 隔离，互不干扰\n\n4️⃣ **Hooks 生命周期**\nPreToolUse：工具调用前自动格式化参数\nPostToolUse：工具调用后自动验证结果\nMessageSent：消息发送后自动记录日志\n\n**实战案例：**\n社交媒体自动化系统\n- 采集代理：搜索热点\n- 写作代理：创作文案\n- 发布代理：多平台发布\n- 监控代理：跟踪数据",
-    "excerpt": "OpenClaw 不仅能单兵作战，还能组建 AI 特工队！详解多代理协作架构",
-    "date": "2026-03-03T18:00:00+08:00",
-    "readTime": "3 分钟",
-    "tags": ["OpenClaw", "多代理", "自动化", "架构设计", "进阶教程"]
+    "id": "op-1772687281970-rp0y",
+    "title": "🦞 OpenClaw Part 2: Adding Telegram & Slack Channels ...",
+    "content": "OpenClaw 技术干货\n\nOpenClaw Part 2: Adding Telegram & Slack Channels (WhatsApp & Discord Done)\nCode & Cloud\n9610 subscribers\n2 likes\n32 views\n17 Feb 2026\nWelcome back to the channel! In this comprehensive tutorial, I'll walk you through the entire process of connecting Telegram and Slack to OpenClaw, enabling you to control your computer remotely through these popular messaging platforms. Building on our previous videos where we set up OpenClaw on Windows and configured WhatsApp and Discord channels, today we're adding two more powerful communication channels to your automation toolkit.\n\nWhat You'll Learn:\n\nHow to create and configure Telegram bots from scratch\n\nSetting up Slack apps with proper permissions and scopes\n\nConfiguring Socket Mode and Event Subscriptions in Slack\n\nTesting both channels with real-world tasks (file creation, browser automation)\n\nMonitoring logs and chat history in OpenClaw\n\nControlling your computer from mobile devices\n\nWhy OpenClaw Matters: OpenClaw is a powerful open-source automation gateway that bridges the gap between your messaging apps and your computer. Think of it as your personal AI assistant that lives in your chat applications and can execute commands, manage files, browse the web, and perform complex tasks on your behalf. Whether you're a developer who wants to trigger builds from your phone or just someone who loves automating repetitive tasks, OpenClaw provides the infrastructure to make it happen.\n\nTelegram Setup Overview: We start by downloading the Telegram Desktop client and creating a bot through BotFather. You'll learn how to get your access token, configure the OpenClaw JSON file, and pair your bot. We test everything with real commands – creating folders, generating text files, and even browser automation. The best part? Everything works seamlessly from the mobile app too, allowing true remote control from anywhere.\n\nSlack Setup Overview: Slack integration requires more configuration but is equally powerful. We create a Slack app from scratch, enable Socket Mode, and carefully set up all required OAuth scopes including chat:write, channels:history, im:read, and more. Event subscriptions are configured to capture messages, and we install the app to your workspace. After adding both app token and bot token to OpenClaw, we test with browser automation and file management tasks.\n\nUnified Command Center: One of OpenClaw's coolest features is unified message handling. All your conversations across Telegram, Slack, WhatsApp, and Discord appear in the OpenClaw web interface. You can also explore detailed logs, filter by channel, and troubleshoot any issues that arise.\n\n\nTimeline:\n\n0:00 - Introduction and what we'll cover today\n0:45 - Setting up Telegram desktop client\n2:15 - Creating a Telegram bot and getting access token\n4:30 - Configuring Telegram channel in OpenClaw\n6:00 - Testing Telegram bot with file creation task\n8:15 - Testing Telegram from mobile app\n9:30 - Setting up Slack app from scratch\n11:45 - Enabling Socket Mode and creating app token\n13:30 - Configuring OAuth scopes for Slack bot\n15:45 - Setting up Event Subscriptions\n18:00 - Installing Slack app to workspace\n19:30 - Connecting Slack channel in OpenClaw\n21:15 - Testing Slack bot with browser automation\n\n",
+    "excerpt": "OpenClaw Part 2: Adding Telegram & Slack Channels (WhatsApp & Discord Done)\nCode & Cloud\n9610 subscribers\n2 likes\n32 views\n17 Feb 2026\nWelcome back to...",
+    "date": "2026-03-05T05:08:01.970Z",
+    "readTime": "11分钟",
+    "tags": [
+      "OpenClaw",
+      "AI 工具",
+      "自动化",
+      "技术干货",
+      "命令行"
+    ],
+    "source": "https://www.youtube.com/watch?v=5uCtktIn6EE"
+  },
+  {
+    "id": "op-1772687281970-fym0",
+    "title": "🦞 Connect OpenClaw with Discord & Telegram (Full Setup ...",
+    "content": "OpenClaw 技术干货\n\nConnect OpenClaw with Discord & Telegram (Full Setup Guide) | Control Your AI from Chat\nAI Factory\n6890 subscribers\n3 likes\n130 views\n16 Feb 2026\nIn this tutorial, you’ll learn how to connect Telegram and Discord to OpenClaw so you can control your AI agent directly from your favorite chat apps.\n🎯If you want to learn more about OpenClaw, check out my earlier tutorials (step by step):\n👉Installing OpenClaw on Windows: https://youtu.be/ZSF_ofTHI-Q\n👉Deploying it inside a VM: https://youtu.be/vRQCE5wGF-c\n👉Installing Skills: https://youtu.be/hXEKgSnD1Gs\n👉Using OpenClaw in real workflows: https://youtu.be/S1RByUqxoiI\n👉 OpenClaw Explained: https://youtu.be/Q0ItcMxyqAQ\n ♥️Don’t forget to like, subscribe, and stay tuned for the next video.\n\n👇More AI tutorials:\nhttps://youtu.be/EaSJhe5g7yQ\nhttps://youtu.be/tKYChEsFZVQ\nhttps://youtu.be/9bLzAlozADk\nhttps://youtu.be/5nOK1RWTjqI\nhttps://youtu.be/Bu_EhPmO_GI\nhttps://youtu.be/5u_s1-ATqxY\nhttps://youtu.be/ABL_4r4Ai_Y\nhttps://youtu.be/C2K4w2wxGLs\nhttps://youtu.be/O49FYHmPc9s\nhttps://youtu.be/txK6PTeULjs\nhttps://youtu.be/mxEkSUsDM5Y\nhttps://youtu.be/gdMIKFfYcec\nhttps://youtu.be/m34erb13sP8\nhttps://youtu.be/bfxktsCNmjE\nhttps://youtu.be/B3AdyOyaatg\nhttps://youtu.be/mqU88VyelF8\nhttps://youtu.be/i9vLTsPWCvE\nhttps://youtu.be/QcWvqVAAXnE\nhttps://youtu.be/gStRh4VEOxQ\nhttps://youtu.be/paDF3w6xwIQ\nhttps://youtu.be/5_MQlZ8djhI\nhttps://youtu.be/fG3EMG0eoIU\nhttps://youtu.be/-tp9Igzrd5E\nhttps://youtu.be/rf5l_4xrJhE\nhttps://youtu.be/X-y7HkgyQIs\nhttps://youtu.be/-20Z0ySgk7w\nhttps://youtu.be/FjjcBuOefuU\nhttps://youtu.be/Is0ao6Zh-DM\nhttps://youtu.be/2tUW_b96-T8\nhttps://youtu.be/V9XSdOfis3c\nhttps://youtu.be/tDPQG5B1Luk\nhttps://youtu.be/rWvXGpSdvYI\nhttps://youtu.be/JeON2_tZGMs\nhttps://youtu.be/UgSY2BtMhuA\nhttps://youtu.be/AtwFi4rPQ3Y\nhttps://youtu.be/0eUb-EQLjys\nhttps://youtu.be/wykXWwocafw\nhttps://youtu.be/HW0V7uajrwU\nhttps://youtu.be/mr2PwFwAdgI\nhttps://youtu.be/z72PAUM7Wi0\nhttps://youtu.be/chctKa6NgUY\nhttps://youtu.be/KgdwmEqPoMk\nhttps://youtu.be/KgdwmEqPoMk\nhttps://youtu.be/kllxX7cdZS4\nhttps://youtu.be/qxz2ClKOVec\nhttps://youtu.be/h4aGnm1OllY\nhttps://youtu.be/96r7llNB2Gw\nhttps://youtu.be/OO5p3DMxnQw\nhttps://youtu.be/nlEhiV3Pj_Q\nhttps://youtu.be/GmRnAccGWz8\nhttps://youtu.be/Y-iwWwkE-DE\nhttps://youtu.be/yRlImxWNiiY\nhttps://youtu.be/kKtHQmqMEGw\nhttps://youtu.be/0ZT1Q0nrAVY\nhttps://youtu.be/HBPQprREeq4\nhttps://youtu.be/_RqTHwaWd58\nhttps://youtu.be/Q5854eZYoLI\nhttps://youtu.be/MZ1sNbKT4oA\nhttps://youtu.be/MYk8JEU3ceQ\nhttps://youtu.be/xp_4SIu3b-0\nhttps://youtu.be/0KcNZMdV0K0\nhttps://youtu.be/u4DoPo6TGlg\nhttps://youtu.be/EavGuKh_rRM\nhttps://youtu.be/q1EcuSKK4EU\nhttps://youtu.be/f55J7pxpPsk\nhttps://youtu.be/x72ZIRPMzAI\nhttps://youtu.be/8aIUYFi8k4E\nhttps://youtu.be/OTOozBNeZQw\nhttps://youtu.be/PFyrZOuN9Uk\nhttps://youtu.be/S7TGCxXGgO0\nhttps://youtu.be/8fhO_bxR9nY\nhttps://youtu.be/v7JTG7AOjuw\nhttps://youtu.be/ykF3Coniryw\n\nInstagram: https://www.instagram.com/ai_factory_24/\nTikTok: https://www.tiktok.com/@ai_factory_24\n \n#openclaw #AIAgent #clawdbot\n1 comments\n",
+    "excerpt": "Connect OpenClaw with Discord & Telegram (Full Setup Guide) | Control Your AI from Chat\nAI Factory\n6890 subscribers\n3 likes\n130 views\n16 Feb 2026\nIn t...",
+    "date": "2026-03-05T05:08:01.970Z",
+    "readTime": "11分钟",
+    "tags": [
+      "OpenClaw",
+      "AI 工具",
+      "自动化",
+      "技术干货",
+      "技能系统",
+      "AI 代理"
+    ],
+    "source": "https://www.youtube.com/watch?v=i3f9IPhG02g"
+  },
+  {
+    "id": "op-1772687281970-kiqx",
+    "title": "🦞 Build Cross-Platform AI Agents with OpenClaw - CodeWithYoha",
+    "content": "OpenClaw 技术干货\n\n# Build Cross-Platform AI Agents with OpenClaw: WhatsApp, Telegram, Discord. Build Cross-Platform AI Agents with OpenClaw: WhatsApp, Telegram, Discord. It connects Large Language Models (LLMs) with popular communication channels like WhatsApp, Telegram, and Discord, allowing you to manage your AI's core logic (Skills) once and route it everywhere. This guide will walk you through setting up, configuring, and deploying your own multi-platform AI assistant using the official OpenClaw CLI. OpenClaw handles the complexity of the Telegram Bot API for you. Building cross-platform AI agents no longer requires managing three different codebases in Python or Go. With **OpenClaw**, you can leverage a powerful Node.js-based gateway to unify your communication channels under a single intelligent core. By abstracting platforms into **Channels** and logic into **Skills**, OpenClaw lets you focus on what matters: the user experience and the intelligence of your agent. Whether you're building a personal assistant for WhatsApp or a community moderator for Discord, OpenClaw provides the most efficient path to deployment.",
+    "excerpt": "# Build Cross-Platform AI Agents with OpenClaw: WhatsApp, Telegram, Discord. Build Cross-Platform AI Agents with OpenClaw: WhatsApp, Telegram, Discord...",
+    "date": "2026-03-05T05:08:01.970Z",
+    "readTime": "4分钟",
+    "tags": [
+      "OpenClaw",
+      "AI 工具",
+      "自动化",
+      "技术干货",
+      "技能系统",
+      "AI 代理",
+      "命令行",
+      "API"
+    ],
+    "source": "https://codewithyoha.com/blogs/build-cross-platform-ai-agents-with-openclaw-whatsapp-telegram-discord"
+  },
+  {
+    "id": "op-1772687281970-qlqn",
+    "title": "🦞 How to set up OpenClaw across WhatsApp, Telegram ...",
+    "content": "OpenClaw 技术干货\n\nSet up OpenClaw on WhatsApp, Telegram, Discord ... OpenClaw's Telegram integration uses grammY, a popular TypeScript framework for Telegram bots.",
+    "excerpt": "Set up OpenClaw on WhatsApp, Telegram, Discord ... OpenClaw's Telegram integration uses grammY, a popular TypeScript framework for Telegram bots.",
+    "date": "2026-03-05T05:08:01.970Z",
+    "readTime": "1分钟",
+    "tags": [
+      "OpenClaw",
+      "AI 工具",
+      "自动化",
+      "技术干货"
+    ],
+    "source": "https://lumadock.com/tutorials/openclaw-multi-channel-setup"
+  },
+  {
+    "id": "op-1772687278294-8ovg",
+    "title": "🦞 OpenClaw Cron Jobs Explained: No Code Automation - YouTube",
+    "content": "OpenClaw 技术干货\n\nDiscover how to automate your workflow using OpenClaw cron jobs. This quick tutorial explains how to schedule background tasks,",
+    "excerpt": "Discover how to automate your workflow using OpenClaw cron jobs. This quick tutorial explains how to schedule background tasks,",
+    "date": "2026-03-05T05:07:58.294Z",
+    "readTime": "1分钟",
+    "tags": [
+      "OpenClaw",
+      "AI 工具",
+      "自动化",
+      "技术干货",
+      "定时任务"
+    ],
+    "source": "https://www.youtube.com/watch?v=oMObV_qstkA"
+  },
+  {
+    "id": "op-1772687278294-61gv",
+    "title": "🦞 OpenClaw Cron Advanced 2026: Every Schedule Command Q&A",
+    "content": "OpenClaw 技术干货\n\n**About This Guide:** OpenClaw's cron system is the Gateway's built-in scheduler — it persists jobs, wakes agents at the right time, and can deliver output back to your chat. ## `openclaw cron add`: Creating Jobs. ## `openclaw cron edit`: Updating Jobs. `openclaw cron run`  triggers a job immediately. `openclaw cron list` shows all jobs in your store with their IDs, schedules, enabled status, and last/next run times. ### Q How do I view a cron job's run history? `openclaw cron runs` shows the execution history for a specific job. `openclaw system event` sends an immediate system event to the main agent session without creating a persistent cron job. * → Run `openclaw cron list` to verify job is enabled. * → Use `openclaw cron run`  to manually trigger and reset. openclaw cron add --name \"...\" --every 30m --session isolated --message \"...\" --announce. ### Keep Your Cron Jobs Running 24/7 with VPN07. OpenClaw cron jobs run around the clock — your VPN should too.",
+    "excerpt": "**About This Guide:** OpenClaw's cron system is the Gateway's built-in scheduler — it persists jobs, wakes agents at the right time, and can deliver o...",
+    "date": "2026-03-05T05:07:58.294Z",
+    "readTime": "4分钟",
+    "tags": [
+      "OpenClaw",
+      "AI 工具",
+      "自动化",
+      "技术干货",
+      "定时任务",
+      "AI 代理"
+    ],
+    "source": "https://vpn07.com/en/blog/2026-openclaw-cron-advanced-schedule-commands-qa.html"
+  },
+  {
+    "id": "op-1772687278294-36kf",
+    "title": "🦞 cron - OpenClaw Docs",
+    "content": "OpenClaw 技术干货\n\n##### CLI commands. ##### RPC and API. ##### Templates. ##### Technical reference. ##### Concept internals. ##### Project. ##### Release notes. ##### Experiments. # cron. # ​ `openclaw cron`. `~/.openclaw/cron/runs/<jobId>.jsonl`. ## ​ Common edits. `openclaw cron edit <job-id> --announce --channel telegram --to \"123456789\"`. `openclaw cron edit <job-id> --no-deliver`. `openclaw cron edit <job-id> --announce --channel slack --to \"channel:C1234567890\"`.",
+    "excerpt": "##### CLI commands. ##### RPC and API. ##### Templates. ##### Technical reference. ##### Concept internals. ##### Project. ##### Release notes. ##### ...",
+    "date": "2026-03-05T05:07:58.294Z",
+    "readTime": "2分钟",
+    "tags": [
+      "OpenClaw",
+      "AI 工具",
+      "自动化",
+      "技术干货",
+      "定时任务",
+      "命令行",
+      "API"
+    ],
+    "source": "https://docs.openclaw.ai/cli/cron"
+  },
+  {
+    "id": "op-1772687278294-gnsy",
+    "title": "🦞 Automate OpenClaw with cron jobs: 3 proven methods - Stack Junkie",
+    "content": "OpenClaw 技术干货\n\n# OpenClaw cron jobs: automate your AI agent while you sleep. * OpenClaw (previously known as Clawdbot and Moltbot) has built-in cron jobs that let your agent run tasks on a schedule without you being present. * What are OpenClaw cron jobs. ## What are OpenClaw cron jobs. Cron jobs are scheduled tasks that your OpenClaw agent executes automatically. An agent with cron jobs runs scheduled tasks at 7 AM, backs up files every hour, and sends weekly reports without manual triggering. Just tell your agent what you want scheduled and it will create the cron job for you. > \"Create a cron job that runs every morning at 7 AM UTC. When a cron job runs in the main session, it has access to the full conversation history. For a complete walkthrough of building a morning briefing cron job, see OpenClaw Morning Briefing: 10-Minute Setup That Actually Works. Q: How many cron jobs can I run? * OpenClaw documentation on cron jobs.",
+    "excerpt": "# OpenClaw cron jobs: automate your AI agent while you sleep. * OpenClaw (previously known as Clawdbot and Moltbot) has built-in cron jobs that let yo...",
+    "date": "2026-03-05T05:07:58.294Z",
+    "readTime": "4分钟",
+    "tags": [
+      "OpenClaw",
+      "AI 工具",
+      "自动化",
+      "技术干货",
+      "定时任务",
+      "AI 代理"
+    ],
+    "source": "https://www.stack-junkie.com/blog/openclaw-cron-jobs-automation-guide"
   }
 ]

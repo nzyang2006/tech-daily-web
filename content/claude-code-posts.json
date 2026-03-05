@@ -1,38 +1,164 @@
 [
   {
-    "id": "cc-003",
-    "title": "💻 Claude Code 2026 提效指南：这 8 个技巧让编码效率翻 3 倍",
-    "content": "Claude Code 作为 Anthropic 官方出品的 AI 编程助手，2026 年更新了众多提效功能！\n\n**8 个核心提效技巧：**\n\n**1️⃣ Plan Mode（计划模式）**\n复杂任务先规划再执行，避免做错方向\n```bash\nclaude --permission-mode plan\n```\n适用场景：多文件重构、架构设计、大型功能开发\n按 `Ctrl+G` 在编辑器中直接修改计划\n\n**2️⃣ CLAUDE.md 持久化配置**\n项目根目录创建 CLAUDE.md，每会话自动加载\n```markdown\n# 代码风格\n- 使用 ES 模块语法\n- 优先使用 TypeScript\n\n# 工作流\n- 修改后必须运行 typecheck\n- 提交前运行 lint\n```\n让 AI 记住你的编码规范和项目约定\n\n**3️⃣ @文件引用**\n快速包含文件上下文，不用等 AI 读取\n```\n解释 @src/utils/auth.js 的逻辑\n@src/components 的目录结构是什么？\n```\n支持文件、目录、MCP 资源引用\n\n**4️⃣ 子代理系统 (Sub-agents)**\n创建专业 Agent 处理特定任务\n```bash\n/agents\n```\n- code-reviewer：代码审查专家\n- debugger：调试专家\n- test-writer：测试专家\n自动委派或手动指定\n\n**5️⃣ MCP 协议集成**\n连接外部服务扩展能力\n```bash\n# Google Drive\nnpx -y @modelcontextprotocol/server-gdrive\n# Jira\nnpx -y @modelcontextprotocol/server-jira\n# Slack\nnpx -y @modelcontextprotocol/server-slack\n```\n读取文档、更新工单、发送通知\n\n**6️⃣ 扩展思维模式 (Extended Thinking)**\n复杂问题让 AI 深度思考\n按 `Ctrl+O` 切换 verbose 模式\n查看 AI 的推理过程\n适用：架构决策、复杂 Bug、多步骤规划\n\n**7️⃣ 跨设备远程继续**\n会话不绑定单一设备\n- 本地开始任务 → 手机继续\n- 终端会话 → Desktop 应用可视化审查\n- `/teleport` 命令转移会话\n- `/desktop` 发送到桌面应用\n\n**8️⃣ 自动化 Git 工作流**\n```bash\n# 提交更改\nclaude \"commit my changes with a descriptive message\"\n# 创建 PR\nclaude \"create a pr for my changes\"\n# 从 PR 继续\nclaude --from-pr <number>\n```\n自动写规范的 commit message\n\n**提效场景：**\n✅ 快速理解新代码库（30 分钟 vs 3 天）\n✅ 自动化单元测试（覆盖率轻松 90%+）\n✅ Bug 定位和修复（不用手动调试）\n✅ 代码重构（保持行为不变）\n✅ 文档生成（自动补充 JSDoc）\n\n**安装方式：**\n```bash\n# macOS/Linux\ncurl -fsSL https://claude.ai/install.sh | bash\n\n# Windows\nirm https://claude.ai/install.ps1 | iex\n\n# 启动\ncd your-project\nclaude\n```\n\n**官方文档：** https://code.claude.com",
-    "excerpt": "Claude Code 2026 年更新了众多提效功能！详解 8 个核心技巧让编码效率翻 3 倍",
-    "date": "2026-03-05T12:00:00+08:00",
-    "readTime": "5 分钟",
-    "tags": ["ClaudeCode", "AI 编程", "效率神器", "开发者工具", "编码技巧"]
-  },
-  {
     "id": "cc-004",
     "title": "🚀 Claude Code 最佳实践：如何写出高质量的 AI 提示词",
     "content": "用 Claude Code 一年，总结了这套提示词最佳实践，效率提升显著！\n\n**核心原则：给 AI 可验证的成功标准**\n\n**❌ 糟糕的提示词：**\n```\n实现一个验证邮箱的函数\n```\n\n**✅ 优秀的提示词：**\n```\n写一个 validateEmail 函数\n测试用例：\n- user@example.com → true\n- invalid → false\n- user@.com → false\n实现后运行测试验证\n```\n\n**提示词框架：**\n\n**1️⃣ 探索 → 计划 → 实现 → 提交**\n```bash\n# 1. 探索（Plan Mode）\n阅读 @src/auth 理解会话处理逻辑\n\n# 2. 计划\n我想添加 Google OAuth，需要修改哪些文件？\n创建详细实现计划\n\n# 3. 实现（Normal Mode）\n按照计划实现 OAuth 流程\n编写回调处理器的测试并运行\n\n# 4. 提交\n用描述性 message 提交并创建 PR\n```\n\n**2️⃣ 提供具体上下文**\n```bash\n# ❌ 模糊\n修复登录 Bug\n\n# ✅ 具体\n用户报告会话超时后登录失败\n检查 src/auth/ 中的 token 刷新逻辑\n编写复现测试，然后修复\n```\n\n**3️⃣ 引用现有模式**\n```bash\n查看现有 Widget 的实现方式\nHotDogWidget.php 是好例子\n按照相同模式实现 CalendarWidget\n支持月份选择和年份翻页\n不使用额外库\n```\n\n**4️⃣ 利用丰富内容**\n- `@文件` 引用具体文件\n- 直接粘贴截图（UI 问题）\n- 提供 API 文档 URL\n- `cat error.log | claude` 管道输入\n\n**5️⃣ 配置 CLAUDE.md**\n```markdown\n# 包含的内容 ✅\n- AI 猜不到的 Bash 命令\n- 项目特定的代码风格\n- 测试运行指令\n- Git 工作流约定\n- 架构决策说明\n\n# 不包含的内容 ❌\n- AI 能从代码中推断的内容\n- 标准语言约定\n- 频繁变动的信息\n- 长篇教程\n```\n\n**常见场景提示词模板：**\n\n**理解新代码库：**\n```\n给我这个代码库的高层概览\n主要架构模式是什么？\n关键数据模型有哪些？\n认证如何处理？\n```\n\n**修复 Bug：**\n```\n运行 npm test 时报错\n[粘贴错误信息]\n建议几种修复方案\n实现方案 A 并验证\n```\n\n**代码重构：**\n```\n找出 deprecated API 的使用\n建议现代化重构方案\n小步重构，每步后运行测试\n```\n\n**编写测试：**\n```\n找出 NotificationsService.swift 中未测试的函数\n添加测试覆盖\n包含边界条件和异常情况\n```\n\n**提效数据：**\n- 模糊提示词 → 平均 3-4 轮修正\n- 具体提示词 → 平均 1-2 轮修正\n- 带验证标准 → 首次通过率 80%+\n\n**记住：** AI 不能读心，但能理解清晰的指令。花在写提示词上的时间，会在后续迭代中成倍省回来！",
     "excerpt": "用 Claude Code 一年总结的提示词最佳实践，效率提升显著！附完整框架和模板",
     "date": "2026-03-05T18:00:00+08:00",
     "readTime": "5 分钟",
-    "tags": ["ClaudeCode", "提示词工程", "最佳实践", "AI 编程", "开发者"]
+    "tags": [
+      "ClaudeCode",
+      "提示词工程",
+      "最佳实践",
+      "AI 编程",
+      "开发者"
+    ]
   },
   {
-    "id": "cc-001",
-    "title": "💻 Claude Code 这 6 个命令，让你编码效率翻 3 倍！",
-    "content": "Anthropic 官方出品的 CLI 编程神器！在终端里直接用自然语言写代码🤯\n\n**6 个必会命令：**\n\n1️⃣ **初始化项目**\n```bash\nclaude code\n```\n直接开启对话模式，理解整个代码库\n\n2️⃣ **解释复杂代码**\n```\n解释这个函数的逻辑\n```\n秒懂前人写的\"天书\"代码\n\n3️⃣ **自动修复 Bug**\n```\n修复这个报错\n```\n不用 StackOverflow 搜半天\n\n4️⃣ **生成单元测试**\n```\n为这个模块写测试\n```\n测试覆盖率轻松 100%\n\n5️⃣ **Git 操作自动化**\n```\n提交刚才的修改\n```\n自动写 commit message，规范又省时\n\n6️⃣ **代码重构**\n```\n优化这段代码的性能\n```\nAI 帮你写出更优雅的代码\n\n**核心优势：**\n✅ 理解整个代码库上下文\n✅ 支持多轮对话，持续迭代\n✅ 直接执行文件操作\n✅ 终端内完成，不用切换窗口\n\n**安装方式：**\n```bash\nnpm install -g @anthropic-ai/claude-code\n```",
-    "excerpt": "Anthropic 官方出品的 CLI 编程神器！在终端里直接用自然语言写代码",
-    "date": "2026-03-04T18:00:00+08:00",
-    "readTime": "2 分钟",
-    "tags": ["ClaudeCode", "AI 编程", "编程工具", "效率神器", "开发者"]
+    "id": "cl-1772687298713-rnok",
+    "title": "💻 Claude Code: Practical Best Practices for Agentic Coding - Medium",
+    "content": "Claude Code 技术干货\n\n# Claude Code: Practical Best Practices for Agentic Coding. With the release of **Claude Code**, Anthropic introduced a deliberately low-level, unopinionated command-line agent designed to integrate deeply into real developer workflows. This article distills the most valuable ideas from Anthropic’s official *Claude Code: Best Practices for Agentic Coding* and reframes them for **engineers, researchers, and advanced AI practitioners** who want to understand *why* these practices work — not just *how* to use them. > ***Claude Code works best when treated like a junior engineer with tools, memory, and iteration — not a magic code generator.***. Claude Code automatically pulls context from your environment. The Model Context Protocol (MCP) turns Claude into a **tool-orchestrating agent** rather than a single-model assistant. Claude Code is not just a coding assistant — it is an early glimpse of **AI-native software engineering**. Agent Teams in Claude Code. ## Agent Teams in Claude Code. ### I’ve been running Claude Code’s Agent Teams for real work.",
+    "excerpt": "# Claude Code: Practical Best Practices for Agentic Coding. With the release of **Claude Code**, Anthropic introduced a deliberately low-level, unopin...",
+    "date": "2026-03-05T05:08:18.713Z",
+    "readTime": "4分钟",
+    "tags": [
+      "ClaudeCode",
+      "AI 编程",
+      "编程工具",
+      "技术干货",
+      "AI 代理",
+      "MCP 协议"
+    ],
+    "source": "https://medium.com/@habib.mrad.83/claude-code-practical-best-practices-for-agentic-coding-2be1b62cfeff"
   },
   {
-    "id": "cc-002",
-    "title": "🚀 Claude Code 进阶：MCP 协议集成实战",
-    "content": "Claude Code 不仅能写代码，还能通过 MCP 协议连接外部服务！\n\n**什么是 MCP？**\nModel Context Protocol - 让 AI 安全访问外部数据的开放协议\n\n**官方集成：**\n\n1️⃣ **Google Drive**\n```bash\nnpx -y @modelcontextprotocol/server-gdrive\n```\n读取文档、创建文件、管理云端存储\n\n2️⃣ **Jira**\n```bash\nnpx -y @modelcontextprotocol/server-jira\n```\n自动创建 issue、更新状态、查询进度\n\n3️⃣ **Slack**\n```bash\nnpx -y @modelcontextprotocol/server-slack\n```\n发送消息、查询频道、管理通知\n\n**自定义 MCP Server：**\n```javascript\n// 创建自己的 MCP 服务\nimport { Server } from '@modelcontextprotocol/sdk';\n\nconst server = new Server({\n  name: 'my-custom-server',\n  version: '1.0.0'\n});\n\nserver.setRequestHandler('readResource', async (request) => {\n  // 处理资源读取请求\n});\n```\n\n**实战场景：**\n- 连接公司数据库，查询业务数据\n- 集成内部 API，自动化工作流\n- 连接本地文件，安全访问项目资源",
-    "excerpt": "Claude Code 通过 MCP 协议连接外部服务，解锁更多可能性",
-    "date": "2026-03-03T12:00:00+08:00",
-    "readTime": "3 分钟",
-    "tags": ["ClaudeCode", "MCP 协议", "集成", "自动化", "进阶教程"]
+    "id": "cl-1772687298713-hjt8",
+    "title": "💻 Essential Claude Code best practices from Anthropic's Cal Rueb",
+    "content": "Claude Code 技术干货\n\nHere are the most actionable best practices: Essential setup: - claude.md files are crucial for persistent context. Put project-specific ones in",
+    "excerpt": "Here are the most actionable best practices: Essential setup: - claude.md files are crucial for persistent context. Put project-specific ones in",
+    "date": "2026-03-05T05:08:18.713Z",
+    "readTime": "1分钟",
+    "tags": [
+      "ClaudeCode",
+      "AI 编程",
+      "编程工具",
+      "技术干货"
+    ],
+    "source": "https://www.reddit.com/r/ClaudeCode/comments/1mebqnw/essential_claude_code_best_practices_from/"
+  },
+  {
+    "id": "cl-1772687298713-1321",
+    "title": "💻 Claude Code Security Best Practices - Backslash",
+    "content": "Claude Code 技术干货\n\n# Claude Code Security Best Practices. How to safely set Claude Code’s configuration settings, and beyond. ## **Why Security in Claude Code Matters**. This blog is your guide to staying safe: how to configure Claude Code, what traps to avoid, and how to combine internal and external defenses. Like most AI coders, Claude Code has a variety of configuration settings for security. Claude Code’s security settings live here:. MCP servers are one of the most powerful features when used in conjunction with an AI-native coding environment such as Claude Code — and the most dangerous if left unchecked. Think of permissions in Claude Code as your **App Store approval system**:. Here’s what a safe Claude Code setup looks like in practice:. 5. **Sandbox Claude Code** – run in a VM or containerized dev environment. 1. Anthropic’s Claude Code settings documentation. 4. fcakyon’s recommend Claude Code settings. 5. Builder.io how I use Claude Code.",
+    "excerpt": "# Claude Code Security Best Practices. How to safely set Claude Code’s configuration settings, and beyond. ## **Why Security in Claude Code Matters**....",
+    "date": "2026-03-05T05:08:18.713Z",
+    "readTime": "4分钟",
+    "tags": [
+      "ClaudeCode",
+      "AI 编程",
+      "编程工具",
+      "技术干货",
+      "MCP 协议"
+    ],
+    "source": "https://www.backslash.security/blog/claude-code-security-best-practices"
+  },
+  {
+    "id": "cl-1772687298713-qg1q",
+    "title": "💻 Claude Code: awattar/claude-code-best-practices - GitHub",
+    "content": "Claude Code 技术干货\n\nA practical guide to using Claude Code, Anthropic's agentic coding assistant, effectively in real-world development workflows. This repo distills best practices",
+    "excerpt": "A practical guide to using Claude Code, Anthropic's agentic coding assistant, effectively in real-world development workflows. This repo distills best...",
+    "date": "2026-03-05T05:08:18.713Z",
+    "readTime": "1分钟",
+    "tags": [
+      "ClaudeCode",
+      "AI 编程",
+      "编程工具",
+      "技术干货",
+      "AI 代理"
+    ],
+    "source": "https://github.com/awattar/claude-code-best-practices"
+  },
+  {
+    "id": "cl-1772687298713-b9v0",
+    "title": "💻 [PDF] How Anthropic teams use Claude Code",
+    "content": "Claude Code 技术干货\n\nThey use Claude Code for automating routine data engineering tasks, troubleshooting complex infrastructure issues, and creating documented workflows for technical and non-technical team members to access and manipulate data independently. They use Claude Code for automating routine data engineering tasks, troubleshooting complex infrastructureissues,and creating documented workflows for technical and non-technical team members to access and manipulate data independently. As a non-technical team of one, they use Claude Code to automate repetitive marketing tasks and create agentic workflows that would traditionally require significant engineering resources. As a non-technical team of one, they use Claude Code to automate repetitive marketing tasks and create agentic workflows that would traditionally require significant engineering resources. 20 Claude Code for RL engineering Claude Code for RL engineering Development workflow impact Top tips from the RL Engineering team 20 Experimental approach enabled They now use a \"try and rollback\" methodology, frequently committing checkpoints so they can test Claude's autonomous implementation attempts and revert if needed, enabling more experimental.",
+    "excerpt": "They use Claude Code for automating routine data engineering tasks, troubleshooting complex infrastructure issues, and creating documented workflows f...",
+    "date": "2026-03-05T05:08:18.713Z",
+    "readTime": "5分钟",
+    "tags": [
+      "ClaudeCode",
+      "AI 编程",
+      "编程工具",
+      "技术干货",
+      "AI 代理"
+    ],
+    "source": "https://www-cdn.anthropic.com/58284b19e702b49db9302d5b6f135ad8871e7658.pdf"
+  },
+  {
+    "id": "cl-1772687293635-h2jg",
+    "title": "💻 Claude Code Updates: Introducing /simplify and /batch Skills ...",
+    "content": "Claude Code 技术干货\n\nClaude Code Updates: Introducing /simplify and /batch Skills, Enhanced UX, and More | daily.dev. Claude Code Updates: Introducing /simplify and /batch Skills, Enhanced UX, and More. Claude Code (New Updates): New SIMPLIFY & BATCH Skill Agents, Better UX, New Commands & MORE! Claude Code received several notable updates including two new skill agents: /simplify and /batch. The /simplify command uses parallel agents to improve code quality, tune performance, and enforce claude.md compliance after changes are made. The /batch command enables large-scale code migrations by running dozens of isolated agents in parallel using git worktrees, each handling its own files and submitting PRs. Additional updates include a new /copy command to copy the last Claude response to clipboard, markdown rendering in the ask-user-question tool for visual option previews, and HTTP hook handlers that allow integrating Claude Code with external services for validation, logging, or CI pipeline triggers. Claude Code is getting two new Skills in its next version: /simplify and /batch.",
+    "excerpt": "Claude Code Updates: Introducing /simplify and /batch Skills, Enhanced UX, and More | daily.dev. Claude Code Updates: Introducing /simplify and /batch...",
+    "date": "2026-03-05T05:08:13.635Z",
+    "readTime": "4分钟",
+    "tags": [
+      "ClaudeCode",
+      "AI 编程",
+      "编程工具",
+      "技术干货",
+      "Hooks",
+      "技能系统",
+      "AI 代理",
+      "命令行"
+    ],
+    "source": "https://app.daily.dev/posts/claude-code-updates-introducing-simplify-and-batch-skills-enhanced-ux-and-more-sq7rtuwl2"
+  },
+  {
+    "id": "cl-1772687293635-e5xn",
+    "title": "💻 Claude Code Batch API Complete Guide - SmartScope",
+    "content": "Claude Code 技术干货\n\n#!/bin/bash# parallel_processing.sh # Implement parallel processing()  { local  file = \" $1 \"  local  output_dir = \" $2 \"  echo  \"Processing: $file \"    \"Optimize this code for performance\"   \" $file \"   \" $output_dir/$( \" $file \") \"} # Execute in parallel export      \"*.py\"  |    4   {}  echo  \"✅ Parallel processing completed\". #!/bin/bash# robust_processing.sh set    # Stop on error # Log configuration LOG_FILE =\"claude_batch.log\" exec  1  (  \" $LOG_FILE \") exec  2  (  \" $LOG_FILE \"  & 2) # Error handling function()  { local  line_number = \" $1 \"  echo  \"❌ Error occurred at line: $line_number \"  echo  \"📝 Check log file: $LOG_FILE \"  exit  1} trap  'handle_error $LINENO'  # Process execution()  { local  max_retries = 3  local  retry_count = 0  while  ;  do  if    \"Process these files\"   300     ;  then  echo  \"✅ Processing completed successfully\"  return  0  else  (())  echo  \"⚠️ Attempt $retry_count failed, retrying...\"   5  fi  done  echo  \"❌ Processing failed after $max_retries  attempts\"  return  1} # Main processing()  { echo  \"🚀 Starting batch processing...\"  # Pre-processing  if  ;  then  echo  \"❌ Input file not found\"  exit  1  fi  # Execute processing   # Post-processing  if  ;  then  echo  \"✅ Batch processing completed successfully\"  else  echo  \"❌ Output file is empty or missing\"  exit  1  fi}  \" $@ \".",
+    "excerpt": "#!/bin/bash# parallel_processing.sh # Implement parallel processing()  { local  file = \" $1 \"  local  output_dir = \" $2 \"  echo  \"Processing: $file \" ...",
+    "date": "2026-03-05T05:08:13.635Z",
+    "readTime": "5分钟",
+    "tags": [
+      "ClaudeCode",
+      "AI 编程",
+      "编程工具",
+      "技术干货"
+    ],
+    "source": "https://smartscope.blog/en/generative-ai/claude/claude-code-batch-processing/"
+  },
+  {
+    "id": "cl-1772687293635-0a3e",
+    "title": "💻 How I'm Using Claude Code (New) /simplify & /batch (To x10 My ...",
+    "content": "Claude Code 技术干货\n\n[Sign in](https://medium.com/m/signin?operation=login&redirect=https%3A%2F%2Fmedium.com%2F%40joe.njenga%2Fhow-im-using-claude-code-new-simplify-batch-to-x10-my-code-reviews-888780a6a42a&source=post_page---top_nav_layout_nav-----------------------global_nav------------------). [Sign in](https://medium.com/m/signin?operation=login&redirect=https%3A%2F%2Fmedium.com%2F%40joe.njenga%2Fhow-im-using-claude-code-new-simplify-batch-to-x10-my-code-reviews-888780a6a42a&source=post_page---top_nav_layout_nav-----------------------global_nav------------------). [42](https://medium.com/ai-software-engineer/anthropic-just-released-claude-code-course-and-i-earned-my-certificate-ad68745d46de?source=post_page---author_recirc--888780a6a42a----0---------------------2d608a53_db2a_4d76_bb84_ba9b6d86a1ea--------------). [12](https://medium.com/@joe.njenga/i-tested-kimi-k2-5-with-claude-code-1-trillion-parameters-8x-cheaper-than-opus-8d4f9e9c7b4d?source=post_page---author_recirc--888780a6a42a----1---------------------2d608a53_db2a_4d76_bb84_ba9b6d86a1ea--------------). [I Tried New Claude Code Ollama Workflow ( It’s Wild & Free) ----------------------------------------------------------- ### Claude Code now works with Ollama, which takes the game to the next level for developers who want to work locally or need flexible model…](https://medium.com/@joe.njenga/i-tried-new-claude-code-ollama-workflow-its-wild-free-cb7a12b733b5?source=post_page---author_recirc--888780a6a42a----2---------------------2d608a53_db2a_4d76_bb84_ba9b6d86a1ea--------------). [23](https://medium.com/@joe.njenga/i-tried-new-claude-code-ollama-workflow-its-wild-free-cb7a12b733b5?source=post_page---author_recirc--888780a6a42a----2---------------------2d608a53_db2a_4d76_bb84_ba9b6d86a1ea--------------). [](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2Fcb7a12b733b5&operation=register&redirect=https%3A%2F%2Fmedium.com%2F%40joe.njenga%2Fi-tried-new-claude-code-ollama-workflow-its-wild-free-cb7a12b733b5&source=---author_recirc--888780a6a42a----2-----------------bookmark_preview----2d608a53_db2a_4d76_bb84_ba9b6d86a1ea--------------). [5](https://medium.com/ai-software-engineer/i-tested-new-ollama-launch-for-claude-code-codex-opencode-more-bfae2af3c3db?source=post_page---author_recirc--888780a6a42a----3---------------------2d608a53_db2a_4d76_bb84_ba9b6d86a1ea--------------). [![Image 16: AI Software Engineer](https://miro.medium.com/v2/resize:fill:20:20/1*RZVWENvZRwVijHDlg5hw7w.png)](https://medium.com/ai-software-engineer?source=post_page---read_next_recirc--888780a6a42a----0---------------------4dec34cb_8dc6_4c0f_b485_6c433b776674--------------). [AI Software Engineer](https://medium.com/ai-software-engineer?source=post_page---read_next_recirc--888780a6a42a----0---------------------4dec34cb_8dc6_4c0f_b485_6c433b776674--------------). [Joe Njenga](https://medium.com/@joe.njenga?source=post_page---read_next_recirc--888780a6a42a----0---------------------4dec34cb_8dc6_4c0f_b485_6c433b776674--------------). [13](https://medium.com/ai-software-engineer/anthropic-just-fixed-the-biggest-hidden-cost-in-ai-agents-using-automatic-prompt-caching-9d47c95903c5?source=post_page---read_next_recirc--888780a6a42a----0---------------------4dec34cb_8dc6_4c0f_b485_6c433b776674--------------). [![Image 18: ITNEXT](https://miro.medium.com/v2/resize:fill:20:20/1*yAqDFIFA5F_NXalOJKz4TA.png)](https://medium.com/itnext?source=post_page---read_next_recirc--888780a6a42a----1---------------------4dec34cb_8dc6_4c0f_b485_6c433b776674--------------). [ITNEXT](https://medium.com/itnext?source=post_page---read_next_recirc--888780a6a42a----1---------------------4dec34cb_8dc6_4c0f_b485_6c433b776674--------------). But the AI…](https://medium.com/itnext/cursor-is-dying-0ed76b4a38b3?source=post_page---read_next_recirc--888780a6a42a----1---------------------4dec34cb_8dc6_4c0f_b485_6c433b776674--------------). [9](https://medium.com/itnext/cursor-is-dying-0ed76b4a38b3?source=post_page---read_next_recirc--888780a6a42a----1---------------------4dec34cb_8dc6_4c0f_b485_6c433b776674--------------). [![Image 20: Reza Rezvani](https://miro.medium.com/v2/resize:fill:20:20/1*jDxVaEgUePd76Bw8xJrr2g.png)](https://medium.com/@alirezarezvani?source=post_page---read_next_recirc--888780a6a42a----0---------------------4dec34cb_8dc6_4c0f_b485_6c433b776674--------------). [Reza Rezvani](https://medium.com/@alirezarezvani?source=post_page---read_next_recirc--888780a6a42a----0---------------------4dec34cb_8dc6_4c0f_b485_6c433b776674--------------). [10 Claude Code Commands That Cut My Dev Time 60%: A Practical Guide ------------------------------------------------------------------- ### Custom slash commands, subagents, and automation workflows that transformed my team’s productivity — with copy-paste templates you can use](https://medium.com/@alirezarezvani/10-claude-code-commands-that-cut-my-dev-time-60-a-practical-guide-60036faed17f?source=post_page---read_next_recirc--888780a6a42a----0---------------------4dec34cb_8dc6_4c0f_b485_6c433b776674--------------). [31](https://medium.com/@alirezarezvani/10-claude-code-commands-that-cut-my-dev-time-60-a-practical-guide-60036faed17f?source=post_page---read_next_recirc--888780a6a42a----0---------------------4dec34cb_8dc6_4c0f_b485_6c433b776674--------------). [](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2F60036faed17f&operation=register&redirect=https%3A%2F%2Falirezarezvani.medium.com%2F10-claude-code-commands-that-cut-my-dev-time-60-a-practical-guide-60036faed17f&source=---read_next_recirc--888780a6a42a----0-----------------bookmark_preview----4dec34cb_8dc6_4c0f_b485_6c433b776674--------------). [![Image 22: Level Up Coding](https://miro.medium.com/v2/resize:fill:20:20/1*5D9oYBd58pyjMkV_5-zXXQ.jpeg)](https://medium.com/gitconnected?source=post_page---read_next_recirc--888780a6a42a----1---------------------4dec34cb_8dc6_4c0f_b485_6c433b776674--------------). [Level Up Coding](https://medium.com/gitconnected?source=post_page---read_next_recirc--888780a6a42a----1---------------------4dec34cb_8dc6_4c0f_b485_6c433b776674--------------). It’s becoming the engine inside someone else’s car.](https://medium.com/gitconnected/google-is-quietly-dismantling-everything-openai-built-4edc406f572d?source=post_page---read_next_recirc--888780a6a42a----1---------------------4dec34cb_8dc6_4c0f_b485_6c433b776674--------------). [127](https://medium.com/gitconnected/google-is-quietly-dismantling-everything-openai-built-4edc406f572d?source=post_page---read_next_recirc--888780a6a42a----1---------------------4dec34cb_8dc6_4c0f_b485_6c433b776674--------------). [![Image 24: Daniel Avila](https://miro.medium.com/v2/resize:fill:20:20/1*nx-R8hfMICkqKU8BZ-1EUQ.png)](https://medium.com/@dan.avila7?source=post_page---read_next_recirc--888780a6a42a----2---------------------4dec34cb_8dc6_4c0f_b485_6c433b776674--------------). It’s experimental, but already useful if you understand how agents coordinate…](https://medium.com/@dan.avila7/agent-teams-in-claude-code-d6bb90b3333b?source=post_page---read_next_recirc--888780a6a42a----2---------------------4dec34cb_8dc6_4c0f_b485_6c433b776674--------------). [](https://medium.com/@dan.avila7/agent-teams-in-claude-code-d6bb90b3333b?source=post_page---read_next_recirc--888780a6a42a----2---------------------4dec34cb_8dc6_4c0f_b485_6c433b776674--------------). [](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2Fd6bb90b3333b&operation=register&redirect=https%3A%2F%2Fmedium.com%2F%40dan.avila7%2Fagent-teams-in-claude-code-d6bb90b3333b&source=---read_next_recirc--888780a6a42a----2-----------------bookmark_preview----4dec34cb_8dc6_4c0f_b485_6c433b776674--------------). [![Image 26: Data Science Collective](https://miro.medium.com/v2/resize:fill:20:20/1*0nV0Q-FBHj94Kggq00pG2Q.jpeg)](https://medium.com/data-science-collective?source=post_page---read_next_recirc--888780a6a42a----3---------------------4dec34cb_8dc6_4c0f_b485_6c433b776674--------------). --------------------------------------- ### The answer isn’t as obvious as I used to believe.](https://medium.com/data-science-collective/should-you-still-learn-to-code-in-2026-034685e17707?source=post_page---read_next_recirc--888780a6a42a----3---------------------4dec34cb_8dc6_4c0f_b485_6c433b776674--------------). [26](https://medium.com/data-science-collective/should-you-still-learn-to-code-in-2026-034685e17707?source=post_page---read_next_recirc--888780a6a42a----3---------------------4dec34cb_8dc6_4c0f_b485_6c433b776674--------------).",
+    "excerpt": "[Sign in](https://medium.com/m/signin?operation=login&redirect=https%3A%2F%2Fmedium.com%2F%40joe.njenga%2Fhow-im-using-claude-code-new-simplify-batch-...",
+    "date": "2026-03-05T05:08:13.635Z",
+    "readTime": "29分钟",
+    "tags": [
+      "ClaudeCode",
+      "AI 编程",
+      "编程工具",
+      "技术干货",
+      "AI 代理",
+      "Git"
+    ],
+    "source": "https://medium.com/@joe.njenga/how-im-using-claude-code-new-simplify-batch-to-x10-my-code-reviews-888780a6a42a"
+  },
+  {
+    "id": "cl-1772687293635-nejs",
+    "title": "💻 Batch Read Claude Code Skill | Faster Codebase Exploration",
+    "content": "Claude Code 技术干货\n\nSpeed up your AI coding workflow with the Batch Read skill. Reduce LLM round-trips by 50-70% when searching and reading multiple files in Claude Code.",
+    "excerpt": "Speed up your AI coding workflow with the Batch Read skill. Reduce LLM round-trips by 50-70% when searching and reading multiple files in Claude Code.",
+    "date": "2026-03-05T05:08:13.635Z",
+    "readTime": "1分钟",
+    "tags": [
+      "ClaudeCode",
+      "AI 编程",
+      "编程工具",
+      "技术干货",
+      "技能系统"
+    ],
+    "source": "https://mcpmarket.com/tools/skills/batch-read-for-claude-code"
   }
 ]
