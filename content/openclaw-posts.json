@@ -1,5 +1,23 @@
 [
   {
+    "id": "oc-003",
+    "title": "🦞 OpenClaw 2026 最新提效技巧：这 7 个功能让 AI 代理效率翻倍",
+    "content": "OpenClaw 作为自托管 AI 代理网关，2026 年更新了大量提效功能！\n\n**7 个核心提效技巧：**\n\n**1️⃣ 多通道网关统一管理**\n一个 Gateway 进程同时服务 WhatsApp、Telegram、Discord、iMessage\n不用分别为每个平台写对接代码\n配置示例：\n```json\n{\n  \"channels\": {\n    \"whatsapp\": { \"allowFrom\": [\"+15555550123\"] },\n    \"telegram\": { \"botToken\": \"YOUR_TOKEN\" },\n    \"discord\": { \"guildId\": \"YOUR_GUILD\" }\n  }\n}\n```\n\n**2️⃣ 多代理路由系统**\n按发送者、渠道、内容类型自动路由到不同 Agent\nVIP 客户走高级代理，普通咨询走标准代理\n技术支持问题自动转接代码专家 Agent\n\n**3️⃣ 技能系统 (Skills)**\n像装 APP 一样扩展功能\n官方市场：clawhub.com\n热门技能：天气查询、PDF 编辑、代码审查、社交媒体发布\n安装命令：`clawhub install skill-name`\n\n**4️⃣ 心跳任务 (Heartbeat)**\n定时检查邮箱、日历、通知\n批量处理周期性任务，减少 API 调用\n配置 HEARTBEAT.md 即可\n\n**5️⃣ 记忆系统 (Memory)**\n自动保存重要对话到 memory/YYYY-MM-DD.md\n长期记忆存储在 MEMORY.md\n跨会话连续性，AI 记得你说过的话\n\n**6️⃣ 子代理并行执行**\n使用 sessions_spawn 创建多个子代理\n批量处理任务：同时审查 10 个 PR\n每个子代理独立工作区，互不干扰\n\n**7️⃣ Web 控制台**\n浏览器 Dashboard 管理所有会话\n可视化配置、日志查看、节点管理\n本地访问：http://127.0.0.1:18789/\n\n**提效场景：**\n✅ 社交媒体自动运营（采集→写作→发布→监控）\n✅ 多平台客服聚合（一个 AI 回复所有渠道）\n✅ 定时任务自动化（日报、周报、数据汇总）\n✅ 代码审查流水线（PR 自动审查 + 建议）\n\n**快速开始：**\n```bash\nnpm install -g openclaw@latest\nopenclaw onboard --install-daemon\nopenclaw channels login\nopenclaw gateway --port 18789\n```\n\n**官方文档：** https://docs.openclaw.ai",
+    "excerpt": "OpenClaw 2026 年更新了大量提效功能！详解 7 个核心技巧让你的 AI 代理效率翻倍",
+    "date": "2026-03-05T12:00:00+08:00",
+    "readTime": "4 分钟",
+    "tags": ["OpenClaw", "AI 代理", "效率神器", "自动化", "多通道管理"]
+  },
+  {
+    "id": "oc-004",
+    "title": "🔧 OpenClaw 自动化实战：从 0 搭建社交媒体代运营系统",
+    "content": "用 OpenClaw 搭建全自动社交媒体代运营系统，支持公众号/微博/知乎/小红书/抖音！\n\n**系统架构：**\n\n**采集层**\n- Tavily API 搜索热点\n- web_fetch 抓取竞品内容\n- 自动分类：P0 级热点（2 小时内响应）、P1 级（24 小时）\n\n**创作层**\n- 根据热点自动生成文案\n- 多平台格式适配（公众号长文、微博短文、小红书种草）\n- 配图建议或自动生成\n\n**发布层**\n- browser 工具自动化发布\n- 支持定时发布（午间 12:00、晚间 18:00 黄金时段）\n- 发布状态监控\n\n**互动层**\n- 自动回复评论和私信\n- 标记需要人工介入的情况\n- 数据汇总生成日报\n\n**配置文件示例 (HEARTBEAT.md)：**\n```markdown\n# 每日任务\n### 08:00 - 晨间扫描\n- 扫描 overnight AI 热点\n- 生成 AI 日报草稿\n- 检查各平台账号状态\n\n### 12:00 - 午间发布\n- 发布微博 (热点速报)\n- 发布抖音 (如有视频)\n\n### 18:00 - 黄金时段发布\n- 发布公众号/知乎/小红书\n- 监控发布状态\n\n### 22:00 - 日报生成\n- 汇总当日数据\n- 生成数据简报\n```\n\n**热点响应预案：**\n- P0 级：15 分钟评估 → 联系客户 → 1 小时出稿 → 发布监控\n- P1 级：纳入次日计划 → 正常流程发布\n\n**技术栈：**\n- OpenClaw Gateway（核心调度）\n- Tavily API（内容搜索）\n- browser 工具（自动化发布）\n- cron/heartbeat（定时任务）\n\n**效果：**\n一个人管理 5 个平台，每天节省 4-6 小时手动操作时间！",
+    "excerpt": "用 OpenClaw 搭建全自动社交媒体代运营系统，一个人管理 5 个平台，每天节省 4-6 小时",
+    "date": "2026-03-05T18:00:00+08:00",
+    "readTime": "4 分钟",
+    "tags": ["OpenClaw", "社交媒体", "自动化", "代运营", "实战案例"]
+  },
+  {
     "id": "oc-001",
     "title": "🦞 OpenClaw 这 5 个隐藏功能，90% 的人都不知道！",
     "content": "挖到一个超厉害的 AI 代理框架——OpenClaw！用了 3 天，效率直接起飞🚀\n\n**5 个必知功能：**\n\n1️⃣ **定时任务自动化**\n不用自己盯着，设置好时间自动执行\n比如每天早上 8 点自动汇总昨日数据\n命令：`openclaw cron add`\n\n2️⃣ **支持 20+ 平台**\n微信/Telegram/Discord/飞书/Slack...\n一个框架全搞定，不用分别对接 API\n\n3️⃣ **技能系统像装 APP**\n需要啥功能直接安装\n天气查询、PDF 编辑、代码代理...\n官方市场：clawhub.com\n\n4️⃣ **本地优先，数据自己掌控**\n所有数据存在本地\n不用担心隐私泄露\n\n5️⃣ **Hook 自动化**\n事件触发式自动化\n比如收到消息自动回复、自动存档\n\n**使用场景：**\n✅ 社交媒体自动运营\n✅ 多平台消息聚合\n✅ 定时任务自动化\n✅ 个人 AI 助理定制",

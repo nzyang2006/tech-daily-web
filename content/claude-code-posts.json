@@ -1,5 +1,23 @@
 [
   {
+    "id": "cc-003",
+    "title": "💻 Claude Code 2026 提效指南：这 8 个技巧让编码效率翻 3 倍",
+    "content": "Claude Code 作为 Anthropic 官方出品的 AI 编程助手，2026 年更新了众多提效功能！\n\n**8 个核心提效技巧：**\n\n**1️⃣ Plan Mode（计划模式）**\n复杂任务先规划再执行，避免做错方向\n```bash\nclaude --permission-mode plan\n```\n适用场景：多文件重构、架构设计、大型功能开发\n按 `Ctrl+G` 在编辑器中直接修改计划\n\n**2️⃣ CLAUDE.md 持久化配置**\n项目根目录创建 CLAUDE.md，每会话自动加载\n```markdown\n# 代码风格\n- 使用 ES 模块语法\n- 优先使用 TypeScript\n\n# 工作流\n- 修改后必须运行 typecheck\n- 提交前运行 lint\n```\n让 AI 记住你的编码规范和项目约定\n\n**3️⃣ @文件引用**\n快速包含文件上下文，不用等 AI 读取\n```\n解释 @src/utils/auth.js 的逻辑\n@src/components 的目录结构是什么？\n```\n支持文件、目录、MCP 资源引用\n\n**4️⃣ 子代理系统 (Sub-agents)**\n创建专业 Agent 处理特定任务\n```bash\n/agents\n```\n- code-reviewer：代码审查专家\n- debugger：调试专家\n- test-writer：测试专家\n自动委派或手动指定\n\n**5️⃣ MCP 协议集成**\n连接外部服务扩展能力\n```bash\n# Google Drive\nnpx -y @modelcontextprotocol/server-gdrive\n# Jira\nnpx -y @modelcontextprotocol/server-jira\n# Slack\nnpx -y @modelcontextprotocol/server-slack\n```\n读取文档、更新工单、发送通知\n\n**6️⃣ 扩展思维模式 (Extended Thinking)**\n复杂问题让 AI 深度思考\n按 `Ctrl+O` 切换 verbose 模式\n查看 AI 的推理过程\n适用：架构决策、复杂 Bug、多步骤规划\n\n**7️⃣ 跨设备远程继续**\n会话不绑定单一设备\n- 本地开始任务 → 手机继续\n- 终端会话 → Desktop 应用可视化审查\n- `/teleport` 命令转移会话\n- `/desktop` 发送到桌面应用\n\n**8️⃣ 自动化 Git 工作流**\n```bash\n# 提交更改\nclaude \"commit my changes with a descriptive message\"\n# 创建 PR\nclaude \"create a pr for my changes\"\n# 从 PR 继续\nclaude --from-pr <number>\n```\n自动写规范的 commit message\n\n**提效场景：**\n✅ 快速理解新代码库（30 分钟 vs 3 天）\n✅ 自动化单元测试（覆盖率轻松 90%+）\n✅ Bug 定位和修复（不用手动调试）\n✅ 代码重构（保持行为不变）\n✅ 文档生成（自动补充 JSDoc）\n\n**安装方式：**\n```bash\n# macOS/Linux\ncurl -fsSL https://claude.ai/install.sh | bash\n\n# Windows\nirm https://claude.ai/install.ps1 | iex\n\n# 启动\ncd your-project\nclaude\n```\n\n**官方文档：** https://code.claude.com",
+    "excerpt": "Claude Code 2026 年更新了众多提效功能！详解 8 个核心技巧让编码效率翻 3 倍",
+    "date": "2026-03-05T12:00:00+08:00",
+    "readTime": "5 分钟",
+    "tags": ["ClaudeCode", "AI 编程", "效率神器", "开发者工具", "编码技巧"]
+  },
+  {
+    "id": "cc-004",
+    "title": "🚀 Claude Code 最佳实践：如何写出高质量的 AI 提示词",
+    "content": "用 Claude Code 一年，总结了这套提示词最佳实践，效率提升显著！\n\n**核心原则：给 AI 可验证的成功标准**\n\n**❌ 糟糕的提示词：**\n```\n实现一个验证邮箱的函数\n```\n\n**✅ 优秀的提示词：**\n```\n写一个 validateEmail 函数\n测试用例：\n- user@example.com → true\n- invalid → false\n- user@.com → false\n实现后运行测试验证\n```\n\n**提示词框架：**\n\n**1️⃣ 探索 → 计划 → 实现 → 提交**\n```bash\n# 1. 探索（Plan Mode）\n阅读 @src/auth 理解会话处理逻辑\n\n# 2. 计划\n我想添加 Google OAuth，需要修改哪些文件？\n创建详细实现计划\n\n# 3. 实现（Normal Mode）\n按照计划实现 OAuth 流程\n编写回调处理器的测试并运行\n\n# 4. 提交\n用描述性 message 提交并创建 PR\n```\n\n**2️⃣ 提供具体上下文**\n```bash\n# ❌ 模糊\n修复登录 Bug\n\n# ✅ 具体\n用户报告会话超时后登录失败\n检查 src/auth/ 中的 token 刷新逻辑\n编写复现测试，然后修复\n```\n\n**3️⃣ 引用现有模式**\n```bash\n查看现有 Widget 的实现方式\nHotDogWidget.php 是好例子\n按照相同模式实现 CalendarWidget\n支持月份选择和年份翻页\n不使用额外库\n```\n\n**4️⃣ 利用丰富内容**\n- `@文件` 引用具体文件\n- 直接粘贴截图（UI 问题）\n- 提供 API 文档 URL\n- `cat error.log | claude` 管道输入\n\n**5️⃣ 配置 CLAUDE.md**\n```markdown\n# 包含的内容 ✅\n- AI 猜不到的 Bash 命令\n- 项目特定的代码风格\n- 测试运行指令\n- Git 工作流约定\n- 架构决策说明\n\n# 不包含的内容 ❌\n- AI 能从代码中推断的内容\n- 标准语言约定\n- 频繁变动的信息\n- 长篇教程\n```\n\n**常见场景提示词模板：**\n\n**理解新代码库：**\n```\n给我这个代码库的高层概览\n主要架构模式是什么？\n关键数据模型有哪些？\n认证如何处理？\n```\n\n**修复 Bug：**\n```\n运行 npm test 时报错\n[粘贴错误信息]\n建议几种修复方案\n实现方案 A 并验证\n```\n\n**代码重构：**\n```\n找出 deprecated API 的使用\n建议现代化重构方案\n小步重构，每步后运行测试\n```\n\n**编写测试：**\n```\n找出 NotificationsService.swift 中未测试的函数\n添加测试覆盖\n包含边界条件和异常情况\n```\n\n**提效数据：**\n- 模糊提示词 → 平均 3-4 轮修正\n- 具体提示词 → 平均 1-2 轮修正\n- 带验证标准 → 首次通过率 80%+\n\n**记住：** AI 不能读心，但能理解清晰的指令。花在写提示词上的时间，会在后续迭代中成倍省回来！",
+    "excerpt": "用 Claude Code 一年总结的提示词最佳实践，效率提升显著！附完整框架和模板",
+    "date": "2026-03-05T18:00:00+08:00",
+    "readTime": "5 分钟",
+    "tags": ["ClaudeCode", "提示词工程", "最佳实践", "AI 编程", "开发者"]
+  },
+  {
     "id": "cc-001",
     "title": "💻 Claude Code 这 6 个命令，让你编码效率翻 3 倍！",
     "content": "Anthropic 官方出品的 CLI 编程神器！在终端里直接用自然语言写代码🤯\n\n**6 个必会命令：**\n\n1️⃣ **初始化项目**\n```bash\nclaude code\n```\n直接开启对话模式，理解整个代码库\n\n2️⃣ **解释复杂代码**\n```\n解释这个函数的逻辑\n```\n秒懂前人写的\"天书\"代码\n\n3️⃣ **自动修复 Bug**\n```\n修复这个报错\n```\n不用 StackOverflow 搜半天\n\n4️⃣ **生成单元测试**\n```\n为这个模块写测试\n```\n测试覆盖率轻松 100%\n\n5️⃣ **Git 操作自动化**\n```\n提交刚才的修改\n```\n自动写 commit message，规范又省时\n\n6️⃣ **代码重构**\n```\n优化这段代码的性能\n```\nAI 帮你写出更优雅的代码\n\n**核心优势：**\n✅ 理解整个代码库上下文\n✅ 支持多轮对话，持续迭代\n✅ 直接执行文件操作\n✅ 终端内完成，不用切换窗口\n\n**安装方式：**\n```bash\nnpm install -g @anthropic-ai/claude-code\n```",
