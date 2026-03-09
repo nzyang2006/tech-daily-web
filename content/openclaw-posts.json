@@ -1,27 +1,10 @@
 [
   {
-    "id": "op-1773033357440-re59",
-    "title": "🦞 How to join the OpenClaw Discord-Telegram community",
-    "content": "OpenClaw 技术干货\n\nis a practical question — let’s answer it in a way you can deploy. ## The practical deployment path (Lighthouse). If you want a clean, reproducible setup, the most efficient route is the OpenClaw application template on Tencent Cloud Lighthouse. 2. **Select**: Choose **OpenClaw (Clawdbot)** under the **AI Agents** application template. For step-by-step screenshots and the full panel + onboarding flow, use the deployment guide: https://www.tencentcloud.com/techpedia/139184. Even if the template handles day-one setup, you still need a repeatable way to configure models, connect channels, install skills, and keep the gateway alive. # One-time onboarding (interactive) # Keep the agent running as a background service whoami export id. * Installing OpenClaw Skills and practical applications. Deploy one instance, connect one channel, add one skill, and run one workflow for a week. When you are ready to run it 24/7 in a clean, isolated environment, start here again: Tencent Cloud Lighthouse Special Offer. The big wins are boring: repeatable setup, predictable inputs, and clear failure paths.",
-    "excerpt": "is a practical question — let’s answer it in a way you can deploy. ## The practical deployment path (Lighthouse). If you want a clean, reproducible se...",
-    "date": "2026-03-09T05:15:57.440Z",
-    "readTime": "4分钟",
-    "tags": [
-      "OpenClaw",
-      "AI 工具",
-      "自动化",
-      "技术干货",
-      "技能系统",
-      "AI 代理"
-    ],
-    "source": "https://www.tencentcloud.com/techpedia/141246"
-  },
-  {
-    "id": "op-1773033357440-1dfc",
+    "id": "op-1773052554131-2rr1",
     "title": "🦞 How to set up OpenClaw across WhatsApp, Telegram, Discord, Slack",
     "content": "OpenClaw 技术干货\n\nOpenClaw's Telegram integration uses grammY, a popular TypeScript framework for Telegram bots. The grammY docs explain the Bot API transport",
     "excerpt": "OpenClaw's Telegram integration uses grammY, a popular TypeScript framework for Telegram bots. The grammY docs explain the Bot API transport",
-    "date": "2026-03-09T05:15:57.440Z",
+    "date": "2026-03-09T10:35:54.131Z",
     "readTime": "1分钟",
     "tags": [
       "OpenClaw",
@@ -33,43 +16,30 @@
     "source": "https://lumadock.com/tutorials/openclaw-multi-channel-setup"
   },
   {
-    "id": "op-1773033357440-yysx",
-    "title": "🦞 OpenClaw (Clawd Bot) Telegram integration: A complete guide",
-    "content": "OpenClaw 技术干货\n\nRoute, edit or tag tickets. Instant answers for your team. Last edited February 1, 2026. We all have a mental to-do list constantly running in the background: tasks, ideas, and links we mean to read later. They offer features like data isolation and GDPR compliance, allowing you to connect to your company's Slack or Microsoft Teams and get secure answers from your internal knowledge without needing to be a cybersecurity expert. A screenshot of eesel AI's Internal Chat, a secure alternative to the Clawd Bot Telegram integration for internal team questions. A screenshot of eesel AI's Internal Chat, a secure alternative to the Clawd Bot Telegram integration for internal team questions. A screenshot of eesel AI's Internal Chat, a secure alternative to the Clawd Bot Telegram integration for internal team questions. It is a tool for builders, not a ready-made solution for a team. It learns from internal documents to provide answers inside Slack or Teams, with built-in enterprise-grade security and stability features.",
-    "excerpt": "Route, edit or tag tickets. Instant answers for your team. Last edited February 1, 2026. We all have a mental to-do list constantly running in the bac...",
-    "date": "2026-03-09T05:15:57.440Z",
+    "id": "op-1773052554131-dz6n",
+    "title": "🦞 Build Cross-Platform AI Agents with OpenClaw - CodeWithYoha",
+    "content": "OpenClaw 技术干货\n\n# Build Cross-Platform AI Agents with OpenClaw: WhatsApp, Telegram, Discord. Build Cross-Platform AI Agents with OpenClaw: WhatsApp, Telegram, Discord. It connects Large Language Models (LLMs) with popular communication channels like WhatsApp, Telegram, and Discord, allowing you to manage your AI's core logic (Skills) once and route it everywhere. This guide will walk you through setting up, configuring, and deploying your own multi-platform AI assistant using the official OpenClaw CLI. OpenClaw handles the complexity of the Telegram Bot API for you. Building cross-platform AI agents no longer requires managing three different codebases in Python or Go. With **OpenClaw**, you can leverage a powerful Node.js-based gateway to unify your communication channels under a single intelligent core. By abstracting platforms into **Channels** and logic into **Skills**, OpenClaw lets you focus on what matters: the user experience and the intelligence of your agent. Whether you're building a personal assistant for WhatsApp or a community moderator for Discord, OpenClaw provides the most efficient path to deployment.",
+    "excerpt": "# Build Cross-Platform AI Agents with OpenClaw: WhatsApp, Telegram, Discord. Build Cross-Platform AI Agents with OpenClaw: WhatsApp, Telegram, Discord...",
+    "date": "2026-03-09T10:35:54.131Z",
     "readTime": "4分钟",
     "tags": [
       "OpenClaw",
       "AI 工具",
       "自动化",
-      "技术干货"
-    ],
-    "source": "https://www.eesel.ai/blog/clawd-bot-telegram-integration"
-  },
-  {
-    "id": "op-1773033357440-odyw",
-    "title": "🦞 Discord - OpenClaw Docs",
-    "content": "OpenClaw 技术干货\n\n# Discord. # ​ Discord (Bot API). ## Channel troubleshooting. ## ​ Quick setup. Create a Discord application and bot. `openclaw config set channels.discord.token '\"YOUR_BOT_TOKEN\"' --json. openclaw config set channels.discord.enabled true --json. openclaw pairing approve discord <CODE>`. ## ​ Recommended: Set up a guild workspace. ## ​ Runtime model. `agent:<agentId>:discord:channel:<channelId>`. `channels.discord.dm.groupEnabled=false`. `agent:<agentId>:discord:slash:<userId>`. ## ​ Forum channels. `openclaw message send --channel discord --target channel:<forumId> \\. `openclaw message thread create --channel discord --target channel:<forumId> \\. ## ​ Interactive components. `channels.discord.accounts.default.allowFrom`. `channels.discord.accounts.default.allowFrom`. ## ​ Native commands and command auth. `channels.discord.dms[\"<user_id>\"].historyLimit`. `channels.discord.accounts.<accountId>.ackReaction`. | reactions, messages, threads, pins, polls, search, memberInfo, roleInfo, channelInfo, channels, voiceStatus, events, stickers, emojiUploads, stickerUploads, permissions | enabled |. ## ​ Components v2 UI. `channels.discord.ui.components.accentColor`. `channels.discord.accounts.<id>.ui.components.accentColor`. ## ​ Voice channels. `channels.discord.voice.enabled=false`. ## ​ Voice messages. `message(action=\"send\", channel=\"discord\", target=\"channel:123\", path=\"/path/to/audio.mp3\", asVoice=true)`. ## ​ Troubleshooting. `channels.discord.accounts.<accountId>.eventQueue.listenerTimeout`. `channels.discord.dm.enabled=false`. `channels.discord.voice.daveEncryption=true`. `channels.discord.voice.decryptionFailureTolerance=24`. `discord voice: DAVE decrypt failures detected`. `discord voice: repeated decrypt failures; attempting rejoin`. ## ​ Configuration reference pointers. ## ​ Safety and operations. ## ​ Related.",
-    "excerpt": "# Discord. # ​ Discord (Bot API). ## Channel troubleshooting. ## ​ Quick setup. Create a Discord application and bot. `openclaw config set channels.di...",
-    "date": "2026-03-09T05:15:57.440Z",
-    "readTime": "7分钟",
-    "tags": [
-      "OpenClaw",
-      "AI 工具",
-      "自动化",
       "技术干货",
+      "技能系统",
       "AI 代理",
+      "命令行",
       "API"
     ],
-    "source": "https://docs.openclaw.ai/channels/discord"
+    "source": "https://codewithyoha.com/blogs/build-cross-platform-ai-agents-with-openclaw-whatsapp-telegram-discord"
   },
   {
-    "id": "op-1773033357440-uwbl",
+    "id": "op-1773052554131-xeo4",
     "title": "🦞 From Chat App to AI Powerhouse: Telegram + OpenClaw - Medium",
     "content": "OpenClaw 技术干货\n\nIn this guide, we’ll walk through how to install OpenClaw on macOS and connect it to Telegram step by step. OpenClaw is a self-hosted AI assistant that runs locally on your machine while connecting to messaging platforms like Telegram, WhatsApp, Discord, and more. Before connecting OpenClaw to Telegram, we first need to install it locally. After entering your API key, OpenClaw verifies it and automatically configures a default model. ## Step 5: Connect OpenClaw to Telegram. After configuring your model, OpenClaw will ask you to select a chat channel. After selecting **Telegram (Bot API)** as your channel, OpenClaw will prompt you to enter your Telegram bot token. After entering your Telegram bot token, OpenClaw finalizes the channel configuration. After completing the configuration, OpenClaw installs and starts the **Gateway service**. Messages sent to your Telegram bot are routed through the OpenClaw Gateway, processed by your selected model, and returned in real time.",
     "excerpt": "In this guide, we’ll walk through how to install OpenClaw on macOS and connect it to Telegram step by step. OpenClaw is a self-hosted AI assistant tha...",
-    "date": "2026-03-09T05:15:57.440Z",
+    "date": "2026-03-09T10:35:54.131Z",
     "readTime": "4分钟",
     "tags": [
       "OpenClaw",
@@ -81,11 +51,43 @@
     "source": "https://medium.com/@techlatest.net/from-chat-app-to-ai-powerhouse-telegram-openclaw-151462ba0fc8"
   },
   {
-    "id": "op-1773033352046-pn36",
-    "title": "🦞 Cron Jobs - OpenClaw Docs",
+    "id": "op-1773052554131-t361",
+    "title": "🦞 OpenClaw (Clawd Bot) Telegram integration: A complete guide",
+    "content": "OpenClaw 技术干货\n\nRoute, edit or tag tickets. Instant answers for your team. Last edited February 1, 2026. We all have a mental to-do list constantly running in the background: tasks, ideas, and links we mean to read later. They offer features like data isolation and GDPR compliance, allowing you to connect to your company's Slack or Microsoft Teams and get secure answers from your internal knowledge without needing to be a cybersecurity expert. A screenshot of eesel AI's Internal Chat, a secure alternative to the Clawd Bot Telegram integration for internal team questions. A screenshot of eesel AI's Internal Chat, a secure alternative to the Clawd Bot Telegram integration for internal team questions. A screenshot of eesel AI's Internal Chat, a secure alternative to the Clawd Bot Telegram integration for internal team questions. It is a tool for builders, not a ready-made solution for a team. It learns from internal documents to provide answers inside Slack or Teams, with built-in enterprise-grade security and stability features.",
+    "excerpt": "Route, edit or tag tickets. Instant answers for your team. Last edited February 1, 2026. We all have a mental to-do list constantly running in the bac...",
+    "date": "2026-03-09T10:35:54.131Z",
+    "readTime": "4分钟",
+    "tags": [
+      "OpenClaw",
+      "AI 工具",
+      "自动化",
+      "技术干货"
+    ],
+    "source": "https://www.eesel.ai/blog/clawd-bot-telegram-integration"
+  },
+  {
+    "id": "op-1773052554130-mykw",
+    "title": "🦞 Connect OpenClaw with Discord & Telegram (Full Setup Guide)",
+    "content": "OpenClaw 技术干货\n\nConnect OpenClaw with Discord & Telegram (Full Setup Guide) | Control Your AI from Chat\nAI Factory\n6890 subscribers\n3 likes\n130 views\n16 Feb 2026\nIn this tutorial, you’ll learn how to connect Telegram and Discord to OpenClaw so you can control your AI agent directly from your favorite chat apps.\n🎯If you want to learn more about OpenClaw, check out my earlier tutorials (step by step):\n👉Installing OpenClaw on Windows: https://youtu.be/ZSF_ofTHI-Q\n👉Deploying it inside a VM: https://youtu.be/vRQCE5wGF-c\n👉Installing Skills: https://youtu.be/hXEKgSnD1Gs\n👉Using OpenClaw in real workflows: https://youtu.be/S1RByUqxoiI\n👉 OpenClaw Explained: https://youtu.be/Q0ItcMxyqAQ\n ♥️Don’t forget to like, subscribe, and stay tuned for the next video.\n\n👇More AI tutorials:\nhttps://youtu.be/EaSJhe5g7yQ\nhttps://youtu.be/tKYChEsFZVQ\nhttps://youtu.be/9bLzAlozADk\nhttps://youtu.be/5nOK1RWTjqI\nhttps://youtu.be/Bu_EhPmO_GI\nhttps://youtu.be/5u_s1-ATqxY\nhttps://youtu.be/ABL_4r4Ai_Y\nhttps://youtu.be/C2K4w2wxGLs\nhttps://youtu.be/O49FYHmPc9s\nhttps://youtu.be/txK6PTeULjs\nhttps://youtu.be/mxEkSUsDM5Y\nhttps://youtu.be/gdMIKFfYcec\nhttps://youtu.be/m34erb13sP8\nhttps://youtu.be/bfxktsCNmjE\nhttps://youtu.be/B3AdyOyaatg\nhttps://youtu.be/mqU88VyelF8\nhttps://youtu.be/i9vLTsPWCvE\nhttps://youtu.be/QcWvqVAAXnE\nhttps://youtu.be/gStRh4VEOxQ\nhttps://youtu.be/paDF3w6xwIQ\nhttps://youtu.be/5_MQlZ8djhI\nhttps://youtu.be/fG3EMG0eoIU\nhttps://youtu.be/-tp9Igzrd5E\nhttps://youtu.be/rf5l_4xrJhE\nhttps://youtu.be/X-y7HkgyQIs\nhttps://youtu.be/-20Z0ySgk7w\nhttps://youtu.be/FjjcBuOefuU\nhttps://youtu.be/Is0ao6Zh-DM\nhttps://youtu.be/2tUW_b96-T8\nhttps://youtu.be/V9XSdOfis3c\nhttps://youtu.be/tDPQG5B1Luk\nhttps://youtu.be/rWvXGpSdvYI\nhttps://youtu.be/JeON2_tZGMs\nhttps://youtu.be/UgSY2BtMhuA\nhttps://youtu.be/AtwFi4rPQ3Y\nhttps://youtu.be/0eUb-EQLjys\nhttps://youtu.be/wykXWwocafw\nhttps://youtu.be/HW0V7uajrwU\nhttps://youtu.be/mr2PwFwAdgI\nhttps://youtu.be/z72PAUM7Wi0\nhttps://youtu.be/chctKa6NgUY\nhttps://youtu.be/KgdwmEqPoMk\nhttps://youtu.be/KgdwmEqPoMk\nhttps://youtu.be/kllxX7cdZS4\nhttps://youtu.be/qxz2ClKOVec\nhttps://youtu.be/h4aGnm1OllY\nhttps://youtu.be/96r7llNB2Gw\nhttps://youtu.be/OO5p3DMxnQw\nhttps://youtu.be/nlEhiV3Pj_Q\nhttps://youtu.be/GmRnAccGWz8\nhttps://youtu.be/Y-iwWwkE-DE\nhttps://youtu.be/yRlImxWNiiY\nhttps://youtu.be/kKtHQmqMEGw\nhttps://youtu.be/0ZT1Q0nrAVY\nhttps://youtu.be/HBPQprREeq4\nhttps://youtu.be/_RqTHwaWd58\nhttps://youtu.be/Q5854eZYoLI\nhttps://youtu.be/MZ1sNbKT4oA\nhttps://youtu.be/MYk8JEU3ceQ\nhttps://youtu.be/xp_4SIu3b-0\nhttps://youtu.be/0KcNZMdV0K0\nhttps://youtu.be/u4DoPo6TGlg\nhttps://youtu.be/EavGuKh_rRM\nhttps://youtu.be/q1EcuSKK4EU\nhttps://youtu.be/f55J7pxpPsk\nhttps://youtu.be/x72ZIRPMzAI\nhttps://youtu.be/8aIUYFi8k4E\nhttps://youtu.be/OTOozBNeZQw\nhttps://youtu.be/PFyrZOuN9Uk\nhttps://youtu.be/S7TGCxXGgO0\nhttps://youtu.be/8fhO_bxR9nY\nhttps://youtu.be/v7JTG7AOjuw\nhttps://youtu.be/ykF3Coniryw\n\nInstagram: https://www.instagram.com/ai_factory_24/\nTikTok: https://www.tiktok.com/@ai_factory_24\n \n#openclaw #AIAgent #clawdbot\n1 comments\n",
+    "excerpt": "Connect OpenClaw with Discord & Telegram (Full Setup Guide) | Control Your AI from Chat\nAI Factory\n6890 subscribers\n3 likes\n130 views\n16 Feb 2026\nIn t...",
+    "date": "2026-03-09T10:35:54.130Z",
+    "readTime": "11分钟",
+    "tags": [
+      "OpenClaw",
+      "AI 工具",
+      "自动化",
+      "技术干货",
+      "技能系统",
+      "AI 代理"
+    ],
+    "source": "https://www.youtube.com/watch?v=i3f9IPhG02g"
+  },
+  {
+    "id": "op-1773052548755-1v80",
+    "title": "🦞 Cron Jobs - OpenClaw",
     "content": "OpenClaw 技术干货\n\n[Skip to main content](https://docs.openclaw.ai/automation/cron-jobs#content-area). *   [Cron Jobs](https://docs.openclaw.ai/automation/cron-jobs). *   [Concepts](https://docs.openclaw.ai/automation/cron-jobs#concepts). *   [Jobs](https://docs.openclaw.ai/automation/cron-jobs#jobs). *   [Schedules](https://docs.openclaw.ai/automation/cron-jobs#schedules). *   [Main vs isolated execution](https://docs.openclaw.ai/automation/cron-jobs#main-vs-isolated-execution). *   [Main session jobs (system events)](https://docs.openclaw.ai/automation/cron-jobs#main-session-jobs-system-events). *   [Isolated jobs (dedicated cron sessions)](https://docs.openclaw.ai/automation/cron-jobs#isolated-jobs-dedicated-cron-sessions). *   [Payload shapes (what runs)](https://docs.openclaw.ai/automation/cron-jobs#payload-shapes-what-runs). *   [Announce delivery flow](https://docs.openclaw.ai/automation/cron-jobs#announce-delivery-flow). *   [Webhook delivery flow](https://docs.openclaw.ai/automation/cron-jobs#webhook-delivery-flow). *   [Delivery (channel + target)](https://docs.openclaw.ai/automation/cron-jobs#delivery-channel-%2B-target). *   [Telegram delivery targets (topics / forum threads)](https://docs.openclaw.ai/automation/cron-jobs#telegram-delivery-targets-topics-%2F-forum-threads). *   [Configuration](https://docs.openclaw.ai/automation/cron-jobs#configuration). *   [Maintenance](https://docs.openclaw.ai/automation/cron-jobs#maintenance). *   [Defaults](https://docs.openclaw.ai/automation/cron-jobs#defaults). *   [How it works](https://docs.openclaw.ai/automation/cron-jobs#how-it-works). *   [Troubleshooting](https://docs.openclaw.ai/automation/cron-jobs#troubleshooting). *   [“Nothing runs”](https://docs.openclaw.ai/automation/cron-jobs#%E2%80%9Cnothing-runs%E2%80%9D). *   [Subagent announce delivery retries](https://docs.openclaw.ai/automation/cron-jobs#subagent-announce-delivery-retries). [​](https://docs.openclaw.ai/automation/cron-jobs#cron-jobs-gateway-scheduler). [​](https://docs.openclaw.ai/automation/cron-jobs#tldr). [​](https://docs.openclaw.ai/automation/cron-jobs#quick-start-actionable). [​](https://docs.openclaw.ai/automation/cron-jobs#tool-call-equivalents-gateway-cron-tool). [​](https://docs.openclaw.ai/automation/cron-jobs#where-cron-jobs-are-stored). [​](https://docs.openclaw.ai/automation/cron-jobs#beginner-friendly-overview). [​](https://docs.openclaw.ai/automation/cron-jobs#concepts). ### [​](https://docs.openclaw.ai/automation/cron-jobs#jobs). ### [​](https://docs.openclaw.ai/automation/cron-jobs#schedules). ### [​](https://docs.openclaw.ai/automation/cron-jobs#main-vs-isolated-execution). #### [​](https://docs.openclaw.ai/automation/cron-jobs#main-session-jobs-system-events). #### [​](https://docs.openclaw.ai/automation/cron-jobs#isolated-jobs-dedicated-cron-sessions). ### [​](https://docs.openclaw.ai/automation/cron-jobs#payload-shapes-what-runs). #### [​](https://docs.openclaw.ai/automation/cron-jobs#announce-delivery-flow). #### [​](https://docs.openclaw.ai/automation/cron-jobs#webhook-delivery-flow). ### [​](https://docs.openclaw.ai/automation/cron-jobs#model-and-thinking-overrides). ### [​](https://docs.openclaw.ai/automation/cron-jobs#lightweight-bootstrap-context). ### [​](https://docs.openclaw.ai/automation/cron-jobs#delivery-channel-+-target). #### [​](https://docs.openclaw.ai/automation/cron-jobs#telegram-delivery-targets-topics-/-forum-threads). [​](https://docs.openclaw.ai/automation/cron-jobs#json-schema-for-tool-calls). ### [​](https://docs.openclaw.ai/automation/cron-jobs#cron-add-params). ### [​](https://docs.openclaw.ai/automation/cron-jobs#cron-update-params). ### [​](https://docs.openclaw.ai/automation/cron-jobs#cron-run-and-cron-remove-params). [​](https://docs.openclaw.ai/automation/cron-jobs#storage-&-history). [​](https://docs.openclaw.ai/automation/cron-jobs#retry-policy). ### [​](https://docs.openclaw.ai/automation/cron-jobs#transient-errors-retried). ### [​](https://docs.openclaw.ai/automation/cron-jobs#permanent-errors-no-retry). ### [​](https://docs.openclaw.ai/automation/cron-jobs#default-behavior-no-config). [​](https://docs.openclaw.ai/automation/cron-jobs#configuration). [​](https://docs.openclaw.ai/automation/cron-jobs#maintenance). ### [​](https://docs.openclaw.ai/automation/cron-jobs#defaults). ### [​](https://docs.openclaw.ai/automation/cron-jobs#how-it-works). ### [​](https://docs.openclaw.ai/automation/cron-jobs#performance-caveat-for-high-volume-schedulers). ### [​](https://docs.openclaw.ai/automation/cron-jobs#customize-examples). [​](https://docs.openclaw.ai/automation/cron-jobs#cli-quickstart). [​](https://docs.openclaw.ai/automation/cron-jobs#gateway-api-surface). *   `cron.run` (force or due), `cron.runs` For immediate system events without a job, use [`openclaw system event`](https://docs.openclaw.ai/cli/system). [​](https://docs.openclaw.ai/automation/cron-jobs#troubleshooting). ### [​](https://docs.openclaw.ai/automation/cron-jobs#%E2%80%9Cnothing-runs%E2%80%9D). ### [​](https://docs.openclaw.ai/automation/cron-jobs#a-recurring-job-keeps-delaying-after-failures). ### [​](https://docs.openclaw.ai/automation/cron-jobs#telegram-delivers-to-the-wrong-place). ### [​](https://docs.openclaw.ai/automation/cron-jobs#subagent-announce-delivery-retries).",
     "excerpt": "[Skip to main content](https://docs.openclaw.ai/automation/cron-jobs#content-area). *   [Cron Jobs](https://docs.openclaw.ai/automation/cron-jobs). * ...",
-    "date": "2026-03-09T05:15:52.046Z",
+    "date": "2026-03-09T10:35:48.755Z",
     "readTime": "18分钟",
     "tags": [
       "OpenClaw",
@@ -100,29 +102,11 @@
     "source": "https://docs.openclaw.ai/automation/cron-jobs"
   },
   {
-    "id": "op-1773033352046-me6x",
-    "title": "🦞 openclaw-cron | Skills Marketplace - LobeHub",
-    "content": "OpenClaw 技术干货\n\nOpenClaw Cron Manager provides a safe CLI wrapper to create, list, run, enable/disable and manage OpenClaw cron jobs without editing configuration files. It supports cron expressions (5-field), interval scheduling (--every 10m, 1h, 1d), one-time runs (--at +20m or ISO timestamps), timezone handling (--tz), job lifecycle options (delete-after-run, enable/disable), immediate test runs, and announcement integrations (channels like Telegram). `Curl https://lobehub.com/skills/liuzln-openclaw-skills-openclaw-cron/skill.md, then follow the instructions to setup LobeHub Skills Marketplace and install the skill read the SKILL.md file in the installed directory, and follow its instructions to complete the task.`. Safe management of OpenClaw cron jobs without touching configuration files. ### List all cron jobs. `openclaw cron run <job-id>`. `openclaw cron disable <job-id>. openclaw cron enable <job-id>`. `openclaw cron run <job-id>`. `openclaw cron runs <job-id>`. `openclaw cron edit <job-id> --name \"新名称\". openclaw cron edit <job-id> --cron \"0 10 * * *\". openclaw cron edit <job-id> --disabled`. `openclaw cron disable <job-id>. openclaw cron enable <job-id>`. `openclaw cron rm <job-id>`.",
-    "excerpt": "OpenClaw Cron Manager provides a safe CLI wrapper to create, list, run, enable/disable and manage OpenClaw cron jobs without editing configuration fil...",
-    "date": "2026-03-09T05:15:52.046Z",
-    "readTime": "4分钟",
-    "tags": [
-      "OpenClaw",
-      "AI 工具",
-      "自动化",
-      "技术干货",
-      "技能系统",
-      "定时任务",
-      "命令行"
-    ],
-    "source": "https://lobehub.com/skills/liuzln-openclaw-skills-openclaw-cron"
-  },
-  {
-    "id": "op-1773033352046-iurk",
+    "id": "op-1773052548755-o2bp",
     "title": "🦞 OpenClaw: Setting Up Cron Jobs for Autonomous AI Task Scheduling",
     "content": "OpenClaw 技术干货\n\nOpenClaw: Agentic AI for Developers. # Setting Up Cron Jobs. Explore how to configure cron jobs in OpenClaw to enable your AI assistant to perform scheduled tasks autonomously. Understand the difference between main session and isolated modes, learn to create, manage, and debug cron jobs, and discover practical uses like morning briefings and reminders. * How to create a cron job? * What are some practical jobs to set up? * How do I check, edit, and manage jobs? Cron jobs are the mechanism that makes this possible. They allow you to schedule your agent to execute tasks on a fixed rotation. Cron runs inside the Gateway, not inside the model. That distinction matters: your scheduled jobs persist across restarts, survive model changes, and do not depend on you having an active conversation. Jobs are stored at `~/.openclaw/cron/jobs.json` and run history is logged per-job. If your Gateway is running, your cron jobs are running. Every cron job runs in one of two modes, and choosing the right one matters.",
     "excerpt": "OpenClaw: Agentic AI for Developers. # Setting Up Cron Jobs. Explore how to configure cron jobs in OpenClaw to enable your AI assistant to perform sch...",
-    "date": "2026-03-09T05:15:52.046Z",
+    "date": "2026-03-09T10:35:48.755Z",
     "readTime": "4分钟",
     "tags": [
       "OpenClaw",
@@ -135,11 +119,11 @@
     "source": "https://www.educative.io/courses/learn-openclaw/setting-up-cron-jobs"
   },
   {
-    "id": "op-1773033352046-bzn0",
+    "id": "op-1773052548755-nkyi",
     "title": "🦞 OpenClaw cron scheduler guide for proactive automations",
     "content": "OpenClaw 技术干货\n\nCron is for tasks that need a precise schedule or tasks you want to keep out of your main conversation history. Heartbeat handles the recurring background checks and cron handles “at a specific time” and “run this job in isolation.”. OpenClaw keeps cron job definitions on disk and it keeps per-run history separately. OpenClaw cron supports three scheduling patterns and you pick based on the job you’re building. A main session cron job drops a system event into your main session then the agent processes it with full context. A cron job can run and do nothing visible or it can deliver output to a channel. ## Creating cron jobs via chat. The agent can convert that into a cron schedule plus an isolated message payload plus delivery targeting. Create an isolated cron job with a cron expression like `0 7 * * *` and set announce delivery to your preferred channel and target. ### Why did my cron job not run?",
     "excerpt": "Cron is for tasks that need a precise schedule or tasks you want to keep out of your main conversation history. Heartbeat handles the recurring backgr...",
-    "date": "2026-03-09T05:15:52.046Z",
+    "date": "2026-03-09T10:35:48.755Z",
     "readTime": "4分钟",
     "tags": [
       "OpenClaw",
@@ -152,22 +136,39 @@
     "source": "https://lumadock.com/tutorials/openclaw-cron-scheduler-guide"
   },
   {
-    "id": "op-1773033352046-0iul",
-    "title": "🦞 cron - OpenClaw",
-    "content": "OpenClaw 技术干货\n\n[Skip to main content](https://docs.openclaw.ai/cli/cron#content-area). *   [CLI Reference](https://docs.openclaw.ai/cli). *   [acp](https://docs.openclaw.ai/cli/acp). *   [agent](https://docs.openclaw.ai/cli/agent). *   [agents](https://docs.openclaw.ai/cli/agents). *   [approvals](https://docs.openclaw.ai/cli/approvals). *   [browser](https://docs.openclaw.ai/cli/browser). *   [channels](https://docs.openclaw.ai/cli/channels). *   [clawbot](https://docs.openclaw.ai/cli/clawbot). *   [completion](https://docs.openclaw.ai/cli/completion). *   [config](https://docs.openclaw.ai/cli/config). *   [configure](https://docs.openclaw.ai/cli/configure). *   [cron](https://docs.openclaw.ai/cli/cron). *   [daemon](https://docs.openclaw.ai/cli/daemon). *   [dashboard](https://docs.openclaw.ai/cli/dashboard). *   [devices](https://docs.openclaw.ai/cli/devices). *   [directory](https://docs.openclaw.ai/cli/directory). *   [dns](https://docs.openclaw.ai/cli/dns). *   [docs](https://docs.openclaw.ai/cli/docs). *   [doctor](https://docs.openclaw.ai/cli/doctor). *   [gateway](https://docs.openclaw.ai/cli/gateway). *   [health](https://docs.openclaw.ai/cli/health). *   [hooks](https://docs.openclaw.ai/cli/hooks). *   [logs](https://docs.openclaw.ai/cli/logs). *   [memory](https://docs.openclaw.ai/cli/memory). *   [message](https://docs.openclaw.ai/cli/message). *   [models](https://docs.openclaw.ai/cli/models). *   [node](https://docs.openclaw.ai/cli/node). *   [nodes](https://docs.openclaw.ai/cli/nodes). *   [onboard](https://docs.openclaw.ai/cli/onboard). *   [pairing](https://docs.openclaw.ai/cli/pairing). *   [plugins](https://docs.openclaw.ai/cli/plugins). *   [qr](https://docs.openclaw.ai/cli/qr). *   [reset](https://docs.openclaw.ai/cli/reset). *   [Sandbox CLI](https://docs.openclaw.ai/cli/sandbox). *   [secrets](https://docs.openclaw.ai/cli/secrets). *   [security](https://docs.openclaw.ai/cli/security). *   [sessions](https://docs.openclaw.ai/cli/sessions). *   [setup](https://docs.openclaw.ai/cli/setup). *   [skills](https://docs.openclaw.ai/cli/skills). *   [status](https://docs.openclaw.ai/cli/status). *   [system](https://docs.openclaw.ai/cli/system). *   [tui](https://docs.openclaw.ai/cli/tui). *   [uninstall](https://docs.openclaw.ai/cli/uninstall). *   [update](https://docs.openclaw.ai/cli/update). *   [voicecall](https://docs.openclaw.ai/cli/voicecall). *   [webhooks](https://docs.openclaw.ai/cli/webhooks). *   [RPC Adapters](https://docs.openclaw.ai/reference/rpc). *   [Default AGENTS.md](https://docs.openclaw.ai/reference/AGENTS.default). *   [AGENTS.md Template](https://docs.openclaw.ai/reference/templates/AGENTS). *   [BOOT.md Template](https://docs.openclaw.ai/reference/templates/BOOT). *   [BOOTSTRAP.md Template](https://docs.openclaw.ai/reference/templates/BOOTSTRAP). *   [HEARTBEAT.md Template](https://docs.openclaw.ai/reference/templates/HEARTBEAT). *   [IDENTITY](https://docs.openclaw.ai/reference/templates/IDENTITY). *   [SOUL.md Template](https://docs.openclaw.ai/reference/templates/SOUL). *   [TOOLS.md Template](https://docs.openclaw.ai/reference/templates/TOOLS). *   [USER](https://docs.openclaw.ai/reference/templates/USER). *   [Wizard Reference](https://docs.openclaw.ai/reference/wizard). *   [API Usage and Costs](https://docs.openclaw.ai/reference/api-usage-costs). *   [TypeBox](https://docs.openclaw.ai/concepts/typebox). *   [Timezones](https://docs.openclaw.ai/concepts/timezone). *   [Credits](https://docs.openclaw.ai/reference/credits). *   [Release Checklist](https://docs.openclaw.ai/reference/RELEASING). *   [Tests](https://docs.openclaw.ai/reference/test). *   [openclaw cron](https://docs.openclaw.ai/cli/cron#openclaw-cron). *   [Common edits](https://docs.openclaw.ai/cli/cron#common-edits). [​](https://docs.openclaw.ai/cli/cron#openclaw-cron). *   Cron jobs: [Cron jobs](https://docs.openclaw.ai/automation/cron-jobs). [​](https://docs.openclaw.ai/cli/cron#common-edits).",
-    "excerpt": "[Skip to main content](https://docs.openclaw.ai/cli/cron#content-area). *   [CLI Reference](https://docs.openclaw.ai/cli). *   [acp](https://docs.open...",
-    "date": "2026-03-09T05:15:52.046Z",
-    "readTime": "14分钟",
+    "id": "op-1773052548755-htvo",
+    "title": "🦞 OpenClaw Cron Advanced 2026: Every Schedule Command Q&A",
+    "content": "OpenClaw 技术干货\n\n**About This Guide:** OpenClaw's cron system is the Gateway's built-in scheduler — it persists jobs, wakes agents at the right time, and can deliver output back to your chat. ## `openclaw cron add`: Creating Jobs. ## `openclaw cron edit`: Updating Jobs. `openclaw cron run`  triggers a job immediately. `openclaw cron list` shows all jobs in your store with their IDs, schedules, enabled status, and last/next run times. ### Q How do I view a cron job's run history? `openclaw cron runs` shows the execution history for a specific job. `openclaw system event` sends an immediate system event to the main agent session without creating a persistent cron job. * → Run `openclaw cron list` to verify job is enabled. * → Use `openclaw cron run`  to manually trigger and reset. openclaw cron add --name \"...\" --every 30m --session isolated --message \"...\" --announce. ### Keep Your Cron Jobs Running 24/7 with VPN07. OpenClaw cron jobs run around the clock — your VPN should too.",
+    "excerpt": "**About This Guide:** OpenClaw's cron system is the Gateway's built-in scheduler — it persists jobs, wakes agents at the right time, and can deliver o...",
+    "date": "2026-03-09T10:35:48.755Z",
+    "readTime": "4分钟",
     "tags": [
       "OpenClaw",
       "AI 工具",
       "自动化",
       "技术干货",
-      "Hooks",
-      "技能系统",
       "定时任务",
       "AI 代理"
     ],
-    "source": "https://docs.openclaw.ai/cli/cron"
+    "source": "https://vpn07.com/en/blog/2026-openclaw-cron-advanced-schedule-commands-qa.html"
+  },
+  {
+    "id": "op-1773052548755-95oh",
+    "title": "🦞 My OpenClaw Production Stack: Memory, Cron, and $15 VPS",
+    "content": "OpenClaw 技术干货\n\n[Sign in](https://medium.com/m/signin?operation=login&redirect=https%3A%2F%2Fmedium.com%2F%40rentierdigital%2Fthe-complete-openclaw-architecture-that-actually-scales-memory-cron-jobs-dashboard-and-the-c96e00ab3f35&source=post_page---top_nav_layout_nav-----------------------global_nav------------------). [Sign in](https://medium.com/m/signin?operation=login&redirect=https%3A%2F%2Fmedium.com%2F%40rentierdigital%2Fthe-complete-openclaw-architecture-that-actually-scales-memory-cron-jobs-dashboard-and-the-c96e00ab3f35&source=post_page---top_nav_layout_nav-----------------------global_nav------------------). [What are your thoughts?](https://medium.com/m/signin?operation=register&redirect=https%3A%2F%2Fmedium.com%2F%40rentierdigital%2Fthe-complete-openclaw-architecture-that-actually-scales-memory-cron-jobs-dashboard-and-the-c96e00ab3f35&source=---post_responses--c96e00ab3f35---------------------respond_sidebar------------------). [![Image 10: Phil | Rentier Digital Automation](https://miro.medium.com/v2/resize:fill:20:20/1*8_UYeI21v_IBgt9VUGxsPg.png)](https://medium.com/@rentierdigital?source=post_page---author_recirc--c96e00ab3f35----0---------------------1e3ee99a_7ded_4226_9dfe_6cda051d8db4--------------). [](https://medium.com/m/signin?operation=register&redirect=https%3A%2F%2Fmedium.com%2F%40rentierdigital%2Fthe-complete-openclaw-architecture-that-actually-scales-memory-cron-jobs-dashboard-and-the-c96e00ab3f35&source=---author_recirc--c96e00ab3f35----0-----------------explicit_signal----1e3ee99a_7ded_4226_9dfe_6cda051d8db4--------------). [![Image 12: Phil | Rentier Digital Automation](https://miro.medium.com/v2/resize:fill:20:20/1*8_UYeI21v_IBgt9VUGxsPg.png)](https://medium.com/@rentierdigital?source=post_page---author_recirc--c96e00ab3f35----1---------------------1e3ee99a_7ded_4226_9dfe_6cda051d8db4--------------). [1.1K 29](https://medium.com/@rentierdigital/i-deployed-my-own-openclaw-ai-agent-in-4-minutes-it-now-runs-my-life-from-a-5-server-8159e6cb41cc?source=post_page---author_recirc--c96e00ab3f35----1---------------------1e3ee99a_7ded_4226_9dfe_6cda051d8db4--------------). [](https://medium.com/m/signin?operation=register&redirect=https%3A%2F%2Fmedium.com%2F%40rentierdigital%2Fthe-complete-openclaw-architecture-that-actually-scales-memory-cron-jobs-dashboard-and-the-c96e00ab3f35&source=---author_recirc--c96e00ab3f35----1-----------------explicit_signal----1e3ee99a_7ded_4226_9dfe_6cda051d8db4--------------). [![Image 14: Phil | Rentier Digital Automation](https://miro.medium.com/v2/resize:fill:20:20/1*8_UYeI21v_IBgt9VUGxsPg.png)](https://medium.com/@rentierdigital?source=post_page---author_recirc--c96e00ab3f35----2---------------------1e3ee99a_7ded_4226_9dfe_6cda051d8db4--------------). Then one morning…](https://medium.com/@rentierdigital/anthropic-just-killed-my-200-month-openclaw-setup-so-i-rebuilt-it-for-15-9cab6814c556?source=post_page---author_recirc--c96e00ab3f35----2---------------------1e3ee99a_7ded_4226_9dfe_6cda051d8db4--------------). [981 31](https://medium.com/@rentierdigital/anthropic-just-killed-my-200-month-openclaw-setup-so-i-rebuilt-it-for-15-9cab6814c556?source=post_page---author_recirc--c96e00ab3f35----2---------------------1e3ee99a_7ded_4226_9dfe_6cda051d8db4--------------). [](https://medium.com/m/signin?operation=register&redirect=https%3A%2F%2Fmedium.com%2F%40rentierdigital%2Fthe-complete-openclaw-architecture-that-actually-scales-memory-cron-jobs-dashboard-and-the-c96e00ab3f35&source=---author_recirc--c96e00ab3f35----2-----------------explicit_signal----1e3ee99a_7ded_4226_9dfe_6cda051d8db4--------------). [![Image 16: Phil | Rentier Digital Automation](https://miro.medium.com/v2/resize:fill:20:20/1*8_UYeI21v_IBgt9VUGxsPg.png)](https://medium.com/@rentierdigital?source=post_page---author_recirc--c96e00ab3f35----3---------------------1e3ee99a_7ded_4226_9dfe_6cda051d8db4--------------). [](https://medium.com/m/signin?operation=register&redirect=https%3A%2F%2Fmedium.com%2F%40rentierdigital%2Fthe-complete-openclaw-architecture-that-actually-scales-memory-cron-jobs-dashboard-and-the-c96e00ab3f35&source=---author_recirc--c96e00ab3f35----3-----------------explicit_signal----1e3ee99a_7ded_4226_9dfe_6cda051d8db4--------------). [![Image 18: Phil | Rentier Digital Automation](https://miro.medium.com/v2/resize:fill:20:20/1*8_UYeI21v_IBgt9VUGxsPg.png)](https://medium.com/@rentierdigital?source=post_page---read_next_recirc--c96e00ab3f35----0---------------------c54b5c2f_91bf_4133_9ac1_819370ee7735--------------). [Phil | Rentier Digital Automation](https://medium.com/@rentierdigital?source=post_page---read_next_recirc--c96e00ab3f35----0---------------------c54b5c2f_91bf_4133_9ac1_819370ee7735--------------). Then one morning…](https://medium.com/@rentierdigital/anthropic-just-killed-my-200-month-openclaw-setup-so-i-rebuilt-it-for-15-9cab6814c556?source=post_page---read_next_recirc--c96e00ab3f35----0---------------------c54b5c2f_91bf_4133_9ac1_819370ee7735--------------). [981 31](https://medium.com/@rentierdigital/anthropic-just-killed-my-200-month-openclaw-setup-so-i-rebuilt-it-for-15-9cab6814c556?source=post_page---read_next_recirc--c96e00ab3f35----0---------------------c54b5c2f_91bf_4133_9ac1_819370ee7735--------------). [](https://medium.com/m/signin?operation=register&redirect=https%3A%2F%2Fmedium.com%2F%40rentierdigital%2Fthe-complete-openclaw-architecture-that-actually-scales-memory-cron-jobs-dashboard-and-the-c96e00ab3f35&source=---read_next_recirc--c96e00ab3f35----0-----------------explicit_signal----c54b5c2f_91bf_4133_9ac1_819370ee7735--------------). [](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2F9cab6814c556&operation=register&redirect=https%3A%2F%2Fmedium.com%2F%40rentierdigital%2Fanthropic-just-killed-my-200-month-openclaw-setup-so-i-rebuilt-it-for-15-9cab6814c556&source=---read_next_recirc--c96e00ab3f35----0-----------------bookmark_preview----c54b5c2f_91bf_4133_9ac1_819370ee7735--------------). [![Image 20: AI Software Engineer](https://miro.medium.com/v2/resize:fill:20:20/1*RZVWENvZRwVijHDlg5hw7w.png)](https://medium.com/ai-software-engineer?source=post_page---read_next_recirc--c96e00ab3f35----1---------------------c54b5c2f_91bf_4133_9ac1_819370ee7735--------------). [](https://medium.com/m/signin?operation=register&redirect=https%3A%2F%2Fmedium.com%2F%40rentierdigital%2Fthe-complete-openclaw-architecture-that-actually-scales-memory-cron-jobs-dashboard-and-the-c96e00ab3f35&source=---read_next_recirc--c96e00ab3f35----1-----------------explicit_signal----c54b5c2f_91bf_4133_9ac1_819370ee7735--------------). [![Image 22: Reza Rezvani](https://miro.medium.com/v2/resize:fill:20:20/1*jDxVaEgUePd76Bw8xJrr2g.png)](https://medium.com/@alirezarezvani?source=post_page---read_next_recirc--c96e00ab3f35----0---------------------c54b5c2f_91bf_4133_9ac1_819370ee7735--------------). [OpenClaw Multi-Agent System: The Blueprint I Built in 12 Hours -------------------------------------------------------------- ### From one AI Assistant built with OpenClaw (Moltbot) 13 specialized agents with cron jobs, shared memory, and self-updating kanban — the…](https://medium.com/@alirezarezvani/openclaw-multi-agent-system-the-blueprint-i-built-in-12-hours-509498d02908?source=post_page---read_next_recirc--c96e00ab3f35----0---------------------c54b5c2f_91bf_4133_9ac1_819370ee7735--------------). [453 12](https://medium.com/@alirezarezvani/openclaw-multi-agent-system-the-blueprint-i-built-in-12-hours-509498d02908?source=post_page---read_next_recirc--c96e00ab3f35----0---------------------c54b5c2f_91bf_4133_9ac1_819370ee7735--------------). [](https://medium.com/m/signin?operation=register&redirect=https%3A%2F%2Fmedium.com%2F%40rentierdigital%2Fthe-complete-openclaw-architecture-that-actually-scales-memory-cron-jobs-dashboard-and-the-c96e00ab3f35&source=---read_next_recirc--c96e00ab3f35----0-----------------explicit_signal----c54b5c2f_91bf_4133_9ac1_819370ee7735--------------). [![Image 24: Level Up Coding](https://miro.medium.com/v2/resize:fill:20:20/1*5D9oYBd58pyjMkV_5-zXXQ.jpeg)](https://medium.com/gitconnected?source=post_page---read_next_recirc--c96e00ab3f35----1---------------------c54b5c2f_91bf_4133_9ac1_819370ee7735--------------). [4.6K 141](https://medium.com/gitconnected/google-is-quietly-dismantling-everything-openai-built-4edc406f572d?source=post_page---read_next_recirc--c96e00ab3f35----1---------------------c54b5c2f_91bf_4133_9ac1_819370ee7735--------------). [](https://medium.com/m/signin?operation=register&redirect=https%3A%2F%2Fmedium.com%2F%40rentierdigital%2Fthe-complete-openclaw-architecture-that-actually-scales-memory-cron-jobs-dashboard-and-the-c96e00ab3f35&source=---read_next_recirc--c96e00ab3f35----1-----------------explicit_signal----c54b5c2f_91bf_4133_9ac1_819370ee7735--------------). [How I Set Up OpenClaw on My Mac Mini M4 — My 24/7 AI Assistant That Costs Less Than a Coffee for 1… --------------------------------------------------------------------------------------------------- ### Everything I learned after weeks of tuning, debugging, and optimizing an open-source AI gateway with 9 models from 8 providers.](https://medium.com/@jh.baek.sd/how-i-set-up-openclaw-on-my-mac-mini-m4-my-24-7-ai-assistant-that-costs-less-than-a-coffee-89c4b470b064?source=post_page---read_next_recirc--c96e00ab3f35----2---------------------c54b5c2f_91bf_4133_9ac1_819370ee7735--------------). [203 10](https://medium.com/@jh.baek.sd/how-i-set-up-openclaw-on-my-mac-mini-m4-my-24-7-ai-assistant-that-costs-less-than-a-coffee-89c4b470b064?source=post_page---read_next_recirc--c96e00ab3f35----2---------------------c54b5c2f_91bf_4133_9ac1_819370ee7735--------------). [](https://medium.com/m/signin?operation=register&redirect=https%3A%2F%2Fmedium.com%2F%40rentierdigital%2Fthe-complete-openclaw-architecture-that-actually-scales-memory-cron-jobs-dashboard-and-the-c96e00ab3f35&source=---read_next_recirc--c96e00ab3f35----2-----------------explicit_signal----c54b5c2f_91bf_4133_9ac1_819370ee7735--------------). [![Image 28: Towards AI](https://miro.medium.com/v2/resize:fill:20:20/1*JyIThO-cLjlChQLb6kSlVQ.png)](https://medium.com/towards-artificial-intelligence?source=post_page---read_next_recirc--c96e00ab3f35----3---------------------c54b5c2f_91bf_4133_9ac1_819370ee7735--------------). [Towards AI](https://medium.com/towards-artificial-intelligence?source=post_page---read_next_recirc--c96e00ab3f35----3---------------------c54b5c2f_91bf_4133_9ac1_819370ee7735--------------). [2.3K 67](https://medium.com/towards-artificial-intelligence/i-cancelled-my-200-mo-claude-api-subscription-again-0e2175502778?source=post_page---read_next_recirc--c96e00ab3f35----3---------------------c54b5c2f_91bf_4133_9ac1_819370ee7735--------------). [](https://medium.com/m/signin?operation=register&redirect=https%3A%2F%2Fmedium.com%2F%40rentierdigital%2Fthe-complete-openclaw-architecture-that-actually-scales-memory-cron-jobs-dashboard-and-the-c96e00ab3f35&source=---read_next_recirc--c96e00ab3f35----3-----------------explicit_signal----c54b5c2f_91bf_4133_9ac1_819370ee7735--------------).",
+    "excerpt": "[Sign in](https://medium.com/m/signin?operation=login&redirect=https%3A%2F%2Fmedium.com%2F%40rentierdigital%2Fthe-complete-openclaw-architecture-that-...",
+    "date": "2026-03-09T10:35:48.755Z",
+    "readTime": "37分钟",
+    "tags": [
+      "OpenClaw",
+      "AI 工具",
+      "自动化",
+      "技术干货",
+      "定时任务",
+      "AI 代理",
+      "Git",
+      "API"
+    ],
+    "source": "https://medium.com/@rentierdigital/the-complete-openclaw-architecture-that-actually-scales-memory-cron-jobs-dashboard-and-the-c96e00ab3f35"
   }
 ]
