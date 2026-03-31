@@ -1,42 +1,10 @@
 [
   {
-    "id": "op-1774868040564-r7g1",
-    "title": "🦞 OpenClaw: Allow cross-channel messaging (Telegram → Discord, etc ... - GitHub",
-    "content": "OpenClaw 技术干货\n\nOpenClaw 2026.3.11+ · Channels: Telegram + Discord (both configured and independently functional) · 6+ bots in fleet all hitting this limitation",
-    "excerpt": "OpenClaw 2026.3.11+ · Channels: Telegram + Discord (both configured and independently functional) · 6+ bots in fleet all hitting this limitation",
-    "date": "2026-03-30T10:54:00.564Z",
-    "readTime": "1分钟",
-    "tags": [
-      "OpenClaw",
-      "AI 工具",
-      "自动化",
-      "技术干货"
-    ],
-    "source": "https://github.com/openclaw/openclaw/issues/44434"
-  },
-  {
-    "id": "op-1774868040564-sya0",
-    "title": "🦞 Discord - OpenClaw Docs",
-    "content": "OpenClaw 技术干货\n\n# Discord. # ​ Discord (Bot API). ## Channel troubleshooting. Create a Discord application and bot. openclaw config set channels.discord.token --ref-provider default --ref-source env --ref-id DISCORD_BOT_TOKEN --dry-run. openclaw config set channels.discord.token --ref-provider default --ref-source env --ref-id DISCORD_BOT_TOKEN. openclaw config set channels.discord.enabled true --strict-json. openclaw pairing approve discord <CODE>`. ## ​ Recommended: Set up a guild workspace. ## ​ Runtime model. `agent:<agentId>:discord:channel:<channelId>`. `channels.discord.dm.groupEnabled=false`. `agent:<agentId>:discord:slash:<userId>`. ## ​ Forum channels. `openclaw message send --channel discord --target channel:<forumId> \\. `openclaw message thread create --channel discord --target channel:<forumId> \\. ## ​ Interactive components. `channels.discord.accounts.default.allowFrom`. `channels.discord.accounts.default.allowFrom`. ## ​ Native commands and command auth. `channels.discord.dms[\"<user_id>\"].historyLimit`. `channels.discord.accounts.<accountId>.ackReaction`. | reactions, messages, threads, pins, polls, search, memberInfo, roleInfo, channelInfo, channels, voiceStatus, events, stickers, emojiUploads, stickerUploads, permissions | enabled |. `channels.discord.ui.components.accentColor`. `channels.discord.accounts.<id>.ui.components.accentColor`. ## ​ Voice channels. `channels.discord.voice.enabled=false`. ## ​ Voice messages. `message(action=\"send\", channel=\"discord\", target=\"channel:123\", path=\"/path/to/audio.mp3\", asVoice=true)`. ## ​ Troubleshooting. `channels.discord.accounts.<accountId>.eventQueue.listenerTimeout`. `channels.discord.accounts.<accountId>.inboundWorker.runTimeoutMs`. `channels.discord.dm.enabled=false`. `channels.discord.voice.daveEncryption=true`. `channels.discord.voice.decryptionFailureTolerance=24`. `discord voice: DAVE decrypt failures detected`. ## ​ Configuration reference pointers. ## ​ Related.",
-    "excerpt": "# Discord. # ​ Discord (Bot API). ## Channel troubleshooting. Create a Discord application and bot. openclaw config set channels.discord.token --ref-p...",
-    "date": "2026-03-30T10:54:00.564Z",
-    "readTime": "7分钟",
-    "tags": [
-      "OpenClaw",
-      "AI 工具",
-      "自动化",
-      "技术干货",
-      "AI 代理",
-      "API"
-    ],
-    "source": "https://docs.openclaw.ai/channels/discord"
-  },
-  {
-    "id": "op-1774868040563-f2cz",
+    "id": "op-1774935059691-z4cu",
     "title": "🦞 How to join the OpenClaw Discord-Telegram community",
     "content": "OpenClaw 技术干货\n\nis a practical question — let’s answer it in a way you can deploy. ## The practical deployment path (Lighthouse). If you want a clean, reproducible setup, the most efficient route is the OpenClaw application template on Tencent Cloud Lighthouse. 2. **Select**: Choose **OpenClaw (Clawdbot)** under the **AI Agents** application template. For step-by-step screenshots and the full panel + onboarding flow, use the deployment guide: https://www.tencentcloud.com/techpedia/139184. Even if the template handles day-one setup, you still need a repeatable way to configure models, connect channels, install skills, and keep the gateway alive. # One-time onboarding (interactive) # Keep the agent running as a background service whoami export id. * Installing OpenClaw Skills and practical applications. Deploy one instance, connect one channel, add one skill, and run one workflow for a week. When you are ready to run it 24/7 in a clean, isolated environment, start here again: Tencent Cloud Lighthouse Special Offer. The big wins are boring: repeatable setup, predictable inputs, and clear failure paths.",
     "excerpt": "is a practical question — let’s answer it in a way you can deploy. ## The practical deployment path (Lighthouse). If you want a clean, reproducible se...",
-    "date": "2026-03-30T10:54:00.563Z",
+    "date": "2026-03-31T05:30:59.691Z",
     "readTime": "4分钟",
     "tags": [
       "OpenClaw",
@@ -49,62 +17,90 @@
     "source": "https://www.tencentcloud.com/techpedia/141246"
   },
   {
-    "id": "op-1774868040563-i4vl",
-    "title": "🦞 OpenClaw Telegram Integration Guide | MI - 超智諮詢",
-    "content": "OpenClaw 技术干货\n\nDiagram illustrating the workflow for remote AI agent control via OpenClaw and Telegram. `openclaw config set channels.telegram.botToken \"YOUR_BOT_TOKEN\"`. You need to complete **Pairing** — OpenClaw's security mechanism that ensures only you can control the agent. You can add the Bot to a Telegram group so that team members can share the AI agent. Combined with OpenClaw's Cron functionality, set the agent to send a system status report via Telegram every morning:. The Telegram and OpenClaw integration turns the AI agent into your true \"remote assistant\" — no need to open your computer; a single Telegram message lets AI complete tasks for you. OpenClaw Messaging Integration Guide: WhatsApp, Telegram, Discord & LINE Omnichannel Deployment. #### OpenClaw Messaging Integration Guide: WhatsApp, Telegram, Discord & LINE Omnichannel Deployment. OpenClaw Agent Setup Complete Guide: From Creation and Configuration to Advanced Management. #### OpenClaw Agent Setup Complete Guide: From Creation and Configuration to Advanced Management. OpenClaw Agents Command Guide: add, list, config & Model Configuration Deep Dive.",
-    "excerpt": "Diagram illustrating the workflow for remote AI agent control via OpenClaw and Telegram. `openclaw config set channels.telegram.botToken \"YOUR_BOT_TOK...",
-    "date": "2026-03-30T10:54:00.563Z",
-    "readTime": "4分钟",
+    "id": "op-1774935059691-sk6s",
+    "title": "🦞 Discord - OpenClaw Docs",
+    "content": "OpenClaw 技术干货\n\n# Discord. # ​ Discord (Bot API). ## Channel troubleshooting. Create a Discord application and bot. openclaw config set channels.discord.token --ref-provider default --ref-source env --ref-id DISCORD_BOT_TOKEN --dry-run. openclaw config set channels.discord.token --ref-provider default --ref-source env --ref-id DISCORD_BOT_TOKEN. openclaw config set channels.discord.enabled true --strict-json. openclaw pairing approve discord <CODE>`. ## ​ Recommended: Set up a guild workspace. ## ​ Runtime model. `agent:<agentId>:discord:channel:<channelId>`. `channels.discord.dm.groupEnabled=false`. `agent:<agentId>:discord:slash:<userId>`. ## ​ Forum channels. `openclaw message send --channel discord --target channel:<forumId> \\. `openclaw message thread create --channel discord --target channel:<forumId> \\. ## ​ Interactive components. `channels.discord.accounts.default.allowFrom`. `channels.discord.accounts.default.allowFrom`. ## ​ Native commands and command auth. `channels.discord.dms[\"<user_id>\"].historyLimit`. `channels.discord.accounts.<accountId>.ackReaction`. | reactions, messages, threads, pins, polls, search, memberInfo, roleInfo, channelInfo, channels, voiceStatus, events, stickers, emojiUploads, stickerUploads, permissions | enabled |. `channels.discord.ui.components.accentColor`. `channels.discord.accounts.<id>.ui.components.accentColor`. ## ​ Voice channels. `channels.discord.voice.enabled=false`. ## ​ Voice messages. `message(action=\"send\", channel=\"discord\", target=\"channel:123\", path=\"/path/to/audio.mp3\", asVoice=true)`. ## ​ Troubleshooting. `channels.discord.accounts.<accountId>.eventQueue.listenerTimeout`. `channels.discord.accounts.<accountId>.inboundWorker.runTimeoutMs`. `channels.discord.dm.enabled=false`. `channels.discord.voice.daveEncryption=true`. `channels.discord.voice.decryptionFailureTolerance=24`. `discord voice: DAVE decrypt failures detected`. ## ​ Configuration reference pointers. ## ​ Related.",
+    "excerpt": "# Discord. # ​ Discord (Bot API). ## Channel troubleshooting. Create a Discord application and bot. openclaw config set channels.discord.token --ref-p...",
+    "date": "2026-03-31T05:30:59.691Z",
+    "readTime": "7分钟",
     "tags": [
       "OpenClaw",
       "AI 工具",
       "自动化",
       "技术干货",
-      "定时任务",
-      "AI 代理"
+      "AI 代理",
+      "API"
     ],
-    "source": "https://www.meta-intelligence.tech/en/insight-openclaw-telegram"
+    "source": "https://docs.openclaw.ai/channels/discord"
   },
   {
-    "id": "op-1774868040563-5wjv",
+    "id": "op-1774935059691-buny",
     "title": "🦞 Connect OpenClaw with Discord & Telegram (Full Setup Guide)",
-    "content": "OpenClaw 技术干货\n\nIn this tutorial, you'll learn how to connect Telegram and Discord to OpenClaw so you can control your AI agent directly from your favorite",
-    "excerpt": "In this tutorial, you'll learn how to connect Telegram and Discord to OpenClaw so you can control your AI agent directly from your favorite",
-    "date": "2026-03-30T10:54:00.563Z",
+    "content": "OpenClaw 技术干货\n\nConnect OpenClaw with Discord & Telegram (Full Setup Guide) | Control Your AI from Chat · Comments. 4. how to connect Telegram and Discord at",
+    "excerpt": "Connect OpenClaw with Discord & Telegram (Full Setup Guide) | Control Your AI from Chat · Comments. 4. how to connect Telegram and Discord at",
+    "date": "2026-03-31T05:30:59.691Z",
     "readTime": "1分钟",
     "tags": [
       "OpenClaw",
       "AI 工具",
       "自动化",
-      "技术干货",
-      "AI 代理"
+      "技术干货"
     ],
     "source": "https://www.youtube.com/watch?v=i3f9IPhG02g"
   },
   {
-    "id": "op-1774868037945-5mqb",
-    "title": "🦞 Cron Jobs - OpenClaw Docs",
-    "content": "OpenClaw 技术干货\n\n# Cron Jobs. # ​ Cron jobs (Gateway scheduler). openclaw cron run <job-id>. openclaw cron runs --id <job-id>`. ## ​ Tool-call equivalents (Gateway cron tool). ## ​ Where cron jobs are stored. ## ​ Concepts. ### ​ Jobs. ### ​ Schedules. #### ​ Main session jobs (system events). #### ​ Isolated jobs (dedicated cron sessions). ### ​ Payload shapes (what runs). #### ​ Webhook delivery flow. ### ​ cron.add params. ### ​ cron.update params. ### ​ cron.run and cron.remove params. `~/.openclaw/cron/runs/<jobId>.jsonl`. ## ​ Retry policy. ## ​ Configuration. store: \"~/.openclaw/cron/jobs.json\",. ## ​ Maintenance. ### ​ Defaults. ### ​ How it works. openclaw cron add --name \"Ops sweep\" --cron \"0 6 * * *\" --session isolated --message \"Check ops queue\" --agent ops. openclaw cron edit <jobId> --agent ops. openclaw cron edit <jobId> --clear-agent`. openclaw cron run <jobId> --due`. `openclaw cron runs --id <jobId>`. `openclaw cron runs --id <jobId> --limit 50`. ## ​ Troubleshooting. ### ​ A recurring job keeps delaying after failures.",
-    "excerpt": "# Cron Jobs. # ​ Cron jobs (Gateway scheduler). openclaw cron run <job-id>. openclaw cron runs --id <job-id>`. ## ​ Tool-call equivalents (Gateway cro...",
-    "date": "2026-03-30T10:53:57.945Z",
+    "id": "op-1774935059691-rz4p",
+    "title": "🦞 OpenClaw: Allow cross-channel messaging (Telegram → Discord, etc ... - GitHub",
+    "content": "OpenClaw 技术干货\n\nUse Case. Fleet bots managed via Telegram DM need to post status updates, post-mortems, and coordination messages to Discord guild channels.",
+    "excerpt": "Use Case. Fleet bots managed via Telegram DM need to post status updates, post-mortems, and coordination messages to Discord guild channels.",
+    "date": "2026-03-31T05:30:59.691Z",
+    "readTime": "1分钟",
+    "tags": [
+      "OpenClaw",
+      "AI 工具",
+      "自动化",
+      "技术干货"
+    ],
+    "source": "https://github.com/openclaw/openclaw/issues/44434"
+  },
+  {
+    "id": "op-1774935059691-z9vx",
+    "title": "🦞 OpenClaw Part 2: Adding Telegram & Slack Channels ... - YouTube",
+    "content": "OpenClaw 技术干货\n\n... integration requires more configuration but is equally ... OpenClaw Part 2: Adding Telegram & Slack Channels (WhatsApp & Discord Done).",
+    "excerpt": "... integration requires more configuration but is equally ... OpenClaw Part 2: Adding Telegram & Slack Channels (WhatsApp & Discord Done).",
+    "date": "2026-03-31T05:30:59.691Z",
+    "readTime": "1分钟",
+    "tags": [
+      "OpenClaw",
+      "AI 工具",
+      "自动化",
+      "技术干货"
+    ],
+    "source": "https://www.youtube.com/watch?v=5uCtktIn6EE"
+  },
+  {
+    "id": "op-1774935057738-8175",
+    "title": "🦞 How to Use Cron Jobs in OpenClaw to Automate Nightly Tasks ...",
+    "content": "OpenClaw 技术干货\n\nScheduling OpenClaw crons overnight preserves your rolling quota window for daytime use. The fix isn’t a bigger plan — it’s scheduling cron jobs to run overnight, when your rolling quota window is clear. This guide walks through how to set up nightly cron jobs in OpenClaw, schedule them intelligently, and build in the error handling that overnight automation requires. Cron jobs are scheduled tasks — automations that run at times you define, without any manual trigger. Your heaviest jobs — the ones consuming the most requests — should run early in the night window (1–2 AM). Teams already using OpenClaw sometimes use MindStudio as an orchestration layer: OpenClaw handles specific task execution while a MindStudio background agent manages scheduling, sequencing between jobs, and error routing across the full overnight window. ### When is the best time to schedule OpenClaw cron jobs overnight? * **Overnight jobs need strong error handling.** Idempotent operations, exponential backoff, failure alerts, and job logs are baseline requirements — not optional extras.",
+    "excerpt": "Scheduling OpenClaw crons overnight preserves your rolling quota window for daytime use. The fix isn’t a bigger plan — it’s scheduling cron jobs to ru...",
+    "date": "2026-03-31T05:30:57.738Z",
     "readTime": "4分钟",
     "tags": [
       "OpenClaw",
       "AI 工具",
       "自动化",
       "技术干货",
-      "Hooks",
       "定时任务",
       "AI 代理"
     ],
-    "source": "https://docs.openclaw.ai/automation/cron-jobs"
+    "source": "https://www.mindstudio.ai/blog/openclaw-cron-jobs-nightly-automation-rate-limits"
   },
   {
-    "id": "op-1774868037945-j8lp",
+    "id": "op-1774935057738-86z2",
     "title": "🦞 How to Set Up OpenClaw Cron Jobs (With Examples You Can Copy)",
     "content": "OpenClaw 技术干货\n\n# OpenClaw cron jobs: automate your AI agent while you sleep. * OpenClaw (previously known as Clawdbot and Moltbot) has built-in cron jobs that let your agent run tasks on a schedule without you being present. * What are OpenClaw cron jobs. ## What are OpenClaw cron jobs. Cron jobs are scheduled tasks that your OpenClaw agent executes automatically. An agent with cron jobs runs scheduled tasks at 7 AM, backs up files every hour, and sends weekly reports without manual triggering. Just tell your agent what you want scheduled and it will create the cron job for you. > \"Create a cron job that runs every morning at 7 AM UTC. When a cron job runs in the main session, it has access to the full conversation history. For a complete walkthrough of building a morning briefing cron job, see OpenClaw Morning Briefing: 10-Minute Setup That Actually Works. Q: How many cron jobs can I run? * OpenClaw documentation on cron jobs.",
     "excerpt": "# OpenClaw cron jobs: automate your AI agent while you sleep. * OpenClaw (previously known as Clawdbot and Moltbot) has built-in cron jobs that let yo...",
-    "date": "2026-03-30T10:53:57.945Z",
+    "date": "2026-03-31T05:30:57.738Z",
     "readTime": "4分钟",
     "tags": [
       "OpenClaw",
@@ -117,11 +113,11 @@
     "source": "https://www.stack-junkie.com/blog/openclaw-cron-jobs-automation-guide"
   },
   {
-    "id": "op-1774868037945-hx4i",
+    "id": "op-1774935057738-up30",
     "title": "🦞 OpenClaw Cron Scheduled Tasks Guide | MI - 超智諮詢",
     "content": "OpenClaw 技术干货\n\n# OpenClaw Cron Scheduled Tasks Guide. Diagram of OpenClaw Cron scheduled task automation execution. If you're familiar with Linux's `crontab`, OpenClaw's Cron is conceptually similar -- it automatically executes tasks at specified times. But the key difference is: traditional crontab executes fixed Shell commands, while OpenClaw's Cron executes **natural language instructions**, with the AI agent autonomously deciding how to complete them. If a Cron task's execution time exceeds this value, the Gateway will forcibly terminate the connection, causing the task to be truncated -- the agent may have completed 80% of the work, but cannot return results due to the timeout. Cron is the key feature that transforms OpenClaw from a \"passive tool\" into a \"proactive assistant.\" Once configured, the agent automatically executes tasks and reports results at your specified times -- you don't need to remember what to check, don't need to open a terminal, and don't need to be at the computer.",
     "excerpt": "# OpenClaw Cron Scheduled Tasks Guide. Diagram of OpenClaw Cron scheduled task automation execution. If you're familiar with Linux's `crontab`, OpenCl...",
-    "date": "2026-03-30T10:53:57.945Z",
+    "date": "2026-03-31T05:30:57.738Z",
     "readTime": "4分钟",
     "tags": [
       "OpenClaw",
@@ -134,11 +130,11 @@
     "source": "https://www.meta-intelligence.tech/en/insight-openclaw-cron"
   },
   {
-    "id": "op-1774868037945-yz2f",
+    "id": "op-1774935057738-lvqw",
     "title": "🦞 OpenClaw Tip #2: Set Up Cron Jobs for Automated Daily Tasks",
     "content": "OpenClaw 技术干货\n\n# OpenClaw Tip #2: Set Up Cron Jobs for Automated Daily Tasks. OpenClaw cron job automation - futuristic clock mechanism with digital circuits. One of OpenClaw’s most powerful features is its built-in **cron job scheduler**. ## How OpenClaw Cron Jobs Work. Cron jobs run inside the Gateway process, not the AI model itself. Jobs are persisted at `~/.openclaw/cron/jobs.json`, so they survive restarts. ## Creating Your First Cron Job. ### One-Shot Reminder. --system-event \"Reminder: review the weekly report\" \\. ## Useful Cron Job Ideas. ## Managing Cron Jobs. # Run a job manually. openclaw cron run <job-id>. openclaw cron runs --id <job-id>. # Delete a job. openclaw cron delete <job-id>`. **Pro tip:** Schedule resource-intensive cron jobs during off-peak hours (late night) to avoid hitting API rate limits during your active working hours. ##### Share this post. ## Related posts. OpenClaw Tip #18 featured image: tighten gateway file permissions. ##### Will AI Take Your Job in the Next 10 Years?",
     "excerpt": "# OpenClaw Tip #2: Set Up Cron Jobs for Automated Daily Tasks. OpenClaw cron job automation - futuristic clock mechanism with digital circuits. One of...",
-    "date": "2026-03-30T10:53:57.945Z",
+    "date": "2026-03-31T05:30:57.738Z",
     "readTime": "4分钟",
     "tags": [
       "OpenClaw",
@@ -152,11 +148,11 @@
     "source": "https://aixsociety.com/openclaw-tip-2-cron-jobs-automated-daily-tasks/"
   },
   {
-    "id": "op-1774868037945-7eqo",
+    "id": "op-1774935057738-6kqv",
     "title": "🦞 You're Using Cron Jobs WRONG in OpenClaw (Here's the Fix)",
     "content": "OpenClaw 技术干货\n\nIf you are scheduling cron jobs in OpenClaw by just pasting a prompt into the config, you are doing it wrong. In this video, I show you the",
     "excerpt": "If you are scheduling cron jobs in OpenClaw by just pasting a prompt into the config, you are doing it wrong. In this video, I show you the",
-    "date": "2026-03-30T10:53:57.945Z",
+    "date": "2026-03-31T05:30:57.738Z",
     "readTime": "1分钟",
     "tags": [
       "OpenClaw",
