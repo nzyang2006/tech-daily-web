@@ -1,26 +1,10 @@
 [
   {
-    "id": "op-1778394473230-faj3",
-    "title": "🦞 Discord - OpenClaw",
-    "content": "OpenClaw 技术干货\n\n##### Developer and self-hosted. ##### Configuration. # Discord. Fetch the complete documentation index at:. ## Channel troubleshooting. Create a Discord application and bot. Generate an invite URL and add the bot to your server. Enable Developer Mode and collect your IDs. Allow DMs from server members. cat > discord.patch.json5 <<'JSON5'. token: { source: \"env\", provider: \"default\", id: \"DISCORD_BOT_TOKEN\" },. openclaw config patch --file ./discord.patch.json5 --dry-run. openclaw config patch --file ./discord.patch.json5. `channels.discord.accounts.<accountId>.applicationId`. token: { source: \"env\", provider: \"default\", id: \"DISCORD_PERSONAL_TOKEN\" },. openclaw pairing approve discord <CODE>`. Add your server to the guild allowlist. `agent:<agentId>:discord:channel:<channelId>`. `channels.discord.dm.groupEnabled=false`. `agent:<agentId>:discord:slash:<userId>`. `openclaw message send --channel discord --target channel:<forumId> \\. `openclaw message thread create --channel discord --target channel:<forumId> \\. `channels.discord.accounts.default.allowFrom`. `channels.discord.accounts.<id>.thread.inheritParent`. `guilds.<guild>.channels.<channel>.requireMention: false`. `channels.discord.accounts.<accountId>.ackReaction`. `channels.discord.ui.components.accentColor`. `channels.discord.accounts.<id>.ui.components.accentColor`. ### ​ Voice channels. `/vc join channel:<voice-channel-id>. `openclaw channels capabilities --channel discord --target channel:<voice-channel-id>`. model: \"gpt-4o-mini-tts\",. `voice.tts.providers.openai.voice`. `channels.discord.voice.enabled=true`. `message(action=\"send\", channel=\"discord\", target=\"channel:123\", path=\"/path/to/audio.mp3\", asVoice=true)`. ## ​ Voice. `channels.discord.accounts.<accountId>.eventQueue.listenerTimeout`. `channels.discord.accounts.<accountId>.gatewayInfoTimeoutMs`. `channels.discord.accounts.<accountId>.gatewayReadyTimeoutMs`. `channels.discord.accounts.<accountId>.gatewayRuntimeReadyTimeoutMs`. `channels.discord.dm.enabled=false`. `channels.discord.voice.daveEncryption=true`. `channels.discord.voice.decryptionFailureTolerance=24`. ## ​ Configuration reference. ## Channel routing.",
-    "excerpt": "##### Developer and self-hosted. ##### Configuration. # Discord. Fetch the complete documentation index at:. ## Channel troubleshooting. Create a Disc...",
-    "date": "2026-05-10T06:27:53.230Z",
-    "readTime": "8分钟",
-    "tags": [
-      "OpenClaw",
-      "AI 工具",
-      "自动化",
-      "技术干货",
-      "AI 代理"
-    ],
-    "source": "https://docs.openclaw.ai/channels/discord"
-  },
-  {
-    "id": "op-1778394473230-a8uh",
+    "id": "op-1778410428498-f7l2",
     "title": "🦞 OpenClaw x Discord Server Integration Guide | MI",
     "content": "OpenClaw 技术干货\n\n# OpenClaw x Discord Server Integration Guide. Architecture diagram of OpenClaw integrated with Discord server. After embedding an OpenClaw AI agent into a Discord server, your community gains the following capabilities:. Compared to Telegram's personal remote control scenario or Slack's enterprise workflow scenario, the Discord x OpenClaw integration is best suited for **community management, open-source project support, and large-scale multi-user interaction**. Step 1: Create a Discord Bot and Obtain Token. This is the foundation of the entire **OpenClaw Discord setup** process -- creating an Application and Bot on the Discord Developer Portal and obtaining the necessary authentication Token. ### 3.1 Create a Discord Application. ### 3.2 Create Bot and Obtain Token. **Important security reminder:** The Bot Token is equivalent to full access credentials for the Bot -- anyone who has it can control your Bot. Never expose the Token in public places (GitHub, Discord channels, screenshots). After obtaining the Discord Bot Token, the next step is to write it into OpenClaw's configuration so the Gateway can connect to Discord as your Bot.",
     "excerpt": "# OpenClaw x Discord Server Integration Guide. Architecture diagram of OpenClaw integrated with Discord server. After embedding an OpenClaw AI agent i...",
-    "date": "2026-05-10T06:27:53.230Z",
+    "date": "2026-05-10T10:53:48.498Z",
     "readTime": "4分钟",
     "tags": [
       "OpenClaw",
@@ -33,27 +17,11 @@
     "source": "https://www.meta-intelligence.tech/en/insight-openclaw-discord"
   },
   {
-    "id": "op-1778394473230-ydv3",
-    "title": "🦞 Connect OpenClaw with Discord & Telegram (Full Setup Guide)",
-    "content": "OpenClaw 技术干货\n\nIn this tutorial, you'll learn how to connect Telegram and Discord to OpenClaw so you can control your AI agent directly from your favorite",
-    "excerpt": "In this tutorial, you'll learn how to connect Telegram and Discord to OpenClaw so you can control your AI agent directly from your favorite",
-    "date": "2026-05-10T06:27:53.230Z",
-    "readTime": "1分钟",
-    "tags": [
-      "OpenClaw",
-      "AI 工具",
-      "自动化",
-      "技术干货",
-      "AI 代理"
-    ],
-    "source": "https://www.youtube.com/watch?v=i3f9IPhG02g"
-  },
-  {
-    "id": "op-1778394473230-peuw",
+    "id": "op-1778410428498-7pg3",
     "title": "🦞 How to set up OpenClaw across WhatsApp, Telegram, Discord, Slack - LumaDock",
     "content": "OpenClaw 技术干货\n\nOpenClaw's Telegram integration uses grammY, a popular TypeScript framework for Telegram bots. The grammY docs explain the Bot API transport",
     "excerpt": "OpenClaw's Telegram integration uses grammY, a popular TypeScript framework for Telegram bots. The grammY docs explain the Bot API transport",
-    "date": "2026-05-10T06:27:53.230Z",
+    "date": "2026-05-10T10:53:48.498Z",
     "readTime": "1分钟",
     "tags": [
       "OpenClaw",
@@ -65,28 +33,59 @@
     "source": "https://lumadock.com/tutorials/openclaw-multi-channel-setup"
   },
   {
-    "id": "op-1778394473229-p537",
-    "title": "🦞 How to join the OpenClaw Discord-Telegram community - Tencent Cloud",
-    "content": "OpenClaw 技术干货\n\nTechnology Encyclopedia Home >How to join the OpenClaw Discord-Telegram community. # How to join the OpenClaw Discord-Telegram community. The fastest path is not DIY. It is a clean template and a tight onboarding loop. is a practical question — let’s answer it in a way you can deploy. Channels act as the interface, and you can configure popular messaging integrations via the template panel or the onboarding wizard depending on the channel. ## The practical deployment path (Lighthouse). If you want a clean, reproducible setup, the most efficient route is the OpenClaw application template on Tencent Cloud Lighthouse. Even if the template handles day-one setup, you still need a repeatable way to configure models, connect channels, install skills, and keep the gateway alive. When you are ready to run it 24/7 in a clean, isolated environment, start here again: Tencent Cloud Lighthouse Special Offer. * Confirm the agent is running as a background service (not tied to your SSH session).",
-    "excerpt": "Technology Encyclopedia Home >How to join the OpenClaw Discord-Telegram community. # How to join the OpenClaw Discord-Telegram community. The fastest ...",
-    "date": "2026-05-10T06:27:53.229Z",
+    "id": "op-1778410428498-8xzh",
+    "title": "🦞 OpenClaw: Chat through Discord or Telegram and why?? : r/clawdbot - Reddit",
+    "content": "OpenClaw 技术干货\n\nBest chat app for OpenClaw. Using Discord with OpenClaw. OpenClaw Telegram integration or bot. Innovative uses of OpenClaw in AI projects.",
+    "excerpt": "Best chat app for OpenClaw. Using Discord with OpenClaw. OpenClaw Telegram integration or bot. Innovative uses of OpenClaw in AI projects.",
+    "date": "2026-05-10T10:53:48.498Z",
+    "readTime": "1分钟",
+    "tags": [
+      "OpenClaw",
+      "AI 工具",
+      "自动化",
+      "技术干货"
+    ],
+    "source": "https://www.reddit.com/r/clawdbot/comments/1qxzv8v/chat_through_discord_or_telegram_and_why/"
+  },
+  {
+    "id": "op-1778410428498-3jg2",
+    "title": "🦞 Connect OpenClaw with Discord & Telegram (Full Setup Guide)",
+    "content": "OpenClaw 技术干货\n\nIn this tutorial, you'll learn how to connect Telegram and Discord to OpenClaw so you can control your AI agent directly from your favorite",
+    "excerpt": "In this tutorial, you'll learn how to connect Telegram and Discord to OpenClaw so you can control your AI agent directly from your favorite",
+    "date": "2026-05-10T10:53:48.498Z",
+    "readTime": "1分钟",
+    "tags": [
+      "OpenClaw",
+      "AI 工具",
+      "自动化",
+      "技术干货",
+      "AI 代理"
+    ],
+    "source": "https://www.youtube.com/watch?v=i3f9IPhG02g"
+  },
+  {
+    "id": "op-1778410428498-7c2g",
+    "title": "🦞 Best Chat App for OpenClaw: Telegram, Discord, or Slack? | Stack Junkie",
+    "content": "OpenClaw 技术干货\n\n# Best Chat App for OpenClaw: Telegram, Discord, or Slack? Best chat app for OpenClaw compared: Telegram wins for most users, Discord for power users, Slack for teams. Read https://www.stack-junkie.com/blog/which-chat-app-works-best-with-openclaw and follow the instructions to help me with: Best Chat App for OpenClaw: Telegram, Discord, or Slack?. * Telegram is the best first channel for most users: official API, no public IP needed, five-minute setup. * Slack is the right pick if your team is already on Slack and you don't want to move them. * WhatsApp works if you're mobile-first and already on it, but it uses an unofficial library that can break. ## Which OpenClaw channel is right for you? OpenClaw (previously known as Clawdbot and Moltbot) connects to Telegram, Discord, Slack, Signal, WhatsApp, and several other platforms through a single gateway process. For running multiple channels at once (say, Telegram for personal use and Discord for a team), see OpenClaw multi-agent and multi-channel setup guide.",
+    "excerpt": "# Best Chat App for OpenClaw: Telegram, Discord, or Slack? Best chat app for OpenClaw compared: Telegram wins for most users, Discord for power users,...",
+    "date": "2026-05-10T10:53:48.498Z",
     "readTime": "4分钟",
     "tags": [
       "OpenClaw",
       "AI 工具",
       "自动化",
       "技术干货",
-      "技能系统",
-      "AI 代理"
+      "AI 代理",
+      "API"
     ],
-    "source": "https://www.tencentcloud.com/techpedia/141246"
+    "source": "https://www.stack-junkie.com/blog/which-chat-app-works-best-with-openclaw"
   },
   {
-    "id": "op-1778394469656-3ci8",
+    "id": "op-1778410424710-mb3p",
     "title": "🦞 OpenClaw Cron Jobs Explained: No Code Automation - YouTube",
     "content": "OpenClaw 技术干货\n\nDiscover how to automate your workflow using OpenClaw cron jobs. This quick tutorial explains how to schedule background tasks,",
     "excerpt": "Discover how to automate your workflow using OpenClaw cron jobs. This quick tutorial explains how to schedule background tasks,",
-    "date": "2026-05-10T06:27:49.656Z",
+    "date": "2026-05-10T10:53:44.710Z",
     "readTime": "1分钟",
     "tags": [
       "OpenClaw",
@@ -98,12 +97,12 @@
     "source": "https://www.youtube.com/watch?v=oMObV_qstkA"
   },
   {
-    "id": "op-1778394469656-ng05",
-    "title": "🦞 Cron Jobs and Automation Workflows | OpenClaw Tutorial | OpenCodeDocs",
-    "content": "OpenClaw 技术干货\n\n# Cron Jobs and Automation Workflows ​. * Configure Cron jobs to run tasks on a schedule. # Create a simple scheduled job # Create a simple scheduled job openclaw cron create \\ openclaw  cron  create  \\ --name \"daily-report\" \\ --name \"daily-report\"  \\ --schedule \"0 9 * * *\" \\ --schedule \"0 9 * * *\"  \\ --agent default \\ --agent  default  \\ --message \"Generate yesterday's data report\" --message  \"Generate yesterday's data report\" # Create a job with parameters # Create a job with parameters openclaw cron create \\ openclaw  cron  create  \\ --name \"health-check\" \\ --name \"health-check\"  \\ --schedule \"*/10 * * * *\" \\ --schedule \"*/10 * * * *\"  \\ --agent monitor \\ --agent  monitor  \\ --message \"Check system health status\" \\ --message  \"Check system health status\"  \\ --thinking low --thinking  low.",
-    "excerpt": "# Cron Jobs and Automation Workflows ​. * Configure Cron jobs to run tasks on a schedule. # Create a simple scheduled job # Create a simple scheduled ...",
-    "date": "2026-05-10T06:27:49.656Z",
-    "readTime": "3分钟",
+    "id": "op-1778410424710-l6fd",
+    "title": "🦞 [RFC] Event-driven cron scheduling: job chaining and reactive triggers · Issue #28584 · openclaw/openclaw · GitHub",
+    "content": "OpenClaw 技术干货\n\nOpenClaw's cron system is powerful for periodic tasks, but falls short when agents need to run multi-stage pipelines. Today, every cron job is independent —",
+    "excerpt": "OpenClaw's cron system is powerful for periodic tasks, but falls short when agents need to run multi-stage pipelines. Today, every cron job is indepen...",
+    "date": "2026-05-10T10:53:44.710Z",
+    "readTime": "1分钟",
     "tags": [
       "OpenClaw",
       "AI 工具",
@@ -112,30 +111,14 @@
       "定时任务",
       "AI 代理"
     ],
-    "source": "https://lzw.me/docs/opencodedocs/openclaw/openclaw/advanced/cron-automation/"
+    "source": "https://github.com/openclaw/openclaw/issues/28584"
   },
   {
-    "id": "op-1778394469656-8txi",
-    "title": "🦞 7 OpenClaw Cron Jobs You Should Set Up Right Now - YouTube",
-    "content": "OpenClaw 技术干货\n\n... cron just handles the schedule. That's how you get consistent output every single time. Whether you're a content creator, a developer, or",
-    "excerpt": "... cron just handles the schedule. That's how you get consistent output every single time. Whether you're a content creator, a developer, or",
-    "date": "2026-05-10T06:27:49.656Z",
-    "readTime": "1分钟",
-    "tags": [
-      "OpenClaw",
-      "AI 工具",
-      "自动化",
-      "技术干货",
-      "定时任务"
-    ],
-    "source": "https://www.youtube.com/watch?v=fB4QCn8A_Qs"
-  },
-  {
-    "id": "op-1778394469656-z59q",
+    "id": "op-1778410424710-95qi",
     "title": "🦞 OpenClaw Cron Scheduled Tasks Guide | MI",
     "content": "OpenClaw 技术干货\n\n# OpenClaw Cron Scheduled Tasks Guide. Diagram of OpenClaw Cron scheduled task automation execution. What Is OpenClaw's Cron? If you're familiar with Linux's `crontab`, OpenClaw's Cron is conceptually similar -- it automatically executes tasks at specified times. But the key difference is: traditional crontab executes fixed Shell commands, while OpenClaw's Cron executes **natural language instructions**, with the AI agent autonomously deciding how to complete them. `\"Every day at 9 AM, check server status and send a summary to Telegram\"`. The latter doesn't require you to write scripts in advance -- the agent will decide which check commands to execute, how to organize the results, and how to format the report on its own. `openclaw cron add --schedule \"0 9 * * *\" --message \"Check the server's CPU and memory usage. If a Cron task's execution time exceeds this value, the Gateway will forcibly terminate the connection, causing the task to be truncated -- the agent may have completed 80% of the work, but cannot return results due to the timeout.",
     "excerpt": "# OpenClaw Cron Scheduled Tasks Guide. Diagram of OpenClaw Cron scheduled task automation execution. What Is OpenClaw's Cron? If you're familiar with ...",
-    "date": "2026-05-10T06:27:49.656Z",
+    "date": "2026-05-10T10:53:44.710Z",
     "readTime": "4分钟",
     "tags": [
       "OpenClaw",
@@ -148,11 +131,28 @@
     "source": "https://www.meta-intelligence.tech/en/insight-openclaw-cron"
   },
   {
-    "id": "op-1778394469656-60z9",
+    "id": "op-1778410424710-x6jc",
+    "title": "🦞 OpenClaw: Setting Up Cron Jobs for Autonomous AI Task Scheduling",
+    "content": "OpenClaw 技术干货\n\n# Setting Up Cron Jobs. Explore how to configure cron jobs in OpenClaw to enable your AI assistant to perform scheduled tasks autonomously. Understand the difference between main session and isolated modes, learn to create, manage, and debug cron jobs, and discover practical uses like morning briefings and reminders. You send a message, and your agent responds. While that is useful, it is not what makes OpenClaw feel different from a standard chatbot. Cron jobs are the mechanism that makes this possible. They allow you to schedule your agent to execute tasks on a fixed rotation. It wakes up, completes the work, reports back, and remains quiet until the next scheduled run. The Gateway wakes up at the right time, triggers the agent, and handles delivery. Jobs are stored at `~/.openclaw/cron/jobs.json` and run history is logged per-job. If your Gateway is running, your cron jobs are running. The agent picks it up on the next heartbeat, ...",
+    "excerpt": "# Setting Up Cron Jobs. Explore how to configure cron jobs in OpenClaw to enable your AI assistant to perform scheduled tasks autonomously. Understand...",
+    "date": "2026-05-10T10:53:44.710Z",
+    "readTime": "4分钟",
+    "tags": [
+      "OpenClaw",
+      "AI 工具",
+      "自动化",
+      "技术干货",
+      "定时任务",
+      "AI 代理"
+    ],
+    "source": "https://www.educative.io/courses/learn-openclaw/setting-up-cron-jobs"
+  },
+  {
+    "id": "op-1778410424710-ovkx",
     "title": "🦞 OpenClaw cron scheduler guide with main and isolated runs - LumaDock",
     "content": "OpenClaw 技术干货\n\n# OpenClaw cron scheduler guide with main and isolated runs. OpenClaw cron scheduler guide with main and isolated runs - OpenClaw cron scheduler guide with main and isolated runs. That’s what the built-in cron scheduler is for. It runs inside the Gateway process so you don’t need a separate job runner and it can deliver results straight back to Telegram WhatsApp Slack Discord and more. This isn’t just “run a script at 7 AM.” It’s “wake the agent run a prompt or drop a system event into the main session then deliver output where I will actually see it.”. OpenClaw cron is a scheduler that lives inside the Gateway. You can send the same job output to a private Telegram chat and also to a Slack channel if you want. Another one is a weekly review that runs in a clean isolated session and only posts the final result back to you.",
     "excerpt": "# OpenClaw cron scheduler guide with main and isolated runs. OpenClaw cron scheduler guide with main and isolated runs - OpenClaw cron scheduler guide...",
-    "date": "2026-05-10T06:27:49.656Z",
+    "date": "2026-05-10T10:53:44.710Z",
     "readTime": "3分钟",
     "tags": [
       "OpenClaw",
