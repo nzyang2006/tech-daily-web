@@ -1,10 +1,10 @@
 [
   {
-    "id": "op-1779780886903-tlrn",
-    "title": "🦞 Multi-agent routing - OpenClaw",
-    "content": "OpenClaw 技术干货\n\nRun multiple *isolated* agents — each with its own workspace, state directory (`agentDir`), and session history — plus multiple channel accounts (e.g. two WhatsApps) in one running Gateway. A **binding** maps a channel account (e.g. a Slack workspace or a WhatsApp number) to one of those agents. ## What is \"one agent\"? Create one account per agent on your preferred channels:. - ### Add agents, accounts, and bindings. Add agents under `agents.list`, channel accounts under `channels..accounts`, and connect them with `bindings` (examples below). * For shared groups, bind the group to one agent or use [Broadcast groups](/channels/broadcast-groups). * If you later add the same binding for the same agent with an explicit account id, OpenClaw upgrades the existing channel-only binding to account-scoped instead of duplicating it. Bind each account to an agent and keep allowlists per bot. * Bind by `accountId` so each bot routes to its own agent. Split by channel: route WhatsApp to a fast everyday agent and Telegram to an Opus agent.",
-    "excerpt": "Run multiple *isolated* agents — each with its own workspace, state directory (`agentDir`), and session history — plus multiple channel accounts (e.g....",
-    "date": "2026-05-26T07:34:46.903Z",
+    "id": "op-1779868498427-6qj0",
+    "title": "🦞 Discord - OpenClaw Docs",
+    "content": "OpenClaw 技术干货\n\n# Discord. Ready for DMs and guild channels via the official Discord gateway. Discord DMs default to pairing mode. You will need to create a new application with a bot, add the bot to your server, and pair it to OpenClaw. ### Create a Discord application and bot. Set the **Username** to whatever you call your OpenClaw agent. This is your **Bot Token** and you will need it shortly. You'll generate an invite URL with the right permissions to add the bot to your server. ### Enable Developer Mode and collect your IDs. Back in the Discord app, you need to enable Developer Mode so you can copy internal IDs. Save your **Server ID** and **User ID** alongside your Bot Token — you'll send all three to OpenClaw in the next step. For pairing to work, Discord needs to allow your bot to DM you. Use `channels.discord.applicationId` for the default account, or `channels.discord.accounts.<accountId>.applicationId` when you run multiple Discord bots.",
+    "excerpt": "# Discord. Ready for DMs and guild channels via the official Discord gateway. Discord DMs default to pairing mode. You will need to create a new appli...",
+    "date": "2026-05-27T07:54:58.427Z",
     "readTime": "4分钟",
     "tags": [
       "OpenClaw",
@@ -13,14 +13,14 @@
       "技术干货",
       "AI 代理"
     ],
-    "source": "https://docs.openclaw.ai/concepts/multi-agent"
+    "source": "https://docs.openclaw.ai/channels/discord"
   },
   {
-    "id": "op-1779780886903-uj36",
-    "title": "🦞 Proposal for a Multimodal Multi-Agent System Using OpenClaw",
-    "content": "OpenClaw 技术干货\n\nWith OpenClaw, the same gateway/agent code runs for one or many agents; what changes is just configuration and deployment scale. Session Routing",
-    "excerpt": "With OpenClaw, the same gateway/agent code runs for one or many agents; what changes is just configuration and deployment scale. Session Routing",
-    "date": "2026-05-26T07:34:46.903Z",
+    "id": "op-1779868498427-kycn",
+    "title": "🦞 Connect OpenClaw with Discord & Telegram (Full Setup ...",
+    "content": "OpenClaw 技术干货\n\nIn this tutorial, you'll learn how to connect Telegram and Discord to OpenClaw so you can control your AI agent directly from your favorite",
+    "excerpt": "In this tutorial, you'll learn how to connect Telegram and Discord to OpenClaw so you can control your AI agent directly from your favorite",
+    "date": "2026-05-27T07:54:58.427Z",
     "readTime": "1分钟",
     "tags": [
       "OpenClaw",
@@ -29,140 +29,135 @@
       "技术干货",
       "AI 代理"
     ],
-    "source": "https://medium.com/@gwrx2005/proposal-for-a-multimodal-multi-agent-system-using-openclaw-81f5e4488233"
+    "source": "https://www.youtube.com/watch?v=i3f9IPhG02g"
   },
   {
-    "id": "op-1779780886902-asno",
-    "title": "🦞 Any tips to run multi-agents in OpenClaw - Reddit",
-    "content": "OpenClaw 技术干货\n\nMultiple agent is different then subagents. You can tell your main agent to set up a persistent agent, it will walk you throw step by step, and",
-    "excerpt": "Multiple agent is different then subagents. You can tell your main agent to set up a persistent agent, it will walk you throw step by step, and",
-    "date": "2026-05-26T07:34:46.902Z",
+    "id": "op-1779868498427-gvgh",
+    "title": "🦞 Setting up Discord with OpenClaw",
+    "content": "OpenClaw 技术干货\n\nThat is how to enable Discord on your OpenCloud deployment part one of the OpenCloud tutorial series.",
+    "excerpt": "That is how to enable Discord on your OpenCloud deployment part one of the OpenCloud tutorial series.",
+    "date": "2026-05-27T07:54:58.427Z",
     "readTime": "1分钟",
     "tags": [
       "OpenClaw",
       "AI 工具",
       "自动化",
-      "技术干货",
-      "AI 代理"
+      "技术干货"
     ],
-    "source": "https://www.reddit.com/r/openclaw/comments/1rjeisn/any_tips_to_run_multiagents_in_openclaw"
+    "source": "https://www.youtube.com/watch?v=eISYigXhyuo"
   },
   {
-    "id": "op-1779780886902-x5jt",
-    "title": "🦞 OpenClaw multi-agent coordination, patterns and governance - LumaDock",
-    "content": "OpenClaw 技术干货\n\n# OpenClaw multi-agent coordination, patterns and governance. OpenClaw multi-agent coordination, patterns and governance - OpenClaw multi-agent coordination, patterns and governance. If you've already worked through the multi-agent setup guide, you know how to configure multiple agents within a single Gateway and route channels to the right one. The research on this is blunt: fewer than 10% of teams successfully scale beyond a single-agent deployment, and the main reasons are coordination complexity, uncontrolled token costs, and state management that nobody thought through properly. It's focused on the patterns that actually work in OpenClaw specifically, not abstract theory about multi-agent systems. The cases where multi-agent adds cost without real benefit: when you're just organizing prompts differently, when a single agent with good skills would do the same thing, and when the \"coordination\" is mostly you manually deciding what each agent does. If you're orchestrating it by hand, it's not really a multi-agent system — it's just multiple chatbots.",
-    "excerpt": "# OpenClaw multi-agent coordination, patterns and governance. OpenClaw multi-agent coordination, patterns and governance - OpenClaw multi-agent coordi...",
-    "date": "2026-05-26T07:34:46.902Z",
+    "id": "op-1779868498427-ancx",
+    "title": "🦞 How to set up OpenClaw across WhatsApp, Telegram, Discord, Slack - LumaDock",
+    "content": "OpenClaw 技术干货\n\nSet up OpenClaw on WhatsApp, Telegram, Discord ... OpenClaw's Telegram integration uses grammY, a popular TypeScript framework for Telegram bots.",
+    "excerpt": "Set up OpenClaw on WhatsApp, Telegram, Discord ... OpenClaw's Telegram integration uses grammY, a popular TypeScript framework for Telegram bots.",
+    "date": "2026-05-27T07:54:58.427Z",
+    "readTime": "1分钟",
+    "tags": [
+      "OpenClaw",
+      "AI 工具",
+      "自动化",
+      "技术干货"
+    ],
+    "source": "https://lumadock.com/tutorials/openclaw-multi-channel-setup"
+  },
+  {
+    "id": "op-1779868498427-di5d",
+    "title": "🦞 How to join the OpenClaw Discord-Telegram community - Tencent Cloud",
+    "content": "OpenClaw 技术干货\n\nChannels act as the interface, and you can configure popular messaging integrations via the template panel or the onboarding wizard depending on the channel. A",
+    "excerpt": "Channels act as the interface, and you can configure popular messaging integrations via the template panel or the onboarding wizard depending on the c...",
+    "date": "2026-05-27T07:54:58.427Z",
+    "readTime": "1分钟",
+    "tags": [
+      "OpenClaw",
+      "AI 工具",
+      "自动化",
+      "技术干货"
+    ],
+    "source": "https://www.tencentcloud.com/techpedia/141246"
+  },
+  {
+    "id": "op-1779868493030-g1fw",
+    "title": "🦞 Scheduled tasks - OpenClaw Docs",
+    "content": "OpenClaw 技术干货\n\nCron is the Gateway's built-in scheduler. It persists jobs, wakes the agent at the right time, and can deliver output back to a chat channel or webhook endpoint. `openclaw cron add \\ --name \"Reminder\" \\ --at \"2026-02-01T16:00:00Z\" \\ --session main \\ --system-event \"Reminder: check the cron docs draft\" \\ --wake now \\ --delete-after-run`. `openclaw cron listopenclaw cron get <job-id>openclaw cron show <job-id>`. `openclaw cron runs --id <job-id>`. `~/.openclaw/cron/jobs-state.json`. Task reconciliation for cron is runtime-owned first, durable-history-backed second: an active cron task stays live while the cron runtime still tracks that job as running, even if an old child session row still exists. Once the runtime stops owning the job and the 5-minute grace window expires, maintenance checks persisted run logs and job state for the matching `cron:<jobId>:<startedAt>` run. To require both conditions, use Croner's `+` day-of-week modifier (`0 9 15 * +1`) or schedule on one field and guard the other in your job's prompt or command.",
+    "excerpt": "Cron is the Gateway's built-in scheduler. It persists jobs, wakes the agent at the right time, and can deliver output back to a chat channel or webhoo...",
+    "date": "2026-05-27T07:54:53.030Z",
     "readTime": "4分钟",
     "tags": [
       "OpenClaw",
       "AI 工具",
       "自动化",
       "技术干货",
-      "技能系统",
+      "Hooks",
+      "定时任务",
       "AI 代理"
     ],
-    "source": "https://lumadock.com/tutorials/openclaw-multi-agent-coordination-governance"
+    "source": "https://docs.openclaw.ai/automation/cron-jobs"
   },
   {
-    "id": "op-1779780886902-s9qa",
-    "title": "🦞 GitHub - shenhao-stu/openclaw-agents: 🐾 One-command multi-agent setup for OpenClaw — 9 specialized AI agents, group routing, safe config merge. · GitHub",
-    "content": "OpenClaw 技术干货\n\nOpenClaw Agents is a ready-to-deploy multi-agent configuration kit for OpenClaw. It provisions 9 specialized AI agents as a collaborative team — complete",
-    "excerpt": "OpenClaw Agents is a ready-to-deploy multi-agent configuration kit for OpenClaw. It provisions 9 specialized AI agents as a collaborative team — compl...",
-    "date": "2026-05-26T07:34:46.902Z",
+    "id": "op-1779868493030-qsv3",
+    "title": "🦞 OpenClaw Cron Jobs Explained: No Code Automation - YouTube",
+    "content": "OpenClaw 技术干货\n\nDiscover how to automate your workflow using OpenClaw cron jobs. This quick tutorial explains how to schedule background tasks,",
+    "excerpt": "Discover how to automate your workflow using OpenClaw cron jobs. This quick tutorial explains how to schedule background tasks,",
+    "date": "2026-05-27T07:54:53.030Z",
     "readTime": "1分钟",
     "tags": [
       "OpenClaw",
       "AI 工具",
       "自动化",
       "技术干货",
-      "AI 代理"
+      "定时任务"
     ],
-    "source": "https://github.com/shenhao-stu/openclaw-agents"
+    "source": "https://www.youtube.com/watch?v=oMObV_qstkA"
   },
   {
-    "id": "op-1779780881571-e6t6",
-    "title": "🦞 OpenClaw for Product Managers: Building Products in the AI Agent ...",
-    "content": "OpenClaw 技术干货\n\n# OpenClaw for Product Managers: Building Products in the AI Agent Era (2026 Guide) | by Mohit Aggarwal | Medium. [Sitemap](https://medium.com/sitemap/sitemap.xml). [Open in app](https://play.google.com/store/apps/details?id=com.medium.reader&referrer=utm_source%3DmobileNavBar&source=post_page---top_nav_layout_nav-----------------------------------------). [Sign in](https://medium.com/m/signin?operation=login&redirect=https%3A%2F%2Fmedium.com%2F%40mohit15856%2Fopenclaw-for-product-managers-building-products-in-the-ai-agent-era-2026-guide-71d18641200f&source=post_page---top_nav_layout_nav-----------------------global_nav------------------). [](https://medium.com/?source=post_page---top_nav_layout_nav-----------------------------------------). [Write](https://medium.com/m/signin?operation=register&redirect=https%3A%2F%2Fmedium.com%2Fnew-story&source=---top_nav_layout_nav-----------------------new_post_topnav------------------). [Search](https://medium.com/search?source=post_page---top_nav_layout_nav-----------------------------------------). [Sign in](https://medium.com/m/signin?operation=login&redirect=https%3A%2F%2Fmedium.com%2F%40mohit15856%2Fopenclaw-for-product-managers-building-products-in-the-ai-agent-era-2026-guide-71d18641200f&source=post_page---top_nav_layout_nav-----------------------global_nav------------------). ![Image 1: Unknown user](https://miro.medium.com/v2/resize:fill:64:64/1*dmbNkD5D-u45r44go_cf0g.png). # OpenClaw for Product Managers: Building Products in the AI Agent Era (2026 Guide). [![Image 2: Mohit Aggarwal](https://miro.medium.com/v2/resize:fill:64:64/1*RrP_cGk_H-HeW_31JI1-xw.jpeg)](https://medium.com/@mohit15856?source=post_page---byline--71d18641200f---------------------------------------). [Mohit Aggarwal](https://medium.com/@mohit15856?source=post_page---byline--71d18641200f---------------------------------------). [](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fvote%2Fp%2F71d18641200f&operation=register&redirect=https%3A%2F%2Fmedium.com%2F%40mohit15856%2Fopenclaw-for-product-managers-building-products-in-the-ai-agent-era-2026-guide-71d18641200f&user=Mohit+Aggarwal&userId=2cd10c71b59d&source=---header_actions--71d18641200f---------------------clap_footer------------------). [](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2F71d18641200f&operation=register&redirect=https%3A%2F%2Fmedium.com%2F%40mohit15856%2Fopenclaw-for-product-managers-building-products-in-the-ai-agent-era-2026-guide-71d18641200f&source=---header_actions--71d18641200f---------------------bookmark_footer------------------). [Listen](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2Fplans%3Fdimension%3Dpost_audio_button%26postId%3D71d18641200f&operation=register&redirect=https%3A%2F%2Fmedium.com%2F%40mohit15856%2Fopenclaw-for-product-managers-building-products-in-the-ai-agent-era-2026-guide-71d18641200f&source=---header_actions--71d18641200f---------------------post_audio_button------------------). ![Image 3](https://miro.medium.com/v2/resize:fit:700/1*8G8rCJYYpPJdD0hhY50jxw.png). And as product managers, we need to understand this shift _now_ — because it’s already changing how we think about building products. OpenClaw is an open-source AI agent framework created by Austrian developer Peter Steinberger. The author made this story available to Medium members only. If you’re new to Medium, create a new account to read this story on us. [Continue in app](https://play.google.com/store/apps/details?id=com.medium.reader&referrer=utm_source%3Dregwall&source=-----71d18641200f---------------------post_regwall------------------). [Sign up with Google](https://medium.com/m/connect/google?state=google-%7Chttps%3A%2F%2Fmedium.com%2F%40mohit15856%2Fopenclaw-for-product-managers-building-products-in-the-ai-agent-era-2026-guide-71d18641200f%3Fsource%3D-----71d18641200f---------------------post_regwall------------------%26skipOnboarding%3D1%7Cregister%7Cremember_me&source=-----71d18641200f---------------------post_regwall------------------). [Sign up with Facebook](https://medium.com/m/connect/facebook?state=facebook-%7Chttps%3A%2F%2Fmedium.com%2F%40mohit15856%2Fopenclaw-for-product-managers-building-products-in-the-ai-agent-era-2026-guide-71d18641200f%3Fsource%3D-----71d18641200f---------------------post_regwall------------------%26skipOnboarding%3D1%7Cregister%7Cremember_me&source=-----71d18641200f---------------------post_regwall------------------). [Sign in](https://medium.com/m/signin?operation=login&redirect=https%3A%2F%2Fmedium.com%2F%40mohit15856%2Fopenclaw-for-product-managers-building-products-in-the-ai-agent-era-2026-guide-71d18641200f&source=-----71d18641200f---------------------post_regwall------------------). [](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fvote%2Fp%2F71d18641200f&operation=register&redirect=https%3A%2F%2Fmedium.com%2F%40mohit15856%2Fopenclaw-for-product-managers-building-products-in-the-ai-agent-era-2026-guide-71d18641200f&user=Mohit+Aggarwal&userId=2cd10c71b59d&source=---footer_actions--71d18641200f---------------------clap_footer------------------). [](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fvote%2Fp%2F71d18641200f&operation=register&redirect=https%3A%2F%2Fmedium.com%2F%40mohit15856%2Fopenclaw-for-product-managers-building-products-in-the-ai-agent-era-2026-guide-71d18641200f&user=Mohit+Aggarwal&userId=2cd10c71b59d&source=---footer_actions--71d18641200f---------------------clap_footer------------------). [](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2F71d18641200f&operation=register&redirect=https%3A%2F%2Fmedium.com%2F%40mohit15856%2Fopenclaw-for-product-managers-building-products-in-the-ai-agent-era-2026-guide-71d18641200f&source=---footer_actions--71d18641200f---------------------bookmark_footer------------------). [![Image 4: Mohit Aggarwal](https://miro.medium.com/v2/resize:fill:96:96/1*RrP_cGk_H-HeW_31JI1-xw.jpeg)](https://medium.com/@mohit15856?source=post_page---post_author_info--71d18641200f---------------------------------------). [![Image 5: Mohit Aggarwal](https://miro.medium.com/v2/resize:fill:128:128/1*RrP_cGk_H-HeW_31JI1-xw.jpeg)](https://medium.com/@mohit15856?source=post_page---post_author_info--71d18641200f---------------------------------------). ## [Written by Mohit Aggarwal](https://medium.com/@mohit15856?source=post_page---post_author_info--71d18641200f---------------------------------------). [1.3K followers](https://medium.com/@mohit15856/followers?source=post_page---post_author_info--71d18641200f---------------------------------------). ·[139 following](https://medium.com/@mohit15856/following?source=post_page---post_author_info--71d18641200f---------------------------------------). [Help](https://help.medium.com/hc/en-us?source=post_page-----71d18641200f---------------------------------------). [Status](https://status.medium.com/?source=post_page-----71d18641200f---------------------------------------). [About](https://medium.com/about?autoplay=1&source=post_page-----71d18641200f---------------------------------------). [Careers](https://medium.com/jobs-at-medium/work-at-medium-959d1a85284e?source=post_page-----71d18641200f---------------------------------------). [Press](mailto:pressinquiries@medium.com). [Blog](https://blog.medium.com/?source=post_page-----71d18641200f---------------------------------------). [Privacy](https://policy.medium.com/medium-privacy-policy-f03bf92035c9?source=post_page-----71d18641200f---------------------------------------). [Rules](https://policy.medium.com/medium-rules-30e5502c4eb4?source=post_page-----71d18641200f---------------------------------------). [Terms](https://policy.medium.com/medium-terms-of-service-9db0094a1e0f?source=post_page-----71d18641200f---------------------------------------). [Text to speech](https://speechify.com/medium?source=post_page-----71d18641200f---------------------------------------).",
-    "excerpt": "# OpenClaw for Product Managers: Building Products in the AI Agent Era (2026 Guide) | by Mohit Aggarwal | Medium. [Sitemap](https://medium.com/sitemap...",
-    "date": "2026-05-26T07:34:41.571Z",
-    "readTime": "27分钟",
+    "id": "op-1779868493030-p3gm",
+    "title": "🦞 [RFC] Event-driven cron scheduling: job chaining and reactive triggers · Issue #28584 · openclaw/openclaw · GitHub",
+    "content": "OpenClaw 技术干货\n\nOpenClaw's cron system is powerful for periodic tasks, but falls short when agents need to run multi-stage pipelines. Today, every cron job is independent —",
+    "excerpt": "OpenClaw's cron system is powerful for periodic tasks, but falls short when agents need to run multi-stage pipelines. Today, every cron job is indepen...",
+    "date": "2026-05-27T07:54:53.030Z",
+    "readTime": "1分钟",
     "tags": [
       "OpenClaw",
       "AI 工具",
       "自动化",
       "技术干货",
+      "定时任务",
       "AI 代理"
     ],
-    "source": "https://medium.com/@mohit15856/openclaw-for-product-managers-building-products-in-the-ai-agent-era-2026-guide-71d18641200f"
+    "source": "https://github.com/openclaw/openclaw/issues/28584"
   },
   {
-    "id": "op-1779780881571-6utw",
-    "title": "🦞 OpenClaw Tutorial for Beginners (Step by Step) 2026",
-    "content": "OpenClaw 技术干货\n\nOpenClaw Tutorial for Beginners (Step by Step) 2026\nSantrel Media\n1120000 subscribers\n199 likes\n12825 views\n14 Apr 2026\nSet Up OpenClaw (Hostinger) - https://santrelmedia.com/openclaw\nUse code: SANTREL10 to save 10% \n\nClawhub: https://clawhub.ai/ \nAuth: https://console.cloud.google.com/\n\nTimestamps:\n0:00 - Start Here\n0:44 - What is OpenClaw? \n1:38 - Where to set up \n4:31 - Setting up VPS\n6:37 - Installing Openclaw\n7:37 - Connecting Telegram\n10:20 - Bot setup \n11:38 - Authorizing gmail and calendar\n20:07 - Giving tasks\n21:13 - Troubleshooting\n\nIn this video, Nate shows you how to set up and run openclaw\n\n🏦 Form your LLC: https://santrelmedia.com/LLC \n⏰ Double your productivity with this software: https://santrelmedia.com/Productivity\n\n\n📧 Omnisend (best for email marketing): https://santrelmedia.com/omnisend \n📩 Beehiiv (start a newsletter): https://santrelmedia.com/Beehiiv \n\n🧠 The world's leading AI newsletter: https://neuralfrontier.beehiiv.com/subscribe\n \nFollow us on Instagram:\nNate: https://www.instagram.com/nateobrienn/\nMike: https://www.instagram.com/mikeobrienn/\nSUBSCRIBE: www.youtube.com/santrelmedia \n\nDISCLAIMER: This video and description contains affiliate links, which means that if you click on one of the product links, I’ll receive a small commission. This helps support the channel and allows us to continue to make videos like this. Thank you for the support!  Everything in this video is based on information we learned from online resources, our own experience, and books we have read.  Please do your own research before making any important decisions.  You and only you are responsible for any and all digital marketing decisions you make.  Thank you for watching!\n10 comments\n",
-    "excerpt": "OpenClaw Tutorial for Beginners (Step by Step) 2026\nSantrel Media\n1120000 subscribers\n199 likes\n12825 views\n14 Apr 2026\nSet Up OpenClaw (Hostinger) - ...",
-    "date": "2026-05-26T07:34:41.571Z",
-    "readTime": "6分钟",
-    "tags": [
-      "OpenClaw",
-      "AI 工具",
-      "自动化",
-      "技术干货",
-      "命令行",
-      "Git"
-    ],
-    "source": "https://www.youtube.com/watch?v=pSi4hAJVnxI"
-  },
-  {
-    "id": "op-1779780881571-zs24",
-    "title": "🦞 OpenClaw: The Definitive Guide to the Autonomous AI Agent Revolution in 2026",
-    "content": "OpenClaw 技术干货\n\n![Image 1](https://www.linkedin.com/pulse/openclaw-definitive-guide-autonomous-ai-agent-revolution-2026-gf9ef). [Skip to main content](https://www.linkedin.com/pulse/openclaw-definitive-guide-autonomous-ai-agent-revolution-2026-gf9ef#main-content)[LinkedIn](https://www.linkedin.com/?trk=article-ssr-frontend-pulse_nav-header-logo). [Optimum-Web | Software Development Company](https://md.linkedin.com/company/optimum-web)![Image 4: Optimum-Web | Software Development Company](https://www.linkedin.com/pulse/openclaw-definitive-guide-autonomous-ai-agent-revolution-2026-gf9ef). ![Image 9: Like](https://www.linkedin.com/pulse/openclaw-definitive-guide-autonomous-ai-agent-revolution-2026-gf9ef)Like. ![Image 10: Celebrate](https://www.linkedin.com/pulse/openclaw-definitive-guide-autonomous-ai-agent-revolution-2026-gf9ef)Celebrate. ![Image 11: Support](https://www.linkedin.com/pulse/openclaw-definitive-guide-autonomous-ai-agent-revolution-2026-gf9ef)Support. ![Image 12: Love](https://www.linkedin.com/pulse/openclaw-definitive-guide-autonomous-ai-agent-revolution-2026-gf9ef)Love. ![Image 13: Insightful](https://www.linkedin.com/pulse/openclaw-definitive-guide-autonomous-ai-agent-revolution-2026-gf9ef)Insightful. ![Image 14: Funny](https://www.linkedin.com/pulse/openclaw-definitive-guide-autonomous-ai-agent-revolution-2026-gf9ef)Funny. [![Image 16: Konstantin Klyagin, graphic](https://www.linkedin.com/pulse/openclaw-definitive-guide-autonomous-ai-agent-revolution-2026-gf9ef)](https://pt.linkedin.com/in/thekonst?trk=article-ssr-frontend-pulse_x-social-details_comments-action_comment_actor-image). *   [![Image 17](https://www.linkedin.com/pulse/openclaw-definitive-guide-autonomous-ai-agent-revolution-2026-gf9ef) May 25, 2026 ### Backup Encryption and GDPR in 2026: Why Unencrypted Backups Are the Most Expensive Compliance Failure Quick Answer: GDPR Article 32 explicitly names encryption as a security measure for personal data. Unencrypted backups… ![Image 18](https://www.linkedin.com/pulse/openclaw-definitive-guide-autonomous-ai-agent-revolution-2026-gf9ef) 3](https://www.linkedin.com/pulse/backup-encryption-gdpr-2026-why-unencrypted-backups-most-expensive-g2imf?trk=article-ssr-frontend-pulse). ![Image 22](https://www.linkedin.com/pulse/openclaw-definitive-guide-autonomous-ai-agent-revolution-2026-gf9ef)![Image 23](https://www.linkedin.com/pulse/openclaw-definitive-guide-autonomous-ai-agent-revolution-2026-gf9ef) 9](https://www.linkedin.com/pulse/business-process-automation-roi-2026-real-numbers-from-7-use-h6okc?trk=article-ssr-frontend-pulse). ![Image 27](https://www.linkedin.com/pulse/openclaw-definitive-guide-autonomous-ai-agent-revolution-2026-gf9ef) 4](https://www.linkedin.com/pulse/what-real-competitor-niche-analysis-looks-like-2026-optimum-web-z6ndf?trk=article-ssr-frontend-pulse). ![Image 29](https://www.linkedin.com/pulse/openclaw-definitive-guide-autonomous-ai-agent-revolution-2026-gf9ef) 4](https://www.linkedin.com/pulse/web-application-penetration-testing-2026-what-finds-costs-mmgoc?trk=article-ssr-frontend-pulse). *   [![Image 30](https://www.linkedin.com/pulse/openclaw-definitive-guide-autonomous-ai-agent-revolution-2026-gf9ef) May 7, 2026 ### One-Page Websites Are Invisible to Google and AI Search: 7 Critical Problems Found in a Real Manufacturing Audit We recently audited a manufacturing company's website — a business with 10+ years of operations, 1,000+ completed… ![Image 31](https://www.linkedin.com/pulse/openclaw-definitive-guide-autonomous-ai-agent-revolution-2026-gf9ef) 5](https://www.linkedin.com/pulse/one-page-websites-invisible-google-ai-search-7-critical-problems-qiv7f?trk=article-ssr-frontend-pulse). If your company operates in the EU and… ![Image 37](https://www.linkedin.com/pulse/openclaw-definitive-guide-autonomous-ai-agent-revolution-2026-gf9ef) 5](https://www.linkedin.com/pulse/eu-ai-act-developers-2026-what-your-team-must-do-now-optimum-web-qj2af?trk=article-ssr-frontend-pulse). *   [![Image 38](https://www.linkedin.com/pulse/openclaw-definitive-guide-autonomous-ai-agent-revolution-2026-gf9ef) ### I built my own private ChatGPT locally. *   [![Image 41](https://www.linkedin.com/pulse/openclaw-definitive-guide-autonomous-ai-agent-revolution-2026-gf9ef) ### From Chatbots to Coworkers: AI’s Next Evolution (Issue 29) Ryan D. *   [![Image 45](https://www.linkedin.com/pulse/openclaw-definitive-guide-autonomous-ai-agent-revolution-2026-gf9ef) ### ChatGPT vs. [](https://www.linkedin.com/pulse/openclaw-definitive-guide-autonomous-ai-agent-revolution-2026-gf9ef).",
-    "excerpt": "![Image 1](https://www.linkedin.com/pulse/openclaw-definitive-guide-autonomous-ai-agent-revolution-2026-gf9ef). [Skip to main content](https://www.lin...",
-    "date": "2026-05-26T07:34:41.571Z",
-    "readTime": "16分钟",
-    "tags": [
-      "OpenClaw",
-      "AI 工具",
-      "自动化",
-      "技术干货",
-      "AI 代理"
-    ],
-    "source": "https://www.linkedin.com/pulse/openclaw-definitive-guide-autonomous-ai-agent-revolution-2026-gf9ef"
-  },
-  {
-    "id": "op-1779780881571-d3y9",
-    "title": "🦞 Unleashing OpenClaw - The Ultimate Guide to Local AI Agents For Developers in 2026",
-    "content": "OpenClaw 技术干货\n\nThis is actually normal behavior for an AI Agent operating in default mode — it 2026-04-07 16:43:55 345](https://www.tencentcloud.com/techpedia/143912?lang=en)[Mastering OpenClaw - How to Configure Multiple Independent Agents Note for first-time users: If you haven’t deployed OpenClaw yet, start with Tencent Cloud OpenClaw first. Target Keywords: best open source AI agents 2025, open source AI agent comparison, AutoGPT vs CrewAI vs Hermes Agent, autonomous AI 2026-04-21 18:43:27 4682](https://www.tencentcloud.com/techpedia/144032?lang=en)[How to Update the OpenClaw Application Version on Your Server Note: The OpenClaw community edition is currently evolving rapidly, and the Tencent Cloud Lighthouse team is actively rolling out support for newer OpenClaw versions and more plugin capabilities. OpenClaw ( 2026-03-05 17:28:11 432](https://www.tencentcloud.com/techpedia/141360?lang=en)[Tencent Cloud Lighthouse: The Fastest Way to Deploy an AI Agent in 2026 Meta Description: Tencent Cloud Lighthouse now offers a one-click Hermes Agent template — the first cloud platform to support instant AI agent deployment.",
-    "excerpt": "This is actually normal behavior for an AI Agent operating in default mode — it 2026-04-07 16:43:55 345](https://www.tencentcloud.com/techpedia/143912...",
-    "date": "2026-05-26T07:34:41.571Z",
+    "id": "op-1779868493030-3v4x",
+    "title": "🦞 OpenClaw Tip #2: Set Up Cron Jobs for Automated Daily Tasks - AiX Society 人工智能應用研究學會",
+    "content": "OpenClaw 技术干货\n\n* OpenClaw Tip #2: Set Up Cron Jobs for Automated Daily Tasks. Instead of manually asking your agent to perform repetitive tasks, you can schedule them to run automatically — morning briefings, inbox checks, data monitoring, and more. ## How OpenClaw Cron Jobs Work. Cron jobs run inside the Gateway process, not the AI model itself. openclaw cron add \\ --name \"Reminder\" \\ --at \"2026-03-08T09:00:00Z\" \\ --session main \\ --system-event \"Reminder: review the weekly report\" \\ --wake now \\ --delete-after-run. openclaw cron add \\ --name \"Morning brief\" \\ --cron \"0 7 * * *\" \\ --tz \"Asia/Hong_Kong\" \\ --session isolated \\ --message \"Summarize overnight emails, calendar for today, and top 3 AI news stories.\" \\ --announce \\ --channel telegram. # List all jobs openclaw cron list # Run a job manually openclaw cron run  # View past runs openclaw cron runs --id  # Delete a job openclaw cron delete. * AI tips, automation, cron jobs, OpenClaw, productivity.",
+    "excerpt": "* OpenClaw Tip #2: Set Up Cron Jobs for Automated Daily Tasks. Instead of manually asking your agent to perform repetitive tasks, you can schedule the...",
+    "date": "2026-05-27T07:54:53.030Z",
     "readTime": "4分钟",
     "tags": [
       "OpenClaw",
       "AI 工具",
       "自动化",
       "技术干货",
-      "AI 代理",
-      "命令行",
-      "API"
+      "定时任务",
+      "AI 代理"
     ],
-    "source": "https://www.tencentcloud.com/techpedia/140791"
+    "source": "https://aixsociety.com/openclaw-tip-2-cron-jobs-automated-daily-tasks"
   },
   {
-    "id": "op-1779780881571-lx9j",
-    "title": "🦞 The Complete OpenClaw Guide: How We Run an AI Agent in ...",
-    "content": "OpenClaw 技术干货\n\nEverything we've learned running OpenClaw in production at Context Studios — from installation and configuration to advanced multi-agent workflows, browser automation, and 134 MCP tools. ![Image 3: The Complete OpenClaw Guide: How We Run an AI Agent in Production (2026)](https://www.contextstudios.ai/_next/image?url=https%3A%2F%2Fwary-platypus-754.convex.cloud%2Fapi%2Fstorage%2F5131211d-0989-4381-812d-4158fbac2066&w=1920&q=75). Think of it as the operating system for AI agents: it handles messaging, memory, tool use, scheduling, browser automation, and multi-agent coordination — so you can focus on telling the agent _what_ to do rather than _how_ to connect everything. **Model-agnostic.** While we recommend [Anthropic's](https://www.contextstudios.ai/blog/claude-opus-46-anthropics-new-flagship-with-1m-context-and-agent-teams \"[Claude Opus 4.6](/blog/claude-opus-46-anthropics-new-flagship-with-1m-context-and-agent-teams) — Anthropic's New Flagship with 1M Context and [Agent Teams](/blog/claude-code-agent-teams-a-builders-guide-to-parallel-ai-coding)\") Claude models (and that's what we use), OpenClaw works with OpenAI, Google Gemini, Mistral, local models via Ollama, and essentially any provider with an API. The [Model Context Protocol](https://www.contextstudios.ai/blog/mcp-apps-interactive-ui-future-of-software) (MCP) lets your agent connect to external tool servers. If you're looking to deploy an OpenClaw-powered agent for your business — or want to see what Timmy can do for your workflow — **[reach out to us at Context Studios](https://contextstudios.ai/)**.",
-    "excerpt": "Everything we've learned running OpenClaw in production at Context Studios — from installation and configuration to advanced multi-agent workflows, br...",
-    "date": "2026-05-26T07:34:41.571Z",
-    "readTime": "6分钟",
+    "id": "op-1779868493030-dbp1",
+    "title": "🦞 You're Using Cron Jobs WRONG in OpenClaw (Here's the Fix)",
+    "content": "OpenClaw 技术干货\n\nIf you are scheduling cron jobs in OpenClaw by just pasting a prompt into the config, you are doing it wrong. In this video, I show you the",
+    "excerpt": "If you are scheduling cron jobs in OpenClaw by just pasting a prompt into the config, you are doing it wrong. In this video, I show you the",
+    "date": "2026-05-27T07:54:53.030Z",
+    "readTime": "1分钟",
     "tags": [
       "OpenClaw",
       "AI 工具",
       "自动化",
       "技术干货",
-      "AI 代理",
-      "MCP 协议",
-      "API"
+      "定时任务"
     ],
-    "source": "https://www.contextstudios.ai/blog/the-complete-openclaw-guide-how-we-run-an-ai-agent-in-production-2026"
+    "source": "https://www.youtube.com/watch?v=Bjbl7I-1RtA"
   }
 ]
