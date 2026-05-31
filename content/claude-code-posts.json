@@ -1,26 +1,10 @@
 [
   {
-    "id": "cl-1780139516415-rq88",
-    "title": "💻 Anthropic's Guide to Claude Code: Best Practices for Agentic Coding",
-    "content": "Claude Code 技术干货\n\nAnthropic recommends structuring your repo to make Claude \"agentic\" — i.e., act more like an intelligent assistant who understands your goals,",
-    "excerpt": "Anthropic recommends structuring your repo to make Claude \"agentic\" — i.e., act more like an intelligent assistant who understands your goals,",
-    "date": "2026-05-30T11:11:56.415Z",
-    "readTime": "1分钟",
-    "tags": [
-      "ClaudeCode",
-      "AI 编程",
-      "编程工具",
-      "技术干货",
-      "AI 代理"
-    ],
-    "source": "https://www.reddit.com/r/ClaudeAI/comments/1k5slll/anthropics_guide_to_claude_code_best_practices"
-  },
-  {
-    "id": "cl-1780139516415-gdie",
-    "title": "💻 Claude Code Best Practices: Planning, Context Transfer, TDD",
+    "id": "cl-1780213058950-tau0",
+    "title": "💻 Claude Code Best Practices: Planning, Context Transfer, TDD | DataCamp",
     "content": "Claude Code 技术干货\n\n# Claude Code Best Practices: Planning, Context Transfer, TDD. Learn Claude Code best practices from production teams. Use plan mode, CLAUDE.md files, and test-driven development to make the most of Claude's context window. Claude Code rewards a kind of discipline that most developer tools don't ask for. If you've been using it for a while, you've noticed that some sessions produce exactly what you want, and others burn through tokens going nowhere. Anthropic's own team found that unguided attempts succeed about 33% of the time, and the tool's creator abandons 10-20% of sessions. If you need a refresher on setup and core features, our guide on Claude Code 2.1 has you covered. For a broader look at how agents reason and where the patterns of this tutorial fit, I highly recommend enrolling in our AI Agent Fundamentals track, which covers all the underlying principles.",
     "excerpt": "# Claude Code Best Practices: Planning, Context Transfer, TDD. Learn Claude Code best practices from production teams. Use plan mode, CLAUDE.md files,...",
-    "date": "2026-05-30T11:11:56.415Z",
+    "date": "2026-05-31T07:37:38.950Z",
     "readTime": "3分钟",
     "tags": [
       "ClaudeCode",
@@ -32,11 +16,11 @@
     "source": "https://www.datacamp.com/tutorial/claude-code-best-practices"
   },
   {
-    "id": "cl-1780139516415-75rk",
-    "title": "💻 Best practices and examples for using Claude Code - GitHub",
+    "id": "cl-1780213058950-rgvg",
+    "title": "💻 GitHub - awattar/claude-code-best-practices: 💻 Best practices and examples for using Claude Code - Anthropic’s terminal-native AI - for writing, editing, and refactoring code with deep project awareness, prompt design, and safe automation. · GitHub",
     "content": "Claude Code 技术干货\n\n# awattar/claude-code-best-practices. # 🧠 Claude Code Best Practices. This repo distills best practices, patterns, and examples for integrating Claude Code into your terminal-based coding environment. ## ✨ What is Claude Code? Claude Code is a command-line tool that gives you direct access to Claude’s reasoning and coding capabilities. It’s designed for agentic coding - where Claude autonomously explores, edits, and explains code across your project. Claude Code is optimized for agentic coding - AI that acts with autonomy and awareness:. This repository includes a collection of custom slash commands designed to streamline development workflows with Claude Code. Automatically generates comprehensive CLAUDE.md files for any project by analyzing project structure, technology stack, and development patterns. Provides comprehensive help documentation for all available custom commands, including usage examples and best practices. This repository includes a collection of 10 specialized AI agents that provide domain-specific expertise across all development workflows. These agents work automatically with commands to deliver expert-level capabilities in architecture, development, and quality assurance. ## 📚 Claude Code Documentation.",
     "excerpt": "# awattar/claude-code-best-practices. # 🧠 Claude Code Best Practices. This repo distills best practices, patterns, and examples for integrating Claud...",
-    "date": "2026-05-30T11:11:56.415Z",
+    "date": "2026-05-31T07:37:38.950Z",
     "readTime": "5分钟",
     "tags": [
       "ClaudeCode",
@@ -48,42 +32,59 @@
     "source": "https://github.com/awattar/claude-code-best-practices"
   },
   {
-    "id": "cl-1780139516415-0tlj",
-    "title": "💻 [PDF] How Anthropic teams use Claude Code",
-    "content": "Claude Code 技术干货\n\nContents Claude Code for data infrastructure 3 Claude Code for product development 5 Claude Code for security engineering 7 Claude Code for inference 9 Claude Code for data science and visualization 11 Claude Code for API 13 Claude Code for growth marketing 15 Claude Code for product design 17 Claude Code for RL engineering 19 Claude Code for legal 21 2 How Anthropic teams use Claude Code Contents 2 Claude Code for data infrastructure Claude Code for product development Claude Code for security engineering Claude Code for inference Claude Code for data science and visualization Claude Code for API Claude Code for growth marketing Claude Code for product design Claude Code for RL engineering Claude Code for legal 3 5 7 9 11 13 15 17 19 21 HOW ANTHROPIC TEAMS USE CLAUDE CODE Claude Code for data infrastructure The Data Infrastructure team organizes all business data for teams across the company.",
-    "excerpt": "Contents Claude Code for data infrastructure 3 Claude Code for product development 5 Claude Code for security engineering 7 Claude Code for inference ...",
-    "date": "2026-05-30T11:11:56.415Z",
-    "readTime": "4分钟",
+    "id": "cl-1780213058950-l6zh",
+    "title": "💻 Anthropic's Guide to Claude Code: Best Practices for Agentic Coding",
+    "content": "Claude Code 技术干货\n\nAnthropic recommends structuring your repo to make Claude \"agentic\" — i.e., act more like an intelligent assistant who understands your goals,",
+    "excerpt": "Anthropic recommends structuring your repo to make Claude \"agentic\" — i.e., act more like an intelligent assistant who understands your goals,",
+    "date": "2026-05-31T07:37:38.950Z",
+    "readTime": "1分钟",
     "tags": [
       "ClaudeCode",
       "AI 编程",
       "编程工具",
       "技术干货",
-      "API"
+      "AI 代理"
     ],
-    "source": "https://www-cdn.anthropic.com/58284b19e702b49db9302d5b6f135ad8871e7658.pdf"
+    "source": "https://www.reddit.com/r/ClaudeAI/comments/1k5slll/anthropics_guide_to_claude_code_best_practices"
   },
   {
-    "id": "cl-1780139516415-rup9",
-    "title": "💻 Claude Code best practices | Code w/ Claude",
-    "content": "Claude Code 技术干货\n\nClaude Code best practices | Code w/ Claude\nAnthropic\n635000 subscribers\n8899 likes\n480129 views\n31 Jul 2025\nPresented at Code w/ Claude by @anthropic-ai on May 22, 2025 in San Francisco, CA, USA.\n\nSpeakers:\nCal Rueb, Member of Technical Staff at @anthropic-ai\n331 comments\n",
-    "excerpt": "Claude Code best practices | Code w/ Claude\nAnthropic\n635000 subscribers\n8899 likes\n480129 views\n31 Jul 2025\nPresented at Code w/ Claude by @anthropic...",
-    "date": "2026-05-30T11:11:56.415Z",
-    "readTime": "1分钟",
+    "id": "cl-1780213058950-1rez",
+    "title": "💻 Mastering the Vibe: Claude Code Best Practices That Actually Work",
+    "content": "Claude Code 技术干货\n\n# Mastering the Vibe: Claude Code Best Practices That Actually Work | by Dinanjana Gunaratne | Medium. [Sign in](https://medium.com/m/signin?operation=login&redirect=https%3A%2F%2Fdinanjana.medium.com%2Fmastering-the-vibe-claude-code-best-practices-that-actually-work-823371daf64c&source=post_page---top_nav_layout_nav-----------------------global_nav------------------). [](https://medium.com/?source=post_page---top_nav_layout_nav-----------------------------------------). [Write](https://medium.com/m/signin?operation=register&redirect=https%3A%2F%2Fmedium.com%2Fnew-story&source=---top_nav_layout_nav-----------------------new_post_topnav------------------). [Search](https://medium.com/search?source=post_page---top_nav_layout_nav-----------------------------------------). [Sign in](https://medium.com/m/signin?operation=login&redirect=https%3A%2F%2Fdinanjana.medium.com%2Fmastering-the-vibe-claude-code-best-practices-that-actually-work-823371daf64c&source=post_page---top_nav_layout_nav-----------------------global_nav------------------). # Mastering the Vibe: Claude Code Best Practices That Actually Work. [![Image 2: Dinanjana Gunaratne](https://miro.medium.com/v2/da:true/resize:fill:32:32/0*VGMPTVKGnDpqSBkA)](https://dinanjana.medium.com/?source=post_page---byline--823371daf64c---------------------------------------). [Dinanjana Gunaratne](https://dinanjana.medium.com/?source=post_page---byline--823371daf64c---------------------------------------). [](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fvote%2Fp%2F823371daf64c&operation=register&redirect=https%3A%2F%2Fdinanjana.medium.com%2Fmastering-the-vibe-claude-code-best-practices-that-actually-work-823371daf64c&user=Dinanjana+Gunaratne&userId=95b2c10b345b&source=---header_actions--823371daf64c---------------------clap_footer------------------). [](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2F823371daf64c&operation=register&redirect=https%3A%2F%2Fdinanjana.medium.com%2Fmastering-the-vibe-claude-code-best-practices-that-actually-work-823371daf64c&source=---header_actions--823371daf64c---------------------bookmark_footer------------------). [Listen](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2Fplans%3Fdimension%3Dpost_audio_button%26postId%3D823371daf64c&operation=register&redirect=https%3A%2F%2Fdinanjana.medium.com%2Fmastering-the-vibe-claude-code-best-practices-that-actually-work-823371daf64c&source=---header_actions--823371daf64c---------------------post_audio_button------------------). If you’re ready to move beyond the “ask and pray” approach to something that actually works consistently, here’s what I’ve learned about making Claude Code genuinely useful. But the real power comes from asking Claude to make a plan before coding and explicitly telling it not to code until you’ve confirmed that its plan looks good. Plan first, think appropriately hard, collaborate actively, and teach Claude about your specific context through .claude files. [Claude Code](https://medium.com/tag/claude-code?source=post_page-----823371daf64c---------------------------------------). [Vibe Coding](https://medium.com/tag/vibe-coding?source=post_page-----823371daf64c---------------------------------------). [Software Engineering](https://medium.com/tag/software-engineering?source=post_page-----823371daf64c---------------------------------------). [LLM](https://medium.com/tag/llm?source=post_page-----823371daf64c---------------------------------------). [Claude Sonnet](https://medium.com/tag/claude-sonnet?source=post_page-----823371daf64c---------------------------------------). [](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fvote%2Fp%2F823371daf64c&operation=register&redirect=https%3A%2F%2Fdinanjana.medium.com%2Fmastering-the-vibe-claude-code-best-practices-that-actually-work-823371daf64c&user=Dinanjana+Gunaratne&userId=95b2c10b345b&source=---footer_actions--823371daf64c---------------------clap_footer------------------). [](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fvote%2Fp%2F823371daf64c&operation=register&redirect=https%3A%2F%2Fdinanjana.medium.com%2Fmastering-the-vibe-claude-code-best-practices-that-actually-work-823371daf64c&user=Dinanjana+Gunaratne&userId=95b2c10b345b&source=---footer_actions--823371daf64c---------------------clap_footer------------------). [](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2F823371daf64c&operation=register&redirect=https%3A%2F%2Fdinanjana.medium.com%2Fmastering-the-vibe-claude-code-best-practices-that-actually-work-823371daf64c&source=---footer_actions--823371daf64c---------------------bookmark_footer------------------). [![Image 4: Dinanjana Gunaratne](https://miro.medium.com/v2/resize:fill:48:48/0*VGMPTVKGnDpqSBkA)](https://dinanjana.medium.com/?source=post_page---post_author_info--823371daf64c---------------------------------------). [![Image 5: Dinanjana Gunaratne](https://miro.medium.com/v2/resize:fill:64:64/0*VGMPTVKGnDpqSBkA)](https://dinanjana.medium.com/?source=post_page---post_author_info--823371daf64c---------------------------------------). ## [Written by Dinanjana Gunaratne](https://dinanjana.medium.com/?source=post_page---post_author_info--823371daf64c---------------------------------------). [130 followers](https://dinanjana.medium.com/followers?source=post_page---post_author_info--823371daf64c---------------------------------------). ·[86 following](https://dinanjana.medium.com/following?source=post_page---post_author_info--823371daf64c---------------------------------------). [Help](https://help.medium.com/hc/en-us?source=post_page-----823371daf64c---------------------------------------). [Status](https://status.medium.com/?source=post_page-----823371daf64c---------------------------------------). [About](https://medium.com/about?autoplay=1&source=post_page-----823371daf64c---------------------------------------). [Careers](https://medium.com/jobs-at-medium/work-at-medium-959d1a85284e?source=post_page-----823371daf64c---------------------------------------). [Blog](https://blog.medium.com/?source=post_page-----823371daf64c---------------------------------------). [Privacy](https://policy.medium.com/medium-privacy-policy-f03bf92035c9?source=post_page-----823371daf64c---------------------------------------). [Rules](https://policy.medium.com/medium-rules-30e5502c4eb4?source=post_page-----823371daf64c---------------------------------------). [Terms](https://policy.medium.com/medium-terms-of-service-9db0094a1e0f?source=post_page-----823371daf64c---------------------------------------). [Text to speech](https://speechify.com/medium?source=post_page-----823371daf64c---------------------------------------).",
+    "excerpt": "# Mastering the Vibe: Claude Code Best Practices That Actually Work | by Dinanjana Gunaratne | Medium. [Sign in](https://medium.com/m/signin?operation...",
+    "date": "2026-05-31T07:37:38.950Z",
+    "readTime": "23分钟",
     "tags": [
       "ClaudeCode",
       "AI 编程",
       "编程工具",
       "技术干货"
     ],
-    "source": "https://www.youtube.com/watch?v=gv0WHhKelSE"
+    "source": "https://dinanjana.medium.com/mastering-the-vibe-claude-code-best-practices-that-actually-work-823371daf64c"
   },
   {
-    "id": "cl-1780139514763-ymnq",
+    "id": "cl-1780213058950-thsy",
+    "title": "💻 Claude Code Best Practices: Lessons From Real Projects",
+    "content": "Claude Code 技术干货\n\n[Skip to main content](https://ranthebuilder.cloud/blog/claude-code-best-practices-lessons-from-real-projects/#main-content). [Audio 1](https://ranthebuilder.cloud/blog/claude-code-best-practices-lessons-from-real-projects/). ![Image 3: Claude Code Best Practices: Lessons From Real Projects](https://ranthebuilder.cloud/images/blog/claude-code-best-practices-lessons-from-real-projects/image-01.webp). ![Image 5: Propel Kanban board showing Backlog, In Progress, Blocked, and Completed columns with task cards](https://ranthebuilder.cloud/images/blog/claude-code-best-practices-lessons-from-real-projects/image-02.webp). When I built it, I used Claude Code alongside [BMAD](https://github.com/bmadcode/BMAD-METHOD), an [AI SDLC framework](https://ranthebuilder.cloud/blog/ai-driven-sdlc/) that guides you through product design, user flows, and specifications before you write a single line of code. ![Image 6: BMAD available commands table showing brainstorming, party mode, help, and review workflows](https://ranthebuilder.cloud/images/blog/claude-code-best-practices-lessons-from-real-projects/image-03.webp). ![Image 7: BMAD brainstorming session complete with 36 ideas, MVP scope, and 4-phase roadmap](https://ranthebuilder.cloud/images/blog/claude-code-best-practices-lessons-from-real-projects/image-04.webp). ![Image 8: mac-folder-sync menu bar app showing sync status, last sync time, and configuration options](https://ranthebuilder.cloud/images/blog/claude-code-best-practices-lessons-from-real-projects/image-05.webp). ![Image 9: A comic page drawn in dog-man style featuring a cat with acid poop superpowers](https://ranthebuilder.cloud/images/blog/claude-code-best-practices-lessons-from-real-projects/image-06.webp). I wrote a full breakdown of my setup, the About Me file, the anti-AI style guide, the CLAUDE.md, and the LinkedIn post drafter skill in [How I Use Claude Cowork to Write With AI in My Voice](https://ranthebuilder.cloud/blog/how-i-use-claude-cowork-to-write-with-ai-in-my-voice/), with all four gists included so you can fork and adapt them for your own voice.",
+    "excerpt": "[Skip to main content](https://ranthebuilder.cloud/blog/claude-code-best-practices-lessons-from-real-projects/#main-content). [Audio 1](https://ranthe...",
+    "date": "2026-05-31T07:37:38.950Z",
+    "readTime": "7分钟",
+    "tags": [
+      "ClaudeCode",
+      "AI 编程",
+      "编程工具",
+      "技术干货",
+      "技能系统",
+      "Git"
+    ],
+    "source": "https://ranthebuilder.cloud/blog/claude-code-best-practices-lessons-from-real-projects"
+  },
+  {
+    "id": "cl-1780213057305-za9h",
     "title": "💻 Claude Code Batch Processing Complete Guide: /batch Command and Headless Mode in Practice - SmartScope",
     "content": "Claude Code 技术干货\n\n* /batch Command: Parallel Execution of Large-Scale Code Changes. * Headless Mode (claude -p): CI/CD and Script Integration. # Claude Code Batch Processing Complete Guide: /batch Command and Headless Mode in Practice¶. The `/batch` command in Claude Code shines when you need to apply the same transformation across hundreds of files. * The `/batch` command executes codebase-wide migrations safely using **parallel agents + Git Worktree** isolation. * Headless mode (`claude -p`) provides **non-interactive integration** for CI/CD pipelines and shell scripts. Intermediate to advanced Claude Code users looking to scale up with large-scale changes and CI/CD integration. The latter is a non-interactive execution mode for embedding AI processing into CI/CD pipelines. | Aspect | /batch Command | Headless Mode (claude -p) |. Choose headless mode when embedding AI processing into existing CI/CD pipelines. `/batch` is a slash command executed within an interactive Claude Code session1. ## Headless Mode (claude -p): CI/CD and Script Integration¶.",
     "excerpt": "* /batch Command: Parallel Execution of Large-Scale Code Changes. * Headless Mode (claude -p): CI/CD and Script Integration. # Claude Code Batch Proce...",
-    "date": "2026-05-30T11:11:54.763Z",
+    "date": "2026-05-31T07:37:37.305Z",
     "readTime": "4分钟",
     "tags": [
       "ClaudeCode",
@@ -96,11 +97,11 @@
     "source": "https://smartscope.blog/en/generative-ai/claude/claude-code-batch-processing"
   },
   {
-    "id": "cl-1780139514763-2gjw",
+    "id": "cl-1780213057305-nxby",
     "title": "💻 Claude Code /simplify and /batch Commands Guide",
     "content": "Claude Code 技术干货\n\n# Claude Code /simplify and /batch: Bundled Commands That Ship Code Faster. Claude Code /simplify runs 3-agent code review on your changes. **Problem**: You just finished implementing a feature in Claude Code. The code works, but you know there's duplicated logic, a few functions that could be cleaner, and some inefficient patterns you didn't have time to address. If you need something bigger -- migrating an entire codebase from one framework to another, or applying a change across dozens of files -- that's what `/batch` is for. ## What Claude Code /simplify Does. After you've built something and it works, `/simplify` reviews what you changed and makes it better. Boris Cherny, the Claude Code PM, put it well: these bundled commands \"automate much of the work it used to take to shepherd a pull request to production.\" `/simplify` is the automated code review step between \"it works\" and \"it's ready to merge.\". ## What Claude Code /batch Does.",
     "excerpt": "# Claude Code /simplify and /batch: Bundled Commands That Ship Code Faster. Claude Code /simplify runs 3-agent code review on your changes. **Problem*...",
-    "date": "2026-05-30T11:11:54.763Z",
+    "date": "2026-05-31T07:37:37.305Z",
     "readTime": "4分钟",
     "tags": [
       "ClaudeCode",
@@ -112,28 +113,11 @@
     "source": "https://claudefa.st/blog/guide/mechanics/simplify-batch-commands"
   },
   {
-    "id": "cl-1780139514763-8ym6",
-    "title": "💻 Claude Code: Batch processing with Message Batches API | Claude Cookbook",
-    "content": "Claude Code 技术干货\n\n# Batch processing with Message Batches API. Process large volumes of Claude requests asynchronously with 50% cost reduction using batches. Message Batches allow you to process large volumes of Messages requests asynchronously and cost-effectively. This cookbook demonstrates how to use the Message Batches API to handle bulk operations while reducing costs by 50%. Let's start with a simple example that demonstrates creating and monitoring a batch of message requests. `# Prepare a list of questions for batch processing. \"messages\": [{\"role\": \"user\", \"content\": question}],. print(f\"Batch ID: {response.id}\"). print(f\"Status: {response.processing_status}\"). Now let's monitor the batch processing status:. print(f\" Processing: {batch_result.request_counts.processing}\"). Once the batch is complete, we can retrieve and process the results:. batch = client.beta.messages.batches.retrieve(batch_id). print(f\"Status: {batch.processing_status}\"). for result in client.beta.messages.batches.results(batch_id):. print(f\"Status: {result.result.type}\"). print(f\"Content: {result.result.message.content[0].text[:200]}...\"). This example demonstrates more advanced usage, including error handling and processing different types of requests in a single batch including a simple message, a message with a system prompt, a multi-turn message, and a message with an image.",
-    "excerpt": "# Batch processing with Message Batches API. Process large volumes of Claude requests asynchronously with 50% cost reduction using batches. Message Ba...",
-    "date": "2026-05-30T11:11:54.763Z",
-    "readTime": "5分钟",
-    "tags": [
-      "ClaudeCode",
-      "AI 编程",
-      "编程工具",
-      "技术干货",
-      "命令行",
-      "API"
-    ],
-    "source": "https://platform.claude.com/cookbook/misc-batch-processing"
-  },
-  {
-    "id": "cl-1780139514763-cakp",
+    "id": "cl-1780213057305-sk5u",
     "title": "💻 How I Batch a Full Week of Content in One Day with Claude Code",
     "content": "Claude Code 技术干货\n\nHow I Batch a Full Week of Content in One Day with Claude Code\nDee Willis | Building Digital Products with AI\n2340 subscribers\n8 likes\n123 views\n7 Apr 2026\n► Join the HerMpire Builders Community to download the free Content Batch Day System skill + manual + implementation guide 👉 https://skool.com/digitalmpire-builders\n► Tap into your 14-Day Free Skool Trial: https://www.skool.com/signup?ref=070272b1669f463f91939c76d77d798e\n\nIf you want to batch a week of content in one day with Claude, this video is your step-by-step. No code required, no tech background needed, and your content will actually sound like you because we're training it on your voice, your offers, and your audience from the jump.\n\nI walk you through how to use the Content Batch Day System skill inside both Claude desktop and Claude Code. You can start from a topic idea, drop in a blog post URL, or upload a video transcript and it will generate Instagram, Facebook, LinkedIn, carousels, and community posts all in one session.\n\nWhether you're using Claude desktop or running Claude Code off your computer, I show you both paths so you can choose what works for your setup. And everything you need to get started is completely free in the HerMpire Builders community.\n\nWhat's inside this video:\n\n- How to install the Content Batch Day System skill in Claude desktop\n- How to set up the skill inside Claude Code for faster, file-based batching\n- How to build your content pack (brand voice, avatar, offers) so your AI output actually sounds like you\n- How to use a blog post, YouTube transcript, or topic idea as your content source\n- What types of content it produces across every platform\n\nYou don't need to set this up every time. You build the content pack once, and from that point on Claude knows who you are and what you create. That's how you go from spending hours on content every week to getting it all done in one sitting.\n\nGet the skill, the manual, and the implementation guide for free in Builders. Link above.\n\n---\n\n0:00 The content problem we all have\n0:38 Installing the skill in Claude desktop\n2:10 Uploading your offers and documents during setup\n3:15 Setting up the skill inside Claude Code\n5:00 Building your content pack (brand voice, avatar, offers)\n7:02 Feeding in your source: transcript, blog post, or idea\n8:45 What files get created and how to download them\n10:00 Why Claude Code makes this simpler than the desktop app\n2 comments\n",
     "excerpt": "How I Batch a Full Week of Content in One Day with Claude Code\nDee Willis | Building Digital Products with AI\n2340 subscribers\n8 likes\n123 views\n7 Apr...",
-    "date": "2026-05-30T11:11:54.763Z",
+    "date": "2026-05-31T07:37:37.305Z",
     "readTime": "9分钟",
     "tags": [
       "ClaudeCode",
@@ -146,11 +130,27 @@
     "source": "https://www.youtube.com/watch?v=F48_A7umid4&vl=en"
   },
   {
-    "id": "cl-1780139514763-6lpo",
+    "id": "cl-1780213057305-66kv",
+    "title": "💻 Claude Code: Batch processing - Claude API Docs",
+    "content": "Claude Code 技术干货\n\nThe Message Batches API is a powerful, cost-effective way to asynchronously process large volumes of [Messages](/docs/en/api/messages/create) requests. When you send a request to the Message Batches API:. Almost any request you can make to the Messages API can be included in a batch. You can [create a batch](/docs/en/api/creating-message-batches) by passing this list into the `requests` parameter:. **Test your batch requests with the Messages API**. {{ \"id\": \"msgbatch_01HkcTjaV5uDC8jWR4ZsDV8d\",  \"id\": \"msgbatch_01HkcTjaV5uDC8jWR4ZsDV8d\", \"type\": \"message_batch\",  \"type\": \"message_batch\", \"processing_status\": \"in_progress\",  \"processing_status\": \"in_progress\", \"request_counts\": { \"request_counts\": { \"processing\": 2,  \"processing\": 2, \"succeeded\": 0,  \"succeeded\": 0, \"errored\": 0,  \"errored\": 0, \"canceled\": 0,  \"canceled\": 0, \"expired\": 0  \"expired\": 0 }, }, \"ended_at\": null,  \"ended_at\": null, \"created_at\": \"2024-09-24T18:37:24.100435Z\",  \"created_at\": \"2024-09-24T18:37:24.100435Z\", \"expires_at\": \"2024-09-25T18:37:24.100435Z\",  \"expires_at\": \"2024-09-25T18:37:24.100435Z\", \"cancel_initiated_at\": null,  \"cancel_initiated_at\": null, \"results_url\": null  \"results_url\": null}}. Once batch processing has ended, each Messages request in the batch has a result. The Message Batches API supports prompt caching, allowing you to potentially reduce costs and processing time for batch requests.",
+    "excerpt": "The Message Batches API is a powerful, cost-effective way to asynchronously process large volumes of [Messages](/docs/en/api/messages/create) requests...",
+    "date": "2026-05-31T07:37:37.305Z",
+    "readTime": "5分钟",
+    "tags": [
+      "ClaudeCode",
+      "AI 编程",
+      "编程工具",
+      "技术干货",
+      "API"
+    ],
+    "source": "https://platform.claude.com/docs/en/build-with-claude/batch-processing"
+  },
+  {
+    "id": "cl-1780213057305-2ei9",
     "title": "💻 Batch Read Claude Code Skill | Faster Codebase Exploration",
     "content": "Claude Code 技术干货\n\nSpeed up your AI coding workflow with the Batch Read skill. Reduce LLM round-trips by 50-70% when searching and reading multiple files in Claude Code.",
     "excerpt": "Speed up your AI coding workflow with the Batch Read skill. Reduce LLM round-trips by 50-70% when searching and reading multiple files in Claude Code.",
-    "date": "2026-05-30T11:11:54.763Z",
+    "date": "2026-05-31T07:37:37.305Z",
     "readTime": "1分钟",
     "tags": [
       "ClaudeCode",
