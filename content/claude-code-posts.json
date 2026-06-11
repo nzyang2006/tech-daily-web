@@ -1,10 +1,10 @@
 [
   {
-    "id": "cl-1781166410927-d4by",
-    "title": "💻 Best practices and examples for using Claude Code - GitHub",
+    "id": "cl-1781185879662-ytxh",
+    "title": "💻 GitHub - awattar/claude-code-best-practices: 💻 Best practices and examples for using Claude Code - Anthropic’s terminal-native AI - for writing, editing, and refactoring code with deep project awareness, prompt design, and safe automation. · GitHub",
     "content": "Claude Code 技术干货\n\n# awattar/claude-code-best-practices. * [`/custom-init`](https://github.com/awattar/claude-code-best-practices/blob/main/.claude/commands/custom-init.md). * [`/help-commands`](https://github.com/awattar/claude-code-best-practices/blob/main/.claude/commands/help-commands.md). * [`/commit`](https://github.com/awattar/claude-code-best-practices/blob/main/.claude/commands/commit.md). Uses standardized commit templates from [`.gitmessage`](https://github.com/awattar/claude-code-best-practices/blob/main/.gitmessage) and [`.github/COMMIT_CONVENTION.md`](https://github.com/awattar/claude-code-best-practices/blob/main/.github/COMMIT_CONVENTION.md). * [`/issue`](https://github.com/awattar/claude-code-best-practices/blob/main/.claude/commands/issue.md). Integrates with GitHub PR templates from [`.github/pull_request_template.md`](https://github.com/awattar/claude-code-best-practices/blob/main/.github/pull_request_template.md). * [`/reviewpr`](https://github.com/awattar/claude-code-best-practices/blob/main/.claude/commands/reviewpr.md). * [`/test`](https://github.com/awattar/claude-code-best-practices/blob/main/.claude/commands/test.md). > **Note:** Commands also leverage Claude Code's built-in [`general-purpose`](https://docs.anthropic.com/en/docs/claude-code/sub-agents) agent for complex multi-step analysis and file searching. * [`general-solution-architect`](https://github.com/awattar/claude-code-best-practices/blob/main/.claude/agents/general-solution-architect.md). * [`general-technical-writer`](https://github.com/awattar/claude-code-best-practices/blob/main/.claude/agents/general-technical-writer.md). * [`general-pm`](https://github.com/awattar/claude-code-best-practices/blob/main/.claude/agents/general-pm.md). * [`general-fullstack-developer`](https://github.com/awattar/claude-code-best-practices/blob/main/.claude/agents/general-fullstack-developer.md). * [`general-backend-developer`](https://github.com/awattar/claude-code-best-practices/blob/main/.claude/agents/general-backend-developer.md). * [`general-frontend-developer`](https://github.com/awattar/claude-code-best-practices/blob/main/.claude/agents/general-frontend-developer.md). * [`general-devops`](https://github.com/awattar/claude-code-best-practices/blob/main/.claude/agents/general-devops.md). * [`general-qa`](https://github.com/awattar/claude-code-best-practices/blob/main/.claude/agents/general-qa.md). * [`general-code-quality-debugger`](https://github.com/awattar/claude-code-best-practices/blob/main/.claude/agents/general-code-quality-debugger.md). * [`general-technical-project-lead`](https://github.com/awattar/claude-code-best-practices/blob/main/.claude/agents/general-technical-project-lead.md). * [`conventional-commits`](https://github.com/awattar/claude-code-best-practices/blob/main/.claude/skills/conventional-commits/SKILL.md). See the [Skills documentation](https://docs.anthropic.com/en/docs/claude-code/skills) for authoring details, including bundling scripts and reference files alongside `SKILL.md`. The repository ships a checked-in [`.claude/settings.json`](https://github.com/awattar/claude-code-best-practices/blob/main/.claude/settings.json) that demonstrates two of the most useful project-level configuration mechanisms:. * [`Best Practices for Agentic Coding`](https://www.anthropic.com/engineering/claude-code-best-practices). Each task in this document includes clear instructions, example commands, and best practices to help you get the most from Claude Code.\"*. 💻 Best practices and examples for using Claude Code - Anthropic’s terminal-native AI - for writing, editing, and refactoring code with deep project awareness, prompt design, and safe automation. [**182** stars](/awattar/claude-code-best-practices/stargazers). [**6** watching](/awattar/claude-code-best-practices/watchers). [**34** forks](/awattar/claude-code-best-practices/forks).",
     "excerpt": "# awattar/claude-code-best-practices. * [`/custom-init`](https://github.com/awattar/claude-code-best-practices/blob/main/.claude/commands/custom-init....",
-    "date": "2026-06-11T08:26:50.927Z",
+    "date": "2026-06-11T13:51:19.662Z",
     "readTime": "13分钟",
     "tags": [
       "ClaudeCode",
@@ -18,12 +18,12 @@
     "source": "https://github.com/awattar/claude-code-best-practices"
   },
   {
-    "id": "cl-1781166410927-wokp",
+    "id": "cl-1781185879662-r7cx",
     "title": "💻 Anthropic's Guide to Claude Code: Best Practices for Agentic Coding",
-    "content": "Claude Code 技术干货\n\nAnthropic recommends structuring your repo to make Claude \"agentic\" — i.e., act more like an intelligent assistant who understands your goals,",
-    "excerpt": "Anthropic recommends structuring your repo to make Claude \"agentic\" — i.e., act more like an intelligent assistant who understands your goals,",
-    "date": "2026-06-11T08:26:50.927Z",
-    "readTime": "1分钟",
+    "content": "Claude Code 技术干货\n\n# Anthropic's Guide to Claude Code: Best Practices for Agentic Coding : r/ClaudeAI. Skip to main contentAnthropic's Guide to Claude Code: Best Practices for Agentic Coding : r/ClaudeAI. # Anthropic's Guide to Claude Code: Best Practices for Agentic Coding. 👉Claude Code: Best practices for agentic coding. 👉Claude Code: Best practices for agentic codingThey go into stuff like:Setting up aCLAUDE.mdto guide Claude's behavior within your repo. *   Setting up a`CLAUDE.md`to guide Claude's behavior within your repo. Debugging and iterating with Claude Code over multiple turnsTL;DR:Anthropic recommends structuring your repo to make Claude \"agentic\" — i.e., act more like an intelligent assistant who understands your goals, tools, and context. A lot of the power comes from writing a clear, detailed`CLAUDE.md`that explains what your code does and how Claude should help. Anthropic recommends structuring your repo to make Claude \"agentic\" — i.e., act more like an intelligent assistant who understands your goals, tools, and context.",
+    "excerpt": "# Anthropic's Guide to Claude Code: Best Practices for Agentic Coding : r/ClaudeAI. Skip to main contentAnthropic's Guide to Claude Code: Best Practic...",
+    "date": "2026-06-11T13:51:19.662Z",
+    "readTime": "4分钟",
     "tags": [
       "ClaudeCode",
       "AI 编程",
@@ -34,11 +34,11 @@
     "source": "https://www.reddit.com/r/ClaudeAI/comments/1k5slll/anthropics_guide_to_claude_code_best_practices"
   },
   {
-    "id": "cl-1781166410927-r3od",
+    "id": "cl-1781185879662-euy7",
     "title": "💻 Claude Code Best Practices: Lessons From Real Projects",
     "content": "Claude Code 技术干货\n\n**In this post, I’ll break down my Claude Code setup, when I use BMAD vs plan mode, how I structure CLAUDE.md, and the lessons I learned after shipping three real projects.**. | AI SDLC | [BMAD Method](https://github.com/bmadcode/BMAD-METHOD) for large projects, Claude Code plan mode for smaller features |. | Skills | Security review (built-in), [SEO analysis, Google Analytics, web accessibility](https://github.com/ziniman/ai-instruct), [web design](https://github.com/anthropics/claude-code/tree/main/plugins/frontend-design) |. When I built it, I used Claude Code alongside [BMAD](https://github.com/bmadcode/BMAD-METHOD), an [AI SDLC framework](/blog/ai-driven-sdlc/) that guides you through product design, user flows, and specifications before you write a single line of code. Follow the [official guidelines](https://code.claude.com/docs/en/memory#set-up-a-project-claude-md). The next thing on my list is getting serious about the [skill creator](https://docs.anthropic.com/en/docs/claude-code/skills) and turning more of my Serverless blog posts into proper Serverless custom skills, using my own published content as the authority of knowledge, so that Claude Code reviews against the same standards I write about publicly.",
     "excerpt": "**In this post, I’ll break down my Claude Code setup, when I use BMAD vs plan mode, how I structure CLAUDE.md, and the lessons I learned after shippin...",
-    "date": "2026-06-11T08:26:50.927Z",
+    "date": "2026-06-11T13:51:19.662Z",
     "readTime": "5分钟",
     "tags": [
       "ClaudeCode",
@@ -51,26 +51,27 @@
     "source": "https://ranthebuilder.cloud/blog/claude-code-best-practices-lessons-from-real-projects"
   },
   {
-    "id": "cl-1781166410927-drb1",
-    "title": "💻 Anthropic just released a brand new Claude Code Best Practices ...",
-    "content": "Claude Code 技术干货\n\n48. Give Claude a way to verify its work - Include tests, screenshots, or expected outputs so Claude can check itself. This is the single",
-    "excerpt": "48. Give Claude a way to verify its work - Include tests, screenshots, or expected outputs so Claude can check itself. This is the single",
-    "date": "2026-06-11T08:26:50.927Z",
+    "id": "cl-1781185879662-fmp6",
+    "title": "💻 Context is the new skill: lessons from the Claude Code best ...",
+    "content": "Claude Code 技术干货\n\nThe newly published best practices guide captures everything Anthropic has learned from watching developers work with their AI coding agent.",
+    "excerpt": "The newly published best practices guide captures everything Anthropic has learned from watching developers work with their AI coding agent.",
+    "date": "2026-06-11T13:51:19.662Z",
     "readTime": "1分钟",
     "tags": [
       "ClaudeCode",
       "AI 编程",
       "编程工具",
-      "技术干货"
+      "技术干货",
+      "AI 代理"
     ],
-    "source": "https://x.com/milesdeutscher/status/2014767612727865837"
+    "source": "https://ai.sulat.com/context-is-the-new-skill-lessons-from-the-claude-code-best-practices-guide-3d27c2b2f1d8"
   },
   {
-    "id": "cl-1781166410927-epv2",
+    "id": "cl-1781185879662-1gz3",
     "title": "💻 [PDF] How Anthropic teams use Claude Code",
     "content": "Claude Code 技术干货\n\nThey use Claude Code for automating routine data engineering tasks, troubleshooting complex infrastructure issues, and creating documented workflows for technical and non-technical team members to access and manipulate data independently. They use Claude Code for automating routine data engineering tasks, troubleshooting complex infrastructureissues,and creating documented workflows for technical and non-technical team members to access and manipulate data independently. As a non-technical team of one, they use Claude Code to automate repetitive marketing tasks and create agentic workflows that would traditionally require significant engineering resources. As a non-technical team of one, they use Claude Code to automate repetitive marketing tasks and create agentic workflows that would traditionally require significant engineering resources. 20 Claude Code for RL engineering Claude Code for RL engineering Development workflow impact Top tips from the RL Engineering team 20 Experimental approach enabled They now use a \"try and rollback\" methodology, frequently committing checkpoints so they can test Claude's autonomous implementation attempts and revert if needed, enabling more experimental.",
     "excerpt": "They use Claude Code for automating routine data engineering tasks, troubleshooting complex infrastructure issues, and creating documented workflows f...",
-    "date": "2026-06-11T08:26:50.927Z",
+    "date": "2026-06-11T13:51:19.662Z",
     "readTime": "5分钟",
     "tags": [
       "ClaudeCode",
@@ -82,11 +83,60 @@
     "source": "https://www-cdn.anthropic.com/58284b19e702b49db9302d5b6f135ad8871e7658.pdf"
   },
   {
-    "id": "cl-1781166405756-5ffw",
+    "id": "cl-1781185877878-doku",
+    "title": "💻 How I’m Using Claude Code (New) /simplify & /batch (To x10 My Code Reviews) | by Joe Njenga | Medium",
+    "content": "Claude Code 技术干货\n\nClaude Code /batch handles the migration work — it plans the changes, spins up isolated agents per folder, runs tests, and opens PRs without you",
+    "excerpt": "Claude Code /batch handles the migration work — it plans the changes, spins up isolated agents per folder, runs tests, and opens PRs without you",
+    "date": "2026-06-11T13:51:17.879Z",
+    "readTime": "1分钟",
+    "tags": [
+      "ClaudeCode",
+      "AI 编程",
+      "编程工具",
+      "技术干货",
+      "AI 代理"
+    ],
+    "source": "https://medium.com/@joe.njenga/how-im-using-claude-code-new-simplify-batch-to-x10-my-code-reviews-888780a6a42a"
+  },
+  {
+    "id": "cl-1781185877879-k2ao",
+    "title": "💻 Claude Code: Batch processing with Message Batches API | Claude Cookbook",
+    "content": "Claude Code 技术干货\n\n# Batch processing with Message Batches API. Process large volumes of Claude requests asynchronously with 50% cost reduction using batches. Message Batches allow you to process large volumes of Messages requests asynchronously and cost-effectively. This cookbook demonstrates how to use the Message Batches API to handle bulk operations while reducing costs by 50%. Let's start with a simple example that demonstrates creating and monitoring a batch of message requests. `# Prepare a list of questions for batch processing. \"messages\": [{\"role\": \"user\", \"content\": question}],. print(f\"Batch ID: {response.id}\"). print(f\"Status: {response.processing_status}\"). Now let's monitor the batch processing status:. print(f\" Processing: {batch_result.request_counts.processing}\"). Once the batch is complete, we can retrieve and process the results:. batch = client.beta.messages.batches.retrieve(batch_id). print(f\"Status: {batch.processing_status}\"). for result in client.beta.messages.batches.results(batch_id):. print(f\"Status: {result.result.type}\"). print(f\"Content: {result.result.message.content[0].text[:200]}...\"). This example demonstrates more advanced usage, including error handling and processing different types of requests in a single batch including a simple message, a message with a system prompt, a multi-turn message, and a message with an image.",
+    "excerpt": "# Batch processing with Message Batches API. Process large volumes of Claude requests asynchronously with 50% cost reduction using batches. Message Ba...",
+    "date": "2026-06-11T13:51:17.879Z",
+    "readTime": "5分钟",
+    "tags": [
+      "ClaudeCode",
+      "AI 编程",
+      "编程工具",
+      "技术干货",
+      "命令行",
+      "API"
+    ],
+    "source": "https://platform.claude.com/cookbook/misc-batch-processing"
+  },
+  {
+    "id": "cl-1781185877879-t6dj",
+    "title": "💻 Claude Code: Batch processing - Claude API Docs",
+    "content": "Claude Code 技术干货\n\nWe use cookies to deliver and improve our services, analyze site usage, and if you agree, to customize or personalize your experience and market our services to you. # Batch processing. Batch processing is a powerful approach for handling large volumes of requests efficiently. Instead of processing requests one at a time with immediate responses, batch processing allows you to submit multiple requests together for asynchronous processing. The Message Batches API is Anthropic's first implementation of this pattern. # Message Batches API. The Message Batches API is a powerful, cost-effective way to asynchronously process large volumes of Messages requests. ## How the Message Batches API works. When you send a request to the Message Batches API:. Almost any request you can make to the Messages API can be included in a batch. Since each request in the batch is processed independently, you can mix different types of requests within a single batch. A Message Batch is composed of a list of requests to create a Message.",
+    "excerpt": "We use cookies to deliver and improve our services, analyze site usage, and if you agree, to customize or personalize your experience and market our s...",
+    "date": "2026-06-11T13:51:17.879Z",
+    "readTime": "4分钟",
+    "tags": [
+      "ClaudeCode",
+      "AI 编程",
+      "编程工具",
+      "技术干货",
+      "API"
+    ],
+    "source": "https://platform.claude.com/docs/en/build-with-claude/batch-processing"
+  },
+  {
+    "id": "cl-1781185877878-dh13",
     "title": "💻 Claude Code Batch Processing Complete Guide: /batch Command and Headless Mode in Practice - SmartScope",
     "content": "Claude Code 技术干货\n\n* /batch Command: Parallel Execution of Large-Scale Code Changes. * Headless Mode (claude -p): CI/CD and Script Integration. # Claude Code Batch Processing Complete Guide: /batch Command and Headless Mode in Practice¶. The `/batch` command in Claude Code shines when you need to apply the same transformation across hundreds of files. * The `/batch` command executes codebase-wide migrations safely using **parallel agents + Git Worktree** isolation. * Headless mode (`claude -p`) provides **non-interactive integration** for CI/CD pipelines and shell scripts. Intermediate to advanced Claude Code users looking to scale up with large-scale changes and CI/CD integration. The latter is a non-interactive execution mode for embedding AI processing into CI/CD pipelines. | Aspect | /batch Command | Headless Mode (claude -p) |. Choose headless mode when embedding AI processing into existing CI/CD pipelines. `/batch` is a slash command executed within an interactive Claude Code session1. ## Headless Mode (claude -p): CI/CD and Script Integration¶.",
     "excerpt": "* /batch Command: Parallel Execution of Large-Scale Code Changes. * Headless Mode (claude -p): CI/CD and Script Integration. # Claude Code Batch Proce...",
-    "date": "2026-06-11T08:26:45.756Z",
+    "date": "2026-06-11T13:51:17.878Z",
     "readTime": "4分钟",
     "tags": [
       "ClaudeCode",
@@ -99,68 +149,20 @@
     "source": "https://smartscope.blog/en/generative-ai/claude/claude-code-batch-processing"
   },
   {
-    "id": "cl-1781166405756-pwvs",
-    "title": "💻 How I'm Using Claude Code (New) /simplify & /batch (To x10 My ...",
-    "content": "Claude Code 技术干货\n\nClaude Code /batch handles the migration work — it plans the changes, spins up isolated agents per folder, runs tests, and opens PRs without you",
-    "excerpt": "Claude Code /batch handles the migration work — it plans the changes, spins up isolated agents per folder, runs tests, and opens PRs without you",
-    "date": "2026-06-11T08:26:45.756Z",
-    "readTime": "1分钟",
-    "tags": [
-      "ClaudeCode",
-      "AI 编程",
-      "编程工具",
-      "技术干货",
-      "AI 代理"
-    ],
-    "source": "https://medium.com/@joe.njenga/how-im-using-claude-code-new-simplify-batch-to-x10-my-code-reviews-888780a6a42a"
-  },
-  {
-    "id": "cl-1781166405756-nnhz",
-    "title": "💻 Claude Code: Batch processing - Claude API Docs",
-    "content": "Claude Code 技术干货\n\nWe use cookies to deliver and improve our services, analyze site usage, and if you agree, to customize or personalize your experience and market our services to you. # Batch processing. Batch processing is a powerful approach for handling large volumes of requests efficiently. Instead of processing requests one at a time with immediate responses, batch processing allows you to submit multiple requests together for asynchronous processing. The Message Batches API is Anthropic's first implementation of this pattern. # Message Batches API. The Message Batches API is a powerful, cost-effective way to asynchronously process large volumes of Messages requests. ## How the Message Batches API works. When you send a request to the Message Batches API:. Almost any request you can make to the Messages API can be included in a batch. Since each request in the batch is processed independently, you can mix different types of requests within a single batch. A Message Batch is composed of a list of requests to create a Message.",
-    "excerpt": "We use cookies to deliver and improve our services, analyze site usage, and if you agree, to customize or personalize your experience and market our s...",
-    "date": "2026-06-11T08:26:45.756Z",
+    "id": "cl-1781185877878-5j37",
+    "title": "💻 Claude Code: Anyway to implement Batch processing for Claude in RooCode.? : r/RooCode",
+    "content": "Claude Code 技术干货\n\n# Anyway to implement Batch processing for Claude in RooCode.? Skip to main contentAnyway to implement Batch processing for Claude in RooCode.? Open menu Open navigationGo to Reddit Home. Sign UpSign up for RedditLog InLog in to Reddit. I was doing through the claude API pricing and its 50% off for batch processing. We can first create a comprehensive documentation of what all to do and we batch whole bunch of the required api calls and all them at once. Image 3: Clickable image which will reveal the video player: Claude Code researches, writes, analyzes, and codes so your small team can take on bigger competition. Claude Code researches, writes, analyzes, and codes so your small team can take on bigger competition. This is something for a background process and not for a synchronous streaming API like the current concept of cline, roo. If you look at the core, you can see that the design for a message API is simply a question > answer.",
+    "excerpt": "# Anyway to implement Batch processing for Claude in RooCode.? Skip to main contentAnyway to implement Batch processing for Claude in RooCode.? Open m...",
+    "date": "2026-06-11T13:51:17.878Z",
     "readTime": "4分钟",
     "tags": [
       "ClaudeCode",
       "AI 编程",
       "编程工具",
       "技术干货",
+      "命令行",
       "API"
     ],
-    "source": "https://platform.claude.com/docs/en/build-with-claude/batch-processing"
-  },
-  {
-    "id": "cl-1781166405756-i58u",
-    "title": "💻 Show HN: Send Claude Code tasks to the Batch API at 50% off | Hacker News",
-    "content": "Claude Code 技术干货\n\nSo here is a small MCP that lets you send work directly to Anthropic's Batch API from inside Claude Code, for the same quality responses just 50% cheaper,",
-    "excerpt": "So here is a small MCP that lets you send work directly to Anthropic's Batch API from inside Claude Code, for the same quality responses just 50% chea...",
-    "date": "2026-06-11T08:26:45.756Z",
-    "readTime": "1分钟",
-    "tags": [
-      "ClaudeCode",
-      "AI 编程",
-      "编程工具",
-      "技术干货",
-      "MCP 协议",
-      "API"
-    ],
-    "source": "https://news.ycombinator.com/item?id=46981670"
-  },
-  {
-    "id": "cl-1781166405756-him1",
-    "title": "💻 GitHub - s2-streamstore/claude-batch-toolkit: Send non-urgent work to the Anthropic Batch API at 50% cost — directly from Claude Code · GitHub",
-    "content": "Claude Code 技术干货\n\nSend non-urgent work to the Anthropic Batch API (or Vertex AI) at 50% cost — directly from Claude Code. Code reviews, documentation, architecture analysis,",
-    "excerpt": "Send non-urgent work to the Anthropic Batch API (or Vertex AI) at 50% cost — directly from Claude Code. Code reviews, documentation, architecture anal...",
-    "date": "2026-06-11T08:26:45.756Z",
-    "readTime": "1分钟",
-    "tags": [
-      "ClaudeCode",
-      "AI 编程",
-      "编程工具",
-      "技术干货",
-      "API"
-    ],
-    "source": "https://github.com/s2-streamstore/claude-batch-toolkit"
+    "source": "https://www.reddit.com/r/RooCode/comments/1j371us/anyway_to_implement_batch_processing_for_claude"
   }
 ]
