@@ -1,10 +1,10 @@
 [
   {
-    "id": "cl-1782029997501-2c6f",
+    "id": "cl-1782043490155-cguk",
     "title": "💻 Anthropic's Guide to Claude Code: Best Practices for Agentic Coding",
     "content": "Claude Code 技术干货\n\n# Anthropic's Guide to Claude Code: Best Practices for Agentic Coding : r/ClaudeAI. # Anthropic's Guide to Claude Code: Best Practices for Agentic Coding. 👉Claude Code: Best practices for agentic coding. 👉Claude Code: Best practices for agentic codingThey go into stuff like:Setting up aCLAUDE.mdto guide Claude's behavior within your repo. *   Setting up a`CLAUDE.md`to guide Claude's behavior within your repo. Debugging and iterating with Claude Code over multiple turnsTL;DR:Anthropic recommends structuring your repo to make Claude \"agentic\" — i.e., act more like an intelligent assistant who understands your goals, tools, and context. A lot of the power comes from writing a clear, detailed`CLAUDE.md`that explains what your code does and how Claude should help. The blog post includes real-world examples and prompt templates that work well.Just came across this great post via Alex Albert’s tweet and thought folks here would appreciate it:. Anthropic recommends structuring your repo to make Claude \"agentic\" — i.e., act more like an intelligent assistant who understands your goals, tools, and context. Best practices for Claude Code from Anthropic.",
     "excerpt": "# Anthropic's Guide to Claude Code: Best Practices for Agentic Coding : r/ClaudeAI. # Anthropic's Guide to Claude Code: Best Practices for Agentic Cod...",
-    "date": "2026-06-21T08:19:57.501Z",
+    "date": "2026-06-21T12:04:50.155Z",
     "readTime": "4分钟",
     "tags": [
       "ClaudeCode",
@@ -16,11 +16,11 @@
     "source": "https://www.reddit.com/r/ClaudeAI/comments/1k5slll/anthropics_guide_to_claude_code_best_practices"
   },
   {
-    "id": "cl-1782029997501-559w",
+    "id": "cl-1782043490155-ptjy",
     "title": "💻 Mastering the Vibe: Claude Code Best Practices That Actually Work",
     "content": "Claude Code 技术干货\n\n[Sign in](https://medium.com/m/signin?operation=login&redirect=https%3A%2F%2Fdinanjana.medium.com%2Fmastering-the-vibe-claude-code-best-practices-that-actually-work-823371daf64c&source=post_page---top_nav_layout_nav-----------------------global_nav------------------). [Sign in](https://medium.com/m/signin?operation=login&redirect=https%3A%2F%2Fdinanjana.medium.com%2Fmastering-the-vibe-claude-code-best-practices-that-actually-work-823371daf64c&source=post_page---top_nav_layout_nav-----------------------global_nav------------------). [](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fvote%2Fp%2F823371daf64c&operation=register&redirect=https%3A%2F%2Fdinanjana.medium.com%2Fmastering-the-vibe-claude-code-best-practices-that-actually-work-823371daf64c&user=Dinanjana+Gunaratne&userId=95b2c10b345b&source=---header_actions--823371daf64c---------------------clap_footer------------------). [What are your thoughts?](https://medium.com/m/signin?operation=register&redirect=https%3A%2F%2Fdinanjana.medium.com%2Fmastering-the-vibe-claude-code-best-practices-that-actually-work-823371daf64c&source=---post_responses--823371daf64c---------------------respond_sidebar------------------). [](https://dinanjana.medium.com/multi-tasking-with-claude-code-26dc7306f4e3?source=post_page---author_recirc--823371daf64c----0---------------------7b22ccee_9cee_4163_a1a9_4a248fc115fb--------------). [](https://medium.com/m/signin?operation=register&redirect=https%3A%2F%2Fdinanjana.medium.com%2Fmastering-the-vibe-claude-code-best-practices-that-actually-work-823371daf64c&source=---author_recirc--823371daf64c----0-----------------explicit_signal----7b22ccee_9cee_4163_a1a9_4a248fc115fb--------------). [](https://medium.com/m/signin?operation=register&redirect=https%3A%2F%2Fdinanjana.medium.com%2Fmastering-the-vibe-claude-code-best-practices-that-actually-work-823371daf64c&source=---author_recirc--823371daf64c----1-----------------explicit_signal----7b22ccee_9cee_4163_a1a9_4a248fc115fb--------------). [](https://medium.com/m/signin?operation=register&redirect=https%3A%2F%2Fdinanjana.medium.com%2Fmastering-the-vibe-claude-code-best-practices-that-actually-work-823371daf64c&source=---author_recirc--823371daf64c----2-----------------explicit_signal----7b22ccee_9cee_4163_a1a9_4a248fc115fb--------------). [](https://medium.com/m/signin?operation=register&redirect=https%3A%2F%2Fdinanjana.medium.com%2Fmastering-the-vibe-claude-code-best-practices-that-actually-work-823371daf64c&source=---author_recirc--823371daf64c----3-----------------explicit_signal----7b22ccee_9cee_4163_a1a9_4a248fc115fb--------------). ## [My Claude Code Setup | Here’s What I Learned ### A developer’s journey from frustration to productivity with AI coding assistants](https://medium.com/@kumaran.isk/my-claude-code-setup-heres-what-i-learned-d0403b1b1fec?source=post_page---read_next_recirc--823371daf64c----0---------------------9db63923_904b_407e_8525_4c52eb738fff--------------). [1](https://medium.com/@kumaran.isk/my-claude-code-setup-heres-what-i-learned-d0403b1b1fec?source=post_page---read_next_recirc--823371daf64c----0---------------------9db63923_904b_407e_8525_4c52eb738fff--------------). [](https://medium.com/m/signin?operation=register&redirect=https%3A%2F%2Fdinanjana.medium.com%2Fmastering-the-vibe-claude-code-best-practices-that-actually-work-823371daf64c&source=---read_next_recirc--823371daf64c----0-----------------explicit_signal----9db63923_904b_407e_8525_4c52eb738fff--------------). [](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2Fd0403b1b1fec&operation=register&redirect=https%3A%2F%2Fmedium.com%2F%40kumaran.isk%2Fmy-claude-code-setup-heres-what-i-learned-d0403b1b1fec&source=---read_next_recirc--823371daf64c----0-----------------bookmark_preview----9db63923_904b_407e_8525_4c52eb738fff--------------). [![Image 21: Level Up Coding](https://miro.medium.com/v2/resize:fill:20:20/1*5D9oYBd58pyjMkV_5-zXXQ.jpeg)](https://levelup.gitconnected.com/?source=post_page---read_next_recirc--823371daf64c----1---------------------9db63923_904b_407e_8525_4c52eb738fff--------------). ## [Claude Code Best Practices: 12 Patterns Agentic Engineers Use ### Extracted from 69 Tips in GitHub’s #1 Trending Repo — with Input from Boris Cherny, the Engineer Who Built Claude Code at Anthropic.](https://medium.huizhou92.com/claude-code-best-practices-12-patterns-agentic-engineers-use-65264e3eb919?source=post_page---read_next_recirc--823371daf64c----1---------------------9db63923_904b_407e_8525_4c52eb738fff--------------). [13](https://medium.huizhou92.com/claude-code-best-practices-12-patterns-agentic-engineers-use-65264e3eb919?source=post_page---read_next_recirc--823371daf64c----1---------------------9db63923_904b_407e_8525_4c52eb738fff--------------). [](https://medium.com/m/signin?operation=register&redirect=https%3A%2F%2Fdinanjana.medium.com%2Fmastering-the-vibe-claude-code-best-practices-that-actually-work-823371daf64c&source=---read_next_recirc--823371daf64c----1-----------------explicit_signal----9db63923_904b_407e_8525_4c52eb738fff--------------). ## [CLAUDE.md Best Practices ### 10 Sections to Include in your CLAUDE.md](https://medium.com/@101/claude-md-best-practices-1ef4f861ce7c?source=post_page---read_next_recirc--823371daf64c----0---------------------9db63923_904b_407e_8525_4c52eb738fff--------------). [30](https://medium.com/@101/claude-md-best-practices-1ef4f861ce7c?source=post_page---read_next_recirc--823371daf64c----0---------------------9db63923_904b_407e_8525_4c52eb738fff--------------). [](https://medium.com/m/signin?operation=register&redirect=https%3A%2F%2Fdinanjana.medium.com%2Fmastering-the-vibe-claude-code-best-practices-that-actually-work-823371daf64c&source=---read_next_recirc--823371daf64c----0-----------------explicit_signal----9db63923_904b_407e_8525_4c52eb738fff--------------). ## [10 Tip to Stop Burning Your Tokens in Claude Code ### and get more stuff done](https://medium.com/@habib23me/10-tip-to-stop-burning-your-tokens-in-claude-code-4776d4ac8956?source=post_page---read_next_recirc--823371daf64c----1---------------------9db63923_904b_407e_8525_4c52eb738fff--------------). [7](https://medium.com/@habib23me/10-tip-to-stop-burning-your-tokens-in-claude-code-4776d4ac8956?source=post_page---read_next_recirc--823371daf64c----1---------------------9db63923_904b_407e_8525_4c52eb738fff--------------). [](https://medium.com/m/signin?operation=register&redirect=https%3A%2F%2Fdinanjana.medium.com%2Fmastering-the-vibe-claude-code-best-practices-that-actually-work-823371daf64c&source=---read_next_recirc--823371daf64c----1-----------------explicit_signal----9db63923_904b_407e_8525_4c52eb738fff--------------). [](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2F4776d4ac8956&operation=register&redirect=https%3A%2F%2Fmedium.com%2F%40habib23me%2F10-tip-to-stop-burning-your-tokens-in-claude-code-4776d4ac8956&source=---read_next_recirc--823371daf64c----1-----------------bookmark_preview----9db63923_904b_407e_8525_4c52eb738fff--------------). ## [The Best 12 Claude Skills Setup — A Complete 2026 Guide to Configuring Claude Like a Pro ### What Claude Skills are, how to install them in under 60 seconds, how to build your own, and the 12-skill stack that genuinely changes how…](https://medium.com/@reactjsbd/the-best-12-claude-skills-setup-a-complete-2026-guide-to-configuring-claude-like-a-pro-486d2fd906f3?source=post_page---read_next_recirc--823371daf64c----2---------------------9db63923_904b_407e_8525_4c52eb738fff--------------). [7](https://medium.com/@reactjsbd/the-best-12-claude-skills-setup-a-complete-2026-guide-to-configuring-claude-like-a-pro-486d2fd906f3?source=post_page---read_next_recirc--823371daf64c----2---------------------9db63923_904b_407e_8525_4c52eb738fff--------------). [](https://medium.com/m/signin?operation=register&redirect=https%3A%2F%2Fdinanjana.medium.com%2Fmastering-the-vibe-claude-code-best-practices-that-actually-work-823371daf64c&source=---read_next_recirc--823371daf64c----2-----------------explicit_signal----9db63923_904b_407e_8525_4c52eb738fff--------------). ### From frustrated beginner to power user: The hidden command ecosystem nobody talks about.](https://medium.com/@mouez.yazidi2016/i-wasted-6-months-using-claude-code-wrong-here-are-the-14-commands-that-changed-everything-b892b8f07915?source=post_page---read_next_recirc--823371daf64c----3---------------------9db63923_904b_407e_8525_4c52eb738fff--------------). [47](https://medium.com/@mouez.yazidi2016/i-wasted-6-months-using-claude-code-wrong-here-are-the-14-commands-that-changed-everything-b892b8f07915?source=post_page---read_next_recirc--823371daf64c----3---------------------9db63923_904b_407e_8525_4c52eb738fff--------------). [](https://medium.com/m/signin?operation=register&redirect=https%3A%2F%2Fdinanjana.medium.com%2Fmastering-the-vibe-claude-code-best-practices-that-actually-work-823371daf64c&source=---read_next_recirc--823371daf64c----3-----------------explicit_signal----9db63923_904b_407e_8525_4c52eb738fff--------------). [](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2Fb892b8f07915&operation=register&redirect=https%3A%2F%2Fpub.towardsai.net%2Fi-wasted-6-months-using-claude-code-wrong-here-are-the-14-commands-that-changed-everything-b892b8f07915&source=---read_next_recirc--823371daf64c----3-----------------bookmark_preview----9db63923_904b_407e_8525_4c52eb738fff--------------).",
     "excerpt": "[Sign in](https://medium.com/m/signin?operation=login&redirect=https%3A%2F%2Fdinanjana.medium.com%2Fmastering-the-vibe-claude-code-best-practices-that...",
-    "date": "2026-06-21T08:19:57.501Z",
+    "date": "2026-06-21T12:04:50.155Z",
     "readTime": "32分钟",
     "tags": [
       "ClaudeCode",
@@ -34,11 +34,27 @@
     "source": "https://dinanjana.medium.com/mastering-the-vibe-claude-code-best-practices-that-actually-work-823371daf64c"
   },
   {
-    "id": "cl-1782029997501-x88b",
+    "id": "cl-1782043490155-8mkx",
+    "title": "💻 [PDF] How Anthropic teams use Claude Code",
+    "content": "Claude Code 技术干货\n\nThey use Claude Code for automating routine data engineering tasks, troubleshooting complex infrastructure issues, and creating documented workflows for technical and non-technical team members to access and manipulate data independently. They use Claude Code for automating routine data engineering tasks, troubleshooting complex infrastructureissues,and creating documented workflows for technical and non-technical team members to access and manipulate data independently. As a non-technical team of one, they use Claude Code to automate repetitive marketing tasks and create agentic workflows that would traditionally require significant engineering resources. As a non-technical team of one, they use Claude Code to automate repetitive marketing tasks and create agentic workflows that would traditionally require significant engineering resources. 20 Claude Code for RL engineering Claude Code for RL engineering Development workflow impact Top tips from the RL Engineering team 20 Experimental approach enabled They now use a \"try and rollback\" methodology, frequently committing checkpoints so they can test Claude's autonomous implementation attempts and revert if needed, enabling more experimental.",
+    "excerpt": "They use Claude Code for automating routine data engineering tasks, troubleshooting complex infrastructure issues, and creating documented workflows f...",
+    "date": "2026-06-21T12:04:50.155Z",
+    "readTime": "5分钟",
+    "tags": [
+      "ClaudeCode",
+      "AI 编程",
+      "编程工具",
+      "技术干货",
+      "AI 代理"
+    ],
+    "source": "https://www-cdn.anthropic.com/58284b19e702b49db9302d5b6f135ad8871e7658.pdf"
+  },
+  {
+    "id": "cl-1782043490155-id3r",
     "title": "💻 Claude Code: claude-code-best-practices · GitHub Topics",
     "content": "Claude Code 技术干货\n\n## Navigation Menu. # Search code, repositories, users, issues, pull requests... # Provide feedback. # Saved searches. ## Use saved searches to filter your results more quickly. ### shanraisshan / claude-code-best-practice. claude code hooks - adding voice on each hook. 176 tips, nothing to install. Get into Builder Mode — an AI-native startup factory you point Claude Code (or Cursor/Codex/Windsurf) at. Run a reconstructed Claude Code CLI for local build, debugging, and recovery from a TypeScript/Bun codebase. Explore Claude Code CLI source for TypeScript, Bun, and React Ink tooling in a large leaked codebase. Explore Claude Code source analysis to learn how to build AI agent apps from a production CLI coding assistant, with full-stack patterns and code-level insights. Use Claude Code’s CLI source to edit files, run commands, and manage git workflows from the terminal for faster software engineering. ### bogdanmatasaru / claude-code-guide. ## Footer. To associate your repository with the. ### Footer navigation.",
     "excerpt": "## Navigation Menu. # Search code, repositories, users, issues, pull requests... # Provide feedback. # Saved searches. ## Use saved searches to filter...",
-    "date": "2026-06-21T08:19:57.501Z",
+    "date": "2026-06-21T12:04:50.155Z",
     "readTime": "4分钟",
     "tags": [
       "ClaudeCode",
@@ -53,11 +69,11 @@
     "source": "https://github.com/topics/claude-code-best-practices"
   },
   {
-    "id": "cl-1782029997501-2eaa",
-    "title": "💻 Claude Code best practices | Code w - YouTube",
+    "id": "cl-1782043490155-67kx",
+    "title": "💻 Claude Code best practices | Code w/ Claude",
     "content": "Claude Code 技术干货\n\nClaude Code best practices | Code w/ Claude\nAnthropic\n684000 subscribers\n9161 likes\n502921 views\n31 Jul 2025\nPresented at Code w/ Claude by @anthropic-ai on May 22, 2025 in San Francisco, CA, USA.\n\nSpeakers:\nCal Rueb, Member of Technical Staff at @anthropic-ai\n332 comments\n",
     "excerpt": "Claude Code best practices | Code w/ Claude\nAnthropic\n684000 subscribers\n9161 likes\n502921 views\n31 Jul 2025\nPresented at Code w/ Claude by @anthropic...",
-    "date": "2026-06-21T08:19:57.501Z",
+    "date": "2026-06-21T12:04:50.155Z",
     "readTime": "1分钟",
     "tags": [
       "ClaudeCode",
@@ -68,27 +84,11 @@
     "source": "https://www.youtube.com/watch?v=gv0WHhKelSE"
   },
   {
-    "id": "cl-1782029997501-8aoz",
-    "title": "💻 Claude Code: Prompting best practices - Claude API Docs",
-    "content": "Claude Code 技术干货\n\n4.   **Update thinking configuration:** Claude 4.6 models use [adaptive thinking](https://platform.claude.com/docs/en/build-with-claude/adaptive-thinking) (`thinking: {type: \"adaptive\"}`) instead of manual thinking with `budget_tokens`. See [Migrating away from prefilled responses](https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/claude-prompting-best-practices#migrating-away-from-prefilled-responses) for detailed guidance on alternatives. *   [General principles](https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/claude-prompting-best-practices#general-principles). *   [Be clear and direct](https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/claude-prompting-best-practices#be-clear-and-direct). *   [Add context to improve performance](https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/claude-prompting-best-practices#add-context-to-improve-performance). *   [Use examples effectively](https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/claude-prompting-best-practices#use-examples-effectively). *   [Structure prompts with XML tags](https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/claude-prompting-best-practices#structure-prompts-with-xml-tags). *   [Long context prompting](https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/claude-prompting-best-practices#long-context-prompting). *   [Model self-knowledge](https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/claude-prompting-best-practices#model-self-knowledge). *   [Output and formatting](https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/claude-prompting-best-practices#output-and-formatting). *   [Control the format of responses](https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/claude-prompting-best-practices#control-the-format-of-responses). *   [LaTeX output](https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/claude-prompting-best-practices#la-te-x-output). *   [Document creation](https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/claude-prompting-best-practices#document-creation). *   [Migrating away from prefilled responses](https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/claude-prompting-best-practices#migrating-away-from-prefilled-responses). *   [Tool use](https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/claude-prompting-best-practices#tool-use). *   [Tool usage](https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/claude-prompting-best-practices#tool-usage). *   [Optimize parallel tool calling](https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/claude-prompting-best-practices#optimize-parallel-tool-calling). *   [Thinking and reasoning](https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/claude-prompting-best-practices#thinking-and-reasoning). *   [Leverage thinking & interleaved thinking capabilities](https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/claude-prompting-best-practices#leverage-thinking-and-interleaved-thinking-capabilities). *   [Agentic systems](https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/claude-prompting-best-practices#agentic-systems). *   [Long-horizon reasoning and state tracking](https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/claude-prompting-best-practices#long-horizon-reasoning-and-state-tracking). *   [Research and information gathering](https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/claude-prompting-best-practices#research-and-information-gathering). *   [Subagent orchestration](https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/claude-prompting-best-practices#subagent-orchestration). *   [Reduce file creation in agentic coding](https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/claude-prompting-best-practices#reduce-file-creation-in-agentic-coding). *   [Overeagerness](https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/claude-prompting-best-practices#overeagerness). *   [Avoid focusing on passing tests and hard-coding](https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/claude-prompting-best-practices#avoid-focusing-on-passing-tests-and-hard-coding). *   [Minimizing hallucinations in agentic coding](https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/claude-prompting-best-practices#minimizing-hallucinations-in-agentic-coding). *   [Capability-specific tips](https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/claude-prompting-best-practices#capability-specific-tips). *   [Improved vision capabilities](https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/claude-prompting-best-practices#improved-vision-capabilities). *   [Frontend design](https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/claude-prompting-best-practices#frontend-design). *   [Migration considerations](https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/claude-prompting-best-practices#migration-considerations).",
-    "excerpt": "4.   **Update thinking configuration:** Claude 4.6 models use [adaptive thinking](https://platform.claude.com/docs/en/build-with-claude/adaptive-think...",
-    "date": "2026-06-21T08:19:57.501Z",
-    "readTime": "18分钟",
-    "tags": [
-      "ClaudeCode",
-      "AI 编程",
-      "编程工具",
-      "技术干货",
-      "AI 代理"
-    ],
-    "source": "https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/claude-prompting-best-practices"
-  },
-  {
-    "id": "cl-1782029996260-cxky",
+    "id": "cl-1782043488608-34zy",
     "title": "💻 Claude Code Batch Processing #Linux - Qiita",
     "content": "Claude Code 技术干货\n\n# Claude Code Batch Processing. Claude Code users often face the challenge of \"wanting to execute multiple prompts sequentially\" and \"automating code generation with overnight batch processing.\" Many also need \"project-specific prompt management\" for their development workflows. This article provides a detailed explanation of the batch processing features added in Prompt Scheduler v1.0.2, along with real development scenarios. I want to clearly state that this is an independent personal development project with no connection whatsoever to Anthropic's Claude or Claude Code. Batch processing in Prompt Scheduler refers to **the functionality of pre-defining multiple prompts and automatically executing them in a specified order**. * Continuous prompt execution in active development projects. # Overnight batch (aggressive execution ignoring limits) \\ --prompt-file \\ --mode \\ --ignore-approaching-limit \\ --hours # Phased execution during business hours \\ --prompt-file \\ --mode \\ --stop-at. * **Project management**: Parallel processing of multiple projects with `--prompt-file`. * **Limit processing**: Aggressive execution with `--ignore-approaching-limit`.",
     "excerpt": "# Claude Code Batch Processing. Claude Code users often face the challenge of \"wanting to execute multiple prompts sequentially\" and \"automating code ...",
-    "date": "2026-06-21T08:19:56.260Z",
+    "date": "2026-06-21T12:04:48.608Z",
     "readTime": "4分钟",
     "tags": [
       "ClaudeCode",
@@ -99,30 +99,29 @@
     "source": "https://qiita.com/vibecoding/items/98d9358feebaa44a1637"
   },
   {
-    "id": "cl-1782029996260-h656",
-    "title": "💻 Show HN: Send Claude Code tasks to the Batch API at 50% off | Hacker News",
-    "content": "Claude Code 技术干货\n\n| |  | | --- | | Show HN: Send Claude Code tasks to the Batch API at 50% off (github.com/s2-streamstore) | | 23 points by misker1 4 months ago | hide | past | favorite | 1 comment | | Hey HN. I built this because my Anthropic API bills were getting out of hand (spoiler: they remain high even with this, batch is not a magic bullet). So here is a small MCP that lets you send work directly to Anthropic's Batch API from inside Claude Code, for the same quality responses just 50% cheaper, results come back in ~30min-1hr. ```  How it works: you type /batch review this codebase for security issues, Claude gathers all the context, builds a self-contained prompt, ships it to the Batch API via an MCP server, and you get notified in the status bar when it's done (optional). I removed the curl | bash setup and at this stage of the project i feel more confident sharing the manual setup instructions.",
-    "excerpt": "| |  | | --- | | Show HN: Send Claude Code tasks to the Batch API at 50% off (github.com/s2-streamstore) | | 23 points by misker1 4 months ago | hide ...",
-    "date": "2026-06-21T08:19:56.260Z",
-    "readTime": "3分钟",
+    "id": "cl-1782043488608-t122",
+    "title": "💻 Claude Code Batch Processing Complete Guide: /batch Command and Headless Mode in Practice - SmartScope",
+    "content": "Claude Code 技术干货\n\n* /batch Command: Parallel Execution of Large-Scale Code Changes. * Headless Mode (claude -p): CI/CD and Script Integration. # Claude Code Batch Processing Complete Guide: /batch Command and Headless Mode in Practice¶. The `/batch` command in Claude Code shines when you need to apply the same transformation across hundreds of files. * The `/batch` command executes codebase-wide migrations safely using **parallel agents + Git Worktree** isolation. * Headless mode (`claude -p`) provides **non-interactive integration** for CI/CD pipelines and shell scripts. Intermediate to advanced Claude Code users looking to scale up with large-scale changes and CI/CD integration. The latter is a non-interactive execution mode for embedding AI processing into CI/CD pipelines. | Aspect | /batch Command | Headless Mode (claude -p) |. Choose headless mode when embedding AI processing into existing CI/CD pipelines. `/batch` is a slash command executed within an interactive Claude Code session1. ## Headless Mode (claude -p): CI/CD and Script Integration¶.",
+    "excerpt": "* /batch Command: Parallel Execution of Large-Scale Code Changes. * Headless Mode (claude -p): CI/CD and Script Integration. # Claude Code Batch Proce...",
+    "date": "2026-06-21T12:04:48.608Z",
+    "readTime": "4分钟",
     "tags": [
       "ClaudeCode",
       "AI 编程",
       "编程工具",
       "技术干货",
-      "MCP 协议",
-      "Git",
-      "API"
+      "AI 代理",
+      "Git"
     ],
-    "source": "https://news.ycombinator.com/item?id=46981670"
+    "source": "https://smartscope.blog/en/generative-ai/claude/claude-code-batch-processing"
   },
   {
-    "id": "cl-1782029996260-oqsq",
-    "title": "💻 How I'm Using Claude Code (New) /simplify & /batch (To x10 My ...",
-    "content": "Claude Code 技术干货\n\nClaude Code /batch handles the migration work — it plans the changes, spins up isolated agents per folder, runs tests, and opens PRs without",
-    "excerpt": "Claude Code /batch handles the migration work — it plans the changes, spins up isolated agents per folder, runs tests, and opens PRs without",
-    "date": "2026-06-21T08:19:56.260Z",
-    "readTime": "1分钟",
+    "id": "cl-1782043488608-hpjg",
+    "title": "💻 Claude Code /simplify and /batch Commands Guide",
+    "content": "Claude Code 技术干货\n\n# Claude Code /simplify and /batch: Bundled Commands That Ship Code Faster. Claude Code /simplify runs 3-agent code review on your changes. The code works, but you know there's duplicated logic, a few functions that could be cleaner, and some inefficient patterns you didn't have time to address. # After implementing a feature # After implementing a feature/simplify/simplify  # Focus on a specific concern # Focus on a specific concern/simplify focus on memory efficiency/simplify  focus  on  memory  efficiency. If you need something bigger -- migrating an entire codebase from one framework to another, or applying a change across dozens of files -- that's what `/batch` is for. ## What Claude Code /simplify Does. Boris Cherny, the Claude Code PM, put it well: these bundled commands \"automate much of the work it used to take to shepherd a pull request to production.\" `/simplify` is the automated code review step between \"it works\" and \"it's ready to merge.\".",
+    "excerpt": "# Claude Code /simplify and /batch: Bundled Commands That Ship Code Faster. Claude Code /simplify runs 3-agent code review on your changes. The code w...",
+    "date": "2026-06-21T12:04:48.608Z",
+    "readTime": "4分钟",
     "tags": [
       "ClaudeCode",
       "AI 编程",
@@ -130,31 +129,14 @@
       "技术干货",
       "AI 代理"
     ],
-    "source": "https://medium.com/@joe.njenga/how-im-using-claude-code-new-simplify-batch-to-x10-my-code-reviews-888780a6a42a"
+    "source": "https://claudefa.st/blog/guide/mechanics/simplify-batch-commands"
   },
   {
-    "id": "cl-1782029996260-a28o",
-    "title": "💻 Claude Code: Batch processing with Message Batches API | Claude Cookbook",
-    "content": "Claude Code 技术干货\n\n# Batch processing with Message Batches API. Process large volumes of Claude requests asynchronously with 50% cost reduction using batches. Message Batches allow you to process large volumes of Messages requests asynchronously and cost-effectively. This cookbook demonstrates how to use the Message Batches API to handle bulk operations while reducing costs by 50%. Let's start with a simple example that demonstrates creating and monitoring a batch of message requests. `# Prepare a list of questions for batch processing. \"messages\": [{\"role\": \"user\", \"content\": question}],. print(f\"Batch ID: {response.id}\"). print(f\"Status: {response.processing_status}\"). Now let's monitor the batch processing status:. print(f\" Processing: {batch_result.request_counts.processing}\"). Once the batch is complete, we can retrieve and process the results:. batch = client.beta.messages.batches.retrieve(batch_id). print(f\"Status: {batch.processing_status}\"). for result in client.beta.messages.batches.results(batch_id):. print(f\"Status: {result.result.type}\"). print(f\"Content: {result.result.message.content[0].text[:200]}...\"). This example demonstrates more advanced usage, including error handling and processing different types of requests in a single batch including a simple message, a message with a system prompt, a multi-turn message, and a message with an image.",
-    "excerpt": "# Batch processing with Message Batches API. Process large volumes of Claude requests asynchronously with 50% cost reduction using batches. Message Ba...",
-    "date": "2026-06-21T08:19:56.260Z",
-    "readTime": "5分钟",
-    "tags": [
-      "ClaudeCode",
-      "AI 编程",
-      "编程工具",
-      "技术干货",
-      "命令行",
-      "API"
-    ],
-    "source": "https://platform.claude.com/cookbook/misc-batch-processing"
-  },
-  {
-    "id": "cl-1782029996260-hhdd",
+    "id": "cl-1782043488608-813y",
     "title": "💻 How I Batch a Full Week of Content in One Day with Claude Code",
     "content": "Claude Code 技术干货\n\nHow I Batch a Full Week of Content in One Day with Claude Code\nDee Willis | AI Digital Products\n2350 subscribers\n8 likes\n159 views\n7 Apr 2026\n► Join the HerMpire Builders Community to download the free Content Batch Day System skill + manual + implementation guide 👉 https://skool.com/digitalmpire-builders\n► Tap into your 14-Day Free Skool Trial: https://www.skool.com/signup?ref=070272b1669f463f91939c76d77d798e\n\nIf you want to batch a week of content in one day with Claude, this video is your step-by-step. No code required, no tech background needed, and your content will actually sound like you because we're training it on your voice, your offers, and your audience from the jump.\n\nI walk you through how to use the Content Batch Day System skill inside both Claude desktop and Claude Code. You can start from a topic idea, drop in a blog post URL, or upload a video transcript and it will generate Instagram, Facebook, LinkedIn, carousels, and community posts all in one session.\n\nWhether you're using Claude desktop or running Claude Code off your computer, I show you both paths so you can choose what works for your setup. And everything you need to get started is completely free in the HerMpire Builders community.\n\nWhat's inside this video:\n\n- How to install the Content Batch Day System skill in Claude desktop\n- How to set up the skill inside Claude Code for faster, file-based batching\n- How to build your content pack (brand voice, avatar, offers) so your AI output actually sounds like you\n- How to use a blog post, YouTube transcript, or topic idea as your content source\n- What types of content it produces across every platform\n\nYou don't need to set this up every time. You build the content pack once, and from that point on Claude knows who you are and what you create. That's how you go from spending hours on content every week to getting it all done in one sitting.\n\nGet the skill, the manual, and the implementation guide for free in Builders. Link above.\n\n---\n\n0:00 The content problem we all have\n0:38 Installing the skill in Claude desktop\n2:10 Uploading your offers and documents during setup\n3:15 Setting up the skill inside Claude Code\n5:00 Building your content pack (brand voice, avatar, offers)\n7:02 Feeding in your source: transcript, blog post, or idea\n8:45 What files get created and how to download them\n10:00 Why Claude Code makes this simpler than the desktop app\n2 comments\n",
     "excerpt": "How I Batch a Full Week of Content in One Day with Claude Code\nDee Willis | AI Digital Products\n2350 subscribers\n8 likes\n159 views\n7 Apr 2026\n► Join t...",
-    "date": "2026-06-21T08:19:56.260Z",
+    "date": "2026-06-21T12:04:48.608Z",
     "readTime": "9分钟",
     "tags": [
       "ClaudeCode",
@@ -165,5 +147,22 @@
       "Git"
     ],
     "source": "https://www.youtube.com/watch?v=F48_A7umid4&vl=en"
+  },
+  {
+    "id": "cl-1782043488608-swc4",
+    "title": "💻 GitHub - s2-streamstore/claude-batch-toolkit: Send non-urgent work to the Anthropic Batch API at 50% cost — directly from Claude Code · GitHub",
+    "content": "Claude Code 技术干货\n\n## Use saved searches to filter your results more quickly. # claude-batch-toolkit. Send non-urgent work to the Anthropic Batch API (or Vertex AI) at **50% cost** — directly from Claude Code. Works with the Anthropic API directly or through Google Cloud's Vertex AI. This shows what will be removed, asks for confirmation, and preserves your results in `~/.claude/batches/results/`. If you prefer not to run the install script — or need to install in a restricted environment — follow these steps to set up each component by hand. | **curl** | Polls the Anthropic API from statusline | `brew install curl` or `apt-get install curl` |. #### Step 2: Install the MCP server. #### Step 4 *(optional)*: Install the statusline script. Skip this step if you don't want batch job counts in your Claude Code status bar. #### Step 6: Register the MCP server in `~/.claude.json`. #### Step 7 *(optional)*: Configure the statusline in `~/.claude/settings.json`.",
+    "excerpt": "## Use saved searches to filter your results more quickly. # claude-batch-toolkit. Send non-urgent work to the Anthropic Batch API (or Vertex AI) at *...",
+    "date": "2026-06-21T12:04:48.608Z",
+    "readTime": "4分钟",
+    "tags": [
+      "ClaudeCode",
+      "AI 编程",
+      "编程工具",
+      "技术干货",
+      "MCP 协议",
+      "API"
+    ],
+    "source": "https://github.com/s2-streamstore/claude-batch-toolkit"
   }
 ]
