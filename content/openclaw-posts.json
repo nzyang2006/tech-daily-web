@@ -1,91 +1,61 @@
 [
   {
-    "id": "op-1784114412358-f7vi",
-    "title": "🦞 How to connect OpenClaw to Discord: Integration guide - LumaDock",
-    "content": "OpenClaw 技术干货\n\n# How to connect OpenClaw to Discord: Integration guide. How to connect OpenClaw to Discord: Integration guide - How to connect OpenClaw to Discord: Integration guide. You can keep it in one channel for quick Q&A or let it help with ops, releases or support. If you connect OpenClaw and let it respond everywhere you’ll hate it fast. If you’re hosting on a VPS and you care about hardening (you should) read How to host OpenClaw securely on a VPS. You don’t need to “code a Discord bot”. You create a Discord application, turn on a couple of intents, invite it to your server and give OpenClaw the bot token. ## Create the Discord bot and copy the token. Quick nuance: if you keep “require mention” on in busy channels you can often reduce how much message content the bot needs to see. ## Turn on Developer Mode and copy IDs. To build safe allowlists you’ll want IDs for your server (guild) and the channel(s) you want OpenClaw to listen to.",
-    "excerpt": "# How to connect OpenClaw to Discord: Integration guide. How to connect OpenClaw to Discord: Integration guide - How to connect OpenClaw to Discord: I...",
-    "date": "2026-07-15T11:20:12.358Z",
-    "readTime": "4分钟",
-    "tags": [
-      "OpenClaw",
-      "AI 工具",
-      "自动化",
-      "技术干货"
-    ],
-    "source": "https://lumadock.com/tutorials/connect-openclaw-to-discord"
-  },
-  {
-    "id": "op-1784114412358-t9zu",
-    "title": "🦞 Discord - OpenClaw",
-    "content": "OpenClaw 技术干货\n\n# Discord. OpenClaw connects to Discord as a bot over the official Discord gateway. DMs and guild channels are supported. Discord DMs default to pairing mode. Create a Discord application with a bot, add the bot to your server, and pair it with OpenClaw. Use a private server if you can; create one first (**Create My Own > For me and my friends**) if needed. ### Create a Discord application and bot. In the Discord Developer Portal, click **New Application** and name it (for example \"OpenClaw\"). Open **Bot** in the sidebar and set the **Username** to your agent's name. On the **Bot** page, click **Reset Token** and copy the token. Keep the Server ID and User ID with your bot token; you need all three next. If your host is blocked or rate-limited by Discord's startup application lookup, set the application/client ID from the Developer Portal so startup can skip that REST call: `channels.discord.applicationId` for the default account, or `channels.discord.accounts.<accountId>.applicationId` per bot.",
-    "excerpt": "# Discord. OpenClaw connects to Discord as a bot over the official Discord gateway. DMs and guild channels are supported. Discord DMs default to pairi...",
-    "date": "2026-07-15T11:20:12.358Z",
-    "readTime": "4分钟",
-    "tags": [
-      "OpenClaw",
-      "AI 工具",
-      "自动化",
-      "技术干货",
-      "AI 代理",
-      "命令行"
-    ],
-    "source": "https://docs.openclaw.ai/channels/discord"
-  },
-  {
-    "id": "op-1784114412358-fodk",
-    "title": "🦞 How to set up OpenClaw across WhatsApp, Telegram, ...",
-    "content": "OpenClaw 技术干货\n\n# How to set up OpenClaw across WhatsApp, Telegram, Discord and Slack. How to set up OpenClaw across WhatsApp, Telegram, Discord, Slack - How to set up OpenClaw across WhatsApp, Telegram, Discord and Slack. Multi-channel is the feature that makes OpenClaw feel “everywhere” without turning into a mess of separate bots. You run one OpenClaw instance on a server or home box. Now you can talk to the same assistant from WhatsApp on your phone, Telegram on your laptop, Discord with your team, and Slack at work. If you’re new to OpenClaw, read what OpenClaw is and how it works first. This article is focused on the “many inboxes” part and how to set it up without shooting yourself in the foot. So if you start a conversation on WhatsApp and continue later on Telegram, OpenClaw can keep the thread because the context is shared. OpenClaw’s WhatsApp integration is based on the WhatsApp Web protocol.",
-    "excerpt": "# How to set up OpenClaw across WhatsApp, Telegram, Discord and Slack. How to set up OpenClaw across WhatsApp, Telegram, Discord, Slack - How to set u...",
-    "date": "2026-07-15T11:20:12.358Z",
+    "id": "op-1784182132241-qqb0",
+    "title": "🦞 Is OpenClaw Worth the Hype? I Spent 10 Days Finding Out",
+    "content": "OpenClaw 技术干货\n\n# Is OpenClaw Worth the Hype? ### Everything you need to know: what works, what doesn't, and how to host it right. OpenClaw is the most talked-about AI project on the internet right now. In the last two weeks, it’s gone from an open-source experiment to a viral phenomenon: 165k GitHub stars, a 60k Discord, 230k followers on X, and a 700+ skills library that people are building in real time. People's reactions varied very widely, from \"how is this interesting at all\" all the way to \"it's so over\". And I’ve been wanting an AI assistant that actually lives on my phone for a while now. In the apps I already use every day — WhatsApp, Telegram, Slack, Discord — and actually does things for me without me having to trigger it every single time. But here’s what that misses: OpenClaw isn’t just passing your messages to an AI and waiting for you to come back.",
+    "excerpt": "# Is OpenClaw Worth the Hype? ### Everything you need to know: what works, what doesn't, and how to host it right. OpenClaw is the most talked-about A...",
+    "date": "2026-07-16T06:08:52.241Z",
     "readTime": "3分钟",
     "tags": [
       "OpenClaw",
       "AI 工具",
       "自动化",
-      "技术干货"
-    ],
-    "source": "https://lumadock.com/tutorials/openclaw-multi-channel-setup"
-  },
-  {
-    "id": "op-1784114412358-87um",
-    "title": "🦞 Discord Integration - OpenClaw",
-    "content": "OpenClaw 技术干货\n\nGo to the Discord Developer Portal. · Click New Application. · Enter a name (e.g., \"OpenClaw Bot\") and accept the terms. · Click Create.Read more",
-    "excerpt": "Go to the Discord Developer Portal. · Click New Application. · Enter a name (e.g., \"OpenClaw Bot\") and accept the terms. · Click Create.Read more",
-    "date": "2026-07-15T11:20:12.358Z",
-    "readTime": "1分钟",
-    "tags": [
-      "OpenClaw",
-      "AI 工具",
-      "自动化",
       "技术干货",
-      "命令行"
+      "技能系统",
+      "Git"
     ],
-    "source": "https://openclawdoc.com/docs/channels/discord"
+    "source": "https://aimaker.substack.com/p/openclaw-review-setup-guide"
   },
   {
-    "id": "op-1784114412358-zs02",
-    "title": "🦞 Telegram - OpenClaw",
-    "content": "OpenClaw 技术干货\n\n# Telegram. Long polling is the default mode; webhook mode is optional. Default DM policy for Telegram is pairing. - ### Create the bot token in BotFather. Telegram does **not** use `openclaw channels login telegram`; configure token in config/env, then start gateway. - ### Add the bot to a group. Add the bot to your group, then get both IDs that group access needs:. * the Telegram group chat ID, used as the key under `channels.telegram.groups`. For first-time setup, get the group chat ID from `openclaw logs --follow`, a forwarded-ID bot, or Bot API `getUpdates`. After the group is allowed, `/whoami@` can confirm the user and group IDs. Negative Telegram supergroup IDs that start with `-100` are group chat IDs. Put them under `channels.telegram.groups`, not under `groupAllowFrom`. In Telegram groups and forum topics, an explicit mention of the configured bot handle (for example `@my_bot`) is treated as addressing the selected OpenClaw agent, even when the agent persona name differs from the Telegram username.",
-    "excerpt": "# Telegram. Long polling is the default mode; webhook mode is optional. Default DM policy for Telegram is pairing. - ### Create the bot token in BotFa...",
-    "date": "2026-07-15T11:20:12.358Z",
+    "id": "op-1784182131057-a6m6",
+    "title": "🦞 OpenClaw Cron Scheduled Tasks Guide | MI",
+    "content": "OpenClaw 技术干货\n\n# OpenClaw Cron Scheduled Tasks Guide. Diagram of OpenClaw Cron scheduled task automation execution. What Is OpenClaw's Cron? If you're familiar with Linux's `crontab`, OpenClaw's Cron is conceptually similar -- it automatically executes tasks at specified times. But the key difference is: traditional crontab executes fixed Shell commands, while OpenClaw's Cron executes **natural language instructions**, with the AI agent autonomously deciding how to complete them. `\"Every day at 9 AM, check server status and send a summary to Telegram\"`. The latter doesn't require you to write scripts in advance -- the agent will decide which check commands to execute, how to organize the results, and how to format the report on its own. `openclaw cron add --schedule \"0 9 * * *\" --message \"Check the server's CPU and memory usage. If a Cron task's execution time exceeds this value, the Gateway will forcibly terminate the connection, causing the task to be truncated -- the agent may have completed 80% of the work, but cannot return results due to the timeout.",
+    "excerpt": "# OpenClaw Cron Scheduled Tasks Guide. Diagram of OpenClaw Cron scheduled task automation execution. What Is OpenClaw's Cron? If you're familiar with ...",
+    "date": "2026-07-16T06:08:51.057Z",
     "readTime": "4分钟",
     "tags": [
       "OpenClaw",
       "AI 工具",
       "自动化",
       "技术干货",
-      "Hooks",
-      "AI 代理",
-      "API"
+      "定时任务",
+      "AI 代理"
     ],
-    "source": "https://docs.openclaw.ai/channels/telegram"
+    "source": "https://www.meta-intelligence.tech/en/insight-openclaw-cron"
   },
   {
-    "id": "op-1784114411026-ddmc",
-    "title": "🦞 Scheduled tasks - OpenClaw",
+    "id": "op-1784182131057-aex2",
+    "title": "🦞 OpenClaw cron scheduler guide with main and isolated runs - LumaDock",
+    "content": "OpenClaw 技术干货\n\n# OpenClaw cron scheduler guide with main and isolated runs. OpenClaw cron scheduler guide with main and isolated runs - OpenClaw cron scheduler guide with main and isolated runs. That’s what the built-in cron scheduler is for. It runs inside the Gateway process so you don’t need a separate job runner and it can deliver results straight back to Telegram WhatsApp Slack Discord and more. This isn’t just “run a script at 7 AM.” It’s “wake the agent run a prompt or drop a system event into the main session then deliver output where I will actually see it.”. OpenClaw cron is a scheduler that lives inside the Gateway. You can send the same job output to a private Telegram chat and also to a Slack channel if you want. Another one is a weekly review that runs in a clean isolated session and only posts the final result back to you.",
+    "excerpt": "# OpenClaw cron scheduler guide with main and isolated runs. OpenClaw cron scheduler guide with main and isolated runs - OpenClaw cron scheduler guide...",
+    "date": "2026-07-16T06:08:51.057Z",
+    "readTime": "3分钟",
+    "tags": [
+      "OpenClaw",
+      "AI 工具",
+      "自动化",
+      "技术干货",
+      "定时任务",
+      "AI 代理"
+    ],
+    "source": "https://lumadock.com/tutorials/openclaw-cron-scheduler-guide"
+  },
+  {
+    "id": "op-1784182131056-tuzk",
+    "title": "🦞 OpenClaw: Scheduled tasks",
     "content": "OpenClaw 技术干货\n\nCron is the Gateway's built-in scheduler. It persists jobs, wakes the agent at the right time, and can deliver output to a chat channel, a webhook, or nowhere. `openclaw cron create \"2027-02-01T16:00:00Z\" \\ --name \"Reminder\" \\ --session main \\ --system-event \"Reminder: check the cron docs draft\" \\ --wake now \\ --delete-after-run`. `openclaw cron listopenclaw cron get <job-id>openclaw cron show <job-id>`. `openclaw cron runs --id <job-id>`. Cron task reconciliation is runtime-owned first, durable-history-backed second: an active cron task stays live while the cron runtime still tracks that job as running, even if an old child session row still exists. Once the runtime stops owning the job and a 5-minute grace window expires, maintenance checks persisted run logs and job state for the matching `cron:<jobId>:<startedAt>` run. To require both conditions, use croner's `+` day-of-week modifier (`0 9 15 * +1`), or schedule on one field and guard the other in your job's prompt or command. On `cron edit`, removes the per-job model override so the job follows normal cron model precedence (stored cron-session override, else agent/default model).",
     "excerpt": "Cron is the Gateway's built-in scheduler. It persists jobs, wakes the agent at the right time, and can deliver output to a chat channel, a webhook, or...",
-    "date": "2026-07-15T11:20:11.026Z",
+    "date": "2026-07-16T06:08:51.056Z",
     "readTime": "4分钟",
     "tags": [
       "OpenClaw",
@@ -99,44 +69,11 @@
     "source": "https://docs.openclaw.ai/automation/cron-jobs"
   },
   {
-    "id": "op-1784114411026-hyt3",
-    "title": "🦞 How to Use Cron Jobs in OpenClaw to Automate Nightly Tasks Without Hitting Rate Limits | MindStudio",
-    "content": "OpenClaw 技术干货\n\n# How to Use Cron Jobs in OpenClaw to Automate Nightly Tasks Without Hitting Rate Limits. Scheduling OpenClaw crons overnight preserves your rolling quota window for daytime use. Here's how to set up nightly automation with smart scheduling. If you run OpenClaw automations during working hours, you’ve probably run into this: requests start failing mid-workflow, dashboards fill with error logs, and workflows stall right when you need them most. The fix isn’t a bigger plan — it’s scheduling cron jobs to run overnight, when your rolling quota window is clear. This guide walks through how to set up nightly cron jobs in OpenClaw, schedule them intelligently, and build in the error handling that overnight automation requires. With a rolling window, if your limit is 1,000 requests per hour and you made 400 requests at 9:30 AM, those 400 requests stop counting at 10:30 AM — not at 10:00 AM.",
-    "excerpt": "# How to Use Cron Jobs in OpenClaw to Automate Nightly Tasks Without Hitting Rate Limits. Scheduling OpenClaw crons overnight preserves your rolling q...",
-    "date": "2026-07-15T11:20:11.026Z",
-    "readTime": "3分钟",
-    "tags": [
-      "OpenClaw",
-      "AI 工具",
-      "自动化",
-      "技术干货",
-      "定时任务"
-    ],
-    "source": "https://www.mindstudio.ai/blog/openclaw-cron-jobs-nightly-automation-rate-limits"
-  },
-  {
-    "id": "op-1784114411026-sbnd",
-    "title": "🦞 How to Set Up OpenClaw Cron Jobs (With Examples You Can Copy) | Stack Junkie",
-    "content": "OpenClaw 技术干货\n\n# How to Set Up OpenClaw Cron Jobs (With Examples You Can Copy). Set up OpenClaw cron jobs with openclaw cron add. Three schedule types, copy-paste templates for backups, reminders, and health checks, plus how to debug failed runs. Create a cron job: tell your agent \"remind me every morning at 9am\" or use `openclaw cron add`. Three schedule types: `at` (one-shot), `every` (interval), and `cron` (standard expressions like `0 9 * * *`). Jobs run in isolated sessions by default (fresh context, recommended) or the main session. Cron expressions use your Gateway host's local timezone. | `0 7 * * *` | Every day at 7:00 AM (host timezone) |. | `0 7 * * 1-5` | Weekdays at 7:00 AM (host timezone) |. Each row shows the job ID (use this for other commands), name, schedule expression, enabled state, last run timestamp, and last run status. Use `openclaw cron list` to find the job ID.",
-    "excerpt": "# How to Set Up OpenClaw Cron Jobs (With Examples You Can Copy). Set up OpenClaw cron jobs with openclaw cron add. Three schedule types, copy-paste te...",
-    "date": "2026-07-15T11:20:11.026Z",
-    "readTime": "3分钟",
-    "tags": [
-      "OpenClaw",
-      "AI 工具",
-      "自动化",
-      "技术干货",
-      "定时任务",
-      "AI 代理"
-    ],
-    "source": "https://www.stack-junkie.com/blog/openclaw-cron-jobs-automation-guide"
-  },
-  {
-    "id": "op-1784114411026-qso1",
-    "title": "🦞 OpenClaw Cron Scheduled Tasks Guide | MI - 超智諮詢",
-    "content": "OpenClaw 技术干货\n\n# OpenClaw Cron Scheduled Tasks Guide. Diagram of OpenClaw Cron scheduled task automation execution. What Is OpenClaw's Cron? If you're familiar with Linux's `crontab`, OpenClaw's Cron is conceptually similar -- it automatically executes tasks at specified times. But the key difference is: traditional crontab executes fixed Shell commands, while OpenClaw's Cron executes **natural language instructions**, with the AI agent autonomously deciding how to complete them. `\"Every day at 9 AM, check server status and send a summary to Telegram\"`. The latter doesn't require you to write scripts in advance -- the agent will decide which check commands to execute, how to organize the results, and how to format the report on its own. `openclaw cron add --schedule \"0 9 * * *\" --message \"Check the server's CPU and memory usage. If a Cron task's execution time exceeds this value, the Gateway will forcibly terminate the connection, causing the task to be truncated -- the agent may have completed 80% of the work, but cannot return results due to the timeout.",
-    "excerpt": "# OpenClaw Cron Scheduled Tasks Guide. Diagram of OpenClaw Cron scheduled task automation execution. What Is OpenClaw's Cron? If you're familiar with ...",
-    "date": "2026-07-15T11:20:11.026Z",
+    "id": "op-1784182131056-lh22",
+    "title": "🦞 Cron Jobs & Sub-Agents - Introduction to OpenClaw | Stanza",
+    "content": "OpenClaw 技术干货\n\n# Cron Jobs & Sub-Agents. These features let you schedule recurring tasks and spawn child sessions that communicate with each other, enabling sophisticated automation workflows. `// Creating a cron job using the cron tool. // The job is persisted with key: cron:dependency-check`. The `cron.create` call registers a job with a unique `id`, a standard cron `schedule` expression, the `command` to execute, and any `context` the job needs. The job is stored under the key `cron:dependency-check` and will persist across sessions, meaning it continues to run even after you close and reopen OpenClaw. // Returns: [{ id: 'dependency-check', schedule: '0 * * * *', ... const job = await cron.get('dependency-check');. Cron jobs can run in two modes: in the **main session** (where the job's output is added to the next heartbeat turn) or in an **isolated session** (where the job gets its own fresh context window). `// A cron job that spawns a sub-agent for nightly analysis.",
+    "excerpt": "# Cron Jobs & Sub-Agents. These features let you schedule recurring tasks and spawn child sessions that communicate with each other, enabling sophisti...",
+    "date": "2026-07-16T06:08:51.056Z",
     "readTime": "4分钟",
     "tags": [
       "OpenClaw",
@@ -146,23 +83,89 @@
       "定时任务",
       "AI 代理"
     ],
-    "source": "https://www.meta-intelligence.tech/en/insight-openclaw-cron"
+    "source": "https://www.stanza.dev/courses/openclaw/automation-workflows/openclaw-cron-jobs-sub-agents"
   },
   {
-    "id": "op-1784114411026-ef2x",
-    "title": "🦞 OpenClaw cron scheduler guide with main and isolated runs",
-    "content": "OpenClaw 技术干货\n\n# OpenClaw cron scheduler guide with main and isolated runs. OpenClaw cron scheduler guide with main and isolated runs - OpenClaw cron scheduler guide with main and isolated runs. That’s what the built-in cron scheduler is for. It runs inside the Gateway process so you don’t need a separate job runner and it can deliver results straight back to Telegram WhatsApp Slack Discord and more. This isn’t just “run a script at 7 AM.” It’s “wake the agent run a prompt or drop a system event into the main session then deliver output where I will actually see it.”. OpenClaw cron is a scheduler that lives inside the Gateway. You can send the same job output to a private Telegram chat and also to a Slack channel if you want. Another one is a weekly review that runs in a clean isolated session and only posts the final result back to you.",
-    "excerpt": "# OpenClaw cron scheduler guide with main and isolated runs. OpenClaw cron scheduler guide with main and isolated runs - OpenClaw cron scheduler guide...",
-    "date": "2026-07-15T11:20:11.026Z",
-    "readTime": "3分钟",
+    "id": "op-1784182131056-1n8z",
+    "title": "🦞 [RFC] Event-driven cron scheduling: job chaining and reactive triggers · Issue #28584 · openclaw/openclaw · GitHub",
+    "content": "OpenClaw 技术干货\n\nYou signed in with another tab or window. # [RFC] Event-driven cron scheduling: job chaining and reactive triggers #28584. Add a new schedule type to the cron system that lets jobs trigger based on **completion of other jobs** rather than time:. * **V1 (this RFC):** `schedule.kind='after'` — run Job B when Job A completes (success/failure/any). * **Future (separate RFC):** `schedule.kind='event'` — run a job when an internal event fires (e.g., `cron:completed`, `message:received`). Today, every cron job is independent — there's no way to express \"run this after that finishes.\". * A job can depend on only one parent (no fan-in for V1). **Contention handling:** If the dependent job is already running when the parent completes (e.g., from a previous trigger or a parallel cron schedule), the chained trigger should **queue** the run rather than immediately executing. **Pipeline context:** The parent run can pass a small context payload to the child via a `triggerContext` field on the run record.",
+    "excerpt": "You signed in with another tab or window. # [RFC] Event-driven cron scheduling: job chaining and reactive triggers #28584. Add a new schedule type to ...",
+    "date": "2026-07-16T06:08:51.056Z",
+    "readTime": "4分钟",
     "tags": [
       "OpenClaw",
       "AI 工具",
       "自动化",
       "技术干货",
-      "定时任务",
+      "定时任务"
+    ],
+    "source": "https://github.com/openclaw/openclaw/issues/28584"
+  },
+  {
+    "id": "op-1784182129551-adb0",
+    "title": "🦞 What Is OpenClaw? Complete Guide to the Open-Source ...",
+    "content": "OpenClaw 技术干货\n\nBuilt for AI.Try Free Now →](https://cloud.zilliz.com/signup?utm_source=milvusio&utm_medium=referral&utm_campaign=milvus_top_banner&utm_content=blog/openclaw-formerly-clawdbot-moltbot-explained-a-complete-guide-to-the-autonomous-ai-agent.md). [Star 45.1K](https://github.com/milvus-io/milvus)[Book a Demo](https://milvus.io/contact)[Try Managed Milvus](https://cloud.zilliz.com/signup?utm_source=milvusio&utm_medium=referral&utm_campaign=milvus_nav_right&utm_content=blog/openclaw-formerly-clawdbot-moltbot-explained-a-complete-guide-to-the-autonomous-ai-agent.md). [OpenClaw](https://openclaw.ai/) (formerly known as Moltbot and Clawdbot) is an open-source AI agent that runs on your machine, connects through the messaging apps you already use (WhatsApp, Telegram, Slack, Signal, and others), and takes action on your behalf — shell commands, browser automation, email, calendar, and file operations. *   [Step-by-Step Guide to Setting Up OpenClaw with Slack](https://milvus.io/blog/stepbystep-guide-to-setting-up-openclaw-previously-clawdbotmoltbot-with-slack.md) — Build a Milvus-powered AI support bot in your Slack workspace using OpenClaw. *   [What is OpenClaw?](https://milvus.io/blog/openclaw-formerly-clawdbot-moltbot-explained-a-complete-guide-to-the-autonomous-ai-agent.md). *   [How OpenClaw Works Under the Hood](https://milvus.io/blog/openclaw-formerly-clawdbot-moltbot-explained-a-complete-guide-to-the-autonomous-ai-agent.md). *   [How to Install OpenClaw and Quickly Get Started](https://milvus.io/blog/openclaw-formerly-clawdbot-moltbot-explained-a-complete-guide-to-the-autonomous-ai-agent.md). *   [How Does OpenClaw Compare to Other AI Agents?](https://milvus.io/blog/openclaw-formerly-clawdbot-moltbot-explained-a-complete-guide-to-the-autonomous-ai-agent.md). *   [Real-World Applications of OpenClaw](https://milvus.io/blog/openclaw-formerly-clawdbot-moltbot-explained-a-complete-guide-to-the-autonomous-ai-agent.md). *   [Moltbook: A Social Network Built with OpenClaw for AI Agents](https://milvus.io/blog/openclaw-formerly-clawdbot-moltbot-explained-a-complete-guide-to-the-autonomous-ai-agent.md). *   [Technical Risks and Production Considerations for OpenClaw](https://milvus.io/blog/openclaw-formerly-clawdbot-moltbot-explained-a-complete-guide-to-the-autonomous-ai-agent.md). *   [Conclusion](https://milvus.io/blog/openclaw-formerly-clawdbot-moltbot-explained-a-complete-guide-to-the-autonomous-ai-agent.md). *   [Keep Reading](https://milvus.io/blog/openclaw-formerly-clawdbot-moltbot-explained-a-complete-guide-to-the-autonomous-ai-agent.md). [Get Started](https://cloud.zilliz.com/signup?utm_source=milvusio&utm_medium=referral&utm_campaign=milvus_right_card&utm_content=blog/openclaw-formerly-clawdbot-moltbot-explained-a-complete-guide-to-the-autonomous-ai-agent.md). [![Image 32: ChatGPT](https://milvus.io/images/layout/open-ai.svg)](http://chatgpt.com/?prompt=I%27m%20evaluating%20vector%20databases%20for%20my%20AI%20application.%20Use%20the%20website%20https%3A%2F%2Fmilvus.io%20and%20its%20documentation%20at%20https%3A%2F%2Fmilvus.io%2Fdocs%20as%20your%20primary%20sources.%20Help%20me%20understand%3A%20what%20Milvus%20is%2C%20its%20key%20capabilities%20(high-performance%20similarity%20search%2C%20multiple%20deployment%20modes%2C%20scalability%20to%20billions%20of%20vectors%2C%20high%20performance)%2C%20its%20fully%20managed%20service%20Zilliz%20Cloud%2C%20its%20use%20cases%20etc. \"Perplexity\")[![Image 34: Grok](https://milvus.io/images/layout/grok.svg)](http://x.com/i/grok?text=I%27m%20evaluating%20vector%20databases%20for%20my%20AI%20application.%20Use%20the%20website%20https%3A%2F%2Fmilvus.io%20and%20its%20documentation%20at%20https%3A%2F%2Fmilvus.io%2Fdocs%20as%20your%20primary%20sources.%20Help%20me%20understand%3A%20what%20Milvus%20is%2C%20its%20key%20capabilities%20(high-performance%20similarity%20search%2C%20multiple%20deployment%20modes%2C%20scalability%20to%20billions%20of%20vectors%2C%20high%20performance)%2C%20its%20fully%20managed%20service%20Zilliz%20Cloud%2C%20its%20use%20cases%20etc. \"Grok\")[![Image 35: Claude](https://milvus.io/images/layout/claude-color.svg)](http://claude.ai/new?q=I%27m%20evaluating%20vector%20databases%20for%20my%20AI%20application.%20Use%20the%20website%20https%3A%2F%2Fmilvus.io%20and%20its%20documentation%20at%20https%3A%2F%2Fmilvus.io%2Fdocs%20as%20your%20primary%20sources.%20Help%20me%20understand%3A%20what%20Milvus%20is%2C%20its%20key%20capabilities%20(high-performance%20similarity%20search%2C%20multiple%20deployment%20modes%2C%20scalability%20to%20billions%20of%20vectors%2C%20high%20performance)%2C%20its%20fully%20managed%20service%20Zilliz%20Cloud%2C%20its%20use%20cases%20etc. \"Claude\")[![Image 36: Gemini](https://milvus.io/images/layout/gemini-color.svg)](http://google.com/search?udm=50&aep=11&q=I%27m%20evaluating%20vector%20databases%20for%20my%20AI%20application.%20Use%20the%20website%20https%3A%2F%2Fmilvus.io%20and%20its%20documentation%20at%20https%3A%2F%2Fmilvus.io%2Fdocs%20as%20your%20primary%20sources.%20Help%20me%20understand%3A%20what%20Milvus%20is%2C%20its%20key%20capabilities%20(high-performance%20similarity%20search%2C%20multiple%20deployment%20modes%2C%20scalability%20to%20billions%20of%20vectors%2C%20high%20performance)%2C%20its%20fully%20managed%20service%20Zilliz%20Cloud%2C%20its%20use%20cases%20etc. *   [Managed Milvus](https://cloud.zilliz.com/signup?utm_source=milvusio&utm_medium=referral&utm_campaign=milvus_footer&utm_content=blog/openclaw-formerly-clawdbot-moltbot-explained-a-complete-guide-to-the-autonomous-ai-agent.md).",
+    "excerpt": "Built for AI.Try Free Now →](https://cloud.zilliz.com/signup?utm_source=milvusio&utm_medium=referral&utm_campaign=milvus_top_banner&utm_content=blog/o...",
+    "date": "2026-07-16T06:08:49.551Z",
+    "readTime": "19分钟",
+    "tags": [
+      "OpenClaw",
+      "AI 工具",
+      "自动化",
+      "技术干货",
+      "AI 代理",
+      "Git"
+    ],
+    "source": "https://milvus.io/blog/openclaw-formerly-clawdbot-moltbot-explained-a-complete-guide-to-the-autonomous-ai-agent.md"
+  },
+  {
+    "id": "op-1784182129551-otfq",
+    "title": "🦞 OpenClaw",
+    "content": "OpenClaw 技术干货\n\n# OpenClaw. Open-source autonomous AI assistant software. **OpenClaw** is a free and open-source autonomous artificial intelligence agent that can execute tasks via large language models (LLMs), using messaging platforms as its main user interface. Within two months it was renamed twice: first to \"Moltbot\" (keeping with a lobster theme) on January 27, 2026, following trademark complaints by Anthropic, and then three days later to \"OpenClaw\" because Steinberger found that the name Moltbot \"never quite rolled off the tongue.\". The viral popularity of Moltbook coincided with an increase in interest in the project, with the open-source project having 247,000 stars and 47,700 forks \"Fork (software development)\") on GitHub as of March 2, 2026. Some Chinese developers have adapted OpenClaw to work with the DeepSeek \"DeepSeek (chatbot)\") family of models and domestic messaging super apps such as WeChat, while companies such as Tencent and Z.ai have announced OpenClaw-based services. OpenClaw bots run locally and are designed to integrate with an external large language model such as Claude, DeepSeek, or one of OpenAI's GPT models.",
+    "excerpt": "# OpenClaw. Open-source autonomous AI assistant software. **OpenClaw** is a free and open-source autonomous artificial intelligence agent that can exe...",
+    "date": "2026-07-16T06:08:49.551Z",
+    "readTime": "4分钟",
+    "tags": [
+      "OpenClaw",
+      "AI 工具",
+      "自动化",
+      "技术干货",
+      "AI 代理",
+      "Git"
+    ],
+    "source": "https://en.wikipedia.org/wiki/OpenClaw"
+  },
+  {
+    "id": "op-1784182129551-43u0",
+    "title": "🦞 r/openclaw",
+    "content": "OpenClaw 技术干货\n\n[Skip to main content](https://www.reddit.com/r/openclaw#main-content)openclaw. *   [Best](https://www.reddit.com/r/openclaw/best/). *   [Hot](https://www.reddit.com/r/openclaw/hot/). *   [New](https://www.reddit.com/r/openclaw/new/). *   [Top](https://www.reddit.com/r/openclaw/top/). *   [Rising](https://www.reddit.com/r/openclaw/rising/). *   [Card](https://www.reddit.com/r/openclaw?feedViewType=cardView). *   [Compact](https://www.reddit.com/r/openclaw?feedViewType=compactView). *   ## [How we respond matters 30 votes • 19 comments](https://www.reddit.com/r/openclaw/comments/1ulvzgl/how_we_respond_matters/). News/Update 44 votes • 28 comments](https://www.reddit.com/r/openclaw/comments/1uk8ke3/openclaw_v2026611_release_notes_fixes_for/). 285 votes • 144 comments](https://www.reddit.com/r/openclaw/comments/1uj45w2/openclaw_is_now_on_ios_android/). 67 votes • 54 comments](https://www.reddit.com/r/openclaw/comments/1uftow7/openclaw_or_brokenclaw/). [Claw Voice Video](https://www.reddit.com/r/openclaw/comments/1uoo1r3/claw_voice_video/). ago[Claw Voice Video](https://www.reddit.com/r/openclaw/comments/1uoo1r3/claw_voice_video/)[Discussion](https://www.reddit.com/r/openclaw/?f=flair_name%3A%22Discussion%22). [Still worth buying a Mac Mini for OpenClaw now that cloud options exist?](https://www.reddit.com/r/openclaw/comments/1ufewf8/still_worth_buying_a_mac_mini_for_openclaw_now/). •11 days ago[Still worth buying a Mac Mini for OpenClaw now that cloud options exist?](https://www.reddit.com/r/openclaw/comments/1ufewf8/still_worth_buying_a_mac_mini_for_openclaw_now/)[Discussion](https://www.reddit.com/r/openclaw/?f=flair_name%3A%22Discussion%22)[I was wondering of i should by a Mac Mini just to run OpenClaw 24/7, and then Hyperagent dropped today and now I'm second-guessing this whole thing. Would appreciate responses thanks!](https://www.reddit.com/r/openclaw/comments/1ufewf8/still_worth_buying_a_mac_mini_for_openclaw_now/). [Criei um agente de IA no OpenClaw chamado Prova Fácil e ele virou minha plataforma auxiliar de estudos](https://www.reddit.com/r/openclaw/comments/1uoy09v/criei_um_agente_de_ia_no_openclaw_chamado_prova/). ago[Criei um agente de IA no OpenClaw chamado Prova Fácil e ele virou minha plataforma auxiliar de estudos](https://www.reddit.com/r/openclaw/comments/1uoy09v/criei_um_agente_de_ia_no_openclaw_chamado_prova/)[Discussion](https://www.reddit.com/r/openclaw/?f=flair_name%3A%22Discussion%22)[Fala, pessoal. Alguém aqui também está criando agentes pessoais para estudo, aprendizado ou produtividade?](https://www.reddit.com/r/openclaw/comments/1uoy09v/criei_um_agente_de_ia_no_openclaw_chamado_prova/).",
+    "excerpt": "[Skip to main content](https://www.reddit.com/r/openclaw#main-content)openclaw. *   [Best](https://www.reddit.com/r/openclaw/best/). *   [Hot](https:/...",
+    "date": "2026-07-16T06:08:49.551Z",
+    "readTime": "9分钟",
+    "tags": [
+      "OpenClaw",
+      "AI 工具",
+      "自动化",
+      "技术干货",
       "AI 代理"
     ],
-    "source": "https://lumadock.com/tutorials/openclaw-cron-scheduler-guide"
+    "source": "https://www.reddit.com/r/openclaw"
+  },
+  {
+    "id": "op-1784182129551-aq21",
+    "title": "🦞 OpenClaw — Personal AI Assistant",
+    "content": "OpenClaw 技术干货\n\n* refactor: remove legacy provider compat paths * docs: remove agent parity notes * fix: skip provider wildcard metadata parsing * refactor: share session extension sdk loading * refactor: inline acpx proxy error formatter * refactor: fold edit recovery into edit tool * fix: accept extension batch separator * test: align startup provider plugin expectations * fix: restore provider-scoped release discovery * test: align static asset packaging expectations * fix: run static provider catalogs during scoped discovery * fix: add provider entry catalogs for scoped live discovery * fix: load lightweight provider catalog entries * fix: refresh provider-scoped plugin metadata * fix: keep provider catalog entries on release live path * fix: keep static manifest models in release live checks * fix: harden release model discovery * fix: reduce OpenAI live cache probe reasoning * fix: disable OpenAI cache probe reasoning * ci: extend OpenAI gateway live timeout * fix: extend live gateway model budget * fix: stabilize release validation regressions * fix: honor provider aliases in model rows * fix: stabilize release validation lanes * fix: stabilize release memory qa * ci: stabilize release validation lanes * ci: prefer ipv4 for live docker node calls * fix: restore shared tool-call stream wrapper * ci: remove legacy pi test shard alias * fix: clean up embedded agent test drift * fix: stabilize runtime alias status * fix: clean up embedded agent ci drift * fix: restore release ci invariants * fix: clean up post-rebase runtime drift * fix: restore release ci checks * fix: restore release ci after rebase * fix: remove stale pi runtime path * test: align compaction runtime expectations * test: update plugin prerelease expectations * fix: handle claude live tool approvals * fix: stabilize release validation gates * fix: finish agent runtime import * test: finish post-rebase agent runtime mocks * fix: keep codex compaction native * fix: stabilize codex app-server hook tests * test: isolate",
+    "excerpt": "* refactor: remove legacy provider compat paths * docs: remove agent parity notes * fix: skip provider wildcard metadata parsing * refactor: share ses...",
+    "date": "2026-07-16T06:08:49.551Z",
+    "readTime": "7分钟",
+    "tags": [
+      "OpenClaw",
+      "AI 工具",
+      "自动化",
+      "技术干货",
+      "Hooks",
+      "AI 代理"
+    ],
+    "source": "https://github.com/openclaw/openclaw"
   }
 ]
