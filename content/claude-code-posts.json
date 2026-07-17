@@ -1,10 +1,77 @@
 [
   {
-    "id": "cl-1784201188304-dcpc",
-    "title": "💻 Claude Code Security Best Practices - Backslash",
+    "id": "cl-1784268483749-kqi9",
+    "title": "💻 Claude Code power user tips",
+    "content": "Claude Code 技术干货\n\nThis article collects workflow tips from the Claude Code team at Anthropic. These practices cover parallel execution, planning, automation, verification, and customization—the patterns the team uses every day to ship code faster. Everyone’s setup is different, so experiment to see what works for you. **Important:** The single most impactful tip in this guide is **verification**—giving Claude a way to check its own output. These are power-user patterns collected from individual engineers on the Claude Code team. * Most commands shown here ship with Claude Code: /color and /btw are **built-in commands**, and /simplify and /loop are **bundled skills** that ship with the CLI. See the **commands reference** and **skills**. You can build your own skills by adding a SKILL.md file under .claude/skills//. Community plugins (for example the “ralph-wiggum” plugin) are not reviewed or sanctioned by Anthropic — check with your administrator before installing third-party plugins in a managed environment. Everything else in this guide works on a stock Claude Code install.",
+    "excerpt": "This article collects workflow tips from the Claude Code team at Anthropic. These practices cover parallel execution, planning, automation, verificati...",
+    "date": "2026-07-17T06:08:03.749Z",
+    "readTime": "4分钟",
+    "tags": [
+      "ClaudeCode",
+      "AI 编程",
+      "编程工具",
+      "技术干货",
+      "技能系统",
+      "命令行"
+    ],
+    "source": "https://support.claude.com/en/articles/14554000-claude-code-power-user-tips"
+  },
+  {
+    "id": "cl-1784268483749-gzps",
+    "title": "💻 Anthropic's Guide to Claude Code: Best Practices for ...",
+    "content": "Claude Code 技术干货\n\nAnthropic recommends structuring your repo to make Claude \"agentic\" — i.e., act more like an intelligent assistant who understands your goals, ...Read more",
+    "excerpt": "Anthropic recommends structuring your repo to make Claude \"agentic\" — i.e., act more like an intelligent assistant who understands your goals, ...Read...",
+    "date": "2026-07-17T06:08:03.749Z",
+    "readTime": "1分钟",
+    "tags": [
+      "ClaudeCode",
+      "AI 编程",
+      "编程工具",
+      "技术干货",
+      "AI 代理"
+    ],
+    "source": "https://www.reddit.com/r/ClaudeAI/comments/1k5slll/anthropics_guide_to_claude_code_best_practices"
+  },
+  {
+    "id": "cl-1784268483749-wxpm",
+    "title": "💻 Claude Code: claude-code-best-practices",
+    "content": "Claude Code 技术干货\n\n# claude-code-best-practices. ai best-practices pakistan ai-agents claude boris pakistani-developer anthropic claude-ai agentic-workflow agentic-ai vibe-coding claude-code agentic-coding context-engineering agentic-engineering claude-code-commands claude-code-agents claude-code-skills claude-code-best-practices. hooks ai pakistan ai-agents claude pakistani-developer anthropic claude-ai agentic-workflow agentic-ai vibe-coding claude-code agentic-coding context-engineering agentic-engineering claude-hooks claude-code-commands claude-code-agents claude-code-skills claude-code-best-practices. developer-tools claude prompt-engineering anthropic ai-developer-tools ai-coding claude-code agentic-coding claude-code-guide claude-md claude-code-tutorial claude-code-tips claude-code-best-practices learn-claude-code claude-code-workflow ai-coding-tips claude-code-cheat-sheet claude-code-shortcuts claude-code-prompting claude-code-context-window. best-practices claude claude-code-agents claude-code-skills claude-code-best-practices. python productivity awesome tutorial mcp best-practices awesome-resources llm ai-workflows claude-ai anthropic-claude agentic-workflow coding-assistants agent-skills coding-agent agentic-coding claude-code-commands claude-code-best-practices. agent teaching awesome-resources claude boris coding-assistant ai-agent llm anthropic anthropic-claude coding-agents agentic-workflow ai-workflow-optimization vibe-coding coding-agent awesome-claude-code claude-code-best-practices. agent awesome ai best-practices teaching ai-agent ai-workflows claude-ai coding-agents ai-workflow-optimization agent-development agentic-ai vibe-coding agentic-engineering awesome-claude-code claude-code-commands claude-code-agents claude-code-skills claude-code-best-practices. agent productivity awesome best-practices teaching educational claude coding-assistant ai-workflows claude-ai coding-agents ai-workflow-optimization agent-development coding-assistants vibe-coding coding-agent agentic-coding agentic-engineering claude-code-agents claude-code-best-practices. tutorial ai mcp developer-tools boris ai-agent llm ai-workflows anthropic-claude agentic-ai vibe-coding agentic-coding agentic-engineering claude-code-agents claude-code-skills claude-code-best-practices.",
+    "excerpt": "# claude-code-best-practices. ai best-practices pakistan ai-agents claude boris pakistani-developer anthropic claude-ai agentic-workflow agentic-ai vi...",
+    "date": "2026-07-17T06:08:03.749Z",
+    "readTime": "8分钟",
+    "tags": [
+      "ClaudeCode",
+      "AI 编程",
+      "编程工具",
+      "技术干货",
+      "Hooks",
+      "技能系统",
+      "AI 代理",
+      "MCP 协议"
+    ],
+    "source": "https://github.com/topics/claude-code-best-practices"
+  },
+  {
+    "id": "cl-1784268483749-ytb3",
+    "title": "💻 Mastering the Vibe: Claude Code Best Practices That Actually Work",
+    "content": "Claude Code 技术干货\n\n*How I went from fumbling with AI-generated spaghetti code to building production-ready apps with Claude Code*. Three months ago, I was that developer who would throw a vague prompt at Claude Code, cross my fingers, and hope for the best. If you’re ready to move beyond the “ask and pray” approach to something that actually works consistently, here’s what I’ve learned about making Claude Code genuinely useful. Think of it as Claude’s memory bank for your project. This isn’t just configuration — it’s how you teach Claude to understand your specific codebase, conventions, and quirks. The magic isn’t in the format — there’s no required format for CLAUDE.md files — it’s in being specific about what matters for *your* project. But the real power comes from asking Claude to make a plan before coding and explicitly telling it not to code until you’ve confirmed that its plan looks good.",
+    "excerpt": "*How I went from fumbling with AI-generated spaghetti code to building production-ready apps with Claude Code*. Three months ago, I was that developer...",
+    "date": "2026-07-17T06:08:03.749Z",
+    "readTime": "3分钟",
+    "tags": [
+      "ClaudeCode",
+      "AI 编程",
+      "编程工具",
+      "技术干货"
+    ],
+    "source": "https://dinanjana.medium.com/mastering-the-vibe-claude-code-best-practices-that-actually-work-823371daf64c"
+  },
+  {
+    "id": "cl-1784268483749-mu9w",
+    "title": "💻 Claude Code Security Best Practices",
     "content": "Claude Code 技术干货\n\n![Image 1](https://cdn.prod.website-files.com/6383ff6c86150510dc7adde2/6746f492611681af6de88d75_64ec940573fdf2e313a835ba_Slash.png)![Image 2](https://www.backslash.security/blog/claude-code-security-best-practices). Like most AI coders, Claude Code has a variety of configuration settings for security. 2.   ClaudeLog [essential Claude Code configuration guide](https://www.claudelog.com/configuration/). [![Image 6: Backslash Security | Vibe coding security](https://cdn.prod.website-files.com/6383ff6c86150510dc7adde2/63b5790fd4aad837984d76a6_Backslash_logo.svg)](https://www.backslash.security/). ![Image 7](https://cdn.prod.website-files.com/6383ff6c86150510dc7adde2/64c008a2809fcd03ace82352_Slash.svg)#### [Agentic Endpoint Security](https://www.backslash.security/agentic-endpoint-security). #### [WHAT'S NEW ![Image 8](https://cdn.prod.website-files.com/6383ff6c86150510dc7adde2/6601546ccf136598224a30ce_image%206.png) ### Heading ![Image 9](https://cdn.prod.website-files.com/6383ff6c86150510dc7adde2/64c007acf1ce45e74bdb30a1_Arrow%201.svg)](https://www.backslash.security/blog/nemoclaw-vs-openclaw). [![Image 10](https://cdn.prod.website-files.com/6383ff6c86150510dc7adde2/69a05d3acf0b5274b7a23b74_699bf5ed9cd8e69afd5218f9_9bc1acfb-1%202.png) ### Vibe Coding Security Buyer's Guide Download Buyer's Guide ->](https://www.backslash.security/resources/vibe-coding-security-buyers-guide). [MCP Server Security Hub ![Image 12](https://cdn.prod.website-files.com/6383ff6c86150510dc7adde2/69a946bf187658ec4d34368d_link-external-new-window.svg) Vet MCP servers on security posture ![Image 13](https://cdn.prod.website-files.com/6383ff6c86150510dc7adde2/69a947e58543417574139075_MCP%20Hub.png)](https://mcp.backslash.security/?__hstc=17958374.7775ac37ff304242923c7a6a151fbe8d.1688643327122.1772104455730.1772109204563.455&__hssc=17958374.25.1772109204563&__hsfp=8d50a7690dae891450d77fe8f1e8b602&_gl=1*1a7v6iw*_gcl_au*NjkxODYxMTQ3LjE3NzE0MDM1MDM.)[Skills Security Scanner ![Image 14](https://cdn.prod.website-files.com/6383ff6c86150510dc7adde2/69a946bf187658ec4d34368d_link-external-new-window.svg) Scan AI agent Skills for security risks ![Image 15](https://cdn.prod.website-files.com/6383ff6c86150510dc7adde2/69a947f188c9f28f0abce7ab_Skill%20Scanner.png)](https://skills.backslash.security/?__hstc=17958374.7775ac37ff304242923c7a6a151fbe8d.1688643327122.1772104455730.1772109204563.455&__hssc=17958374.25.1772109204563&__hsfp=8d50a7690dae891450d77fe8f1e8b602&_gl=1*1a7v6iw*_gcl_au*NjkxODYxMTQ3LjE3NzE0MDM1MDM.)[Agentic AI Exposure ![Image 16](https://cdn.prod.website-files.com/6383ff6c86150510dc7adde2/69a946bf187658ec4d34368d_link-external-new-window.svg) Discover endpoint AI tools and risks ![Image 17](https://cdn.prod.website-files.com/6383ff6c86150510dc7adde2/6a5774f0fb13dc5b5d1057e7_746d02e711afb2ee4e16dc08db3ee0f7_agentic_ai_exposure.png)](https://www.backslash.security/ai-endpoint-exposure-assessment)[Claw-Hunter ‍ ![Image 18](https://cdn.prod.website-files.com/6383ff6c86150510dc7adde2/69a946bf187658ec4d34368d_link-external-new-window.svg) Discover and assess OpenClaw risks ![Image 19](https://cdn.prod.website-files.com/6383ff6c86150510dc7adde2/69a947fdd6d0511248208ab6_Claw%20Hunter.png)](https://github.com/backslash-security/Claw-Hunter). [Blog](https://www.backslash.security/blog)[Vibe Coding Threat Model](https://threats.backslash.security/)[Download Whitepaper](https://www.backslash.security/resources/vibe-coding-security-whitepaper). #### [WHAT'S NEW ![Image 21](https://cdn.prod.website-files.com/6383ff6c86150510dc7adde2/6601546ccf136598224a30ce_image%206.png) ### Heading ![Image 22](https://cdn.prod.website-files.com/6383ff6c86150510dc7adde2/64c007acf1ce45e74bdb30a1_Arrow%201.svg)](https://www.backslash.security/blog/nemoclaw-vs-openclaw). [![Image 23](https://cdn.prod.website-files.com/6383ff6c86150510dc7adde2/68425c8edf236df8e3ecc446_White%20paper%20menu%20cta.png) ### Addressing The Risks of Vibe Coding Download Whitepaper ->](https://www.backslash.security/resources/vibe-coding-security-whitepaper). ![Image 26](https://cdn.prod.website-files.com/6383ff6c86150510dc7adde2/64c007acf1ce45e74bdb30a1_Arrow%201.svg)](https://www.backslash.security/blog/nemoclaw-vs-openclaw). [![Image 27: Backslash security | Vibe coding Security](https://cdn.prod.website-files.com/6383ff6c86150510dc7adde2/64013d8e512f0e03b2cfba19_63b5790fd4aad837984d76a6_Backslash_logo.svg)](https://www.backslash.security/). *   [Vibe Coding Security](https://www.backslash.security/agentic-endpoint-security/#vibe-coding). [Company](https://www.backslash.security/about). *   [About Us](https://www.backslash.security/about). [Accept all cookies](https://www.backslash.security/blog/claude-code-security-best-practices#)[![Image 35](https://cdn.prod.website-files.com/6383ff6c86150510dc7adde2/68f8d2f5f1eb55c2d546798b_np_close_25798_27313D.svg)](https://www.backslash.security/blog/claude-code-security-best-practices#). [![Image 37](https://cdn.prod.website-files.com/6383ff6c86150510dc7adde2/6a57768b9b6827d87362325a_blackhat_popper_02_500px.jpg)](https://www.backslash.security/blackhat-2026)[](https://www.backslash.security/blog/claude-code-security-best-practices#).",
     "excerpt": "![Image 1](https://cdn.prod.website-files.com/6383ff6c86150510dc7adde2/6746f492611681af6de88d75_64ec940573fdf2e313a835ba_Slash.png)![Image 2](https://...",
-    "date": "2026-07-16T11:26:28.304Z",
+    "date": "2026-07-17T06:08:03.749Z",
     "readTime": "18分钟",
     "tags": [
       "ClaudeCode",
@@ -19,92 +86,12 @@
     "source": "https://www.backslash.security/blog/claude-code-security-best-practices"
   },
   {
-    "id": "cl-1784201188303-1rv9",
-    "title": "💻 GitHub - awattar/claude-code-best-practices: 💻 Best practices and examples for using Claude Code - Anthropic’s terminal-native AI - for writing, editing, and refactoring code with deep project awareness, prompt design, and safe automation. · GitHub",
-    "content": "Claude Code 技术干货\n\nawattar   /  **claude-code-best-practices**  Public. # awattar/claude-code-best-practices. # 🧠 Claude Code Best Practices. A practical guide to using Claude Code, Anthropic’s agentic coding assistant, effectively in real-world development workflows. This repo distills best practices, patterns, and examples for integrating Claude Code into your terminal-based coding environment. Claude Code is a command-line tool that gives you direct access to Claude’s reasoning and coding capabilities. It’s designed for agentic coding - where Claude autonomously explores, edits, and explains code across your project. Think of it as a collaborative AI pair programmer that understands your repo structure, coding conventions, and workflows. + How to configure your environment for Claude Code. Claude Code is optimized for agentic coding - AI that acts with autonomy and awareness:. This repository includes a collection of custom slash commands designed to streamline development workflows with Claude Code. Automatically generates comprehensive CLAUDE.md files for any project by analyzing project structure, technology stack, and development patterns.",
-    "excerpt": "awattar   /  **claude-code-best-practices**  Public. # awattar/claude-code-best-practices. # 🧠 Claude Code Best Practices. A practical guide to using...",
-    "date": "2026-07-16T11:26:28.303Z",
-    "readTime": "4分钟",
-    "tags": [
-      "ClaudeCode",
-      "AI 编程",
-      "编程工具",
-      "技术干货",
-      "AI 代理"
-    ],
-    "source": "https://github.com/awattar/claude-code-best-practices"
-  },
-  {
-    "id": "cl-1784201188303-qidv",
-    "title": "💻 Claude Code Best Practices: Planning, Context Transfer, ...",
-    "content": "Claude Code 技术干货\n\nImage 1: Agentic Data Science & Engineering ##### **July 20–24 | Direct the agents.** **Compound the work.** Register for Free. # Claude Code Best Practices: Planning, Context Transfer, TDD. Learn Claude Code best practices from production teams. Use plan mode, CLAUDE.md files, and test-driven development to make the most of Claude's context window. *   Claude Code Best Practices FAQs. Claude Code rewards a kind of discipline that most developer tools don't ask for. If you've been using it for a while, you've noticed that some sessions produce exactly what you want, and others burn through tokens going nowhere. Anthropic's own teamfound that unguided attempts succeed about 33% of the time, and the tool's creatorabandons 10-20% of sessions. You have Claude draft a `plan.md`, open it in your editor, and add inline notes wherever Claude made the wrong call or left something ambiguous: \"use `drizzle:generate`, not raw SQL\" or \"this should be `PATCH`, not `PUT`.\".",
-    "excerpt": "Image 1: Agentic Data Science & Engineering ##### **July 20–24 | Direct the agents.** **Compound the work.** Register for Free. # Claude Code Best Pra...",
-    "date": "2026-07-16T11:26:28.303Z",
-    "readTime": "4分钟",
-    "tags": [
-      "ClaudeCode",
-      "AI 编程",
-      "编程工具",
-      "技术干货",
-      "AI 代理"
-    ],
-    "source": "https://www.datacamp.com/tutorial/claude-code-best-practices"
-  },
-  {
-    "id": "cl-1784201188303-5ydk",
-    "title": "💻 Anthropic's Guide to Claude Code: Best Practices for Agentic Coding",
-    "content": "Claude Code 技术干货\n\nAnthropic recommends structuring your repo to make Claude \"agentic\" — i.e., act more like an intelligent assistant who understands your goals,",
-    "excerpt": "Anthropic recommends structuring your repo to make Claude \"agentic\" — i.e., act more like an intelligent assistant who understands your goals,",
-    "date": "2026-07-16T11:26:28.303Z",
-    "readTime": "1分钟",
-    "tags": [
-      "ClaudeCode",
-      "AI 编程",
-      "编程工具",
-      "技术干货",
-      "AI 代理"
-    ],
-    "source": "https://www.reddit.com/r/ClaudeAI/comments/1k5slll/anthropics_guide_to_claude_code_best_practices"
-  },
-  {
-    "id": "cl-1784201188303-z3tz",
-    "title": "💻 Mastering the Vibe: Claude Code Best Practices That Actually Work | by Dinanjana Gunaratne | Medium",
-    "content": "Claude Code 技术干货\n\n*How I went from fumbling with AI-generated spaghetti code to building production-ready apps with Claude Code*. Three months ago, I was that developer who would throw a vague prompt at Claude Code, cross my fingers, and hope for the best. If you’re ready to move beyond the “ask and pray” approach to something that actually works consistently, here’s what I’ve learned about making Claude Code genuinely useful. Think of it as Claude’s memory bank for your project. This isn’t just configuration — it’s how you teach Claude to understand your specific codebase, conventions, and quirks. The magic isn’t in the format — there’s no required format for CLAUDE.md files — it’s in being specific about what matters for *your* project. But the real power comes from asking Claude to make a plan before coding and explicitly telling it not to code until you’ve confirmed that its plan looks good.",
-    "excerpt": "*How I went from fumbling with AI-generated spaghetti code to building production-ready apps with Claude Code*. Three months ago, I was that developer...",
-    "date": "2026-07-16T11:26:28.303Z",
-    "readTime": "3分钟",
-    "tags": [
-      "ClaudeCode",
-      "AI 编程",
-      "编程工具",
-      "技术干货"
-    ],
-    "source": "https://dinanjana.medium.com/mastering-the-vibe-claude-code-best-practices-that-actually-work-823371daf64c"
-  },
-  {
-    "id": "cl-1784201186494-qh4s",
-    "title": "💻 How I Batch a Full Week of Content in One Day with Claude Code",
-    "content": "Claude Code 技术干货\n\nHow I Batch a Full Week of Content in One Day with Claude Code\nDee Willis | AI Digital Products\n2350 subscribers\n8 likes\n189 views\n7 Apr 2026\n► Join the HerMpire Builders Community to download the free Content Batch Day System skill + manual + implementation guide 👉 https://skool.com/digitalmpire-builders\n► Tap into your 14-Day Free Skool Trial: https://www.skool.com/signup?ref=070272b1669f463f91939c76d77d798e\n\nIf you want to batch a week of content in one day with Claude, this video is your step-by-step. No code required, no tech background needed, and your content will actually sound like you because we're training it on your voice, your offers, and your audience from the jump.\n\nI walk you through how to use the Content Batch Day System skill inside both Claude desktop and Claude Code. You can start from a topic idea, drop in a blog post URL, or upload a video transcript and it will generate Instagram, Facebook, LinkedIn, carousels, and community posts all in one session.\n\nWhether you're using Claude desktop or running Claude Code off your computer, I show you both paths so you can choose what works for your setup. And everything you need to get started is completely free in the HerMpire Builders community.\n\nWhat's inside this video:\n\n- How to install the Content Batch Day System skill in Claude desktop\n- How to set up the skill inside Claude Code for faster, file-based batching\n- How to build your content pack (brand voice, avatar, offers) so your AI output actually sounds like you\n- How to use a blog post, YouTube transcript, or topic idea as your content source\n- What types of content it produces across every platform\n\nYou don't need to set this up every time. You build the content pack once, and from that point on Claude knows who you are and what you create. That's how you go from spending hours on content every week to getting it all done in one sitting.\n\nGet the skill, the manual, and the implementation guide for free in Builders. Link above.\n\n---\n\n0:00 The content problem we all have\n0:38 Installing the skill in Claude desktop\n2:10 Uploading your offers and documents during setup\n3:15 Setting up the skill inside Claude Code\n5:00 Building your content pack (brand voice, avatar, offers)\n7:02 Feeding in your source: transcript, blog post, or idea\n8:45 What files get created and how to download them\n10:00 Why Claude Code makes this simpler than the desktop app\n2 comments\n",
-    "excerpt": "How I Batch a Full Week of Content in One Day with Claude Code\nDee Willis | AI Digital Products\n2350 subscribers\n8 likes\n189 views\n7 Apr 2026\n► Join t...",
-    "date": "2026-07-16T11:26:26.494Z",
-    "readTime": "9分钟",
-    "tags": [
-      "ClaudeCode",
-      "AI 编程",
-      "编程工具",
-      "技术干货",
-      "技能系统",
-      "Git"
-    ],
-    "source": "https://www.youtube.com/watch?v=F48_A7umid4&vl=en"
-  },
-  {
-    "id": "cl-1784201186493-rku6",
-    "title": "💻 Batch Processing Skill for Claude Code | Scale AI Workflows",
-    "content": "Claude Code 技术干货\n\n# Batch Processing. Optimizes large-scale task execution through agent swarms, API batch processing, and intelligent loops to maximize efficiency and reduce costs. ### Related Skills. Use when the user wants to create one or many images from data (CSV/list), reuse a visual template with different texts/photos, or batch-produce cards for a marketplace, social network, or event. Manages Discord operations including messaging, reactions, and channel management directly through Claude. Browse the MCP Market to get started. The Batch Processing skill for Claude Code empowers developers to handle high-volume tasks—such as reviewing dozens of files or processing hundreds of documents—without linear increases in time or token costs. It provides a strategic framework for selecting the optimal execution method based on scale: utilizing agent swarms for rapid parallel processing of 5-20 items, the Anthropic API Batch for 50% cost savings on massive datasets, or sequential loops for tasks with complex dependencies. Sync skills to **Claude Cowork**, **Claude Code**, **Codex**, and more.",
-    "excerpt": "# Batch Processing. Optimizes large-scale task execution through agent swarms, API batch processing, and intelligent loops to maximize efficiency and ...",
-    "date": "2026-07-16T11:26:26.493Z",
-    "readTime": "4分钟",
+    "id": "cl-1784268482301-6wc7",
+    "title": "💻 Claude Code: Sign In | Claude Platform",
+    "content": "Claude Code 技术干货\n\n[Claude Console](https://platform.claude.com/). *   [Claude](https://claude.com/product/overview). *   [Claude Cowork](https://claude.com/product/cowork). *   [Claude Security](https://claude.com/product/claude-security). *   [Download app](https://platform.claude.com/download). *   [Pricing](https://claude.com/pricing). *   [Log in](https://platform.claude.com/login). *   [Skills](https://claude.com/skills). *   [Mythos](https://www.anthropic.com/claude/mythos). *   [Fable](https://www.anthropic.com/claude/fable). *   [Opus](https://www.anthropic.com/claude/opus). *   [Sonnet](https://www.anthropic.com/claude/sonnet). *   [Haiku](https://www.anthropic.com/claude/haiku). *   [AI agents](https://claude.com/solutions/agents). *   [Code modernization](https://claude.com/solutions/code-modernization). *   [Coding](https://claude.com/solutions/coding). *   [Customer support](https://claude.com/solutions/customer-support). *   [Education](https://claude.com/solutions/education). *   [Enterprise](https://claude.com/solutions/enterprise). *   [Financial services](https://claude.com/solutions/financial-services). *   [Government](https://claude.com/solutions/government). *   [Healthcare](https://claude.com/solutions/healthcare). *   [Legal](https://claude.com/solutions/legal). *   [Nonprofits](https://claude.com/solutions/nonprofits). *   [Security](https://claude.com/solutions/security). *   [Overview](https://claude.com/platform/api). *   [Developer docs](https://platform.claude.com/docs). *   [Pricing](https://claude.com/pricing#api). *   [Marketplace](https://claude.com/platform/marketplace). *   [Console login](https://platform.claude.com/). *   [Blog](https://claude.com/blog). *   [Community](https://claude.com/community). *   [Connectors](https://claude.com/connectors). *   [Courses](https://claude.com/resources/courses). *   [Plugins](https://claude.com/plugins). *   [Tutorials](https://claude.com/resources/tutorials). *   [Claude](https://claude.com/product/overview). *   [Claude Cowork](https://claude.com/product/cowork). *   [Claude Security](https://claude.com/product/claude-security). *   [Pricing](https://claude.com/pricing). *   [Log in](https://platform.claude.com/login). *   [Skills](https://claude.com/skills). *   [Mythos](https://www.anthropic.com/claude/mythos). *   [Fable](https://www.anthropic.com/claude/fable). *   [Opus](https://www.anthropic.com/claude/opus). *   [Sonnet](https://www.anthropic.com/claude/sonnet). *   [Haiku](https://www.anthropic.com/claude/haiku). *   [AI agents](https://claude.com/solutions/agents). *   [Code modernization](https://claude.com/solutions/code-modernization). *   [Coding](https://claude.com/solutions/coding). *   [Customer support](https://claude.com/solutions/customer-support). *   [Education](https://claude.com/solutions/education). *   [Enterprise](https://claude.com/solutions/enterprise). *   [Financial services](https://claude.com/solutions/financial-services). *   [Government](https://claude.com/solutions/government). *   [Healthcare](https://claude.com/solutions/healthcare). *   [Legal](https://claude.com/solutions/legal). *   [Nonprofits](https://claude.com/solutions/nonprofits). *   [Security](https://claude.com/solutions/security). *   [Overview](https://claude.com/platform/api). *   [Developer docs](https://platform.claude.com/docs). *   [Pricing](https://claude.com/pricing#api). *   [Marketplace](https://claude.com/platform/marketplace). *   [Console login](https://platform.claude.com/). *   [Blog](https://claude.com/blog). *   [Community](https://claude.com/community). *   [Connectors](https://claude.com/connectors). *   [Courses](https://claude.com/resources/courses). *   [Plugins](https://claude.com/plugins). *   [Tutorials](https://claude.com/resources/tutorials).",
+    "excerpt": "[Claude Console](https://platform.claude.com/). *   [Claude](https://claude.com/product/overview). *   [Claude Cowork](https://claude.com/product/cowo...",
+    "date": "2026-07-17T06:08:02.301Z",
+    "readTime": "13分钟",
     "tags": [
       "ClaudeCode",
       "AI 编程",
@@ -112,57 +99,73 @@
       "技术干货",
       "技能系统",
       "AI 代理",
-      "MCP 协议",
       "API"
     ],
-    "source": "https://mcpmarket.com/tools/skills/batch-processing"
+    "source": "https://platform.claude.com"
   },
   {
-    "id": "cl-1784201186493-9hjm",
-    "title": "💻 Claude Code Batch Processing Complete Guide: /batch Command and Headless Mode in Practice - SmartScope",
-    "content": "Claude Code 技术干货\n\n* /batch Command: Parallel Execution of Large-Scale Code Changes. * Headless Mode (claude -p): CI/CD and Script Integration. # Claude Code Batch Processing Complete Guide: /batch Command and Headless Mode in Practice¶. The `/batch` command in Claude Code shines when you need to apply the same transformation across hundreds of files. * The `/batch` command executes codebase-wide migrations safely using **parallel agents + Git Worktree** isolation. * Headless mode (`claude -p`) provides **non-interactive integration** for CI/CD pipelines and shell scripts. Intermediate to advanced Claude Code users looking to scale up with large-scale changes and CI/CD integration. The latter is a non-interactive execution mode for embedding AI processing into CI/CD pipelines. | Aspect | /batch Command | Headless Mode (claude -p) |. Choose headless mode when embedding AI processing into existing CI/CD pipelines. `/batch` is a slash command executed within an interactive Claude Code session1. ## Headless Mode (claude -p): CI/CD and Script Integration¶.",
-    "excerpt": "* /batch Command: Parallel Execution of Large-Scale Code Changes. * Headless Mode (claude -p): CI/CD and Script Integration. # Claude Code Batch Proce...",
-    "date": "2026-07-16T11:26:26.493Z",
-    "readTime": "4分钟",
+    "id": "cl-1784268482301-l48y",
+    "title": "💻 Claude Code: Home \\ Anthropic",
+    "content": "Claude Code 技术干货\n\n*   [Research](https://www.anthropic.com/research). *   [Policy](https://www.anthropic.com/policy). *   [Claude's Constitution](https://www.anthropic.com/constitution). *   [Claude Corps](https://www.anthropic.com/claude-corps). *   [Transparency](https://www.anthropic.com/transparency). *   [About](https://www.anthropic.com/company). *   [Careers](https://www.anthropic.com/careers). *   [Events](https://www.anthropic.com/events). *   [News](https://www.anthropic.com/news). *   [Claude Security](https://claude.com/product/claude-security). *   [Mythos](https://www.anthropic.com/claude/mythos). *   [Fable](https://www.anthropic.com/claude/fable). *   [Opus](https://www.anthropic.com/claude/opus). *   [Sonnet](https://www.anthropic.com/claude/sonnet). *   [Haiku](https://www.anthropic.com/claude/haiku). *   [Research](https://www.anthropic.com/research). *   [Policy](https://www.anthropic.com/policy). *   [Claude's Constitution](https://www.anthropic.com/constitution). *   [Claude Corps](https://www.anthropic.com/claude-corps). *   [Transparency](https://www.anthropic.com/transparency). *   [About](https://www.anthropic.com/company). *   [Careers](https://www.anthropic.com/careers). *   [Events](https://www.anthropic.com/events). *   [News](https://www.anthropic.com/news). *   [Mythos](https://www.anthropic.com/claude/mythos). *   [Fable](https://www.anthropic.com/claude/fable). *   [Opus](https://www.anthropic.com/claude/opus). *   [Sonnet](https://www.anthropic.com/claude/sonnet). *   [Haiku](https://www.anthropic.com/claude/haiku). [Read announcement](https://www.anthropic.com/news/redeploying-fable-5)Read announcement. [Model details](https://www.anthropic.com/claude/sonnet)Model details. [Read announcement](https://www.anthropic.com/news/claude-sonnet-5)Read announcement. [Read announcement](https://www.anthropic.com/news/claude-science-ai-workbench)Read announcement. *   ### Anthropic Academy: Build and Learn with Claude Education   [](https://www.anthropic.com/learn). *   ### Claude’s Constitution Announcements   [](https://www.anthropic.com/constitution). *   [](https://www.youtube.com/@anthropic-ai). *   [Skills](https://www.claude.com/skills). *   [Mythos](https://www.anthropic.com/claude/mythos). *   [Fable](https://www.anthropic.com/claude/fable). *   [Opus](https://www.anthropic.com/claude/opus). *   [Sonnet](https://www.anthropic.com/claude/sonnet). *   [Haiku](https://www.anthropic.com/claude/haiku). *   [AI agents](https://claude.com/solutions/agents). *   [Coding](https://claude.com/solutions/coding). *   [Government](https://claude.com/solutions/government). *   [Legal](https://claude.com/solutions/legal). *   [Blog](https://www.claude.com/blog). *   [Courses](https://www.anthropic.com/learn). *   [Customer stories](https://www.claude.com/customers). *   [Events](https://www.anthropic.com/events). *   [Startups](https://claude.com/programs/startups). *   [Availability](https://www.anthropic.com/supported-countries). *   [Anthropic](https://www.anthropic.com/company). *   [Careers](https://www.anthropic.com/careers). *   [Policy](https://www.anthropic.com/policy). *   [Research](https://www.anthropic.com/research). *   [News](https://www.anthropic.com/news). *   [Claude's Constitution](https://www.anthropic.com/constitution). *   [Claude Corps](https://www.anthropic.com/claude-corps). *   [Transparency](https://www.anthropic.com/transparency). You can read our Cookie Policy [here](https://www.anthropic.com/legal/cookies). *   [Privacy policy](https://www.anthropic.com/legal/privacy). *   [Usage policy](https://www.anthropic.com/legal/aup). *   [](https://www.youtube.com/@anthropic-ai).",
+    "excerpt": "*   [Research](https://www.anthropic.com/research). *   [Policy](https://www.anthropic.com/policy). *   [Claude's Constitution](https://www.anthropic....",
+    "date": "2026-07-17T06:08:02.301Z",
+    "readTime": "13分钟",
     "tags": [
       "ClaudeCode",
       "AI 编程",
       "编程工具",
       "技术干货",
-      "AI 代理",
-      "Git"
-    ],
-    "source": "https://smartscope.blog/en/generative-ai/claude/claude-code-batch-processing"
-  },
-  {
-    "id": "cl-1784201186493-ej12",
-    "title": "💻 Claude Code /simplify and /batch Commands Guide",
-    "content": "Claude Code 技术干货\n\n# Claude Code /simplify and /batch: Bundled Commands That Ship Code Faster. Claude Code /simplify runs 3-agent code review on your changes. The code works, but you know there's duplicated logic, a few functions that could be cleaner, and some inefficient patterns you didn't have time to address. # After implementing a feature # After implementing a feature/simplify/simplify  # Focus on a specific concern # Focus on a specific concern/simplify focus on memory efficiency/simplify  focus  on  memory  efficiency. If you need something bigger -- migrating an entire codebase from one framework to another, or applying a change across dozens of files -- that's what `/batch` is for. ## What Claude Code /simplify Does. Boris Cherny, the Claude Code PM, put it well: these bundled commands \"automate much of the work it used to take to shepherd a pull request to production.\" `/simplify` is the automated code review step between \"it works\" and \"it's ready to merge.\".",
-    "excerpt": "# Claude Code /simplify and /batch: Bundled Commands That Ship Code Faster. Claude Code /simplify runs 3-agent code review on your changes. The code w...",
-    "date": "2026-07-16T11:26:26.493Z",
-    "readTime": "4分钟",
-    "tags": [
-      "ClaudeCode",
-      "AI 编程",
-      "编程工具",
-      "技术干货",
+      "技能系统",
       "AI 代理"
     ],
-    "source": "https://claudefa.st/blog/guide/mechanics/simplify-batch-commands"
+    "source": "https://www.anthropic.com"
   },
   {
-    "id": "cl-1784201186493-p9e4",
-    "title": "💻 GitHub - s2-streamstore/claude-batch-toolkit: Send non-urgent work to the Anthropic Batch API at 50% cost — directly from Claude Code · GitHub",
-    "content": "Claude Code 技术干货\n\nClaude Code introduced a built-in /batch command. JSON file tracking all submitted batch jobs, their states, and result paths.",
-    "excerpt": "Claude Code introduced a built-in /batch command. JSON file tracking all submitted batch jobs, their states, and result paths.",
-    "date": "2026-07-16T11:26:26.493Z",
-    "readTime": "1分钟",
+    "id": "cl-1784268482301-z917",
+    "title": "💻 Claude Code: Claude by Anthropic - App Store - Apple",
+    "content": "Claude Code 技术干货\n\n*   [Today](https://apps.apple.com/us/iphone/today). *   [iPhone](https://apps.apple.com/us/iphone/today). *   [![Image 8](https://apps.apple.com/assets/artwork/1x1.gif) HOW TO### Make AI Your Study Buddy A few ways to (responsibly) use AI apps for learning.](https://apps.apple.com/us/iphone/story/id1818410444). *   [Algeria](https://apps.apple.com/dz/iphone/today). *   [Angola](https://apps.apple.com/ao/iphone/today). *   [Armenia](https://apps.apple.com/am/iphone/today). *   [Azerbaijan](https://apps.apple.com/az/iphone/today). *   [Bahrain](https://apps.apple.com/bh/iphone/today). *   [Benin](https://apps.apple.com/bj/iphone/today). *   [Botswana](https://apps.apple.com/bw/iphone/today). *   [Cameroun](https://apps.apple.com/cm/iphone/today). *   [Egypt](https://apps.apple.com/eg/iphone/today). *   [Eswatini](https://apps.apple.com/sz/iphone/today). *   [Gabon](https://apps.apple.com/ga/iphone/today). *   [Gambia](https://apps.apple.com/gm/iphone/today). *   [Ghana](https://apps.apple.com/gh/iphone/today). *   [India](https://apps.apple.com/in/iphone/today). *   [Iraq](https://apps.apple.com/iq/iphone/today). *   [Israel](https://apps.apple.com/il/iphone/today). *   [Jordan](https://apps.apple.com/jo/iphone/today). *   [Rwanda](https://apps.apple.com/rw/iphone/today). *   [Senegal](https://apps.apple.com/sn/iphone/today). *   [Seychelles](https://apps.apple.com/sc/iphone/today). *   [South Africa](https://apps.apple.com/za/iphone/today). *   [Tajikistan](https://apps.apple.com/tj/iphone/today). *   [Tunisia](https://apps.apple.com/tn/iphone/today). *   [Uganda](https://apps.apple.com/ug/iphone/today). *   [Bhutan](https://apps.apple.com/bt/iphone/today). *   [中国大陆](https://apps.apple.com/cn/iphone/today). *   [香港](https://apps.apple.com/hk/iphone/today). *   [Indonesia (English)](https://apps.apple.com/id/iphone/today). *   [日本](https://apps.apple.com/jp/iphone/today). *   [Kazakhstan](https://apps.apple.com/kz/iphone/today). *   [대한민국](https://apps.apple.com/kr/iphone/today). *   [Kyrgyzstan](https://apps.apple.com/kg/iphone/today). *   [Malaysia (English)](https://apps.apple.com/my/iphone/today). *   [Myanmar](https://apps.apple.com/mm/iphone/today). *   [New Zealand](https://apps.apple.com/nz/iphone/today). *   [Pakistan](https://apps.apple.com/pk/iphone/today). *   [Philippines](https://apps.apple.com/ph/iphone/today). *   [Singapore](https://apps.apple.com/sg/iphone/today). *   [台灣](https://apps.apple.com/tw/iphone/today). *   [Tonga](https://apps.apple.com/to/iphone/today). *   [Albania](https://apps.apple.com/al/iphone/today). *   [Armenia](https://apps.apple.com/am/iphone/today). *   [Österreich](https://apps.apple.com/at/iphone/today). *   [Belarus](https://apps.apple.com/by/iphone/today). *   [Belgium](https://apps.apple.com/be/iphone/today). *   [Bulgaria](https://apps.apple.com/bg/iphone/today). *   [Deutschland](https://apps.apple.com/de/iphone/today). *   [Iceland](https://apps.apple.com/is/iphone/today). *   [Ireland](https://apps.apple.com/ie/iphone/today). *   [Italia](https://apps.apple.com/it/iphone/today). *   [Malta](https://apps.apple.com/mt/iphone/today). *   [Montenegro](https://apps.apple.com/me/iphone/today). *   [Norway](https://apps.apple.com/no/iphone/today). *   [Россия](https://apps.apple.com/ru/iphone/today). *   [Slovakia](https://apps.apple.com/sk/iphone/today). *   [España](https://apps.apple.com/es/iphone/today). *   [Anguilla](https://apps.apple.com/ai/iphone/today). *   [Brasil](https://apps.apple.com/br/iphone/today). *   [Colombia (Español)](https://apps.apple.com/co/iphone/today). *   [República Dominicana](https://apps.apple.com/do/iphone/today). *   [México](https://apps.apple.com/mx/iphone/today). *   [Montserrat](https://apps.apple.com/ms/iphone/today). *   [Canada (English)](https://apps.apple.com/ca/iphone/today). *   [United States](https://apps.apple.com/us/iphone/today).",
+    "excerpt": "*   [Today](https://apps.apple.com/us/iphone/today). *   [iPhone](https://apps.apple.com/us/iphone/today). *   [![Image 8](https://apps.apple.com/asse...",
+    "date": "2026-07-17T06:08:02.301Z",
+    "readTime": "13分钟",
     "tags": [
       "ClaudeCode",
       "AI 编程",
       "编程工具",
       "技术干货"
     ],
-    "source": "https://github.com/s2-streamstore/claude-batch-toolkit"
+    "source": "https://apps.apple.com/us/app/claude-by-anthropic/id6473753684"
+  },
+  {
+    "id": "cl-1784268482300-f4ba",
+    "title": "💻 Claude Code: Claude",
+    "content": "Claude Code 技术干货\n\n* [Claude](https://www.linkedin.com/showcase/claude/?trk=organization_guest_main-feed-card_feed-actor-name). + [Report this post](/uas/login?fromSignIn=true&session_redirect=https%3A%2F%2Fwww.linkedin.com%2Fshowcase%2Fclaude%2F&trk=organization_guest_main-feed-card_ellipsis-menu-semaphore-sign-in-redirect&guestReportContentType=POST&_f=guest-reporting). [177](https://www.linkedin.com/signup/cold-join?session_redirect=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2Fshowcase%2Fclaude%2F&trk=organization_guest_main-feed-card_social-actions-reactions)   [10 Comments](https://www.linkedin.com/signup/cold-join?session_redirect=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2Fshowcase%2Fclaude%2F&trk=organization_guest_main-feed-card_social-actions-comments). [Like](https://www.linkedin.com/signup/cold-join?session_redirect=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2Fshowcase%2Fclaude%2F&trk=organization_guest_main-feed-card_like-cta)   [Comment](https://www.linkedin.com/signup/cold-join?session_redirect=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2Fshowcase%2Fclaude%2F&trk=organization_guest_main-feed-card_comment-cta)   [Share](https://www.linkedin.com/signup/cold-join?session_redirect=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2Fshowcase%2Fclaude%2F&trk=organization_guest_main-feed-card_share-cta). * [Claude](https://www.linkedin.com/showcase/claude/?trk=organization_guest_main-feed-card_feed-reaction-header) reposted this. [Claude for Business](https://www.linkedin.com/showcase/claude-for-business/?trk=organization_guest_main-feed-card_feed-actor-name). + [Report this post](/uas/login?fromSignIn=true&session_redirect=https%3A%2F%2Fwww.linkedin.com%2Fshowcase%2Fclaude%2F&trk=organization_guest_main-feed-card_ellipsis-menu-semaphore-sign-in-redirect&guestReportContentType=POST&_f=guest-reporting). [158](https://www.linkedin.com/signup/cold-join?session_redirect=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2Fshowcase%2Fclaude%2F&trk=organization_guest_main-feed-card_social-actions-reactions)   [10 Comments](https://www.linkedin.com/signup/cold-join?session_redirect=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2Fshowcase%2Fclaude%2F&trk=organization_guest_main-feed-card_social-actions-comments). [Like](https://www.linkedin.com/signup/cold-join?session_redirect=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2Fshowcase%2Fclaude%2F&trk=organization_guest_main-feed-card_like-cta)   [Comment](https://www.linkedin.com/signup/cold-join?session_redirect=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2Fshowcase%2Fclaude%2F&trk=organization_guest_main-feed-card_comment-cta)   [Share](https://www.linkedin.com/signup/cold-join?session_redirect=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2Fshowcase%2Fclaude%2F&trk=organization_guest_main-feed-card_share-cta). * [Claude](https://www.linkedin.com/showcase/claude/?trk=organization_guest_main-feed-card_feed-actor-name). + [Report this post](/uas/login?fromSignIn=true&session_redirect=https%3A%2F%2Fwww.linkedin.com%2Fshowcase%2Fclaude%2F&trk=organization_guest_main-feed-card_ellipsis-menu-semaphore-sign-in-redirect&guestReportContentType=POST&_f=guest-reporting). [667](https://www.linkedin.com/signup/cold-join?session_redirect=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2Fshowcase%2Fclaude%2F&trk=organization_guest_main-feed-card_social-actions-reactions)   [71 Comments](https://www.linkedin.com/signup/cold-join?session_redirect=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2Fshowcase%2Fclaude%2F&trk=organization_guest_main-feed-card_social-actions-comments). [Like](https://www.linkedin.com/signup/cold-join?session_redirect=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2Fshowcase%2Fclaude%2F&trk=organization_guest_main-feed-card_like-cta)   [Comment](https://www.linkedin.com/signup/cold-join?session_redirect=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2Fshowcase%2Fclaude%2F&trk=organization_guest_main-feed-card_comment-cta)   [Share](https://www.linkedin.com/signup/cold-join?session_redirect=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2Fshowcase%2Fclaude%2F&trk=organization_guest_main-feed-card_share-cta). * [Claude](https://www.linkedin.com/showcase/claude/?trk=organization_guest_main-feed-card_feed-actor-name). [2,733](https://www.linkedin.com/signup/cold-join?session_redirect=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2Fshowcase%2Fclaude%2F&trk=organization_guest_main-feed-card_social-actions-reactions)   [118 Comments](https://www.linkedin.com/signup/cold-join?session_redirect=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2Fshowcase%2Fclaude%2F&trk=organization_guest_main-feed-card_social-actions-comments). [Like](https://www.linkedin.com/signup/cold-join?session_redirect=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2Fshowcase%2Fclaude%2F&trk=organization_guest_main-feed-card_like-cta)   [Comment](https://www.linkedin.com/signup/cold-join?session_redirect=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2Fshowcase%2Fclaude%2F&trk=organization_guest_main-feed-card_comment-cta)   [Share](https://www.linkedin.com/signup/cold-join?session_redirect=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2Fshowcase%2Fclaude%2F&trk=organization_guest_main-feed-card_share-cta). * [Claude](https://www.linkedin.com/showcase/claude/?trk=organization_guest_main-feed-card_feed-reaction-header) reposted this. [Claude for Business](https://www.linkedin.com/showcase/claude-for-business/?trk=organization_guest_main-feed-card_feed-actor-name). [Juno (YC P26)](https://www.linkedin.com/company/junocompanion?trk=organization_guest_main-feed-card-text) is a two-person startup with more than 100,000 users. [606](https://www.linkedin.com/signup/cold-join?session_redirect=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2Fshowcase%2Fclaude%2F&trk=organization_guest_main-feed-card_social-actions-reactions)   [40 Comments](https://www.linkedin.com/signup/cold-join?session_redirect=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2Fshowcase%2Fclaude%2F&trk=organization_guest_main-feed-card_social-actions-comments). [Like](https://www.linkedin.com/signup/cold-join?session_redirect=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2Fshowcase%2Fclaude%2F&trk=organization_guest_main-feed-card_like-cta)   [Comment](https://www.linkedin.com/signup/cold-join?session_redirect=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2Fshowcase%2Fclaude%2F&trk=organization_guest_main-feed-card_comment-cta)   [Share](https://www.linkedin.com/signup/cold-join?session_redirect=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2Fshowcase%2Fclaude%2F&trk=organization_guest_main-feed-card_share-cta). * [Claude](https://www.linkedin.com/showcase/claude/?trk=organization_guest_main-feed-card_feed-actor-name). [4,283](https://www.linkedin.com/signup/cold-join?session_redirect=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2Fshowcase%2Fclaude%2F&trk=organization_guest_main-feed-card_social-actions-reactions)   [206 Comments](https://www.linkedin.com/signup/cold-join?session_redirect=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2Fshowcase%2Fclaude%2F&trk=organization_guest_main-feed-card_social-actions-comments). [Like](https://www.linkedin.com/signup/cold-join?session_redirect=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2Fshowcase%2Fclaude%2F&trk=organization_guest_main-feed-card_like-cta)   [Comment](https://www.linkedin.com/signup/cold-join?session_redirect=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2Fshowcase%2Fclaude%2F&trk=organization_guest_main-feed-card_comment-cta)   [Share](https://www.linkedin.com/signup/cold-join?session_redirect=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2Fshowcase%2Fclaude%2F&trk=organization_guest_main-feed-card_share-cta). * [Claude](https://www.linkedin.com/showcase/claude/?trk=organization_guest_main-feed-card_feed-actor-name). Here's how Shy Bird uses Claude to make it work: [http://Claude.com/shybird](http://Claude.com/shybird?trk=organization_guest_main-feed-card-text). [466](https://www.linkedin.com/signup/cold-join?session_redirect=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2Fshowcase%2Fclaude%2F&trk=organization_guest_main-feed-card_social-actions-reactions)   [29 Comments](https://www.linkedin.com/signup/cold-join?session_redirect=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2Fshowcase%2Fclaude%2F&trk=organization_guest_main-feed-card_social-actions-comments). [Like](https://www.linkedin.com/signup/cold-join?session_redirect=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2Fshowcase%2Fclaude%2F&trk=organization_guest_main-feed-card_like-cta)   [Comment](https://www.linkedin.com/signup/cold-join?session_redirect=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2Fshowcase%2Fclaude%2F&trk=organization_guest_main-feed-card_comment-cta)   [Share](https://www.linkedin.com/signup/cold-join?session_redirect=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2Fshowcase%2Fclaude%2F&trk=organization_guest_main-feed-card_share-cta). * [Claude](https://www.linkedin.com/showcase/claude/?trk=organization_guest_main-feed-card_feed-actor-name). [2,297](https://www.linkedin.com/signup/cold-join?session_redirect=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2Fshowcase%2Fclaude%2F&trk=organization_guest_main-feed-card_social-actions-reactions)   [111 Comments](https://www.linkedin.com/signup/cold-join?session_redirect=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2Fshowcase%2Fclaude%2F&trk=organization_guest_main-feed-card_social-actions-comments). [Like](https://www.linkedin.com/signup/cold-join?session_redirect=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2Fshowcase%2Fclaude%2F&trk=organization_guest_main-feed-card_like-cta)   [Comment](https://www.linkedin.com/signup/cold-join?session_redirect=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2Fshowcase%2Fclaude%2F&trk=organization_guest_main-feed-card_comment-cta)   [Share](https://www.linkedin.com/signup/cold-join?session_redirect=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2Fshowcase%2Fclaude%2F&trk=organization_guest_main-feed-card_share-cta). * [Claude](https://www.linkedin.com/showcase/claude/?trk=organization_guest_main-feed-card_feed-reaction-header) reposted this. [Claude for Business](https://www.linkedin.com/showcase/claude-for-business/?trk=organization_guest_main-feed-card_feed-actor-name). Yusuke Kaji, General Manager of AI for Business at [Rakuten](https://jp.linkedin.com/company/rakuten?trk=organization_guest_main-feed-card-text), told us about a product manager who builds her own FinOps pipelines and monitoring dashboards. [406](https://www.linkedin.com/signup/cold-join?session_redirect=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2Fshowcase%2Fclaude%2F&trk=organization_guest_main-feed-card_social-actions-reactions)   [30 Comments](https://www.linkedin.com/signup/cold-join?session_redirect=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2Fshowcase%2Fclaude%2F&trk=organization_guest_main-feed-card_social-actions-comments). [Like](https://www.linkedin.com/signup/cold-join?session_redirect=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2Fshowcase%2Fclaude%2F&trk=organization_guest_main-feed-card_like-cta)   [Comment](https://www.linkedin.com/signup/cold-join?session_redirect=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2Fshowcase%2Fclaude%2F&trk=organization_guest_main-feed-card_comment-cta)   [Share](https://www.linkedin.com/signup/cold-join?session_redirect=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2Fshowcase%2Fclaude%2F&trk=organization_guest_main-feed-card_share-cta). * [Claude](https://www.linkedin.com/showcase/claude/?trk=organization_guest_main-feed-card_feed-actor-name). [443](https://www.linkedin.com/signup/cold-join?session_redirect=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2Fshowcase%2Fclaude%2F&trk=organization_guest_main-feed-card_social-actions-reactions)   [24 Comments](https://www.linkedin.com/signup/cold-join?session_redirect=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2Fshowcase%2Fclaude%2F&trk=organization_guest_main-feed-card_social-actions-comments). [Like](https://www.linkedin.com/signup/cold-join?session_redirect=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2Fshowcase%2Fclaude%2F&trk=organization_guest_main-feed-card_like-cta)   [Comment](https://www.linkedin.com/signup/cold-join?session_redirect=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2Fshowcase%2Fclaude%2F&trk=organization_guest_main-feed-card_comment-cta)   [Share](https://www.linkedin.com/signup/cold-join?session_redirect=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2Fshowcase%2Fclaude%2F&trk=organization_guest_main-feed-card_share-cta). Technology, Information and Internet](https://www.linkedin.com/showcase/claude-for-business/?trk=affiliated-pages).",
+    "excerpt": "* [Claude](https://www.linkedin.com/showcase/claude/?trk=organization_guest_main-feed-card_feed-actor-name). + [Report this post](/uas/login?fromSignI...",
+    "date": "2026-07-17T06:08:02.300Z",
+    "readTime": "41分钟",
+    "tags": [
+      "ClaudeCode",
+      "AI 编程",
+      "编程工具",
+      "技术干货"
+    ],
+    "source": "https://www.linkedin.com/showcase/claude"
+  },
+  {
+    "id": "cl-1784268482300-48z5",
+    "title": "💻 Claude Code: Claude: Sign in",
+    "content": "Claude Code 技术干货\n\n[Console login](https://platform.claude.com/). [Anthropic Academy](https://www.anthropic.com/learn)[Courses](https://claude.com/resources/courses)[Tutorials](https://claude.com/resources/tutorials)[Use cases](https://claude.com/resources/use-cases). [Community](https://claude.com/community)[Events](https://www.anthropic.com/events). *   [Claude](https://claude.com/product/overview). *   [Claude Code](https://claude.com/product/claude-code). *   [Claude Security](https://claude.com/product/claude-security). *   [Pricing](https://claude.com/pricing). *   [Skills](https://claude.com/skills). *   [Mythos](https://www.anthropic.com/claude/mythos). *   [Fable](https://www.anthropic.com/claude/fable). *   [Opus](https://www.anthropic.com/claude/opus). *   [Sonnet](https://www.anthropic.com/claude/sonnet). *   [Haiku](https://www.anthropic.com/claude/haiku). *   [AI agents](https://claude.com/solutions/agents). *   [Code modernization](https://claude.com/solutions/code-modernization). *   [Coding](https://claude.com/solutions/coding). *   [Customer support](https://claude.com/solutions/customer-support). *   [Education](https://claude.com/solutions/education). *   [Enterprise](https://claude.com/solutions/enterprise). *   [Financial services](https://claude.com/solutions/financial-services). *   [Government](https://claude.com/solutions/government). *   [Healthcare](https://claude.com/solutions/healthcare). *   [Legal](https://claude.com/solutions/legal). *   [Nonprofits](https://claude.com/solutions/nonprofits). *   [Security](https://claude.com/solutions/security). *   [Overview](https://claude.com/platform/api). *   [Pricing](https://claude.com/pricing#api). *   [Marketplace](https://claude.com/platform/marketplace). *   [Console login](https://platform.claude.com/). *   [Blog](https://claude.com/blog). *   [Community](https://claude.com/community). *   [Connectors](https://claude.com/connectors). *   [Courses](https://claude.com/resources/courses). *   [Plugins](https://claude.com/plugins). *   [Service partners](https://claude.com/partners/services). *   [Tutorials](https://claude.com/resources/tutorials). *   [Use cases](https://claude.com/resources/use-cases). *   [Anthropic](https://www.anthropic.com/company). *   [Claude](https://claude.com/product/overview). *   [Claude Code](https://claude.com/product/claude-code). *   [Pricing](https://claude.com/pricing). *   [Skills](https://claude.com/skills). *   [Mythos](https://www.anthropic.com/claude/mythos). *   [Fable](https://www.anthropic.com/claude/fable). *   [Opus](https://www.anthropic.com/claude/opus). *   [Sonnet](https://www.anthropic.com/claude/sonnet). *   [Haiku](https://www.anthropic.com/claude/haiku). *   [AI agents](https://claude.com/solutions/agents). *   [Code modernization](https://claude.com/solutions/code-modernization). *   [Coding](https://claude.com/solutions/coding). *   [Customer support](https://claude.com/solutions/customer-support). *   [Education](https://claude.com/solutions/education). *   [Enterprise](https://claude.com/solutions/enterprise). *   [Financial services](https://claude.com/solutions/financial-services). *   [Government](https://claude.com/solutions/government). *   [Healthcare](https://claude.com/solutions/healthcare). *   [Legal](https://claude.com/solutions/legal). *   [Nonprofits](https://claude.com/solutions/nonprofits). *   [Security](https://claude.com/solutions/security). *   [Overview](https://claude.com/platform/api). *   [Pricing](https://claude.com/pricing#api). *   [Marketplace](https://claude.com/platform/marketplace). *   [Console login](https://platform.claude.com/). *   [Blog](https://claude.com/blog). *   [Community](https://claude.com/community). *   [Connectors](https://claude.com/connectors). *   [Courses](https://claude.com/resources/courses). *   [Plugins](https://claude.com/plugins). *   [Service partners](https://claude.com/partners/services). *   [Tutorials](https://claude.com/resources/tutorials). *   [Use cases](https://claude.com/resources/use-cases). *   [Anthropic](https://www.anthropic.com/company).",
+    "excerpt": "[Console login](https://platform.claude.com/). [Anthropic Academy](https://www.anthropic.com/learn)[Courses](https://claude.com/resources/courses)[Tut...",
+    "date": "2026-07-17T06:08:02.300Z",
+    "readTime": "14分钟",
+    "tags": [
+      "ClaudeCode",
+      "AI 编程",
+      "编程工具",
+      "技术干货",
+      "技能系统",
+      "AI 代理",
+      "API"
+    ],
+    "source": "https://claude.ai"
   }
 ]
