@@ -1,10 +1,10 @@
 [
   {
-    "id": "cl-1784549284501-emjt",
+    "id": "cl-1784614872325-69k9",
     "title": "💻 GitHub - awattar/claude-code-best-practices: 💻 Best practices and examples for using Claude Code - Anthropic’s terminal-native AI - for writing, editing, and refactoring code with deep project awareness, prompt design, and safe automation. · GitHub",
     "content": "Claude Code 技术干货\n\nawattar   /  **claude-code-best-practices**  Public. # awattar/claude-code-best-practices. # 🧠 Claude Code Best Practices. A practical guide to using Claude Code, Anthropic’s agentic coding assistant, effectively in real-world development workflows. This repo distills best practices, patterns, and examples for integrating Claude Code into your terminal-based coding environment. Claude Code is a command-line tool that gives you direct access to Claude’s reasoning and coding capabilities. It’s designed for agentic coding - where Claude autonomously explores, edits, and explains code across your project. Think of it as a collaborative AI pair programmer that understands your repo structure, coding conventions, and workflows. + How to configure your environment for Claude Code. Claude Code is optimized for agentic coding - AI that acts with autonomy and awareness:. This repository includes a collection of custom slash commands designed to streamline development workflows with Claude Code. Automatically generates comprehensive CLAUDE.md files for any project by analyzing project structure, technology stack, and development patterns.",
     "excerpt": "awattar   /  **claude-code-best-practices**  Public. # awattar/claude-code-best-practices. # 🧠 Claude Code Best Practices. A practical guide to using...",
-    "date": "2026-07-20T12:08:04.501Z",
+    "date": "2026-07-21T06:21:12.325Z",
     "readTime": "4分钟",
     "tags": [
       "ClaudeCode",
@@ -16,26 +16,11 @@
     "source": "https://github.com/awattar/claude-code-best-practices"
   },
   {
-    "id": "cl-1784549284501-7v9n",
-    "title": "💻 Claude Code Best Practices: Planning, Context Transfer, TDD",
-    "content": "Claude Code 技术干货\n\n# Claude Code Best Practices: Planning, Context Transfer, TDD. Learn Claude Code best practices from production teams. Use plan mode, CLAUDE.md files, and test-driven development to make the most of Claude's context window. *   Claude Code Best Practices FAQs. Claude Code rewards a kind of discipline that most developer tools don't ask for. If you've been using it for a while, you've noticed that some sessions produce exactly what you want, and others burn through tokens going nowhere. Anthropic's own teamfound that unguided attempts succeed about 33% of the time, and the tool's creatorabandons 10-20% of sessions. If you need a refresher on setup and core features, our guide on Claude Code 2.1 has you covered. You have Claude draft a `plan.md`, open it in your editor, and add inline notes wherever Claude made the wrong call or left something ambiguous: \"use `drizzle:generate`, not raw SQL\" or \"this should be `PATCH`, not `PUT`.\".",
-    "excerpt": "# Claude Code Best Practices: Planning, Context Transfer, TDD. Learn Claude Code best practices from production teams. Use plan mode, CLAUDE.md files,...",
-    "date": "2026-07-20T12:08:04.501Z",
-    "readTime": "4分钟",
-    "tags": [
-      "ClaudeCode",
-      "AI 编程",
-      "编程工具",
-      "技术干货"
-    ],
-    "source": "https://www.datacamp.com/tutorial/claude-code-best-practices"
-  },
-  {
-    "id": "cl-1784549284501-8se3",
-    "title": "💻 Anthropic's Guide to Claude Code: Best Practices for Agentic Coding",
-    "content": "Claude Code 技术干货\n\nAnthropic recommends structuring your repo to make Claude \"agentic\" — i.e., act more like an intelligent assistant who understands your goals,",
-    "excerpt": "Anthropic recommends structuring your repo to make Claude \"agentic\" — i.e., act more like an intelligent assistant who understands your goals,",
-    "date": "2026-07-20T12:08:04.501Z",
+    "id": "cl-1784614872325-80cp",
+    "title": "💻 Anthropic's Guide to Claude Code: Best Practices for ...",
+    "content": "Claude Code 技术干货\n\nAnthropic recommends structuring your repo to make Claude \"agentic\" — i.e., act more like an intelligent assistant who understands your goals, ...Read more",
+    "excerpt": "Anthropic recommends structuring your repo to make Claude \"agentic\" — i.e., act more like an intelligent assistant who understands your goals, ...Read...",
+    "date": "2026-07-21T06:21:12.325Z",
     "readTime": "1分钟",
     "tags": [
       "ClaudeCode",
@@ -47,26 +32,11 @@
     "source": "https://www.reddit.com/r/ClaudeAI/comments/1k5slll/anthropics_guide_to_claude_code_best_practices"
   },
   {
-    "id": "cl-1784549284501-9r7z",
-    "title": "💻 Claude Code Best Practices: A Newbie's Guide to Learning from the Community",
-    "content": "Claude Code 技术干货\n\nOnce you get comfortable, try running multiple Claude instances simultaneously. Cal mentioned people at Anthropic run four Claudes at once. You",
-    "excerpt": "Once you get comfortable, try running multiple Claude instances simultaneously. Cal mentioned people at Anthropic run four Claudes at once. You",
-    "date": "2026-07-20T12:08:04.501Z",
-    "readTime": "1分钟",
-    "tags": [
-      "ClaudeCode",
-      "AI 编程",
-      "编程工具",
-      "技术干货"
-    ],
-    "source": "https://www.linkedin.com/pulse/claude-code-best-practices-newbies-guide-learning-from-rafael-knuth-l9zzf"
-  },
-  {
-    "id": "cl-1784549284501-to6d",
+    "id": "cl-1784614872325-p797",
     "title": "💻 Claude Code Best Practices: A Guide to Agentic Coding | QuantumByte Success Story",
     "content": "Claude Code 技术干货\n\n# Claude Code Best Practices: A Guide to Agentic Coding. If Claude is writing code faster than you can review it, you are stacking risk instead of moving fast. The goal of claude code best practices is simple: keep the speed, but make outputs predictable, testable, and safe to ship. This guide gives you a tight workflow, a copy-paste checklist, and the best tools and resources to make Claude Code behave like a disciplined teammate instead of a lottery machine. Claude Code is an agentic coding tool that can read your project, edit files, run commands, and create commits. You will get the most reliable results when you treat Claude like a junior engineer with super speed: you give clear constraints, you demand a plan, you enforce tests, and you gate changes. If you are building internal tools or trying to productize your expertise into a niche SaaS, this discipline is how you ship \"in days, not months\" without waking up to a broken production release. ## Best tools and resources for Claude Code best practices.",
     "excerpt": "# Claude Code Best Practices: A Guide to Agentic Coding. If Claude is writing code faster than you can review it, you are stacking risk instead of mov...",
-    "date": "2026-07-20T12:08:04.501Z",
+    "date": "2026-07-21T06:21:12.325Z",
     "readTime": "4分钟",
     "tags": [
       "ClaudeCode",
@@ -78,11 +48,11 @@
     "source": "https://quantumbyte.ai/articles/claude-code-best-practices"
   },
   {
-    "id": "cl-1784549281559-0uxu",
-    "title": "💻 What Is Claude Code /simplify and /batch? The Built-In Commands That Fix Overengineering | MindStudio",
-    "content": "Claude Code 技术干货\n\nClaude Code's /simplify and /batch commands help you clean up bloated code and run large refactors in parallel. Learn how to use them.",
-    "excerpt": "Claude Code's /simplify and /batch commands help you clean up bloated code and run large refactors in parallel. Learn how to use them.",
-    "date": "2026-07-20T12:08:01.559Z",
+    "id": "cl-1784614872325-7fe1",
+    "title": "💻 Claude Code Best Practices: A Newbie's Guide to Learning from the Community",
+    "content": "Claude Code 技术干货\n\nOnce you get comfortable, try running multiple Claude instances simultaneously. Cal mentioned people at Anthropic run four Claudes at once. You ...Read more",
+    "excerpt": "Once you get comfortable, try running multiple Claude instances simultaneously. Cal mentioned people at Anthropic run four Claudes at once. You ...Rea...",
+    "date": "2026-07-21T06:21:12.325Z",
     "readTime": "1分钟",
     "tags": [
       "ClaudeCode",
@@ -90,49 +60,32 @@
       "编程工具",
       "技术干货"
     ],
-    "source": "https://www.mindstudio.ai/blog/claude-code-simplify-batch-commands"
+    "source": "https://www.linkedin.com/pulse/claude-code-best-practices-newbies-guide-learning-from-rafael-knuth-l9zzf"
   },
   {
-    "id": "cl-1784549281559-7o0p",
-    "title": "💻 Claude Code /simplify and /batch Commands Guide",
-    "content": "Claude Code 技术干货\n\n# Claude Code /simplify and /batch: Bundled Commands That Ship Code Faster. Claude Code /simplify runs 3-agent code review on your changes. The code works, but you know there's duplicated logic, a few functions that could be cleaner, and some inefficient patterns you didn't have time to address. # After implementing a feature # After implementing a feature/simplify/simplify  # Focus on a specific concern # Focus on a specific concern/simplify focus on memory efficiency/simplify  focus  on  memory  efficiency. If you need something bigger -- migrating an entire codebase from one framework to another, or applying a change across dozens of files -- that's what `/batch` is for. ## What Claude Code /simplify Does. Boris Cherny, the Claude Code PM, put it well: these bundled commands \"automate much of the work it used to take to shepherd a pull request to production.\" `/simplify` is the automated code review step between \"it works\" and \"it's ready to merge.\".",
-    "excerpt": "# Claude Code /simplify and /batch: Bundled Commands That Ship Code Faster. Claude Code /simplify runs 3-agent code review on your changes. The code w...",
-    "date": "2026-07-20T12:08:01.559Z",
+    "id": "cl-1784614872325-wgpp",
+    "title": "💻 Claude Code Best Practices: 15 Rules for Safer Agentic ...",
+    "content": "Claude Code 技术干货\n\nThe best Claude Code results come from treating it like a junior-to-mid engineer with fast hands, deep repository access and no real-world accountability unless you create it. Give it clear rules, a scoped context, tests, review gates and a clean session boundary before it starts changing files. This guide covers practical Claude Code best practices for developers, founders, and technical teams using Claude Code for repo-wide refactors, bug fixes, test generation, code review, and agile development work. It explains how Claude Code rules should be written and when to use CLAUDE.md, how to avoid bloated context, and where hooks, subagents, planning and verification make the biggest difference. The advice below is based on how agentic coding tools behave in real repositories: they can be excellent at tracing logic across files, but they also fail in predictable ways when prompts are vague, rules conflict, tests are missing, or a session carries too much stale context. ### Claude Code.",
+    "excerpt": "The best Claude Code results come from treating it like a junior-to-mid engineer with fast hands, deep repository access and no real-world accountabil...",
+    "date": "2026-07-21T06:21:12.325Z",
     "readTime": "4分钟",
     "tags": [
       "ClaudeCode",
       "AI 编程",
       "编程工具",
       "技术干货",
+      "Hooks",
       "AI 代理"
     ],
-    "source": "https://claudefa.st/blog/guide/mechanics/simplify-batch-commands"
+    "source": "https://diyai.io/ai-tools/code-generation/claude-code-best-practices"
   },
   {
-    "id": "cl-1784549281559-mvs9",
-    "title": "💻 GitHub - s2-streamstore/claude-batch-toolkit: Send non-urgent work to the Anthropic Batch API at 50% cost — directly from Claude Code · GitHub",
-    "content": "Claude Code 技术干货\n\ns2-streamstore   /  **claude-batch-toolkit**  Public. # s2-streamstore/claude-batch-toolkit. # claude-batch-toolkit. Send non-urgent work to the Anthropic Batch API (or Vertex AI) at **50% cost** — directly from Claude Code. Works with the Anthropic API directly or through Google Cloud's Vertex AI. | `--api-key KEY` | Your Anthropic API key (required unless already in env) |. If you prefer not to run the install script — or need to install in a restricted environment — follow these steps to set up each component by hand. | **curl** | Polls the Anthropic API from statusline | `brew install curl` or `apt-get install curl` |. #### Step 2: Install the MCP server. #### Step 3: Install the skill file. #### Step 4 *(optional)*: Install the statusline script. > Skip this step if you don't want batch job counts in your Claude Code status bar. The toolkit reads `ANTHROPIC_API_KEY` from `~/.claude/env`. #### Step 6: Register the MCP server in `~/.claude.json`. #### Step 7 *(optional)*: Configure the statusline in `~/.claude/settings.json`.",
-    "excerpt": "s2-streamstore   /  **claude-batch-toolkit**  Public. # s2-streamstore/claude-batch-toolkit. # claude-batch-toolkit. Send non-urgent work to the Anthr...",
-    "date": "2026-07-20T12:08:01.559Z",
-    "readTime": "4分钟",
-    "tags": [
-      "ClaudeCode",
-      "AI 编程",
-      "编程工具",
-      "技术干货",
-      "技能系统",
-      "MCP 协议",
-      "API"
-    ],
-    "source": "https://github.com/s2-streamstore/claude-batch-toolkit"
-  },
-  {
-    "id": "cl-1784549281558-1f97",
-    "title": "💻 Batch Processing Skill for Claude Code | Scale AI Workflows",
-    "content": "Claude Code 技术干货\n\n# Batch Processing. Optimizes large-scale task execution through agent swarms, API batch processing, and intelligent loops to maximize efficiency and reduce costs. ### Related Skills. Use when the user wants to create one or many images from data (CSV/list), reuse a visual template with different texts/photos, or batch-produce cards for a marketplace, social network, or event. Manages Discord operations including messaging, reactions, and channel management directly through Claude. Browse the MCP Market to get started. The Batch Processing skill for Claude Code empowers developers to handle high-volume tasks—such as reviewing dozens of files or processing hundreds of documents—without linear increases in time or token costs. It provides a strategic framework for selecting the optimal execution method based on scale: utilizing agent swarms for rapid parallel processing of 5-20 items, the Anthropic API Batch for 50% cost savings on massive datasets, or sequential loops for tasks with complex dependencies. Sync skills to **Claude Cowork**, **Claude Code**, **Codex**, and more.",
-    "excerpt": "# Batch Processing. Optimizes large-scale task execution through agent swarms, API batch processing, and intelligent loops to maximize efficiency and ...",
-    "date": "2026-07-20T12:08:01.558Z",
-    "readTime": "4分钟",
+    "id": "cl-1784614869451-o4az",
+    "title": "💻 Claude Code: Sign in - Claude",
+    "content": "Claude Code 技术干货\n\n[Console login](https://platform.claude.com/). [Anthropic Academy](https://www.anthropic.com/learn)[Courses](https://claude.com/resources/courses)[Tutorials](https://claude.com/resources/tutorials)[Use cases](https://claude.com/resources/use-cases). [Community](https://claude.com/community)[Events](https://www.anthropic.com/events). *   [Claude](https://claude.com/product/overview). *   [Claude Code](https://claude.com/product/claude-code). *   [Claude Security](https://claude.com/product/claude-security). *   [Pricing](https://claude.com/pricing). *   [Skills](https://claude.com/skills). *   [Mythos](https://www.anthropic.com/claude/mythos). *   [Fable](https://www.anthropic.com/claude/fable). *   [Opus](https://www.anthropic.com/claude/opus). *   [Sonnet](https://www.anthropic.com/claude/sonnet). *   [Haiku](https://www.anthropic.com/claude/haiku). *   [AI agents](https://claude.com/solutions/agents). *   [Code modernization](https://claude.com/solutions/code-modernization). *   [Coding](https://claude.com/solutions/coding). *   [Customer support](https://claude.com/solutions/customer-support). *   [Education](https://claude.com/solutions/education). *   [Enterprise](https://claude.com/solutions/enterprise). *   [Financial services](https://claude.com/solutions/financial-services). *   [Government](https://claude.com/solutions/government). *   [Healthcare](https://claude.com/solutions/healthcare). *   [Legal](https://claude.com/solutions/legal). *   [Nonprofits](https://claude.com/solutions/nonprofits). *   [Security](https://claude.com/solutions/security). *   [Overview](https://claude.com/platform/api). *   [Pricing](https://claude.com/pricing#api). *   [Marketplace](https://claude.com/platform/marketplace). *   [Console login](https://platform.claude.com/). *   [Blog](https://claude.com/blog). *   [Community](https://claude.com/community). *   [Connectors](https://claude.com/connectors). *   [Courses](https://claude.com/resources/courses). *   [Plugins](https://claude.com/plugins). *   [Service partners](https://claude.com/partners/services). *   [Tutorials](https://claude.com/resources/tutorials). *   [Use cases](https://claude.com/resources/use-cases). *   [Anthropic](https://www.anthropic.com/company). *   [Claude](https://claude.com/product/overview). *   [Claude Code](https://claude.com/product/claude-code). *   [Pricing](https://claude.com/pricing). *   [Skills](https://claude.com/skills). *   [Mythos](https://www.anthropic.com/claude/mythos). *   [Fable](https://www.anthropic.com/claude/fable). *   [Opus](https://www.anthropic.com/claude/opus). *   [Sonnet](https://www.anthropic.com/claude/sonnet). *   [Haiku](https://www.anthropic.com/claude/haiku). *   [AI agents](https://claude.com/solutions/agents). *   [Code modernization](https://claude.com/solutions/code-modernization). *   [Coding](https://claude.com/solutions/coding). *   [Customer support](https://claude.com/solutions/customer-support). *   [Education](https://claude.com/solutions/education). *   [Enterprise](https://claude.com/solutions/enterprise). *   [Financial services](https://claude.com/solutions/financial-services). *   [Government](https://claude.com/solutions/government). *   [Healthcare](https://claude.com/solutions/healthcare). *   [Legal](https://claude.com/solutions/legal). *   [Nonprofits](https://claude.com/solutions/nonprofits). *   [Security](https://claude.com/solutions/security). *   [Overview](https://claude.com/platform/api). *   [Pricing](https://claude.com/pricing#api). *   [Marketplace](https://claude.com/platform/marketplace). *   [Console login](https://platform.claude.com/). *   [Blog](https://claude.com/blog). *   [Community](https://claude.com/community). *   [Connectors](https://claude.com/connectors). *   [Courses](https://claude.com/resources/courses). *   [Plugins](https://claude.com/plugins). *   [Service partners](https://claude.com/partners/services). *   [Tutorials](https://claude.com/resources/tutorials). *   [Use cases](https://claude.com/resources/use-cases). *   [Anthropic](https://www.anthropic.com/company).",
+    "excerpt": "[Console login](https://platform.claude.com/). [Anthropic Academy](https://www.anthropic.com/learn)[Courses](https://claude.com/resources/courses)[Tut...",
+    "date": "2026-07-21T06:21:09.451Z",
+    "readTime": "14分钟",
     "tags": [
       "ClaudeCode",
       "AI 编程",
@@ -140,26 +93,71 @@
       "技术干货",
       "技能系统",
       "AI 代理",
-      "MCP 协议",
       "API"
     ],
-    "source": "https://mcpmarket.com/tools/skills/batch-processing"
+    "source": "https://claude.ai"
   },
   {
-    "id": "cl-1784549281558-8irg",
-    "title": "💻 Claude Code Batch Processing Complete Guide: /batch Command and Headless Mode in Practice - SmartScope",
-    "content": "Claude Code 技术干货\n\n* /batch Command: Parallel Execution of Large-Scale Code Changes. * Headless Mode (claude -p): CI/CD and Script Integration. # Claude Code Batch Processing Complete Guide: /batch Command and Headless Mode in Practice¶. The `/batch` command in Claude Code shines when you need to apply the same transformation across hundreds of files. * The `/batch` command executes codebase-wide migrations safely using **parallel agents + Git Worktree** isolation. * Headless mode (`claude -p`) provides **non-interactive integration** for CI/CD pipelines and shell scripts. Intermediate to advanced Claude Code users looking to scale up with large-scale changes and CI/CD integration. The latter is a non-interactive execution mode for embedding AI processing into CI/CD pipelines. | Aspect | /batch Command | Headless Mode (claude -p) |. Choose headless mode when embedding AI processing into existing CI/CD pipelines. `/batch` is a slash command executed within an interactive Claude Code session1. ## Headless Mode (claude -p): CI/CD and Script Integration¶.",
-    "excerpt": "* /batch Command: Parallel Execution of Large-Scale Code Changes. * Headless Mode (claude -p): CI/CD and Script Integration. # Claude Code Batch Proce...",
-    "date": "2026-07-20T12:08:01.558Z",
-    "readTime": "4分钟",
+    "id": "cl-1784614869451-9nay",
+    "title": "💻 Claude Code: Download Claude | Claude by Anthropic",
+    "content": "Claude Code 技术干货\n\nChat, Claude Cowork, and Claude Code, all in one place. Access all of Claude on desktop and mobile. ## Desktop. All of Claude, in one app. Works with your files and apps to get things done. Pair with the desktop app. Put Claude to work across your apps. Claude remembers across your phone, desktop, and the web. ### Hand a task to your desktop. Pair the desktop and mobile apps. Share a task from your phone and Claude can get started in Cowork. Use Remote Control on mobile to send tasks from your phone to the Claude Code CLI. ### Do I need a paid plan to use the desktop or mobile apps? You also get desktop extensions to connect Claude with your local tools and files. ### Can I use the same account across desktop, web, and mobile? No. Cowork only runs on the desktop app and works without the mobile app. ### Can I use Claude Code in the desktop app?",
+    "excerpt": "Chat, Claude Cowork, and Claude Code, all in one place. Access all of Claude on desktop and mobile. ## Desktop. All of Claude, in one app. Works with ...",
+    "date": "2026-07-21T06:21:09.451Z",
+    "readTime": "3分钟",
     "tags": [
       "ClaudeCode",
       "AI 编程",
       "编程工具",
       "技术干货",
-      "AI 代理",
-      "Git"
+      "命令行"
     ],
-    "source": "https://smartscope.blog/en/generative-ai/claude/claude-code-batch-processing"
+    "source": "https://claude.com/download"
+  },
+  {
+    "id": "cl-1784614869451-e1sx",
+    "title": "💻 Claude Code: Home \\ Anthropic",
+    "content": "Claude Code 技术干货\n\n*   [Research](https://www.anthropic.com/research). *   [Policy](https://www.anthropic.com/policy). *   [Claude's Constitution](https://www.anthropic.com/constitution). *   [Claude Corps](https://www.anthropic.com/claude-corps). *   [Transparency](https://www.anthropic.com/transparency). *   [About](https://www.anthropic.com/company). *   [Careers](https://www.anthropic.com/careers). *   [Events](https://www.anthropic.com/events). *   [News](https://www.anthropic.com/news). *   [Claude Security](https://claude.com/product/claude-security). *   [Mythos](https://www.anthropic.com/claude/mythos). *   [Fable](https://www.anthropic.com/claude/fable). *   [Opus](https://www.anthropic.com/claude/opus). *   [Sonnet](https://www.anthropic.com/claude/sonnet). *   [Haiku](https://www.anthropic.com/claude/haiku). *   [Research](https://www.anthropic.com/research). *   [Policy](https://www.anthropic.com/policy). *   [Claude's Constitution](https://www.anthropic.com/constitution). *   [Claude Corps](https://www.anthropic.com/claude-corps). *   [Transparency](https://www.anthropic.com/transparency). *   [About](https://www.anthropic.com/company). *   [Careers](https://www.anthropic.com/careers). *   [Events](https://www.anthropic.com/events). *   [News](https://www.anthropic.com/news). *   [Mythos](https://www.anthropic.com/claude/mythos). *   [Fable](https://www.anthropic.com/claude/fable). *   [Opus](https://www.anthropic.com/claude/opus). *   [Sonnet](https://www.anthropic.com/claude/sonnet). *   [Haiku](https://www.anthropic.com/claude/haiku). [Read announcement](https://www.anthropic.com/news/redeploying-fable-5)Read announcement. [Model details](https://www.anthropic.com/claude/sonnet)Model details. [Read announcement](https://www.anthropic.com/news/claude-sonnet-5)Read announcement. [Read announcement](https://www.anthropic.com/news/claude-science-ai-workbench)Read announcement. *   ### Anthropic Academy: Build and Learn with Claude Education   [](https://www.anthropic.com/learn). *   ### Claude’s Constitution Announcements   [](https://www.anthropic.com/constitution). *   [](https://www.youtube.com/@anthropic-ai). *   [Skills](https://www.claude.com/skills). *   [Mythos](https://www.anthropic.com/claude/mythos). *   [Fable](https://www.anthropic.com/claude/fable). *   [Opus](https://www.anthropic.com/claude/opus). *   [Sonnet](https://www.anthropic.com/claude/sonnet). *   [Haiku](https://www.anthropic.com/claude/haiku). *   [AI agents](https://claude.com/solutions/agents). *   [Coding](https://claude.com/solutions/coding). *   [Government](https://claude.com/solutions/government). *   [Legal](https://claude.com/solutions/legal). *   [Blog](https://www.claude.com/blog). *   [Courses](https://www.anthropic.com/learn). *   [Customer stories](https://www.claude.com/customers). *   [Events](https://www.anthropic.com/events). *   [Startups](https://claude.com/programs/startups). *   [Availability](https://www.anthropic.com/supported-countries). *   [Anthropic](https://www.anthropic.com/company). *   [Careers](https://www.anthropic.com/careers). *   [Policy](https://www.anthropic.com/policy). *   [Research](https://www.anthropic.com/research). *   [News](https://www.anthropic.com/news). *   [Claude's Constitution](https://www.anthropic.com/constitution). *   [Claude Corps](https://www.anthropic.com/claude-corps). *   [Transparency](https://www.anthropic.com/transparency). You can read our Cookie Policy [here](https://www.anthropic.com/legal/cookies). *   [Privacy policy](https://www.anthropic.com/legal/privacy). *   [Usage policy](https://www.anthropic.com/legal/aup). *   [](https://www.youtube.com/@anthropic-ai).",
+    "excerpt": "*   [Research](https://www.anthropic.com/research). *   [Policy](https://www.anthropic.com/policy). *   [Claude's Constitution](https://www.anthropic....",
+    "date": "2026-07-21T06:21:09.451Z",
+    "readTime": "13分钟",
+    "tags": [
+      "ClaudeCode",
+      "AI 编程",
+      "编程工具",
+      "技术干货",
+      "技能系统",
+      "AI 代理"
+    ],
+    "source": "https://www.anthropic.com"
+  },
+  {
+    "id": "cl-1784614869451-50cw",
+    "title": "💻 Claude Code: Claude by Anthropic - App Store - Apple",
+    "content": "Claude Code 技术干货\n\n*   [Today](https://apps.apple.com/us/iphone/today). *   [iPhone](https://apps.apple.com/us/iphone/today). *   [![Image 8](https://apps.apple.com/assets/artwork/1x1.gif) HOW TO### Make AI Your Study Buddy A few ways to (responsibly) use AI apps for learning.](https://apps.apple.com/us/iphone/story/id1818410444). *   [Algeria](https://apps.apple.com/dz/iphone/today). *   [Angola](https://apps.apple.com/ao/iphone/today). *   [Armenia](https://apps.apple.com/am/iphone/today). *   [Azerbaijan](https://apps.apple.com/az/iphone/today). *   [Bahrain](https://apps.apple.com/bh/iphone/today). *   [Benin](https://apps.apple.com/bj/iphone/today). *   [Botswana](https://apps.apple.com/bw/iphone/today). *   [Cameroun](https://apps.apple.com/cm/iphone/today). *   [Egypt](https://apps.apple.com/eg/iphone/today). *   [Eswatini](https://apps.apple.com/sz/iphone/today). *   [Gabon](https://apps.apple.com/ga/iphone/today). *   [Gambia](https://apps.apple.com/gm/iphone/today). *   [Ghana](https://apps.apple.com/gh/iphone/today). *   [India](https://apps.apple.com/in/iphone/today). *   [Iraq](https://apps.apple.com/iq/iphone/today). *   [Israel](https://apps.apple.com/il/iphone/today). *   [Jordan](https://apps.apple.com/jo/iphone/today). *   [Rwanda](https://apps.apple.com/rw/iphone/today). *   [Senegal](https://apps.apple.com/sn/iphone/today). *   [Seychelles](https://apps.apple.com/sc/iphone/today). *   [South Africa](https://apps.apple.com/za/iphone/today). *   [Tajikistan](https://apps.apple.com/tj/iphone/today). *   [Tunisia](https://apps.apple.com/tn/iphone/today). *   [Uganda](https://apps.apple.com/ug/iphone/today). *   [Bhutan](https://apps.apple.com/bt/iphone/today). *   [中国大陆](https://apps.apple.com/cn/iphone/today). *   [香港](https://apps.apple.com/hk/iphone/today). *   [Indonesia (English)](https://apps.apple.com/id/iphone/today). *   [日本](https://apps.apple.com/jp/iphone/today). *   [Kazakhstan](https://apps.apple.com/kz/iphone/today). *   [대한민국](https://apps.apple.com/kr/iphone/today). *   [Kyrgyzstan](https://apps.apple.com/kg/iphone/today). *   [Malaysia (English)](https://apps.apple.com/my/iphone/today). *   [Myanmar](https://apps.apple.com/mm/iphone/today). *   [New Zealand](https://apps.apple.com/nz/iphone/today). *   [Pakistan](https://apps.apple.com/pk/iphone/today). *   [Philippines](https://apps.apple.com/ph/iphone/today). *   [Singapore](https://apps.apple.com/sg/iphone/today). *   [台灣](https://apps.apple.com/tw/iphone/today). *   [Tonga](https://apps.apple.com/to/iphone/today). *   [Albania](https://apps.apple.com/al/iphone/today). *   [Armenia](https://apps.apple.com/am/iphone/today). *   [Österreich](https://apps.apple.com/at/iphone/today). *   [Belarus](https://apps.apple.com/by/iphone/today). *   [Belgium](https://apps.apple.com/be/iphone/today). *   [Bulgaria](https://apps.apple.com/bg/iphone/today). *   [Deutschland](https://apps.apple.com/de/iphone/today). *   [Iceland](https://apps.apple.com/is/iphone/today). *   [Ireland](https://apps.apple.com/ie/iphone/today). *   [Italia](https://apps.apple.com/it/iphone/today). *   [Malta](https://apps.apple.com/mt/iphone/today). *   [Montenegro](https://apps.apple.com/me/iphone/today). *   [Norway](https://apps.apple.com/no/iphone/today). *   [Россия](https://apps.apple.com/ru/iphone/today). *   [Slovakia](https://apps.apple.com/sk/iphone/today). *   [España](https://apps.apple.com/es/iphone/today). *   [Anguilla](https://apps.apple.com/ai/iphone/today). *   [Brasil](https://apps.apple.com/br/iphone/today). *   [Colombia (Español)](https://apps.apple.com/co/iphone/today). *   [República Dominicana](https://apps.apple.com/do/iphone/today). *   [México](https://apps.apple.com/mx/iphone/today). *   [Montserrat](https://apps.apple.com/ms/iphone/today). *   [Canada (English)](https://apps.apple.com/ca/iphone/today). *   [United States](https://apps.apple.com/us/iphone/today).",
+    "excerpt": "*   [Today](https://apps.apple.com/us/iphone/today). *   [iPhone](https://apps.apple.com/us/iphone/today). *   [![Image 8](https://apps.apple.com/asse...",
+    "date": "2026-07-21T06:21:09.451Z",
+    "readTime": "13分钟",
+    "tags": [
+      "ClaudeCode",
+      "AI 编程",
+      "编程工具",
+      "技术干货"
+    ],
+    "source": "https://apps.apple.com/us/app/claude-by-anthropic/id6473753684"
+  },
+  {
+    "id": "cl-1784614869451-dctc",
+    "title": "💻 Claude Code: Claude (AI)",
+    "content": "Claude Code 技术干货\n\n7.   [↑](https://en.wikipedia.org/wiki/Claude_(AI)#cite_ref-7)Robison, Kylie (March 20, 2025). 8.   [↑](https://en.wikipedia.org/wiki/Claude_(AI)#cite_ref-8)Washenko, Anna (May 27, 2025). [↑](https://en.wikipedia.org/wiki/Claude_(AI)#cite_ref-10)Wiggers, Kyle (May 1, 2024). [↑](https://en.wikipedia.org/wiki/Claude_(AI)#cite_ref-14)Edwards, Benj (May 22, 2025). [↑](https://en.wikipedia.org/wiki/Claude_(AI)#cite_ref-62)Edwards, Benj (March 5, 2024). [↑](https://en.wikipedia.org/wiki/Claude_(AI)#cite_ref-68)Weatherbed, Jess (May 22, 2025). [↑](https://en.wikipedia.org/wiki/Claude_(AI)#cite_ref-69)Field, Hayden (May 22, 2025). [↑](https://en.wikipedia.org/wiki/Claude_(AI)#cite_ref-70)Nuñez, Michael (May 22, 2025). [↑](https://en.wikipedia.org/wiki/Claude_(AI)#cite_ref-71)Fried, Ina (May 23, 2025). [↑](https://en.wikipedia.org/wiki/Claude_(AI)#cite_ref-73)Goldman, Sharon. [↑](https://en.wikipedia.org/wiki/Claude_(AI)#cite_ref-80)[\"Introducing Claude Opus 4.7\"](https://www.anthropic.com/news/claude-opus-4-7). [↑](https://en.wikipedia.org/wiki/Claude_(AI)#cite_ref-82)Chandonnet, Henry. [↑](https://en.wikipedia.org/wiki/Claude_(AI)#cite_ref-84)[\"Anthropic releases new model, Opus 4.8\"](https://www.axios.com/2026/05/28/anthropic-opus-release-mythos). [↑](https://en.wikipedia.org/wiki/Claude_(AI)#cite_ref-85)[\"Introducing Claude Opus 4.8\"](https://www.anthropic.com/news/claude-opus-4-8). [↑](https://en.wikipedia.org/wiki/Claude_(AI)#cite_ref-87)[\"Project Glasswing: Securing critical software for the AI era\"](https://www.anthropic.com/glasswing). [↑](https://en.wikipedia.org/wiki/Claude_(AI)#cite_ref-88)[\"How dangerous is Mythos, Anthropic's new AI model?\"](https://www.economist.com/business/2026/04/08/how-dangerous-is-mythos-anthropics-new-ai-model). [↑](https://en.wikipedia.org/wiki/Claude_(AI)#cite_ref-89)[\"Why Anthropic won't release its new Mythos AI model to the public\"](https://www.nbcnews.com/tech/security/anthropic-project-glasswing-mythos-preview-claude-gets-limited-release-rcna267234). [↑](https://en.wikipedia.org/wiki/Claude_(AI)#cite_ref-92)Schroeder, Stan (May 15, 2026). [↑](https://en.wikipedia.org/wiki/Claude_(AI)#cite_ref-94)[\"Scoop: NSA using Anthropic's Mythos despite Defense Department blacklist\"](https://www.axios.com/2026/04/19/nsa-anthropic-mythos-pentagon). [↑](https://en.wikipedia.org/wiki/Claude_(AI)#cite_ref-97)[\"Claude Fable 5 and Claude Mythos 5\"](https://www.anthropic.com/news/claude-fable-5-mythos-5). [↑](https://en.wikipedia.org/wiki/Claude_(AI)#cite_ref-98)[\"Anthropic releases first Mythos-level model for general use\"](https://www.axios.com/2026/06/09/anthropic-mythos-class-safeguards). [↑](https://en.wikipedia.org/wiki/Claude_(AI)#cite_ref-102)[\"Exclusive: US releases powerful Anthropic model Mythos to some US companies\"](https://www.semafor.com/article/06/27/2026/us-releases-powerful-anthropic-model-mythos-to-some-us-companies). [↑](https://en.wikipedia.org/wiki/Claude_(AI)#cite_ref-105)Plumb, Taryn (May 22, 2024). [↑](https://en.wikipedia.org/wiki/Claude_(AI)#cite_ref-106)Bort, Julie (June 28, 2025). [↑](https://en.wikipedia.org/wiki/Claude_(AI)#cite_ref-107)[\"Project Vend: Phase two\"](https://www.anthropic.com/research/project-vend-2). [↑](https://en.wikipedia.org/wiki/Claude_(AI)#cite_ref-111)Pillay, Tharin. [↑](https://en.wikipedia.org/wiki/Claude_(AI)#cite_ref-112)Knight, Will. [↑](https://en.wikipedia.org/wiki/Claude_(AI)#cite_ref-114)Edwards, Benj (February 6, 2026). [↑](https://en.wikipedia.org/wiki/Claude_(AI)#cite_ref-137)Zeff, Maxwell (March 9, 2026).",
+    "excerpt": "7.   [↑](https://en.wikipedia.org/wiki/Claude_(AI)#cite_ref-7)Robison, Kylie (March 20, 2025). 8.   [↑](https://en.wikipedia.org/wiki/Claude_(AI)#cite...",
+    "date": "2026-07-21T06:21:09.451Z",
+    "readTime": "12分钟",
+    "tags": [
+      "ClaudeCode",
+      "AI 编程",
+      "编程工具",
+      "技术干货"
+    ],
+    "source": "https://en.wikipedia.org/wiki/Claude_(AI)"
   }
 ]
