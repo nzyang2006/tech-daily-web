@@ -1,10 +1,10 @@
 [
   {
-    "id": "cl-1791734554023-bkn7",
+    "id": "cl-1791804329188-yupp",
     "title": "💻 Claude Code Security Best Practices - Backslash",
     "content": "Claude Code 技术干货\n\nBack to Blog\n\n# Claude Code Security Best Practices\n\nSeptember 18, 2025\n\nBackslash Research Team\n\n-\n\nSeptember 18, 2025\n\nClaude Code is a popular agentic coding assistant designed by Anthropic to run in a developer’s terminal, offering deep codebase analysis, code generation, project planning, and automation through natural language prompts.\n\n## Why Claude Code Security Matters\n\nWhen AI becomes part of your coding environment, the IDE is no longer “just a text editor.” It’s an insider with: [...] 1. Disable all hooks – no surprises, no persistence.\n2. Explicitly approve only safe MCP servers – `github`, `memory`, etc.\n3. Use deny rules aggressively – block `curl`, `fetch`, `.env` access.\n4. Keep transcript retention short – 7–14 days.\n5. Sandbox Claude Code – run in a VM or containerized dev environment.\n6. Never run as root – AI should never have admin powers.\n7. Audit monthly – review your `managed-settings.json` for drift. [...] Request a Demo\n\n## MCP Servers: The Hidden Danger\n\nMCP servers are one of the most powerful features when used in conjunction with an AI-native coding environment such as Claude Code — and the most dangerous if left unchecked.\n\nBad Practice:  \n  \n `{ \"enableAllProjectMcpServers\": true }`\n\nThis is basically saying: “Hey Claude, run any server you find, no questions asked.” Perfect for attackers.\n\nGood Practice:  \n `{ \"enabledMcpjsonServers\": [\"github\", \"memory\"] }`",
     "excerpt": "Back to Blog\n\n# Claude Code Security Best Practices\n\nSeptember 18, 2025\n\nBackslash Research Team\n\n-\n\nSeptember 18, 2025\n\nClaude Code is a popular agen...",
-    "date": "2026-10-11T16:02:34.023Z",
+    "date": "2026-10-12T11:25:29.188Z",
     "readTime": "5分钟",
     "tags": [
       "ClaudeCode",
@@ -19,11 +19,11 @@
     "source": "https://www.backslash.security/blog/claude-code-security-best-practices"
   },
   {
-    "id": "cl-1791734554023-iuny",
+    "id": "cl-1791804329188-b9om",
     "title": "💻 Claude Code power user tips | Claude Help Center",
     "content": "Claude Code 技术干货\n\nCopy for LLM\n\nThis article collects workflow tips from the Claude Code team at Anthropic. These practices cover parallel execution, planning, automation, verification, and customization—the patterns the team uses every day to ship code faster. Everyone’s setup is different, so experiment to see what works for you. [...] When a PR opens, Claude can dispatch a team of agents that each focus on a different concern — logic errors, security issues, performance regressions — and post inline comments. The Anthropic team built this for themselves first; code output per engineer increased significantly and reviews were the bottleneck.\n\n## Hooks\n\nHooks let you deterministically run logic at points in the agent lifecycle. Ask Claude to add a hook to get started.\n\n### Common hook patterns [...] ### Plugins\n\nPlugins bundle LSPs (available for every major language), MCPs, skills, agents, and custom hooks. Install from the official Anthropic plugin marketplace, or stand up an internal marketplace for your organization—then check the marketplace reference into `settings.json` so it’s auto-added for every developer. Run `/plugin` to get started.\n\n## Customizing your environment\n\n### Terminal setup",
     "excerpt": "Copy for LLM\n\nThis article collects workflow tips from the Claude Code team at Anthropic. These practices cover parallel execution, planning, automati...",
-    "date": "2026-10-11T16:02:34.023Z",
+    "date": "2026-10-12T11:25:29.188Z",
     "readTime": "4分钟",
     "tags": [
       "ClaudeCode",
@@ -38,11 +38,11 @@
     "source": "https://support.claude.com/en/articles/14554000-claude-code-power-user-tips"
   },
   {
-    "id": "cl-1791734554023-kgn8",
-    "title": "💻 Claude Code - Best Practices | SFEIR Institute",
-    "content": "Claude Code 技术干货\n\nSFEIR Institute\n\nThe three most impactful practices to improve your productivity with Claude Code are: configuring a CLAUDE.md file with your project conventions, structuring your prompts with precise context, and leveraging plan mode before each complex task. This guide gathers the essential recommendations for getting the most out of agentic coding in your daily work. [...] 1. Prompt tunneling: sending 10 successive messages without checking intermediate results\n2. Ghost context: assuming Claude Code remembers a previous conversation without CLAUDE.md\n3. Mega-prompt: requesting 5 features in a single 500-word message\n4. Security bypass: disabling all Claude Code permissions to \"go faster\"\n5. Zero verification: accepting generated code without review or tests\n6. Blind copy-paste: pasting external code without explaining context to Claude Code [...] 60% of Claude Code support tickets come from the \"ghost context\" anti-pattern - a simple CLAUDE.md file resolves the issue in most cases.\n\n```\n# Anti-pattern: bypassing permissions $ claude --dangerously-skip-permissions # Bad - Risk of uncontrolled modifications # Best practice: granular permissions in.claude/settings.json # Add to \"permissions.allow\": [\"Edit\", \"Read\", \"Bash(git)\"] # Good - Precise control \n```",
-    "excerpt": "SFEIR Institute\n\nThe three most impactful practices to improve your productivity with Claude Code are: configuring a CLAUDE.md file with your project ...",
-    "date": "2026-10-11T16:02:34.023Z",
+    "id": "cl-1791804329188-d0m9",
+    "title": "💻 Claude Code best practices | Code w/ Claude",
+    "content": "Claude Code 技术干货\n\n[13:48] I would recommend using the CLI tool. Um, and  then also if you internally have your own tools  \n[13:56] at Anthropic, we have something called coup that  does a whole bunch of stuff for us. You can also   tell Claude about that and you pro that's the sort  of thing you'd put in claude.mmd and then context  \n[14:07] management. So remember that claude is an agent  and when it's an a what what it does it's calls [...] [5:48] have this nice permission system that allows the  agent to work and allows and kind of forces the  \n[5:54] human to butt in when the agent is doing something  dangerous. And then on top of that, we also care a  \n[6:00] lot about security in this tool. And so because  quad code is just such a lightweight kind of  \n[6:06] layer on top of the model and the fact that our  model is available not just behind anthropic APIs [...] [3:49] So, how does Claude code kind of work under the  hood? At Anthropic, we try to always do what  \n[3:58] we call the simple thing that works. And what  that means for Cloud Code is it's what we would  \n[4:03] consider a very pure agent. And anthropic, when  we talk about agents, what we really mean is some  \n[4:11] instructions, some powerful tools, and you let  the model just run in a loop until it decides it's",
+    "excerpt": "[13:48] I would recommend using the CLI tool. Um, and  then also if you internally have your own tools  \n[13:56] at Anthropic, we have something calle...",
+    "date": "2026-10-12T11:25:29.188Z",
     "readTime": "5分钟",
     "tags": [
       "ClaudeCode",
@@ -50,16 +50,17 @@
       "编程工具",
       "技术干货",
       "AI 代理",
-      "Git"
+      "命令行",
+      "API"
     ],
-    "source": "https://institute.sfeir.com/en/claude-code/claude-code-resources/best-practices"
+    "source": "https://www.youtube.com/watch?v=gv0WHhKelSE"
   },
   {
-    "id": "cl-1791734554023-lrv7",
+    "id": "cl-1791804329188-vxk6",
     "title": "💻 Claude Code: Prompting best practices - Claude Platform Docs",
     "content": "Claude Code 技术干货\n\nclient = anthropic.Anthropic() client = anthropic.Anthropic() message = client.messages.create(message = client.messages.create( model=\"claude-opus-5-5\",  model =\"claude-opus-5-5\", max_tokens=1024,  max_tokens = 1024, system=\"You are a helpful coding assistant specializing in Python.\",  system =\"You are a helpful coding assistant specializing in Python.\", messages=[ messages =[ {\"role\": \"user\", \"content\": \"How do I sort a list of dictionaries by key?\"} {\"role\": \"user\", \"content\": \"How do I sort [...] One technique that has proven effective to further boost performance is to give Claude a crop tool or agent skill. Testing has shown consistent uplift on image evaluations when Claude is able to \"zoom\" in on relevant regions of an image. Anthropic has created a recipe for the crop tool.\n\n### Frontend design [...] ### Model self-knowledge\n\nIf you would like Claude to identify itself correctly in your application or use specific API strings:\n\nSample prompt for model identity\n\n```\nThe assistant is Claude, created by Anthropic. The current model is Claude Opus 5.5.\n```\n\nFor LLM-powered apps that need to specify model strings:\n\nSample prompt for model string",
     "excerpt": "client = anthropic.Anthropic() client = anthropic.Anthropic() message = client.messages.create(message = client.messages.create( model=\"claude-opus-5-...",
-    "date": "2026-10-11T16:02:34.023Z",
+    "date": "2026-10-12T11:25:29.188Z",
     "readTime": "4分钟",
     "tags": [
       "ClaudeCode",
@@ -74,11 +75,11 @@
     "source": "https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/claude-prompting-best-practices"
   },
   {
-    "id": "cl-1791734554023-2x6d",
+    "id": "cl-1791804329188-evkk",
     "title": "💻 Claude Code Best Practices: Lessons From Real Projects",
     "content": "Claude Code 技术干货\n\nWhere things got exciting was discovering community Claude Code skills. Boaz’s skills added production expertise to the next level, and Anthropic’s web design skill (Thanks Chen for introducing this to me!) took the UX polish to another level with micro animations. My two cents: you need to actively seek out skills that complement your expertise gaps, because Claude Code might not suggest them on its own. [...] After months of daily Claude Code usage, the core lesson has not changed: your domain expertise is the bottleneck, not the tool. Write a solid CLAUDE.md so every session starts with the right context. Seek out community skills that cover your blind spots, and use Claude beyond code because some of the best returns come from workflows you did not expect.",
     "excerpt": "Where things got exciting was discovering community Claude Code skills. Boaz’s skills added production expertise to the next level, and Anthropic’s we...",
-    "date": "2026-10-11T16:02:34.023Z",
+    "date": "2026-10-12T11:25:29.188Z",
     "readTime": "3分钟",
     "tags": [
       "ClaudeCode",
@@ -90,45 +91,42 @@
     "source": "https://ranthebuilder.cloud/blog/claude-code-best-practices-lessons-from-real-projects"
   },
   {
-    "id": "cl-1791734551905-jbcy",
-    "title": "💻 Claude Code /batch vs claude -p: Parallel Changes or CI Automation - SmartScope",
-    "content": "Claude Code 技术干货\n\nChoose `/batch` when applying bulk changes across an entire project. Choose headless mode when embedding AI processing into existing CI/CD pipelines.\n\n## /batch Command: Parallel Execution of Large-Scale Code Changes¶\n\n### Basic Usage¶\n\n`/batch` is a bundled skill invoked with slash-command syntax inside an interactive Claude Code session.1 It researches the repository, proposes 5–30 independent units, waits for plan approval, and then creates one worktree-isolated background agent per unit.2 [...] Repeated multi-turn calls retain more context than a tightly scoped one-shot task. For independent file checks, short `claude -p` calls are easier to budget. For architecture review, preserving context can still be worth the additional usage.\n\nChoosing the right approach for each use case is the key to balancing quality and cost.\n\n## Summary¶\n\nClaude Code's batch processing is built on two pillars: `/batch` and headless mode (`claude -p`). [...] Claude Code has two different ways to run work at scale. Use `/batch` to split one repository-wide change across independent worktrees and pull requests. Use `claude -p` when a script or CI job needs one non-interactive result.\n\n## Key Points¶\n\nKey Points",
-    "excerpt": "Choose `/batch` when applying bulk changes across an entire project. Choose headless mode when embedding AI processing into existing CI/CD pipelines.\n...",
-    "date": "2026-10-11T16:02:31.905Z",
+    "id": "cl-1791804327337-4whl",
+    "title": "💻 Claude Code: We Are Batch | Animation, Brand & Digital Studio",
+    "content": "Claude Code 技术干货\n\nWorking with Batch was a real pleasure, and a seamless collaboration. They were on top of everything, from detailed timelines to execution. Great communication throughout.\n\n#### - Codecademy\n\nWe Are Batch's work is not to be used for any AI training, iteration, or reproduction without explicit permission.\n\n© All Rights Reserved [...] # See Our Craft\n\nTen years. A lot of different problems. A consistent way of approaching them.\n\nSee all our work\n\nProject thumbnail by Batch\n\nNightcrawler\n\nAnimated campaign (2025)\n\nProject thumbnail by Batch\n\nVoquent\n\nPromotional Brand Explainer (2024)\n\nProject thumbnail by Batch\n\nWalt Disney Parks\n\nAnimated TVC (2025)\n\nProject thumbnail by Batch\n\nThe Outsiders\n\nE-learning Adaptation (2022)\n\nProject thumbnail by Batch\n\nCodecademy\n\nDigital animation campaign (2024)\n\nProject thumbnail by Batch [...] Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.\n\n©All rights reserved\n\n\n\n# we are batch and our work is\n\nThe creative production studio behind some of the world's best brands.\n\nBatch Showreel  \n(2018-2026)\n\nSee all our work",
+    "excerpt": "Working with Batch was a real pleasure, and a seamless collaboration. They were on top of everything, from detailed timelines to execution. Great comm...",
+    "date": "2026-10-12T11:25:27.337Z",
     "readTime": "5分钟",
     "tags": [
       "ClaudeCode",
       "AI 编程",
       "编程工具",
       "技术干货",
-      "技能系统",
-      "AI 代理"
+      "Git"
     ],
-    "source": "https://smartscope.blog/en/generative-ai/claude/claude-code-batch-processing"
+    "source": "https://www.wearebatch.tv"
   },
   {
-    "id": "cl-1791734551905-92a4",
-    "title": "💻 GitHub - s2-streamstore/claude-batch-toolkit: Send non-urgent work to the Anthropic Batch API at 50% cost — directly from Claude Code · GitHub",
-    "content": "Claude Code 技术干货\n\n`/batch`\n`/batch`\n`/batchy`\n`./install.sh`\n\n## Usage\n\n### Submit work to batch\n\nIn Claude Code, just say:\n\n`/batchy Review this codebase for security issues`\n`/batchy Generate comprehensive tests for src/auth/`\n`/batchy Write API documentation for all public endpoints`\n\nClaude will gather all relevant context, build a self-contained prompt, submit it to the Batch API, and tell you the job ID.\n\n### Check results\n\n`/batchy check`\n`/batchy status`\n`/batchy list` [...] `┌─────────────────────────────────────────────────────────────────┐\n│ Claude Code Session │\n│ │\n│ User: \"/batchy review src/ for security issues\" │\n│ │\n│ Claude: │\n│ 1. Reads all files in src/ │\n│ 2. Assembles self-contained prompt (bash → temp file) │\n│ 3. Calls send_to_batch MCP tool with packet_path │\n│ 4. Reports: \"Submitted job msgbatch_abc123\" │\n│ │\n│ ┌─────────────────────────────────────────────────────────┐ │\n│ │ Status Bar │ │\n│ │ [Opus] 42% | $1.23 | batch: 1 pending │ │ [...] ## Cost Reference\n\n| Model | Standard | Batch (50% off) |\n --- \n| Claude Opus 4 | $15 / $75 per 1M tokens | $7.50 / $37.50 |\n| Claude Sonnet 4 | $3 / $15 per 1M tokens | $1.50 / $7.50 |\n\n(Input / Output per million tokens)\n\nTypical turnaround: under 1 hour. Maximum: 24 hours.\n\n## Troubleshooting\n\n### \"MCP server not responding\"\n\n### \"No batch info in status bar\"\n\n### \"Job stuck in pending\"\n\n### \"Vertex batch submit failed (403)\" or auth errors\n\n### \"Permission denied on env file\"",
-    "excerpt": "`/batch`\n`/batch`\n`/batchy`\n`./install.sh`\n\n## Usage\n\n### Submit work to batch\n\nIn Claude Code, just say:\n\n`/batchy Review this codebase for security ...",
-    "date": "2026-10-11T16:02:31.905Z",
-    "readTime": "5分钟",
+    "id": "cl-1791804327337-ppqn",
+    "title": "💻 Claude Code: Batch — THE BITTER SOUTHERNER",
+    "content": "Claude Code 技术干货\n\na very entertaining episode. [...] conversation and reading.  Cheers to Episode 15 of BATCH. [...] website. Now, on BATCH, listen to Janisse read her inspiring words.",
+    "excerpt": "a very entertaining episode. [...] conversation and reading.  Cheers to Episode 15 of BATCH. [...] website. Now, on BATCH, listen to Janisse read her ...",
+    "date": "2026-10-12T11:25:27.337Z",
+    "readTime": "1分钟",
     "tags": [
       "ClaudeCode",
       "AI 编程",
       "编程工具",
-      "技术干货",
-      "MCP 协议",
-      "API"
+      "技术干货"
     ],
-    "source": "https://github.com/s2-streamstore/claude-batch-toolkit"
+    "source": "https://bittersoutherner.com/podcast/2022/batch"
   },
   {
-    "id": "cl-1791734551905-y21k",
-    "title": "💻 Claude Code: The batch tool · Claude with Google Cloud's Vertex AI · Claude Academy",
-    "content": "Claude Code 技术干货\n\n## Results\n\nWith the batch tool implemented, Claude is much more likely to group related operations together. Instead of making separate requests for each reminder, Claude will use the batch tool to set both reminders simultaneously.\n\nThe conversation flow becomes much cleaner - one request from the user, one response from Claude with the batch tool call, and one follow-up with all the results. This reduces latency and makes your application more efficient. [...] While it might seem like a workaround (and it is), the batch tool pattern is an effective way to encourage Claude to think about operations that can be parallelized and execute them more efficiently. [...] The solution is to implement a \"batch tool\" - a special tool that accepts a list of other tool calls to execute simultaneously. This is essentially a workaround that tricks Claude into making multiple tool calls at once.\n\nHere's how it works:",
-    "excerpt": "## Results\n\nWith the batch tool implemented, Claude is much more likely to group related operations together. Instead of making separate requests for...",
-    "date": "2026-10-11T16:02:31.905Z",
+    "id": "cl-1791804327337-xgrj",
+    "title": "💻 Claude Code: BATCH - THC Gummies | CBD Gummies | Functional Wellness Products",
+    "content": "Claude Code 技术干货\n\n1+ Million Products Sold\n \n        \n          \n        \n        Established In 2018\n \n        \n          \n        \n        20 Dedicated Employees\n\nMeet The Team\n\nWhy choose BATCH? [...] Skip dispensary confusion and markups. We deliver premium, lab-tested hemp straight to your door - no intimidating storefronts or complicated choices. Just clean, effective wellness delivered hassle-free.\n\n### Supreme Quality Control\n\nQuality isn't a buzzword - it's our obsession. We control every step from growing to packaging through GMP-certified manufacturing. Rigorous third-party testing ensures each product meets our exacting standards.\n\nSET YOUR WELLNESS ON AUTOPILOT [...] Our journey starts in the Wisconsin soil, where every hemp plant is grown with intention. We work directly with a generational farm. Our hemp is sun-cultivated, organic, and hand-harvested with care.\n\n### Formulated In-House\n\nOur founders aren't just marketers—they're chemical engineers obsessed with precision. Andy and Griff meticulously craft every formula through countless experiments, combining scientific expertise with nature's wisdom for maximum effectiveness.\n\n### Delivered Direct",
+    "excerpt": "1+ Million Products Sold\n \n        \n          \n        \n        Established In 2018\n \n        \n          \n        \n        20 Dedicated Employees\n\nMee...",
+    "date": "2026-10-12T11:25:27.337Z",
     "readTime": "4分钟",
     "tags": [
       "ClaudeCode",
@@ -136,38 +134,38 @@
       "编程工具",
       "技术干货"
     ],
-    "source": "https://academy.claude.com/courses/claude-with-google-cloud-s-vertex-ai/the-batch-tool"
+    "source": "https://hellobatch.com"
   },
   {
-    "id": "cl-1791734551905-wg5s",
-    "title": "💻 Claude Code: Batch processing - Claude Platform Docs",
-    "content": "Claude Code 技术干货\n\n## How the Message Batches API works\n\nWhen you send a request to the Message Batches API:\n\n1. The system creates a new Message Batch with the provided Messages requests.\n2. The batch is then processed asynchronously, with each request handled independently.\n3. You can poll for the status of the batch and retrieve results when processing has ended for all requests.\n\nThis is especially useful for bulk operations that don't require immediate results, such as: [...] Use extended output for long-form generation such as book-length drafts and technical documentation, exhaustive structured data extraction, large code-generation scaffolds, and long reasoning chains.\n\nA single 300k-token generation can take over an hour to complete, so plan your batch submissions with the 24-hour processing window in mind. Standard batch pricing (50% of standard API prices) applies. [...] The `output-300k-2026-03-24` beta header raises the `max_tokens` cap to 300,000 for batch requests using Claude Opus 5.5, Claude Opus 5, Claude Opus 4.8, Claude Opus 4.7, Claude Opus 4.6, Claude Sonnet 5, or Claude Sonnet 4.6. Include the header to generate outputs far longer than the standard 128k `max_tokens` limit in a single turn.",
-    "excerpt": "## How the Message Batches API works\n\nWhen you send a request to the Message Batches API:\n\n1. The system creates a new Message Batch with the provided...",
-    "date": "2026-10-11T16:02:31.905Z",
+    "id": "cl-1791804327336-ndhd",
+    "title": "💻 Claude Code: Batch | AI Customer Engagement Platform (CEP) for CRM teams",
+    "content": "Claude Code 技术干货\n\nEngage your visitors and customers across all your CRM channels (SMS, Email, In-app Message, Mobile & Web Push) and beyond. Create personalised content in a unified editor, activate AI targeting with predictive scores, automate A/B/N tests and benefit from best-in-class deliverability.\n\nStrategic & operational management. [...] Boost conversions through more personalised and better-optimised campaigns, covering more scenarios to drive higher engagement and revenue.\n\n3x productivity\n\nOn average across Batch clients. Run more campaigns, test more ideas and automate more journeys, free from IT constraints.\n\nCost savings\n\nSimplify your stack by replacing multiple tools and dramatically reducing external marketing spend.\n\n100% first-party reach\n\nEngage both anonymous visitors and identified customers natively. [...] Batch AI combines three levels of integrated intelligence. First, agents that save you time every day: copywriting, analysis and optimisation of your campaigns. Then, predictive scores that replace your manual rules to target the right customer, at the right time, on the right channel. And finally, a vision of full autonomy, where AI Decisioning drives your business objectives without any manual intervention.\n\nBoost productivity. Drive performance.\n\nGreater business impact.",
+    "excerpt": "Engage your visitors and customers across all your CRM channels (SMS, Email, In-app Message, Mobile & Web Push) and beyond. Create personalised conten...",
+    "date": "2026-10-12T11:25:27.336Z",
     "readTime": "5分钟",
     "tags": [
       "ClaudeCode",
       "AI 编程",
       "编程工具",
       "技术干货",
-      "API"
+      "AI 代理",
+      "命令行"
     ],
-    "source": "https://platform.claude.com/docs/en/build-with-claude/batch-processing"
+    "source": "https://batch.com/en"
   },
   {
-    "id": "cl-1791734551905-l1u2",
-    "title": "💻 How I Batch a Full Week of Content in One Day with Claude Code",
-    "content": "Claude Code 技术干货\n\nI walk you through how to use the Content Batch Day System skill inside both Claude desktop and Claude Code. You can start from a topic idea, drop in a blog post URL, or upload a video transcript and it will generate Instagram, Facebook, LinkedIn, carousels, and community posts all in one session. [...] [1:44] batch some content. And then it's going to send you through the process. Now, as it's sending you through this process, it's going to be asking you some\n[1:52] questions about your products, your offers, your voice. If you have documentation or if you have something\n[1:59] already that can answer those questions or in the RAM of those questions, what you will want to do is go and upload [...] If you want to batch a week of content in one day with Claude, this video is your step-by-step. No code required, no tech background needed, and your content will actually sound like you because we're training it on your voice, your offers, and your audience from the jump.",
-    "excerpt": "I walk you through how to use the Content Batch Day System skill inside both Claude desktop and Claude Code. You can start from a topic idea, drop in ...",
-    "date": "2026-10-11T16:02:31.905Z",
-    "readTime": "4分钟",
+    "id": "cl-1791804327336-agzh",
+    "title": "💻 Claude Code: Batch Craft Beer & Kolaches",
+    "content": "Claude Code 技术干货\n\nBatch Craft Beer & Kolaches\n\nBatch Craft Beer & Kolaches\n\nScroll\n\nBatch Craft Beer & Kolaches\n\n### LOCATION\n\n3220 Manor Road  \nAustin, Texas 78723\n\n### HOURS\n\nMonday - Thursday | 8AM - 10PM   \n Friday | 8AM-11PM  \nSaturday | 9AM - 11PM   \nSunday | 9AM - 9PM\n\n### CONTACT\n\n512-401-3025  \ninfo@batchatx.com\n\nBuy Batch Gift Cards Here\n\n# Batch Craft Beer and Kolaches is a family-owned and operated kolache bakery and brewery in Austin, TX. [...] We also love coffee! We offer a full coffee and espresso menu in partnership with our pals at Greater Goods Roasting.\n\nCan’t get enough of us? Follow us on Instagram for the latest Batch updates - @batchatx.\n\nchocolate2.jpg\n\nJoin us for happy hour!  \n🍻ALL DAY Monday and Tuesday, Wed-Friday 4PM-7PM  \n🍻$1 off drafts  \n🍻On premise cans at to-go price  \n🍻10% off 4-packs to-go\n\n fuzzygradient.jpg\n\nblueberrykolache.jpg\n\nglass2.jpg\n\npepperoni.jpg",
+    "excerpt": "Batch Craft Beer & Kolaches\n\nBatch Craft Beer & Kolaches\n\nScroll\n\nBatch Craft Beer & Kolaches\n\n### LOCATION\n\n3220 Manor Road  \nAustin, Texas 78723\n\n##...",
+    "date": "2026-10-12T11:25:27.336Z",
+    "readTime": "3分钟",
     "tags": [
       "ClaudeCode",
       "AI 编程",
       "编程工具",
-      "技术干货",
-      "技能系统"
+      "技术干货"
     ],
-    "source": "https://www.youtube.com/watch?v=F48_A7umid4&vl=en"
+    "source": "https://www.batchatx.com"
   }
 ]
