@@ -1,74 +1,162 @@
 [
   {
-    "id": "op-1793356271696-vnjy",
-    "title": "🦞 OpenClaw on Telegram: Your AI Assistant in Messaging",
-    "content": "OpenClaw 技术干货\n\nTelegram is where OpenClaw shines brightest. Start with basic chat, then explore buttons, commands, and automation.\n\n## Related Articles\n\n OpenClaw on Android Watch\n OpenClaw WhatsApp Integration\n OpenClaw Discord Integration\n Getting Started Guide\n\n### Learn alongside 1,000+ operators\n\nAsk questions, share workflows, and get help from people running OpenClaw every day.\n\nJoin the CommunityDeploy on Cloud\n\n## 📚 Explore More\n\nIntegration\n\n### Telegram IntegrationHelp\n\n### Telegram Bot SetupGuide [...] End-to-end encryption (secret chats)\n Self-destructing messages\n No phone number sharing requirement\n\n## Quick Start (5 Minutes)\n\n### 1. Create a Telegram Bot\n\n1. Open Telegram\n2. Search for @BotFather\n3. Send `/newbot`\n4. Choose a name (e.g., \"My AI Assistant\")\n5. Choose a username (must end in \"bot\", e.g., \"myai\\_assistant\\_bot\")\n6. Save the token BotFather gives you\n\n### 2. Install OpenClaw\n\n```\nnpm install -g openclaw openclaw onboard \n```\n\n### 3. Configure Telegram [...] ### Group Settings\n\n```\nchannels: telegram: groups: enabled: true mentionOnly: true # Only respond when @mentioned adminOnly: false # Allow non-admins to interact \n```\n\n## Features\n\n### Commands\n\nOpenClaw registers these commands with Telegram:\n\n| Command | Action |\n --- |\n| /new | Start fresh conversation |\n| /status | Show system status |\n| /model | Switch AI model |\n| /reasoning | Toggle reasoning mode |\n\n### Inline Buttons\n\nOpenClaw can send interactive buttons:",
-    "excerpt": "Telegram is where OpenClaw shines brightest. Start with basic chat, then explore buttons, commands, and automation.\n\n## Related Articles\n\n OpenClaw on...",
-    "date": "2026-10-30T10:31:11.696Z",
-    "readTime": "5分钟",
-    "tags": [
-      "OpenClaw",
-      "AI 工具",
-      "自动化",
-      "技术干货"
-    ],
-    "source": "https://www.getopenclaw.ai/blog/openclaw-telegram"
-  },
-  {
-    "id": "op-1793356271696-78hz",
-    "title": "🦞 Best Platform for Using OpenClaw Bot? (Telegram/Discord ...",
-    "content": "OpenClaw 技术干货\n\nI'm currently exploring OpenClaw and want to integrate it into my daily workflow. From a developer's perspective, which platform works best ...Read more",
-    "excerpt": "I'm currently exploring OpenClaw and want to integrate it into my daily workflow. From a developer's perspective, which platform works best ...Read mo...",
-    "date": "2026-10-30T10:31:11.696Z",
-    "readTime": "1分钟",
-    "tags": [
-      "OpenClaw",
-      "AI 工具",
-      "自动化",
-      "技术干货"
-    ],
-    "source": "https://www.reddit.com/r/openclaw/comments/1qzto68/best_platform_for_using_openclaw_bot"
-  },
-  {
-    "id": "op-1793356269623-gujt",
-    "title": "🦞 Automations (cron) - OpenClaw",
-    "content": "OpenClaw 技术干货\n\n## Scheduling\n\n### One-shot jobs\n\n`--at`  schedules a one-shot run. Offset-less datetimes are treated as UTC unless you also pass `--tz` , which interprets the wall-clock time in the given timezone.\n\nInvalid `--tz` values are rejected before saving a job; use an IANA timezone such as `America/New_York`. Invalid timestamps and nonexistent local times during a daylight-saving transition are reported separately as `--at` errors. [...] `--at`  schedules one run from an ISO timestamp or a duration such as `20m`. Offset-less timestamps use UTC unless `--tz`  is supplied.\n `--every`  sets a recurring interval such as `10m`, `1h`, or `1d`.\n `--cron`  sets a five- or six-field cron schedule. Use `--tz`  for the evaluation timezone, `--exact` to disable staggering, or `--stagger`  to set a stagger window. [...] The `cron.` Gateway methods remain compatible. The deprecated `--wake now|next-heartbeat` field remains accepted, but scheduled jobs execute their payload through ordinary session execution when the job is due. It does not add another wake or deferral step. Use the job's schedule to control timing.\n\n## Common edits\n\nUpdate delivery settings without changing the message:\n\nDisable delivery for an isolated job:\n\nEnable lightweight bootstrap context for an isolated job:",
-    "excerpt": "## Scheduling\n\n### One-shot jobs\n\n`--at`  schedules a one-shot run. Offset-less datetimes are treated as UTC unless you also pass `--tz` , which inter...",
-    "date": "2026-10-30T10:31:09.623Z",
+    "id": "op-1793377302198-mpwe",
+    "title": "🦞 Connect OpenClaw to Telegram and Discord: Complete Integration Guide | Youmake Blog",
+    "content": "OpenClaw 技术干货\n\nRun both Telegram and Discord simultaneously:\n\n```\n{ \"channels\": { \"telegram\": { \"token\": \"TELEGRAM_TOKEN\", \"ownerIds\":  }, \"discord\": { \"token\": \"DISCORD_TOKEN\", \"ownerIds\": [\"987654321\"] } } } \n```\n\nOpenClaw maintains separate conversation contexts for each channel while sharing the same skills and capabilities.\n\n## Best Practices\n\n### Security\n\n Never share your bot tokens\n Use `ownerIds` to restrict access\n Review messages in group settings\n\n### Performance [...] 1. Open Telegram and search for `@BotFather`\n2. Send `/newbot`\n3. Choose a name (e.g., \"My OpenClaw Assistant\")\n4. Choose a username (must end in `bot`, e.g., `myopenclaw_bot`)\n5. Copy the API token BotFather gives you\n\n### Step 2: Configure OpenClaw\n\n```\nopenclaw configure --section telegram \n```\n\nEnter your bot token when prompted. Or edit your config:\n\n```\n{ \"channels\": { \"telegram\": { \"token\": \"YOUR_BOT_TOKEN\", \"ownerIds\":  } } } \n``` [...] ### Step 3: Configure OpenClaw\n\n```\nopenclaw configure --section discord \n```\n\nOr edit your config:\n\n```\n{ \"channels\": { \"discord\": { \"token\": \"YOUR_DISCORD_BOT_TOKEN\", \"ownerIds\": [\"your_discord_user_id\"] } } } \n```\n\n### Discord Features\n\n Server channels: Respond in specific channels\n DMs: Private conversations\n Threads: Keep conversations organized\n Reactions: React to messages with emojis\n Slash commands: Use `/command` syntax\n\n## Multi-Channel Setup",
+    "excerpt": "Run both Telegram and Discord simultaneously:\n\n```\n{ \"channels\": { \"telegram\": { \"token\": \"TELEGRAM_TOKEN\", \"ownerIds\":  }, \"discord\": { \"token\": \"DIS...",
+    "date": "2026-10-30T16:21:42.198Z",
     "readTime": "5分钟",
     "tags": [
       "OpenClaw",
       "AI 工具",
       "自动化",
       "技术干货",
-      "定时任务"
+      "技能系统",
+      "API"
     ],
-    "source": "https://docs.openclaw.ai/cli/cron"
+    "source": "https://blog.youmake.dev/articles/openclaw-telegram-discord-integration"
   },
   {
-    "id": "op-1793356269623-p52w",
-    "title": "🦞 [Bug]: Cron jobs not working · Issue #8712 · openclaw/openclaw · GitHub",
-    "content": "OpenClaw 技术干货\n\n1. Enable cron in the config:  \n    \"cron\": {  \n    \"enabled\": true,  \n    \"store\": \"~/.openclaw/cron/jobs.json\",  \n    \"maxConcurrentRuns\": 5  \n    }\n2. Start the OpenClaw gateway (kept continuously awake via PM2 + systemd service).\n3. Create a cron job:  \n    openclaw cron add   \n    --name \"Test\"   \n    --at \"2026-02-04T10:00:00Z\"   \n    --session isolated   \n    --message \"Test message\"   \n    --deliver   \n    --channel whatsapp   \n    --to \"+4748423521\"   \n    --wake now [...] ## Environment\n\n OpenClaw version: 2026.2.1\n OS: Ubuntu 22.04 (WSL2 on Windows 11)\n Install method: npm (npm install -g openclaw)\n WSL2 Persistence: Kept awake via systemd service (keep-wsl-awake.service)\n\n## Logs or screenshots\n\n$ openclaw cron status  \n {  \n \"enabled\": true,  \n \"storePath\": \"/home/sebiosjed/.openclaw/cron/jobs.json\",  \n \"jobs\": 2,  \n \"nextWakeAtMs\": null  \n }\n\n$ openclaw cron runs --id   \n {  \n \"entries\": []  \n } [...] Additional notes:  \n Jobs exist in ~/.openclaw/cron/jobs.json but are never executed. Tested with:\n\n sessionTarget: \"main\" + systemEvent\n sessionTarget: \"isolated\" + agentTurn + deliver: true\n wakeMode: \"now\" and \"next-heartbeat\"\n Various scheduled times (both near-term and further in the future).\n\nReactions are currently unavailable\n\n## Activity\n\nSign up for free to join this conversation on GitHub. Already have an account? Sign in to comment\n\n## Metadata\n\n## Metadata\n\n### Assignees",
-    "excerpt": "1. Enable cron in the config:  \n    \"cron\": {  \n    \"enabled\": true,  \n    \"store\": \"~/.openclaw/cron/jobs.json\",  \n    \"maxConcurrentRuns\": 5  \n    }...",
-    "date": "2026-10-30T10:31:09.623Z",
+    "id": "op-1793377302198-mfck",
+    "title": "🦞 Connect OpenClaw to Slack, Telegram & More: Integration Guide | CrewClaw",
+    "content": "OpenClaw 技术干货\n\nYes. A single OpenClaw agent can be connected to Telegram, Slack, Discord, and the web UI simultaneously. Each channel is configured independently in your project settings, and the agent maintains separate conversation contexts per channel. There is no limit to how many channels one agent can serve at the same time.\n\n### Does OpenClaw support WhatsApp? [...] One of OpenClaw's most practical features is running a single agent across multiple channels simultaneously. Your agent does not need separate instances for each channel — one gateway handles all of them.\n\nConnect an agent to Telegram + Slack + Discord [...] ```\n# Set up all three channels openclaw config set channels.telegram.bottoken TG_TOKEN openclaw config set channels.slack.bottoken xoxb-SLACK_TOKEN openclaw config set channels.discord.bottoken DISCORD_TOKEN # One restart activates all channels openclaw gateway restart # Verify channels are connected openclaw channels status\n```",
+    "excerpt": "Yes. A single OpenClaw agent can be connected to Telegram, Slack, Discord, and the web UI simultaneously. Each channel is configured independently in ...",
+    "date": "2026-10-30T16:21:42.198Z",
+    "readTime": "4分钟",
+    "tags": [
+      "OpenClaw",
+      "AI 工具",
+      "自动化",
+      "技术干货",
+      "AI 代理"
+    ],
+    "source": "https://crewclaw.com/blog/openclaw-slack-telegram-integration"
+  },
+  {
+    "id": "op-1793377302198-5kdx",
+    "title": "🦞 Connect Telegram, Discord, and WhatsApp | OpenClaw Tutorial | MyOpenClaw",
+    "content": "OpenClaw 技术干货\n\n### Step 2: Add Token to MyOpenClaw\n\n- Go to your MyOpenClaw dashboard\n- Navigate to Integrations\n- Find the Telegram card and click Connect\n- Paste your bot token and click Save\n\nMyOpenClaw automatically registers the webhook. No server configuration needed.\n\n### Step 3: Test It\n\n- Search for your bot username in Telegram\n- Click Start\n- Send \"Hello\" — your assistant should reply within a few seconds\n\n## Discord\n\n### Step 1: Create a Discord Application [...] ### Step 3: Invite the Bot to Your Server\n\n- Go to OAuth2 → URL Generator\n- Under Scopes, check: bot\n- Under Bot Permissions, check: Send Messages, Read Message History, View Channels\n- Copy the generated URL and open it in your browser\n- Select your server and click Authorize\n\n### Step 4: Add Token to MyOpenClaw\n\n- In your dashboard, go to Integrations → Discord\n- Paste your bot token\n- Set the Channel ID where your bot should respond (right-click any channel → Copy Channel ID)\n- Click Save [...] MyOpenClaw\n\nAll Tutorials\n\nbeginner\n\n8 min read\n\n# Connect Telegram, Discord, and WhatsApp\n\nStep-by-step instructions to connect your OpenClaw instance to Telegram, Discord, and WhatsApp — your three most important chat channels.\n\n# Connect Telegram, Discord, and WhatsApp\n\nConnecting your OpenClaw instance to messaging channels is how you turn a deployment into a working AI assistant. This tutorial covers all three major channels: Telegram, Discord, and WhatsApp.",
+    "excerpt": "### Step 2: Add Token to MyOpenClaw\n\n- Go to your MyOpenClaw dashboard\n- Navigate to Integrations\n- Find the Telegram card and click Connect\n- Paste y...",
+    "date": "2026-10-30T16:21:42.198Z",
     "readTime": "5分钟",
     "tags": [
       "OpenClaw",
       "AI 工具",
       "自动化",
       "技术干货",
+      "Hooks",
+      "命令行"
+    ],
+    "source": "https://www.myopenclaw.cloud/tutorials/connect-telegram-discord-whatsapp"
+  },
+  {
+    "id": "op-1793377302198-mwhv",
+    "title": "🦞 Discord setup - OpenClaw",
+    "content": "OpenClaw 技术干货\n\n## Quick setup\n\nCreate a Discord application with a bot, add the bot to your server, and pair it with OpenClaw. Use a private server if you can; create one first (Create My Own > For me and my friends) if needed.\n\n- ### Create a Discord application and bot\n\n  In the Discord Developer Portal, click New Application and name it (for example \"OpenClaw\").\n\n  Open Bot in the sidebar and set the Username to your agent's name.\n- ### Enable privileged intents [...] ### Ask your agent\n\n  Chat with your OpenClaw agent on an existing channel (for example Telegram) and tell it. If Discord is your first channel, use the CLI / config tab instead.\n\n  > \"I already set my Discord bot token in config. Please finish Discord setup with User ID  and Server ID .\"\n\n  ### CLI / config\n\n  File-based config:\n\n  json5 [...] { channels: {channels discord: {discord enabled: true, enabled true accounts: {accounts personal: {personal token: { source: \"env\", provider: \"default\", id: \"DISCORD_PERSONAL_TOKEN\" }, token source \"env\" provider \"default\" id \"DISCORD_PERSONAL_TOKEN\" applicationId: \"111111111111111111\", applicationId \"111111111111111111\" }, work: {work token: { source: \"env\", provider: \"default\", id: \"DISCORD_WORK_TOKEN\" }, token source \"env\" provider \"default\" id \"DISCORD_WORK_TOKEN\" applicationId:",
+    "excerpt": "## Quick setup\n\nCreate a Discord application with a bot, add the bot to your server, and pair it with OpenClaw. Use a private server if you can; creat...",
+    "date": "2026-10-30T16:21:42.198Z",
+    "readTime": "5分钟",
+    "tags": [
+      "OpenClaw",
+      "AI 工具",
+      "自动化",
+      "技术干货",
+      "AI 代理",
+      "命令行"
+    ],
+    "source": "https://docs.openclaw.ai/channels/discord/setup"
+  },
+  {
+    "id": "op-1793377302198-5uq8",
+    "title": "🦞 Discord - OpenClaw",
+    "content": "OpenClaw 技术干货\n\nOpenClawDocs\n\nOn this page\n\n## On this page\n\nView as MarkdownView this page as plain textOpen in ChatGPTAsk questions about this pageOpen in ClaudeAsk questions about this page\n\nMainstream messaging\n\n# Discord\n\n ChannelsMainstream messaging\n\nOpenClaw connects to Discord as a bot over the official Discord gateway. DMs and guild channels are supported.\n\nPairing\n\nDiscord DMs default to pairing mode. Slash commands\n\nNative command behavior and command catalog. Channel troubleshooting [...] Create a Discord application and bot\n Enable privileged intents\n Copy your bot token\n Generate an invite URL and add the bot to your server\n Enable Developer Mode and collect your IDs\n Allow DMs from server members\n Set your bot token securely (do not send it in chat)\n Configure OpenClaw and pair\n Ask your agent\n CLI / config\n Approve first DM pairing\n Ask your agent\n CLI\n Add your server to the guild allowlist\n Ask your agent\n Config\n Allow responses without @mention\n Ask your agent\n Config [...] startup/auth: `enabled`, `token`, `applicationId`, `accounts.`, `allowBots`\n policy: `groupPolicy`, `dmPolicy`, `allowFrom`, `dm.`, `guilds.`, `guilds..channels.`\n group introductions: `joinIntro`, `accounts..joinIntro` (default: `true`)\n command: `commands.native`, `commands.allowFrom` (global), `configWrites`, `slashCommand.ephemeral`\n gateway: `proxy`\n reply/history: `replyToMode`, `historyLimit`, `dmHistoryLimit`, `dms..historyLimit`",
+    "excerpt": "OpenClawDocs\n\nOn this page\n\n## On this page\n\nView as MarkdownView this page as plain textOpen in ChatGPTAsk questions about this pageOpen in ClaudeAsk...",
+    "date": "2026-10-30T16:21:42.198Z",
+    "readTime": "5分钟",
+    "tags": [
+      "OpenClaw",
+      "AI 工具",
+      "自动化",
+      "技术干货",
+      "AI 代理",
+      "命令行"
+    ],
+    "source": "https://docs.openclaw.ai/channels/discord"
+  },
+  {
+    "id": "op-1793377299921-x0v5",
+    "title": "🦞 OpenClaw — Open-Source AI Assistant",
+    "content": "OpenClaw 技术干货\n\n\"Why @openclaw is nuts: your context and skills live on YOUR computer, not a walled garden. It's open source. Growing community building skills. Only 19 days old and constantly improving. 'Personal AI assistant' undersells it — it's a company assistant, family assistant, team tool. Proactive AF: cron jobs, reminders, background tasks. Memory is amazing, context persists 24/7.\"\n\n@danpeguine nateliason [...] \"Why @openclaw is nuts: your context and skills live on YOUR computer, not a walled garden. It's open source. Growing community building skills. Only 19 days old and constantly improving. 'Personal AI assistant' undersells it — it's a company assistant, family assistant, team tool. Proactive AF: cron jobs, reminders, background tasks. Memory is amazing, context persists 24/7.\"\n\n@danpeguine nateliason [...] A full OpenClaw setup clearing 10,000 emails, reviewing decks, building CLI tools, optimizing Google Ads, drafting posts, and orchestrating Codex workers across a Discord-driven agent fleet.\n\nmulti-agentdiscordautomationTHREAD  Open\n\n### Personal Operating System With Daily Briefings\n\nOpenClaw timeblocks tasks, runs weekly reviews from meeting notes, briefs before meetings, watches family school deadlines, researches projects, resolves calendar conflicts, and creates invoices.",
+    "excerpt": "\"Why @openclaw is nuts: your context and skills live on YOUR computer, not a walled garden. It's open source. Growing community building skills. Only ...",
+    "date": "2026-10-30T16:21:39.921Z",
+    "readTime": "5分钟",
+    "tags": [
+      "OpenClaw",
+      "AI 工具",
+      "自动化",
+      "技术干货",
+      "技能系统",
       "定时任务",
       "AI 代理",
-      "Git"
+      "命令行"
     ],
-    "source": "https://github.com/openclaw/openclaw/issues/8712"
+    "source": "https://openclaw.ai"
   },
   {
-    "id": "op-1793356267561-3hhf",
+    "id": "op-1793377299921-3plh",
+    "title": "🦞 OpenClaw - Wikipedia",
+    "content": "OpenClaw 技术干货\n\nOpenClaw is a free and open-source autonomous artificial intelligence agent that can execute tasks via large language models (LLMs), using messaging platforms as its main user interface.\n\n## History\n\n[edit] [...] Steinberger describes OpenClaw as being an AI-based virtual assistant, serving as an agentic interface for autonomous workflows across supported services. OpenClaw bots run locally and are designed to integrate with an external large language model such as Claude, DeepSeek, or one of OpenAI's GPT models. Its functionality is accessed via a chatbot within a messaging service, such as Signal \"Signal (software)\"), Telegram \"Telegram (software)\"), Discord, or WhatsApp. Configuration data and [...] OpenClaw uses a skills system that explains how to accomplish specific tasks, in particular how to call tools. Skills are stored as directories containing a `SKILL.md` file with metadata and instructions. Skills can be bundled with the software, installed globally, or stored in a workspace, with workspace skills taking precedence.",
+    "excerpt": "OpenClaw is a free and open-source autonomous artificial intelligence agent that can execute tasks via large language models (LLMs), using messaging p...",
+    "date": "2026-10-30T16:21:39.921Z",
+    "readTime": "4分钟",
+    "tags": [
+      "OpenClaw",
+      "AI 工具",
+      "自动化",
+      "技术干货",
+      "技能系统",
+      "AI 代理"
+    ],
+    "source": "https://en.wikipedia.org/wiki/OpenClaw"
+  },
+  {
+    "id": "op-1793377299921-hs8e",
+    "title": "🦞 GitHub - openclaw/openclaw: The AI that really does things. Any OS. Any Platform. The lobster way. 🦞 · GitHub",
+    "content": "OpenClaw 技术干货\n\n| tsconfig.json | tsconfig.json |  |  |\n| tsconfig.packages.json | tsconfig.packages.json |  |  |\n| tsconfig.scripts.json | tsconfig.scripts.json |  |  |\n| tsconfig.ui.json | tsconfig.ui.json |  |  |\n| tsdown.ai.config.ts | tsdown.ai.config.ts |  |  |\n| tsdown.config.ts | tsdown.config.ts |  |  |\n| vitest.config.ts | vitest.config.ts |  |  |\n| worker-heap-flag.mjs | worker-heap-flag.mjs |  |  |\n|  | [...] | cli-root-options.d.mts | cli-root-options.d.mts |  |  |\n| cli-root-options.mjs | cli-root-options.mjs |  |  |\n| docker-compose.yml | docker-compose.yml |  |  |\n| docker-entrypoint.mjs | docker-entrypoint.mjs |  |  |\n| fly.toml | fly.toml |  |  |\n| gateway-prewarm.mjs | gateway-prewarm.mjs |  |  |\n| gateway-run-argv.d.mts | gateway-run-argv.d.mts |  |  |\n| gateway-run-argv.mjs | gateway-run-argv.mjs |  |  |\n| gateway-shutdown-budget.d.mts | gateway-shutdown-budget.d.mts |  |  | [...] OpenClaw is an open-source AI assistant that runs on your own computer and meets you in the channels you already use: Discord, iMessage, Slack, Teams, Telegram, WhatsApp, and 20+ more, plus native apps for macOS, iOS, Android, Windows, and Linux. One Gateway runs it as a personal assistant on a laptop or as a shared team deployment; configuration is the only difference.",
+    "excerpt": "| tsconfig.json | tsconfig.json |  |  |\n| tsconfig.packages.json | tsconfig.packages.json |  |  |\n| tsconfig.scripts.json | tsconfig.scripts.json |  |...",
+    "date": "2026-10-30T16:21:39.921Z",
+    "readTime": "5分钟",
+    "tags": [
+      "OpenClaw",
+      "AI 工具",
+      "自动化",
+      "技术干货",
+      "命令行"
+    ],
+    "source": "https://github.com/openclaw/openclaw"
+  },
+  {
+    "id": "op-1793377297523-p6us",
+    "title": "🦞 OpenClaw Multi-Agent Collaboration | MI",
+    "content": "OpenClaw 技术干货\n\nOpenClaw's multi-agent collaboration architecture — from SubAgent's lightweight delegation, to Agent Teams' team collaboration, to AgentToAgent's cross-instance communication — provides developers with a complete toolkit, enabling you to choose the most appropriate collaboration mode based on task complexity. The key is to follow the principle of \"use the simplest mechanism that solves the problem\": if SubAgent can handle it, do not use Agent Teams; if it can be done locally, you do not need [...] OpenClaw provides three clearly tiered multi-agent collaboration mechanisms, from simple to complex: SubAgent (child agents), Agent Teams (team collaboration), and AgentToAgent (cross-agent communication). Understanding their differences and applicable scenarios is the first step toward making the right choice.(#ref-1)\n\n### 2.1 Positioning of the Three Mechanisms [...] The OpenClaw tutorial provides three multi-agent collaboration mechanisms — SubAgent (child agents), Agent Teams, and AgentToAgent (cross-agent communication) — each addressing different levels of task complexity and scale(#ref-1)\n SubAgent is ideal for \"parent-child delegation\" scenarios: the parent agent assigns subtasks to specialized child agents for execution, and the child agents return results upon completion, making it well-suited for pipeline-style workflows(#ref-2)",
+    "excerpt": "OpenClaw's multi-agent collaboration architecture — from SubAgent's lightweight delegation, to Agent Teams' team collaboration, to AgentToAgent's cros...",
+    "date": "2026-10-30T16:21:37.523Z",
+    "readTime": "5分钟",
+    "tags": [
+      "OpenClaw",
+      "AI 工具",
+      "自动化",
+      "技术干货",
+      "AI 代理"
+    ],
+    "source": "https://www.meta-intelligence.tech/en/insight-openclaw-multiagent"
+  },
+  {
+    "id": "op-1793377297523-mbot",
     "title": "🦞 OpenClaw: Medium",
     "content": "OpenClaw 技术干货\n\nthan closed chat assistants. For an expert reader, one can think of OpenClaw as bringing classic multi-agent system concepts (like scheduling, inter-agent messaging, isolation) to the new world of LLM-based agents, thereby bridging the gap between academic multi-agent theory and practical AI assistants. The result is a platform where we can confidently deploy multiple AI agents to handle multimodal workflows, something that would have been fraught with pitfalls using earlier approaches. [...] In conclusion, the range of applications is broad — from mundane daily task automation to sophisticated collaborative knowledge work — and early evidence from OpenClaw’s user community validates many of these use cases. The multimodal multi-agent architecture we propose is not science fiction; it’s an evolutionary step in AI assistants that is already being realized piece by piece. By building on OpenClaw, we inherit a sturdy foundation to explore these possibilities immediately, accelerating [...] Indeed, some have dubbed OpenClaw the “hands for ChatGPT’s brain” in context of enabling actions. They often need to gather information from diverse sources, analyze it, and produce reports. A multi-agent OpenClaw system could have: — a Crawler Agent: given a topic, it uses the browser tool to fetch relevant articles, papers, or data. It might be configured to avoid certain domains (using allowlist/denylist) to ensure quality. — a Summarizer Agent: it reads the content (maybe using a larger LLM",
     "excerpt": "than closed chat assistants. For an expert reader, one can think of OpenClaw as bringing classic multi-agent system concepts (like scheduling, inter-a...",
-    "date": "2026-10-30T10:31:07.561Z",
+    "date": "2026-10-30T16:21:37.523Z",
     "readTime": "6分钟",
     "tags": [
       "OpenClaw",
@@ -78,89 +166,5 @@
       "AI 代理"
     ],
     "source": "https://medium.com/@gwrx2005/proposal-for-a-multimodal-multi-agent-system-using-openclaw-81f5e4488233"
-  },
-  {
-    "id": "op-1793356267561-1i5y",
-    "title": "🦞 OpenClaw multi-agent coordination, patterns and ...",
-    "content": "OpenClaw 技术干货\n\nFeb 25, 2026 — Learn coordinator-specialist patterns, shared state, loop prevention, token cost control and governance policies for OpenClaw multi-agent",
-    "excerpt": "Feb 25, 2026 — Learn coordinator-specialist patterns, shared state, loop prevention, token cost control and governance policies for OpenClaw multi-age...",
-    "date": "2026-10-30T10:31:07.561Z",
-    "readTime": "1分钟",
-    "tags": [
-      "OpenClaw",
-      "AI 工具",
-      "自动化",
-      "技术干货",
-      "AI 代理"
-    ],
-    "source": "https://lumadock.com/tutorials/openclaw-multi-agent-coordination-governance"
-  },
-  {
-    "id": "op-1793356265710-6qfg",
-    "title": "🦞 Hooks CLI - OpenClaw",
-    "content": "OpenClaw 技术干货\n\nbash\n\n```\nopenclaw hooks install  [-l|--link] [--pin] [--force] [--acknowledge-install-policy-warning] linkopenclaw hooks update [id] [--all] [--dry-run] [--acknowledge-install-policy-warning] id\n```\n\nFor update, provide `id` or `--all`. The aliases do not accept `--agent` and are not the preferred interface for new automation.\n\n## Bundled hooks [...] Prints totals for ready/not-ready hooks and lists blocking reasons. JSON has `total`, `eligible`, `notEligible`, and `hooks` containing an `eligible` name array and a `notEligible` array of `{ name, blockedReason?, missing }` objects.\n\nA successful report exits with code 0 even when hooks are not ready. For an automated eligibility gate, inspect the JSON counts rather than treating the exit code as an all-hooks-ready result. This still does not test actual loading.\n\n## Enable a hook\n\nbash [...] bash\n\n```\nopenclaw hooks [--agent <id>] [--json] idopenclaw hooks list [--agent <id>] [--eligible] [--json] [-v|--verbose] id\n```\n\nDiscovery includes bundled hooks, active plugin hooks, managed hooks, extra directories, and the selected workspace. Hook-name collisions follow the source policy.",
-    "excerpt": "bash\n\n```\nopenclaw hooks install  [-l|--link] [--pin] [--force] [--acknowledge-install-policy-warning] linkopenclaw hooks update [id] [--all] [--dry-r...",
-    "date": "2026-10-30T10:31:05.710Z",
-    "readTime": "4分钟",
-    "tags": [
-      "OpenClaw",
-      "AI 工具",
-      "自动化",
-      "技术干货",
-      "Hooks",
-      "AI 代理"
-    ],
-    "source": "https://docs.openclaw.ai/cli/hooks"
-  },
-  {
-    "id": "op-1793356265710-z0pu",
-    "title": "🦞 Top 10 OpenClaw Skills You MUST Install Right Now! (I Unlocked 90% More Power)",
-    "content": "OpenClaw 技术干货\n\nTop 10 OpenClaw skills that turn OpenClaw from plain to absolutely insane. In this video, I walk you through the exact 10 skills I install on every fresh OpenClaw setup on Linux — voice-to-task with OpenAI Whisper, real browser automation with Agent Browser, parallel Sub-Agents, the entire ClawHub ecosystem of 13,000+ skills, direct Gmail and GitHub access, structured memory with Ontology, and the ability to teach OpenClaw brand new skills permanently with Skill Creator. [...] [3:24] submit button, and then OpenC Cross simply says click at E2. No guessing, no misfire, and no unwanted surprises. The result, you give OpenClaw a research\n[3:33] task, and it operates the browser like a proper automation engineer. It opens the page, reads what is there, clicks what needs to be clicked, extracts the data, [...] [2:35] stops talking and starts actually doing things on your screen. Agent browser gives OpenClaw hands inside your browser, not just eyes. It can open\n[2:42] websites, click buttons, fill in forms, extract information, take screenshots, save PDFs, and navigate multi-step pages all on its own without you touching the\n[2:51] mouse. Now, here's what makes this skill really special. Most browser automation tools are brittle. They try to guess where the button is based on messy HTML",
-    "excerpt": "Top 10 OpenClaw skills that turn OpenClaw from plain to absolutely insane. In this video, I walk you through the exact 10 skills I install on every fr...",
-    "date": "2026-10-30T10:31:05.710Z",
-    "readTime": "5分钟",
-    "tags": [
-      "OpenClaw",
-      "AI 工具",
-      "自动化",
-      "技术干货",
-      "技能系统",
-      "AI 代理",
-      "命令行",
-      "Git"
-    ],
-    "source": "https://www.youtube.com/watch?v=sLzlKG-mc_g&vl=en-US"
-  },
-  {
-    "id": "op-1793356263565-dk3h",
-    "title": "🦞 OpenClaw: Microsoft – AI, Cloud, Productivity, Computing, Gaming & Apps",
-    "content": "OpenClaw 技术干货\n\nSitemap\n   Contact Microsoft\n   Privacy\n   Manage cookies\n   Terms of use\n   Trademarks\n   Safety & eco\n   Recycling\n   About our ads\n   © Microsoft 2026\n\nImage 42 [...] Through biomimicry, Microsoft is helping restore and enhance natural ecosystems around more than 20 datacenters across the US and Germany.\n\nLearn more\n\nImage 37: A two-toned, blue ellipse split into quadrants with a partial pixelation overlay.\n## Microsoft Digital Defense Report 2026\n\nThis year’s report examines how attackers exploit trusted systems in the era of AI, and explores ways to build greater cybersecurity resilience. [...] View Sitemap\n\nCancel \n\nSearchCart 0Sign in\n\nME\n\nGet extended free returns and price protection on gifts through Jan 31, 2027.\n\nShop deals\n\nImage 2\n# Hi there, welcome to Microsoft\n\nPersonal\n\n_Find what you need faster with AI-powered suggestions_\n\n   Ask a question\n\n Help me choose a PC  Microsoft 365 tips  Sign in to my account \n\nImage 3: A Surface Laptop in the color Ocean.\n## Up to 5% off for students on select Surface Laptop, 13-inch (1st Edition)",
-    "excerpt": "Sitemap\n   Contact Microsoft\n   Privacy\n   Manage cookies\n   Terms of use\n   Trademarks\n   Safety & eco\n   Recycling\n   About our ads\n   © Microsoft 2...",
-    "date": "2026-10-30T10:31:03.565Z",
-    "readTime": "4分钟",
-    "tags": [
-      "OpenClaw",
-      "AI 工具",
-      "自动化",
-      "技术干货",
-      "命令行",
-      "Git"
-    ],
-    "source": "https://www.microsoft.com/en-us"
-  },
-  {
-    "id": "op-1793356263565-i0dx",
-    "title": "🦞 OpenClaw: Sign In or Create Your Account Today – Microsoft",
-    "content": "OpenClaw 技术干货\n\nGet help with your account Forgot your username or password? Visit Microsoft Support for account help and guidance.Get help\n\nFeedback\n\nEnglish (United States)\n\nYour Privacy Choices\n\nConsumer Health Privacy\n\n   Privacy & cookies\n   Terms of use\n   Contact us\n   Feedback\n   Manage cookies\n   © Microsoft 2026 [...] To use everything on this website, turn on cookies in your browser settings. Read why and how we use cookies.\n\nLearn how\n\nSkip to main content\n\nImage 1: Microsoft\n\nAccount\n\nHelp\n\nMore \n\nCancel \n\nSearch\n\n# It’s all here with Microsoft account\n\nYour Microsoft account connects all your Microsoft apps and services.Sign in to manage your account.\n\nSign in\n\nImage 2\n\nImage 3\n\n## The best of Microsoft\n\nYou get more for free when you sign in with your Microsoft account.\n\nImage 4\n\n## Microsoft 365 apps [...] A Microsoft account does not need a Microsoft email The email address used to sign into your Microsoft account can be from Outlook.com, Hotmail.com, Gmail, Yahoo, or other providers.Create a Microsoft Account\n\nYou may already have an account You can use an email address, Skype ID, or phone number to sign into your Windows PC, Xbox, or Microsoft services like Microsoft 365.Check if I have a Microsoft account",
-    "excerpt": "Get help with your account Forgot your username or password? Visit Microsoft Support for account help and guidance.Get help\n\nFeedback\n\nEnglish (United...",
-    "date": "2026-10-30T10:31:03.565Z",
-    "readTime": "5分钟",
-    "tags": [
-      "OpenClaw",
-      "AI 工具",
-      "自动化",
-      "技术干货"
-    ],
-    "source": "https://account.microsoft.com/account"
   }
 ]
