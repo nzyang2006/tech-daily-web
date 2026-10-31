@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI 技术日报 | OpenClaw & Claude Code</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>🤖 AI 技术日报</h1>
+            <p class="subtitle">OpenClaw × Claude Code 技术干货</p>
+            <div class="update-time">最后更新：<span id="lastUpdate">加载中...</span></div>
+        </div>
+    </header>
+
+    <main class="container">
+        <div class="filters">
+            <button class="filter-btn active" data-filter="all">全部</button>
+            <button class="filter-btn" data-filter="openclaw">OpenClaw</button>
+            <button class="filter-btn" data-filter="claude-code">Claude Code</button>
+        </div>
+
+        <div id="posts-container" class="posts-grid">
+            <!-- 文章卡片将通过 JS 动态加载 -->
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>每日 12:00 & 18:00 自动更新</p>
+            <p>
+                <a href="https://github.com" target="_blank">GitHub</a> | 
+                <a href="https://docs.openclaw.ai" target="_blank">OpenClaw 文档</a> | 
+                <a href="https://github.com/anthropics/claude-code" target="_blank">Claude Code</a>
+            </p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
